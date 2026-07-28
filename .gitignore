@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# PyTorch
+*.pt
+*.pth
+
+# Audio
+*.wav
+*.flac
+*.mp3
+*.ogg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+outputs/
+
+# Build
+dist/
+build/
+*.egg-info/
+
+# Cache
+.cache/
+.huggingface/
