@@ -50,6 +50,10 @@ class ModelView(QOpenGLWidget):
                 raise ValueError('模型没有可用参数。请检查 Cubism 导出结果。')
             self.groups = self.model.GetMotionGroups()
             self.params = set(self.model.GetParamIds())
+            # Recorded so an export can be checked from desktop.log alone:
+            # a model without ParamMouthOpenY can never move its mouth.
+            logging.info('model parameters (%d): %s', len(self.params), sorted(self.params))
+            logging.info('model motion groups: %s', self.groups)
             self.model.SetAutoBlink(True)
             self.model.SetAutoBreath(True)
             QTimer.singleShot(0, self.loaded.emit)
