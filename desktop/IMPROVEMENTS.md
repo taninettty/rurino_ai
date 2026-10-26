@@ -8,7 +8,7 @@
 - **Windows 可用性**：安装脚本不再写死 `py -3.12`，改为依次尝试 3.12 / 3.13 / 3.11 并要求 64 位（`live2d-py` 提供 `cp311-abi3` 轮子）；安装过程写入 `install.log` / `voice-install.log`，失败时回显最后 20 行。
 - **测试在 Windows 变红**：符号链接逃逸用例在无开发者模式、`os.symlink` 无权限时不再报错，仍断言越界路径被拒绝。
 
-验证：42 项单元测试通过；Qt 聊天流程（`tests/smoke_chat.py`）在新增用例下通过，覆盖电平驱动的自动发送、字幕请求、记忆进入系统提示；`Install-Windows.cmd` 在仅有 Python 3.11.9 的 Windows 上实机跑通。真实麦克风、真实 Ollama 与 GPU 延迟仍待目标机器验收。
+验证：42 项单元测试通过；Qt 聊天流程（`tests/smoke_chat.py`）在新增用例下通过，覆盖电平驱动的自动发送、字幕请求、记忆进入系统提示；`Install-Windows.cmd` 在仅有 Python 3.11.9 的 Windows 上实机跑通；真实 Ollama（`qwen3:1.7b`，RTX 4060 GPU）实测首字 0.05 秒、字幕 0.1 秒且译文正确。真实麦克风输入与语音服务耗时仍待验收。
 
 ## v0.2.1 已完成
 
