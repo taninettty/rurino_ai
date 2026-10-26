@@ -59,12 +59,24 @@ with tempfile.TemporaryDirectory() as directory:
     assert pet.view.width() == pet.width()
     pet.toggle_follow()
     assert not pet.follow and not settings.value('follow', type=bool)
+    # QTest.mouseMove does not update the global cursor, so QMouseEvent.globalPos()
+    # stays put and the drag never starts. Drive the handlers with real global
+    # positions instead of testing the platform's event synthesis.
+    from PyQt5.QtCore import QEvent, QPointF
+    from PyQt5.QtGui import QMouseEvent
     point = QPoint(100, 100)
+    target = point + QPoint(-60, -40)
     before = pet.pos()
-    QTest.mousePress(pet, Qt.LeftButton, pos=point)
-    QTest.mouseMove(pet, point + QPoint(-60, -40), delay=30)
+    pet.mousePressEvent(QMouseEvent(QEvent.MouseButtonPress, QPointF(point),
+                                    QPointF(pet.mapToGlobal(point)), Qt.LeftButton,
+                                    Qt.LeftButton, Qt.NoModifier))
+    pet.mouseMoveEvent(QMouseEvent(QEvent.MouseMove, QPointF(target),
+                                   QPointF(pet.mapToGlobal(target)), Qt.NoButton,
+                                   Qt.LeftButton, Qt.NoModifier))
     QTest.qWait(80)
-    QTest.mouseRelease(pet, Qt.LeftButton, pos=point + QPoint(-60, -40))
+    pet.mouseReleaseEvent(QMouseEvent(QEvent.MouseButtonRelease, QPointF(target),
+                                      QPointF(pet.mapToGlobal(target)), Qt.LeftButton,
+                                      Qt.NoButton, Qt.NoModifier))
     assert pet.pos() != before and not pet.voice.playing(), (before, pet.pos(), pet.dragging)
     setup.return_to_setup()
     QTest.qWait(100)
