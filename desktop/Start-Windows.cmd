@@ -6,4 +6,5 @@ if not exist ".venv\Scripts\pythonw.exe" (
   pause
   exit /b 1
 )
-start "Rurino Live2D" ".venv\Scripts\pythonw.exe" "%~dp0app.py"
+rem The launcher starts the speech service when needed and stops it on exit.
+start "Rurino Live2D" ".venv\Scripts\pythonw.exe" "%~dp0launcher.py"

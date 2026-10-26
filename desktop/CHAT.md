@@ -10,11 +10,11 @@
 2. 安装并启动 [Ollama 官方 Windows 版](https://ollama.com/download/windows)。已有聊天模型可直接用；没有则运行 `Install-Chat-Model.cmd` 下载 `qwen3:1.7b`。它只是较小的起步模型，也可以在界面选择自己安装的其他聊天模型。
 3. 运行 `Install-Voice-Service.cmd`。此脚本在独立 `.voice-env` 环境安装 CPU 语音运行库，下载并核对仓库中原有的音色权重和日语 BERT（合计约 1.57 GB），并准备 Whisper base 和日语发音词典。原有训练环境不会被修改。已有完整仓库权重时会优先复制复用，否则从本仓库固定提交下载。
 4. 运行 `Start-Voice-Service.cmd`，保留这个窗口。首次出现 `Voice model ready.` 表示音色预热已完成。
-5. 运行 `Start-Windows.cmd`，点击“和瑠璃乃聊天 · 本地 Ollama”。在聊天窗口点击“检查连接 / 刷新模型”，选择已安装的 Ollama 模型。
+5. 运行一次 `Create-Shortcut.ps1` 生成「瑠璃乃」快捷方式，之后双击图标启动；点击“和瑠璃乃聊天 · 本地 Ollama”，在聊天窗口点击“检查连接 / 刷新模型”，选择已安装的 Ollama 模型。
 
 依赖与模型首次准备需要联网。对话、语音合成和识别走本机，不使用云端 API，也不需要 API Key。对话客户端仅接受本机回环地址，默认 Ollama 为 `http://127.0.0.1:11434`，语音服务为 `http://127.0.0.1:8765`。
 
-每次使用时保持 Ollama 和语音服务运行，然后启动桌宠。首次没有瑠璃乃 `.moc3` 时，点击导入窗口的聊天按钮即可；已经导入模型时，点击人物或右键菜单进入聊天。
+双击桌面「瑠璃乃」图标即可：启动器会按需在后台拉起语音服务（日志 `%LOCALAPPDATA%\RurinoLive2D\voice.log`），退出桌宠时关闭它，全程没有控制台窗口。Ollama 需保持运行（安装后默认开机自启）。排查问题时仍可分别运行 `Start-Voice-Service.cmd` 和 `Start-Windows.cmd`。首次没有瑠璃乃 `.moc3` 时，点击导入窗口的聊天按钮即可；已经导入模型时，点击人物或右键菜单进入聊天。
 
 ## 操作
 
