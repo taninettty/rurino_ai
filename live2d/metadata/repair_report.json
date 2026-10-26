@@ -1,0 +1,118 @@
+{
+  "visible_parts": 25,
+  "hidden_expression_parts": 3,
+  "canvas": [
+    1536,
+    2048
+  ],
+  "neutral_alpha_max_error": 0,
+  "neutral_rgb_max_error": 0,
+  "opaque_body_alpha_normalization": "source alpha >224 raised to255 for solid overlapping parts",
+  "repairs": {
+    "Face_Skin": [
+      {
+        "method": "LibTV face, nose/chin registration",
+        "added_pixels": 93979
+      }
+    ],
+    "Body_Chest": [
+      {
+        "method": "LibTV clothing under hair and shoulders",
+        "added_pixels": 31916
+      }
+    ],
+    "Neck": [
+      {
+        "method": "LibTV neck under jaw and collar",
+        "added_pixels": 11872
+      }
+    ],
+    "Hair_Back_L": [
+      {
+        "method": "LibTV tail; manual 3-point hidden-region alignment",
+        "added_pixels": 150882,
+        "matrix": [
+          [
+            0.7953451043338684,
+            -0.07463884430176565,
+            200.03210272873196
+          ],
+          [
+            -0.056821829855538415,
+            0.7475120385232743,
+            108.66773675762482
+          ]
+        ]
+      }
+    ],
+    "Hair_Back_R": [
+      {
+        "method": "LibTV tail; manual 3-point hidden-region alignment",
+        "added_pixels": 149425,
+        "matrix": [
+          [
+            0.7953451043338685,
+            0.07463884430176568,
+            114.31781701444605
+          ],
+          [
+            0.056821829855537596,
+            0.7475120385232745,
+            21.389406099518613
+          ]
+        ]
+      }
+    ],
+    "Arm_L": [
+      {
+        "method": "LibTV sleeve overlap under torso/cuff",
+        "added_pixels": 14977
+      }
+    ],
+    "Wrist_Overlap_L": [
+      {
+        "method": "boundary skin extension under cuff",
+        "added_pixels": 1309
+      }
+    ],
+    "Arm_R": [
+      {
+        "method": "LibTV sleeve overlap under torso/cuff",
+        "added_pixels": 25012
+      }
+    ],
+    "Wrist_Overlap_R": [
+      {
+        "method": "boundary skin extension under cuff",
+        "added_pixels": 1129
+      }
+    ],
+    "Eye_L_White_Lash": [
+      {
+        "method": "sclera continuation under iris",
+        "added_pixels": 3721
+      }
+    ],
+    "Eye_R_White_Lash": [
+      {
+        "method": "sclera continuation under iris",
+        "added_pixels": 3945
+      }
+    ],
+    "Hair_Front_L": [
+      {
+        "method": "hair under flower attachment",
+        "added_pixels": 19026
+      }
+    ],
+    "Hair_Front_R": [
+      {
+        "method": "hair under flower attachment",
+        "added_pixels": 19697
+      }
+    ]
+  },
+  "cubism_bound": false,
+  "psd_roundtrip_alpha_error": 0,
+  "psd_roundtrip_rgb_error": 1
+}
