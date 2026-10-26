@@ -33,19 +33,26 @@
 本机（i9-13900HX，CPU 推理）实测：预热首次加载约 16.6 秒；新句合成 3.65 秒（约 0.8 秒音频），同句缓存 0.02 秒；本地 Whisper 识别 0.7–0.8 秒。
 
 完整链路分段（真实 Ollama + 真实音色 + 桌宠窗口，播放打桩不发声）：
-- 首字 0.02 秒（`qwen3:1.7b` 常驻 GPU）
-- 首句音频 4.2–6.9 秒（**瓶颈在 CPU 语音合成**，6.9 秒那次含模型预热）
-- 整轮 4.6–7.2 秒，中文字幕正常显示按句合成可以在整段回复完成前开始准备音频，但实际等待还包括 Ollama 生成时间、首次模型加载和队列等待。
+
+| 配置 | 首字 | 首句音频 | 整轮 |
+| --- | --- | --- | --- |
+| CPU 版 PyTorch | 0.02 s | 4.2–6.9 s | 4.6–7.2 s |
+| CUDA 版 PyTorch（RTX 4060） | 0.02 s | **0.4–0.7 s** | **0.7–1.0 s** |
+
+纯合成耗时：CPU 3.65 s/句，GPU 平均 0.25 s/句（约 15 倍）。服务重启后的第一次合成有一次性开销（实测 3.9 s，CUDA 初始化），`Start-Voice-Service.cmd` 的 `--warm` 会提前把它付掉。按句合成可以在整段回复完成前开始准备音频，但实际等待还包括 Ollama 生成时间、首次模型加载和队列等待。
 
 语音服务默认自动检测可用的 CUDA，否则选择 CPU；默认安装脚本提供 CPU PyTorch，因此仍会使用 CPU。重复短句使用最多 16 条、16 MiB 的内存缓存，服务重启即清空。首次出现的新句子仍需完整合成。
 
-默认 CPU 安装兼容性较好。若 Windows 有支持 CUDA 的 NVIDIA 显卡，可以在专用语音环境安装对应 PyTorch CUDA 版本，然后使用：
+若 Windows 有支持 CUDA 的 NVIDIA 显卡，把语音环境里的 PyTorch 换成 CUDA 版（本机实测 RTX 4060 + 驱动 560.94，装 `torch==2.3.1+cu121` 后自动选中 cuda）：
 
 ```powershell
-.voice-env\Scripts\python.exe speech\server.py --assets .voice-assets --device cuda --warm
+# 只换 torch 本体，不动其他依赖；若已装过 CPU 版必须加 --force-reinstall
+.voice-env\Scripts\python.exe -m pip install --no-deps --force-reinstall torch==2.3.1 --index-url https://download.pytorch.org/whl/cu121
+.voice-env\Scripts\python.exe -c "import torch; print(torch.cuda.is_available())"
+.voice-env\Scripts\python.exe speech\server.py --warm
 ```
 
-默认脚本安装的是 CPU PyTorch，因此只改 `--device cuda` 不会自动获得 GPU 支持。Ollama 与语音服务会同时占用内存/显存，选模型时应留出余量。语音环境和聊天模型可分别调整，不要升级原训练环境来试错。
+默认脚本装的是 CPU PyTorch，因此只改 `--device cuda` 不会自动获得 GPU 支持，必须换 torch 本体。Ollama 与语音服务会同时占用内存/显存，选模型时应留出余量。语音环境和聊天模型可分别调整，不要升级原训练环境来试错。
 
 ## 已验证与未验证
 
