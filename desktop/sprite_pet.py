@@ -29,8 +29,7 @@ def to_qimage(image):
 
 
 def load_sprites():
-    order = json.loads((LAYERS / 'layers.json').read_text(encoding='utf-8'))
-    return Sprites(LAYERS, [item['name'] for item in order], scale=SCALE).build()
+    return Sprites(LAYERS, scale=SCALE).build()
 
 
 class SpritePet(QWidget):
@@ -83,8 +82,7 @@ class SpritePet(QWidget):
     def state(self, now):
         elapsed = now - self.started
         breath = (math.sin(elapsed * math.tau / 4.0) + 1) / 2
-        head_x = math.sin(elapsed * math.tau / 7.0) * 2.0
-        head_y = -breath * 1.5
+        sway = math.sin(elapsed * math.tau / 7.0) * .45
 
         eye_open = 1.0
         if self.blink_started is not None:
@@ -101,13 +99,9 @@ class SpritePet(QWidget):
         speaking = self.voice.playing() and not self.muted
         target = self.voice.mouth() if speaking else 0.0
         self.mouth += (target - self.mouth) * .5        # smooth, no jitter
-        iris_x = iris_y = 0.0
-        if not speaking:
-            local = self.mapFromGlobal(QCursor.pos())
-            iris_x = max(-1.0, min(1.0, (local.x() - self.width() / 2) / (self.width() / 2))) * 2.5
-            iris_y = max(-1.0, min(1.0, (local.y() - self.height() * .3) / (self.height() / 2))) * 2.0
+
         return dict(eye_open=eye_open, mouth=min(1.0, self.mouth * 1.6),
-                    head_x=head_x, head_y=head_y, breath=breath, iris=(iris_x, iris_y))
+                    sway=sway, breath=breath)
 
     def tick(self):
         if not self.isVisible():

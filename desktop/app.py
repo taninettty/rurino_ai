@@ -356,7 +356,7 @@ class Setup(QWidget):
 
     def start_simplified(self):
         """Show the layered stand-in pet when no Cubism model is available."""
-        if not (ROOT / 'assets' / 'layers' / 'layers.json').is_file():
+        if not (ROOT / 'assets' / 'layers' / 'base.png').is_file():
             self.status.setText('缺少分层素材，请重新获取程序包。')
             return False
         try:
