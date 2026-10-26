@@ -1,0 +1,321 @@
+[
+  {
+    "name": "Wrist_Overlap_L",
+    "group": "00_Joint_Overlaps",
+    "visible": true,
+    "bbox": [
+      236,
+      1684,
+      350,
+      1718
+    ]
+  },
+  {
+    "name": "Wrist_Overlap_R",
+    "group": "00_Joint_Overlaps",
+    "visible": true,
+    "bbox": [
+      1210,
+      1682,
+      1306,
+      1714
+    ]
+  },
+  {
+    "name": "Hair_Back_L",
+    "group": "01_Back_Hair",
+    "visible": true,
+    "bbox": [
+      140,
+      167,
+      653,
+      1393
+    ]
+  },
+  {
+    "name": "Hair_Back_R",
+    "group": "01_Back_Hair",
+    "visible": true,
+    "bbox": [
+      883,
+      167,
+      1401,
+      1393
+    ]
+  },
+  {
+    "name": "Legs",
+    "group": "02_Legs",
+    "visible": true,
+    "bbox": [
+      485,
+      1969,
+      1056,
+      2048
+    ]
+  },
+  {
+    "name": "Arm_L",
+    "group": "03_Arms",
+    "visible": true,
+    "bbox": [
+      226,
+      702,
+      573,
+      1873
+    ]
+  },
+  {
+    "name": "Arm_R",
+    "group": "03_Arms",
+    "visible": true,
+    "bbox": [
+      964,
+      714,
+      1315,
+      1889
+    ]
+  },
+  {
+    "name": "Skirt",
+    "group": "04_Body",
+    "visible": true,
+    "bbox": [
+      317,
+      1360,
+      1311,
+      1999
+    ]
+  },
+  {
+    "name": "Body_Chest",
+    "group": "04_Body",
+    "visible": true,
+    "bbox": [
+      369,
+      644,
+      1155,
+      1391
+    ]
+  },
+  {
+    "name": "Hand_L",
+    "group": "05_Hands",
+    "visible": true,
+    "bbox": [
+      195,
+      1693,
+      342,
+      1960
+    ]
+  },
+  {
+    "name": "Hand_R",
+    "group": "05_Hands",
+    "visible": true,
+    "bbox": [
+      1205,
+      1692,
+      1349,
+      1959
+    ]
+  },
+  {
+    "name": "Neck",
+    "group": "06_Neck",
+    "visible": true,
+    "bbox": [
+      665,
+      586,
+      871,
+      787
+    ]
+  },
+  {
+    "name": "Face_Skin",
+    "group": "07_Head",
+    "visible": true,
+    "bbox": [
+      557,
+      132,
+      982,
+      649
+    ]
+  },
+  {
+    "name": "Brow_L",
+    "group": "08_Face",
+    "visible": true,
+    "bbox": [
+      594,
+      324,
+      719,
+      353
+    ]
+  },
+  {
+    "name": "Brow_R",
+    "group": "08_Face",
+    "visible": true,
+    "bbox": [
+      802,
+      324,
+      931,
+      349
+    ]
+  },
+  {
+    "name": "Eye_L_White_Lash",
+    "group": "08_Face",
+    "visible": true,
+    "bbox": [
+      582,
+      358,
+      731,
+      495
+    ]
+  },
+  {
+    "name": "Eye_R_White_Lash",
+    "group": "08_Face",
+    "visible": true,
+    "bbox": [
+      796,
+      365,
+      941,
+      493
+    ]
+  },
+  {
+    "name": "Eye_L_Iris",
+    "group": "08_Face",
+    "visible": true,
+    "bbox": [
+      626,
+      398,
+      695,
+      467
+    ]
+  },
+  {
+    "name": "Eye_R_Iris",
+    "group": "08_Face",
+    "visible": true,
+    "bbox": [
+      828,
+      396,
+      901,
+      465
+    ]
+  },
+  {
+    "name": "Mouth_Closed",
+    "group": "08_Face",
+    "visible": true,
+    "bbox": [
+      716,
+      536,
+      817,
+      571
+    ]
+  },
+  {
+    "name": "Hair_Front_L",
+    "group": "09_Front_Hair",
+    "visible": true,
+    "bbox": [
+      332,
+      57,
+      766,
+      681
+    ]
+  },
+  {
+    "name": "Hair_Front_R",
+    "group": "09_Front_Hair",
+    "visible": true,
+    "bbox": [
+      766,
+      48,
+      1200,
+      681
+    ]
+  },
+  {
+    "name": "Hair_Lock_R",
+    "group": "09_Front_Hair",
+    "visible": true,
+    "bbox": [
+      995,
+      681,
+      1109,
+      1047
+    ]
+  },
+  {
+    "name": "Flower_L",
+    "group": "10_Flowers",
+    "visible": true,
+    "bbox": [
+      450,
+      57,
+      615,
+      269
+    ]
+  },
+  {
+    "name": "Flower_R",
+    "group": "10_Flowers",
+    "visible": true,
+    "bbox": [
+      898,
+      46,
+      1061,
+      267
+    ]
+  },
+  {
+    "name": "Eye_L_Closed",
+    "group": "08_Face",
+    "visible": false,
+    "bbox": [
+      571,
+      359,
+      738,
+      502
+    ]
+  },
+  {
+    "name": "Eye_R_Closed",
+    "group": "08_Face",
+    "visible": false,
+    "bbox": [
+      789,
+      359,
+      956,
+      502
+    ]
+  },
+  {
+    "name": "Mouth_Open",
+    "group": "08_Face",
+    "visible": false,
+    "bbox": [
+      693,
+      511,
+      842,
+      616
+    ]
+  },
+  {
+    "name": "Approved_Reference",
+    "group": "99_Reference",
+    "visible": false,
+    "bbox": [
+      140,
+      46,
+      1401,
+      2048
+    ]
+  }
+]
