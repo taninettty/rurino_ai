@@ -74,6 +74,32 @@ with tempfile.TemporaryDirectory() as directory, protocol_server() as (base, req
     chat.send()
     wait_for(lambda: len(chat.history) == 6)
     assert len([item for item in requests if item[0] == 'tts']) == count
+    chat.backend.setText('not a service URL')
+    chat.input.setText('没有语音服务也能聊')
+    chat.send()
+    wait_for(lambda: len(chat.history) == 8)
+
+    chat.backend.setText(base)
+    chat.speak.setChecked(True)
+    chat.input.setText('slow')
+    chat.send()
+    wait_for(lambda: '今日は' in chat.transcript.toPlainText().split('瑠璃乃：')[-1])
+    old_speech = chat.speech_cancelled
+    chat.speak.setChecked(False)
+    assert chat.generating, 'Turning off narration must preserve the text stream'
+    chat.speak.setChecked(True)
+    chat.handle_event(chat.turn, 'audio', (old_speech, wav_bytes()))
+    wait_for(lambda: len(chat.history) == 10)
+    assert len(played) == 4 and not chat.audio_queue
+
+    chat.speak.setChecked(False)
+    chat.input.setText('retry-once')
+    chat.send()
+    wait_for(lambda: chat.retry_button.isEnabled())
+    assert len(chat.history) == 10
+    chat.retry()
+    wait_for(lambda: len(chat.history) == 12)
+    assert chat.history[-2]['content'] == 'retry-once' and not chat.retry_button.isEnabled()
     output = ROOT/'test-output'
     output.mkdir(exist_ok=True)
     chat.grab().save(str(output/'chat-protocol-test.png'))
@@ -83,4 +109,4 @@ with tempfile.TemporaryDirectory() as directory, protocol_server() as (base, req
     setup.shutdown()
     setup.close()
     QTest.qWait(100)
-print('PASS: local discovery, streamed chat, distinct speech clips, history, cancellation, stale-output rejection, record-to-send pipeline, text-only mode, cleanup')
+print('PASS: local discovery, streaming, speech clips, history, cancellation, ASR pipeline, text-only without speech config, narration-only cancellation, stale-audio rejection, failure retry, cleanup')

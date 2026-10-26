@@ -246,7 +246,8 @@ class Pet(QWidget):
     def toggle_mute(self):
         self.muted = not self.muted
         if self.muted:
-            self.controller.stop_conversation()
+            if self.controller.chat_window:
+                self.controller.chat_window.cancel_speech()
             self.voice.stop()
         self.save()
         self.refresh_menu()

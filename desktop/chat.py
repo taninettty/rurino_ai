@@ -36,6 +36,8 @@ class ChatWindow(QWidget):
         self.voice = controller.voice
         self.turn = 0
         self.cancelled = threading.Event()
+        self.speech_cancelled = threading.Event()
+        self.last_request = ''
         self.history = []
         self.waiting = 0
         self.generating = False
@@ -103,6 +105,10 @@ class ChatWindow(QWidget):
         clear.clicked.connect(self.clear_chat)
         actions.addWidget(clear)
         layout.addLayout(actions)
+        self.retry_button = QPushButton('重试上一条失败的提问')
+        self.retry_button.setEnabled(False)
+        self.retry_button.clicked.connect(self.retry)
+        layout.addWidget(self.retry_button)
         self.status = QLabel('就绪 · 录音需点击开始，再点击结束；最长 30 秒。')
         self.status.setWordWrap(True)
         self.status.setTextFormat(Qt.PlainText)
@@ -129,11 +135,7 @@ class ChatWindow(QWidget):
         self.settings.sync()
 
     def refresh(self):
-        try:
-            ollama, backend = local_url(self.ollama.text()), local_url(self.backend.text())
-        except Exception as error:
-            self.services.setText(str(error))
-            return
+        ollama, backend = self.ollama.text(), self.backend.text()
         self.refresh_button.setEnabled(False)
         self.services.setText('正在检查本地服务…')
         def run():
@@ -156,37 +158,49 @@ class ChatWindow(QWidget):
             self.append('\n（已打断）\n')
         self.generating = False
         self.recognizing = False
-        self.waiting = 0
-        self.voice.stop()
+        self.cancel_speech()
         if self.recording:
             self.microphone.stop()
             self.recording = False
             self.record_timer.stop()
             self.record_button.setText('开始录音')
+        self.last_error = ''
+        self.status.setText('已停止，可以继续说话。')
+
+    def cancel_speech(self):
+        self.speech_cancelled.set()
+        self.waiting = 0
+        self.voice.stop()
         self.audio_queue.clear()
         self.current_audio = None
         for path in Path(self.temp.name).glob('*.wav'):
             self.remove_clip(path)
-        self.last_error = ''
-        self.status.setText('已停止，可以继续说话。')
 
     def speech_changed(self, enabled):
         self.save()
         if not enabled:
-            self.interrupt()
+            self.cancel_speech()
 
     def clear_chat(self):
         self.interrupt()
         self.history.clear()
         self.transcript.clear()
+        self.last_request = ''
+        self.retry_button.setEnabled(False)
+
+    def retry(self):
+        if self.retry_button.isEnabled() and self.last_request:
+            self.input.setText(self.last_request)
+            self.send()
 
     def send(self):
         text = self.input.text().strip()
         if not text:
             return
+        speak_enabled = self.speak.isChecked() and not self.settings.value('muted', False, type=bool)
         try:
             base = local_url(self.ollama.text())
-            backend = local_url(self.backend.text())
+            backend = local_url(self.backend.text()) if speak_enabled else ''
             model = self.model.currentText().strip()
             if not model:
                 raise ValueError('请先检查连接并选择已安装的 Ollama 模型。')
@@ -195,22 +209,24 @@ class ChatWindow(QWidget):
             return
         self.interrupt()
         self.cancelled = cancelled = threading.Event()
+        self.speech_cancelled = speech_cancelled = threading.Event()
         turn = self.turn
         self.generating = True
+        self.last_request = text
+        self.retry_button.setEnabled(False)
         self.save()
         self.input.clear()
         self.append('\n你：' + text + '\n瑠璃乃：')
         self.status.setText('Ollama 正在回复…')
         messages = [{'role': 'system', 'content': SYSTEM_PROMPT}, *self.history[-12:], {'role': 'user', 'content': text}]
-        speak_enabled = self.speak.isChecked() and not self.settings.value('muted', False, type=bool)
         def run():
             total = ''
             sentences = Sentences()
             def enqueue(parts):
-                if speak_enabled and not cancelled.is_set():
+                if speak_enabled and not cancelled.is_set() and not speech_cancelled.is_set():
                     for sentence in parts:
-                        self.worker_event.emit(turn, 'queued', None)
-                        self.tts_jobs.put((turn, cancelled, backend, sentence))
+                        self.worker_event.emit(turn, 'queued', (speech_cancelled, None))
+                        self.tts_jobs.put((turn, cancelled, speech_cancelled, backend, sentence))
             try:
                 for chunk in stream_reply(base, model, messages, cancelled):
                     if cancelled.is_set():
@@ -225,7 +241,7 @@ class ChatWindow(QWidget):
                     self.worker_event.emit(turn, 'done', (text, total))
             except Exception as error:
                 if not cancelled.is_set():
-                    self.worker_event.emit(turn, 'error', '聊天失败：' + error_text(error))
+                    self.worker_event.emit(turn, 'chat_error', '聊天失败：' + error_text(error))
         threading.Thread(target=run, daemon=True).start()
 
     def synthesize_loop(self):
@@ -233,16 +249,16 @@ class ChatWindow(QWidget):
             job = self.tts_jobs.get()
             if job is None:
                 return
-            turn, cancelled, backend, sentence = job
-            if cancelled.is_set():
+            turn, cancelled, speech_cancelled, backend, sentence = job
+            if cancelled.is_set() or speech_cancelled.is_set():
                 continue
             try:
                 wav = speech(backend, sentence)
-                if not cancelled.is_set():
-                    self.worker_event.emit(turn, 'audio', wav)
+                if not cancelled.is_set() and not speech_cancelled.is_set():
+                    self.worker_event.emit(turn, 'audio', (speech_cancelled, wav))
             except Exception as error:
-                if not cancelled.is_set():
-                    self.worker_event.emit(turn, 'tts_error', '语音合成失败（文字仍可使用）：' + error_text(error))
+                if not cancelled.is_set() and not speech_cancelled.is_set():
+                    self.worker_event.emit(turn, 'tts_error', (speech_cancelled, '语音合成失败（文字仍可使用）：' + error_text(error)))
 
     def record(self):
         if self.recording:
@@ -297,12 +313,21 @@ class ChatWindow(QWidget):
             else:
                 ollama = 'Ollama 未连接：' + payload['ollama_error']
             ready = payload.get('speech', {})
-            backend = ('语音服务已连接' + ('，音色已加载' if ready.get('tts_loaded') else '，首次合成需要加载音色')) if ready.get('service') == 'rurino-speech' else '语音服务未连接，请启动 Start-Voice-Service.cmd'
+            state = ready.get('tts_state', 'ready' if ready.get('tts_loaded') else 'not_loaded')
+            state_text = {'not_loaded': '尚未加载音色', 'loading': '正在加载或预热',
+                          'ready': '音色就绪', 'synthesizing': '正在合成', 'error': '音色加载/合成失败'}.get(state, state)
+            backend = ('语音服务已连接：' + state_text + ' · ' + ready.get('device', '')) if ready.get('service') == 'rurino-speech' else '语音服务未连接，请启动 Start-Voice-Service.cmd'
+            if ready.get('tts_error'):
+                backend += '\n' + ready['tts_error']
             self.services.setText(ollama + '\n' + backend)
             self.save()
             return
         if turn != self.turn:
             return
+        if kind in ('queued', 'audio', 'tts_error'):
+            speech_cancelled, payload = payload
+            if speech_cancelled is not self.speech_cancelled or speech_cancelled.is_set():
+                return
         if kind == 'chunk':
             self.append(payload)
         elif kind == 'queued':
@@ -312,11 +337,13 @@ class ChatWindow(QWidget):
             question, answer = payload
             self.history.extend([{'role': 'user', 'content': question}, {'role': 'assistant', 'content': answer}])
             self.history = self.history[-12:]
-        elif kind == 'error':
+        elif kind in ('error', 'chat_error'):
             self.generating = False
             self.recognizing = False
             self.last_error = payload
             self.status.setText(payload)
+            if kind == 'chat_error':
+                self.retry_button.setEnabled(True)
         elif kind == 'tts_error':
             self.waiting = max(0, self.waiting - 1)
             self.last_error = payload

@@ -1,5 +1,6 @@
 """Loopback-only persistent Japanese TTS and local Whisper ASR service."""
 import argparse
+from collections import OrderedDict
 import io
 import json
 import logging
@@ -12,13 +13,20 @@ import wave
 
 
 class SpeechEngine:
-    def __init__(self, assets, device='cpu', whisper_model='base'):
+    def __init__(self, assets, device='auto', whisper_model='base'):
         self.assets = Path(assets).resolve()
         self.device = device
         self.whisper_model = whisper_model
         self.tts = None
         self.asr = None
         self.lock = threading.Lock()
+        self.tts_ready = False
+        self.tts_state = 'not_loaded'
+        self.tts_error = None
+        self.cache = OrderedDict()
+        self.cache_bytes = 0
+        self.cache_limit = 16 * 1024 * 1024
+        self.cache_entries = 16
 
     def load_tts(self):
         if self.tts is not None:
@@ -29,6 +37,8 @@ class SpeechEngine:
         from style_bert_vits2.constants import Languages
         from style_bert_vits2.nlp import bert_models
         from style_bert_vits2.tts_model import TTSModel
+        if self.device == 'auto':
+            self.device = 'cuda' if torch.cuda.is_available() else 'cpu'
         torch.set_num_threads(2)
         folder = root / 'model_assets/speaker_1'
         bert = root / 'bert/deberta-v2-large-japanese-char-wwm'
@@ -41,23 +51,51 @@ class SpeechEngine:
                             config_path=folder / 'config.json', style_vec_path=folder / 'style_vectors.npy',
                             device=self.device)
 
+    def status(self):
+        return {'service': 'rurino-speech', 'tts_loaded': self.tts_ready,
+                'tts_state': self.tts_state, 'tts_error': self.tts_error,
+                'asr_loaded': self.asr is not None, 'device': self.device,
+                'cached_phrases': len(self.cache)}
+
     def synthesize(self, text):
+        with self.lock:
+            if text in self.cache:
+                self.cache.move_to_end(text)
+                return self.cache[text]
+            self.tts_state = 'synthesizing' if self.tts_ready else 'loading'
+            self.tts_error = None
+            try:
+                data = self._synthesize(text)
+            except Exception as error:
+                self.tts_state = 'error'
+                self.tts_error = str(error)
+                raise
+            self.tts_ready = True
+            self.tts_state = 'ready'
+            if len(data) <= self.cache_limit:
+                self.cache[text] = data
+                self.cache_bytes += len(data)
+                while self.cache_bytes > self.cache_limit or len(self.cache) > self.cache_entries:
+                    _, expired = self.cache.popitem(last=False)
+                    self.cache_bytes -= len(expired)
+            return data
+
+    def _synthesize(self, text):
         import numpy as np
         import soundfile as sf
         import torch
         from style_bert_vits2.constants import Languages
-        with self.lock:
-            self.load_tts()
-            with torch.inference_mode():
-                rate, audio = self.tts.infer(text=text, language=Languages.JP, speaker_id=0,
-                    reference_audio_path=None, style='Neutral', style_weight=1.,
-                    sdp_ratio=.3, noise=.05, noise_w=.05, length=1., line_split=True,
-                    split_interval=.25, pitch_scale=1., intonation_scale=1.)
-            if audio.ndim != 1 or not len(audio) or not np.isfinite(audio).all():
-                raise ValueError('合成音频无效。')
-            out = io.BytesIO()
-            sf.write(out, audio, rate, format='WAV', subtype='PCM_16')
-            return out.getvalue()
+        self.load_tts()
+        with torch.inference_mode():
+            rate, audio = self.tts.infer(text=text, language=Languages.JP, speaker_id=0,
+                reference_audio_path=None, style='Neutral', style_weight=1.,
+                sdp_ratio=.3, noise=.05, noise_w=.05, length=1., line_split=True,
+                split_interval=.25, pitch_scale=1., intonation_scale=1.)
+        if audio.ndim != 1 or not len(audio) or not np.isfinite(audio).all():
+            raise ValueError('合成音频无效。')
+        out = io.BytesIO()
+        sf.write(out, audio, rate, format='WAV', subtype='PCM_16')
+        return out.getvalue()
 
     def transcribe(self, data, language):
         import numpy as np
@@ -101,8 +139,7 @@ def make_handler(engine):
             if not self.allowed():
                 return self.respond(403, {'error': 'Local application requests only.'})
             if self.path == '/health':
-                return self.respond(200, {'service': 'rurino-speech', 'tts_loaded': engine.tts is not None,
-                                           'asr_loaded': engine.asr is not None, 'device': engine.device})
+                return self.respond(200, engine.status())
             self.respond(404, {'error': 'Unknown endpoint'})
 
         def do_POST(self):
@@ -141,7 +178,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--assets', type=Path, default=Path(__file__).resolve().parents[1] / '.voice-assets')
     parser.add_argument('--port', type=int, default=8765)
-    parser.add_argument('--device', choices=['cpu', 'cuda'], default='cpu')
+    parser.add_argument('--device', choices=['auto', 'cpu', 'cuda'], default='auto')
     parser.add_argument('--whisper-model', default='base')
     parser.add_argument('--warm', action='store_true')
     args = parser.parse_args()

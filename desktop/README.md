@@ -2,9 +2,11 @@
 
 本目录提供真正的 Cubism 模型播放器，以及已确认形象的导入界面。**瑠璃乃模型仍待 Cubism 绑定，当前包不是完整桌宠成品。** 没有模型时显示导入窗口；不会把立绘变成晃动的截图桌宠，也不包含此前被拒绝的举手动画。
 
-[下载本地对话版](https://github.com/taninettty/rurino_ai/releases/tag/desktop-chat-v0.2) · [Ollama、录音和语音服务配置](CHAT.md)
+[下载本地对话版](https://github.com/taninettty/rurino_ai/releases/tag/desktop-chat-v0.2.1) · [Ollama、录音和语音服务配置](CHAT.md)
 
 新增本地对话窗口：文字或按次录音提问，Ollama 流式回复，用户日语音色按句合成，可随时打断。没有导出角色模型时也能先聊天。CPU 下合成有明显延迟，实际 Windows / Ollama 整链路尚待验收；详见上述说明。
+
+[v0.2.1 已完成改进与下一步建议](IMPROVEMENTS.md)
 
 ## Windows 使用
 

@@ -47,6 +47,11 @@ def protocol_server():
                 body = json.loads(raw)
                 requests.append(('chat', body))
                 mode = body['messages'][-1]['content']
+                if mode == 'retry-once' and sum(1 for kind, body in requests if kind == 'chat' and body['messages'][-1]['content'] == mode) == 1:
+                    self.send_response(503)
+                    self.end_headers()
+                    self.wfile.write(b'{"error":"temporarily unavailable"}')
+                    return
                 self.send_response(200)
                 self.send_header('Content-Type', 'application/x-ndjson')
                 self.end_headers()
