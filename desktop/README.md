@@ -10,7 +10,7 @@
 
 ## Windows 使用
 
-1. 安装 [64 位 Python 3.11 或更新版本](https://www.python.org/downloads/windows/)（推荐 3.12，保留 Python Launcher）。`live2d-py` 提供 `cp311-abi3` 轮子，3.11 及以上可直接使用；安装脚本会优先选 3.12，并把过程写入 `install.log`。
+1. 确认已有 64 位 Python 3.11 或更新版本（推荐 3.12，保留 Python Launcher）；**已经装了就跳过这一步**，没装才需要安装。`live2d-py` 提供 `cp311-abi3` 轮子，3.11 及以上可直接使用；安装脚本会优先选 3.12，并把过程写入 `install.log`。
 2. 完整解压下载的程序包，双击 `Install-Windows.cmd`。它在本目录创建独立 `.venv`，联网从 PyPI 安装固定版本的主要依赖，不修改语音训练环境。
 3. 双击 `Start-Windows.cmd`。没有导出模型时可以确认形象、试听现有音色。
 4. 将 Cubism 导出的完整模型文件夹保存在固定位置，选择其中的 `.model3.json`。不要只复制这个 JSON；`.moc3`、纹理和引用的动作、物理等文件都要保留。

@@ -6,7 +6,7 @@
 
 ## Windows 首次准备
 
-1. 安装 64 位 Python 3.11 或更新版本（推荐 3.12，包括 Python Launcher），完整解压程序包，运行 `Install-Windows.cmd` 安装桌宠界面依赖。安装脚本会把过程写入 `install.log`，失败时直接回显最后 20 行。
+1. 确认已装 64 位 Python 3.11 或更新版本（推荐 3.12，包括 Python Launcher；已有就跳过），完整解压程序包，运行 `Install-Windows.cmd` 安装桌宠界面依赖。安装脚本会把过程写入 `install.log`，失败时直接回显最后 20 行。
 2. 安装并启动 [Ollama 官方 Windows 版](https://ollama.com/download/windows)。已有聊天模型可直接用；没有则运行 `Install-Chat-Model.cmd` 下载 `qwen3:1.7b`。它只是较小的起步模型，也可以在界面选择自己安装的其他聊天模型。
 3. 运行 `Install-Voice-Service.cmd`。此脚本在独立 `.voice-env` 环境安装 CPU 语音运行库，下载并核对仓库中原有的音色权重和日语 BERT（合计约 1.57 GB），并准备 Whisper base 和日语发音词典。原有训练环境不会被修改。已有完整仓库权重时会优先复制复用，否则从本仓库固定提交下载。
 4. 运行 `Start-Voice-Service.cmd`，保留这个窗口。首次出现 `Voice model ready.` 表示音色预热已完成。
