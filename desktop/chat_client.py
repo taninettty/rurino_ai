@@ -11,6 +11,14 @@ SYSTEM_PROMPT = ('你是用户桌面上的瑠璃乃角色陪伴助手，开朗�
                  '通常一到三句，尽量简短。不要输出思考过程、Markdown、括号动作或表情符号。'
                  '不声称自己是官方人物本人或真人声优。遇到不知道的事情坦诚说明。')
 
+# The voice model only accepts Japanese, so the subtitle is a second local pass
+# instead of asking the conversation model for two languages at once.
+TRANSLATE_PROMPT = ('你是日语到简体中文的翻译。把用户发来的日语译成自然、口语的简体中文。'
+                    '只输出译文本身：不要解释、不要保留日文、不要加引号、括号或说话人名字。')
+
+KANA = re.compile(r'[\u3040-\u30ff]')
+CHINESE = re.compile(r'[\u4e00-\u9fff]')
+
 
 def local_url(value):
     value = value.strip().rstrip('/')
@@ -94,6 +102,44 @@ class Sentences:
             if sentence and any(char.isalnum() for char in sentence):
                 ready.append(sentence)
         return ready
+
+
+def translate_reply(base, model, text, cancelled):
+    """Second local pass that turns the Japanese reply into a Chinese subtitle.
+
+    It runs after the streamed answer so the conversation stays as fast as the
+    model, and it never accepts output that is empty, untranslated or not
+    Chinese, because a wrong subtitle is worse than a missing one.
+    """
+    if cancelled.is_set():
+        return ''
+    payload = {'model': model, 'stream': False, 'think': False,
+               'messages': [{'role': 'system', 'content': TRANSLATE_PROMPT},
+                            {'role': 'user', 'content': text}],
+               'options': {'temperature': .2, 'num_predict': 260, 'num_ctx': 2048}}
+    with request(base, '/api/chat', json.dumps(payload).encode(), timeout=60) as response:
+        body = response.read(2_000_001)
+    if len(body) > 2_000_000:
+        raise ValueError('本地服务响应过大。')
+    item = json.loads(body)
+    if item.get('error'):
+        raise RuntimeError(str(item['error']))
+    content = item.get('message', {}).get('content', '')
+    if not isinstance(content, str):
+        raise ValueError('Ollama 返回的译文格式不正确。')
+    return clean_translation(content)
+
+
+def clean_translation(value):
+    """Normalise a translated subtitle and reject Japanese passed through."""
+    text = ' '.join(value.split()).strip(' "\'“”「」『』')
+    if not text:
+        raise ValueError('没有拿到中文译文。')
+    if not CHINESE.search(text):
+        raise ValueError('模型没有返回中文译文。')
+    if len(KANA.findall(text)) > len(text) * .3:
+        raise ValueError('模型把日文原文当成了译文。')
+    return text[:300]
 
 
 def speech(base, text):

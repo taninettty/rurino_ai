@@ -11,6 +11,12 @@ from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from urllib.parse import urlsplit
 import wave
 
+# On Windows, torch (MKL) and faster-whisper (CTranslate2) each ship their own
+# libiomp5md.dll. Loading the second one aborts the whole process with
+# "OMP: Error #15", so the first microphone use would kill the TTS service too.
+# This must be set before either library is imported.
+os.environ.setdefault('KMP_DUPLICATE_LIB_OK', 'TRUE')
+
 
 class SpeechEngine:
     def __init__(self, assets, device='auto', whisper_model='base'):

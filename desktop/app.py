@@ -319,6 +319,9 @@ class Setup(QWidget):
         choose = QPushButton('选择 Live2D 模型文件…')
         choose.clicked.connect(self.choose_model)
         layout.addWidget(choose)
+        self.simplified_button = QPushButton('先用分层立绘启动（简化模式）')
+        self.simplified_button.clicked.connect(self.start_simplified)
+        layout.addWidget(self.simplified_button)
         self.voice = Voice(ROOT / 'assets/greeting.wav', self)
         self.preview_button = QPushButton('试听现有音色')
         self.preview_button.clicked.connect(self.preview_voice)
@@ -350,6 +353,26 @@ class Setup(QWidget):
         self.chat_window.show()
         self.chat_window.raise_()
         self.chat_window.activateWindow()
+
+    def start_simplified(self):
+        """Show the layered stand-in pet when no Cubism model is available."""
+        if not (ROOT / 'assets' / 'layers' / 'base.png').is_file():
+            self.status.setText('缺少分层素材，请重新获取程序包。')
+            return False
+        try:
+            from sprite_pet import SpritePet
+            if self.pet:
+                self.pet.shutdown()
+                self.pet.deleteLater()
+            self.pet = SpritePet(self)
+            self.pet.show()
+            self.hide()
+            return True
+        except Exception as error:
+            logging.exception('Simplified pet failed')
+            self.status.setText('简化模式启动失败：' + str(error))
+            self.show()
+            return False
 
     def stop_conversation(self):
         if self.chat_window:
@@ -437,6 +460,10 @@ def main():
     saved = setup.settings.value('model_path', '', type=str)
     if saved:
         QTimer.singleShot(0, lambda: setup.load_model(saved))
+    else:
+        # No rigged model yet: open the layered stand-in instead of an empty
+        # import window, so the shortcut leads to something alive.
+        QTimer.singleShot(0, setup.start_simplified)
     result = app.exec_()
     if LIVE2D:
         LIVE2D.dispose()

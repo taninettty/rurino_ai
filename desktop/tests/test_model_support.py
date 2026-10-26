@@ -46,9 +46,16 @@ class ModelValidation(unittest.TestCase):
                     self.check()
 
     def test_parent_absolute_windows_and_symlink_escape(self):
-        (self.root / 'outside.png').symlink_to(Path(__file__).resolve())
+        # A link that escapes the model folder must be refused. Without the
+        # privilege to create one (Windows without Developer Mode) the name is
+        # simply missing, which must be refused too, so the check still runs.
+        try:
+            (self.root / 'outside.png').symlink_to(Path(__file__).resolve())
+            linked = True
+        except (OSError, NotImplementedError):
+            linked = False
         for name in ('../outside.png', str(Path(__file__).resolve()), 'C:/secret.png', 'C:\\secret.png', 'outside.png'):
-            with self.subTest(name=name):
+            with self.subTest(name=name, symlink_created=linked):
                 self.data['FileReferences']['Textures'] = [name]
                 with self.assertRaises(ValueError):
                     self.check()

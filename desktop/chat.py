@@ -1,20 +1,25 @@
 """Responsive local conversation UI with streaming text and queued speech."""
 from collections import deque
 import json
+import logging
 from pathlib import Path
 import queue
 import tempfile
 import threading
+import time
 import uuid
 from urllib.error import HTTPError
 
 from PyQt5.QtCore import Qt, QTimer, pyqtSignal
 from PyQt5.QtGui import QTextCursor
 from PyQt5.QtWidgets import (QWidget, QVBoxLayout, QHBoxLayout, QFormLayout,
-    QLineEdit, QComboBox, QPushButton, QPlainTextEdit, QLabel, QCheckBox)
+    QLineEdit, QComboBox, QPushButton, QPlainTextEdit, QLabel, QCheckBox, QDialog)
 
-from chat_client import SYSTEM_PROMPT, Sentences, get_json, local_url, speech, stream_reply, transcribe
+from chat_client import (SYSTEM_PROMPT, Sentences, get_json, local_url, speech,
+                         stream_reply, transcribe, translate_reply)
+from memory import MAX_NAME, MAX_NOTE, MAX_NOTES, Memory
 from microphone import Microphone
+from vad import EndOfSpeech
 
 
 def error_text(error):
@@ -39,6 +44,8 @@ class ChatWindow(QWidget):
         self.speech_cancelled = threading.Event()
         self.last_request = ''
         self.history = []
+        self.last_base = ''
+        self.last_model = ''
         self.waiting = 0
         self.generating = False
         self.recognizing = False
@@ -49,6 +56,7 @@ class ChatWindow(QWidget):
         self.tts_jobs = queue.Queue()
         self.worker_event.connect(self.handle_event)
         self.microphone = Microphone(self)
+        self.memory = Memory()
         self.recording = False
         self.setWindowTitle('和瑠璃乃聊天 · 本地 Ollama')
         self.resize(560, 660)
@@ -72,11 +80,29 @@ class ChatWindow(QWidget):
         self.speak.setChecked(self.settings.value('chat/speak', True, type=bool))
         self.speak.toggled.connect(self.speech_changed)
         options.addWidget(self.speak)
+        self.subtitle = QCheckBox('中文字幕')
+        self.subtitle.setChecked(self.settings.value('chat/subtitle', True, type=bool))
+        self.subtitle.toggled.connect(lambda _enabled: self.save())
+        options.addWidget(self.subtitle)
         layout.addLayout(options)
         self.services = QLabel('先启动 Ollama 和 Start-Voice-Service.cmd，再检查连接。')
         self.services.setWordWrap(True)
         self.services.setTextFormat(Qt.PlainText)
         layout.addWidget(self.services)
+        timing = QHBoxLayout()
+        self.auto_send = QCheckBox('说完自动发送')
+        self.auto_send.setChecked(self.settings.value('chat/auto_send', True, type=bool))
+        timing.addWidget(self.auto_send)
+        timing.addWidget(QLabel('停顿'))
+        self.pause = QComboBox()
+        for label, value in (('0.6 秒', .6), ('0.9 秒', .9), ('1.5 秒', 1.5)):
+            self.pause.addItem(label, value)
+        saved_pause = self.settings.value('chat/pause', .9, type=float)
+        self.pause.setCurrentIndex(min(range(self.pause.count()),
+            key=lambda index: abs(self.pause.itemData(index) - saved_pause)))
+        timing.addWidget(self.pause)
+        timing.addStretch(1)
+        layout.addLayout(timing)
         self.transcript = QPlainTextEdit()
         self.transcript.setReadOnly(True)
         self.transcript.setPlaceholderText('可以中文提问；瑠璃乃用日语回复。聊天记录只保留在本次运行中。')
@@ -104,12 +130,15 @@ class ChatWindow(QWidget):
         clear = QPushButton('清空')
         clear.clicked.connect(self.clear_chat)
         actions.addWidget(clear)
+        memory = QPushButton('记忆…')
+        memory.clicked.connect(self.edit_memory)
+        actions.addWidget(memory)
         layout.addLayout(actions)
         self.retry_button = QPushButton('重试上一条失败的提问')
         self.retry_button.setEnabled(False)
         self.retry_button.clicked.connect(self.retry)
         layout.addWidget(self.retry_button)
-        self.status = QLabel('就绪 · 录音需点击开始，再点击结束；最长 30 秒。')
+        self.status = QLabel('就绪 · 录音后停顿会自动发送，也可以手动结束；最长 30 秒。')
         self.status.setWordWrap(True)
         self.status.setTextFormat(Qt.PlainText)
         layout.addWidget(self.status)
@@ -119,6 +148,10 @@ class ChatWindow(QWidget):
         self.play_timer = QTimer(self)
         self.play_timer.timeout.connect(self.play_next)
         self.play_timer.start(50)
+        self.detector = None
+        self.last_level_at = 0.0
+        self.vad_timer = QTimer(self)
+        self.vad_timer.timeout.connect(self.poll_vad)
         threading.Thread(target=self.synthesize_loop, daemon=True).start()
 
     def append(self, text):
@@ -130,7 +163,10 @@ class ChatWindow(QWidget):
 
     def save(self):
         for key, value in [('ollama', self.ollama.text()), ('speech', self.backend.text()),
-                           ('model', self.model.currentText()), ('speak', self.speak.isChecked())]:
+                           ('model', self.model.currentText()), ('speak', self.speak.isChecked()),
+                           ('subtitle', self.subtitle.isChecked()),
+                           ('auto_send', self.auto_send.isChecked()),
+                           ('pause', self.pause.currentData() or .9)]:
             self.settings.setValue('chat/' + key, value)
         self.settings.sync()
 
@@ -163,6 +199,8 @@ class ChatWindow(QWidget):
             self.microphone.stop()
             self.recording = False
             self.record_timer.stop()
+            self.vad_timer.stop()
+            self.detector = None
             self.record_button.setText('开始录音')
         self.last_error = ''
         self.status.setText('已停止，可以继续说话。')
@@ -187,6 +225,37 @@ class ChatWindow(QWidget):
         self.transcript.clear()
         self.last_request = ''
         self.retry_button.setEnabled(False)
+
+    def edit_memory(self):
+        dialog = QDialog(self)
+        dialog.setWindowTitle('本地记忆 · 只保存在这台电脑')
+        form = QVBoxLayout(dialog)
+        form.addWidget(QLabel('称呼（留空则不用）'))
+        name = QLineEdit(self.memory.name)
+        name.setMaxLength(MAX_NAME)
+        form.addWidget(name)
+        form.addWidget(QLabel(f'备注：一行一条，最多 {MAX_NOTES} 条，每条 {MAX_NOTE} 字以内。'))
+        notes = QPlainTextEdit('\n'.join(self.memory.notes))
+        notes.setPlaceholderText('例如：\n喜欢猫\n工作日晚上才有空')
+        form.addWidget(notes)
+        buttons = QHBoxLayout()
+        buttons.addStretch(1)
+        save = QPushButton('保存')
+        save.setDefault(True)
+        save.clicked.connect(dialog.accept)
+        buttons.addWidget(save)
+        cancel = QPushButton('取消')
+        cancel.clicked.connect(dialog.reject)
+        buttons.addWidget(cancel)
+        form.addLayout(buttons)
+        if dialog.exec_() != QDialog.Accepted:
+            return
+        try:
+            self.memory.update(name.text(), notes.toPlainText().splitlines()).save()
+        except OSError as error:
+            self.status.setText('记忆保存失败：' + str(error))
+            return
+        self.status.setText('记忆已保存，下一条提问起生效。')
 
     def retry(self):
         if self.retry_button.isEnabled() and self.last_request:
@@ -213,12 +282,14 @@ class ChatWindow(QWidget):
         turn = self.turn
         self.generating = True
         self.last_request = text
+        self.last_base, self.last_model = base, model
         self.retry_button.setEnabled(False)
         self.save()
         self.input.clear()
         self.append('\n你：' + text + '\n瑠璃乃：')
         self.status.setText('Ollama 正在回复…')
-        messages = [{'role': 'system', 'content': SYSTEM_PROMPT}, *self.history[-12:], {'role': 'user', 'content': text}]
+        messages = [{'role': 'system', 'content': SYSTEM_PROMPT + self.memory.prompt_suffix()},
+                    *self.history[-12:], {'role': 'user', 'content': text}]
         def run():
             total = ''
             sentences = Sentences()
@@ -242,6 +313,23 @@ class ChatWindow(QWidget):
             except Exception as error:
                 if not cancelled.is_set():
                     self.worker_event.emit(turn, 'chat_error', '聊天失败：' + error_text(error))
+        threading.Thread(target=run, daemon=True).start()
+
+    def request_subtitle(self, answer):
+        """Ask the local model for a Chinese subtitle after the answer is done."""
+        if not self.subtitle.isChecked() or not answer.strip():
+            return
+        base, model, turn, cancelled = self.last_base, self.last_model, self.turn, self.cancelled
+        if not base or not model:
+            return
+        def run():
+            try:
+                subtitle = translate_reply(base, model, answer, cancelled)
+                if subtitle and not cancelled.is_set():
+                    self.worker_event.emit(turn, 'subtitle', subtitle)
+            except Exception as error:
+                if not cancelled.is_set():
+                    self.worker_event.emit(turn, 'subtitle_error', error_text(error))
         threading.Thread(target=run, daemon=True).start()
 
     def synthesize_loop(self):
@@ -270,23 +358,56 @@ class ChatWindow(QWidget):
             local_url(self.backend.text())
             self.microphone.start()
             self.recording = True
+            pause = self.pause.currentData() or .9
+            self.detector = EndOfSpeech(silence=pause)
+            self.last_level_at = time.monotonic()
+            automatic = self.auto_send.isChecked()
+            if automatic:
+                self.vad_timer.start(50)
             self.record_button.setText('结束并发送')
-            self.status.setText('正在录音，点击“结束并发送”完成；30 秒后自动结束。')
+            self.status.setText(
+                f'正在录音，停顿 {pause:g} 秒后自动发送；也可以点击“结束并发送”。' if automatic
+                else '正在录音，点击“结束并发送”完成；30 秒后自动结束。')
             self.record_timer.start(30000)
         except Exception as error:
+            self.vad_timer.stop()
+            self.detector = None
+            self.recording = False
             self.status.setText(str(error))
 
-    def finish_recording(self):
+    def poll_vad(self):
+        if not self.recording or self.detector is None:
+            self.vad_timer.stop()
+            return
+        try:
+            level = self.microphone.level()
+        except Exception:
+            # A failing level probe must not end the recording behind the
+            # user's back; fall back to the manual button and the 30 s limit.
+            self.vad_timer.stop()
+            logging.exception('Microphone level probe failed')
+            return
+        now = time.monotonic()
+        seconds = min(.2, max(.01, now - self.last_level_at))
+        self.last_level_at = now
+        if self.detector.feed(level, seconds):
+            self.vad_timer.stop()
+            self.finish_recording(auto=True)
+
+    def finish_recording(self, auto=False):
         if not self.recording:
             return
         self.record_timer.stop()
+        self.vad_timer.stop()
+        self.detector = None
         wav = self.microphone.stop()
         self.recording = False
         self.record_button.setText('开始录音')
         if not wav:
             self.status.setText('没有录到声音，请检查麦克风。')
             return
-        self.status.setText('正在本地识别…首次使用需加载 Whisper。')
+        self.status.setText('正在本地识别…首次使用需加载 Whisper。' if not auto
+                           else '已按停顿结束录音，正在本地识别…首次使用需加载 Whisper。')
         self.recognizing = True
         turn, cancelled = self.turn, self.cancelled
         backend, language = self.backend.text(), self.language.currentData()
@@ -337,6 +458,11 @@ class ChatWindow(QWidget):
             question, answer = payload
             self.history.extend([{'role': 'user', 'content': question}, {'role': 'assistant', 'content': answer}])
             self.history = self.history[-12:]
+            self.request_subtitle(answer)
+        elif kind == 'subtitle':
+            self.append('\n〔中文〕' + payload + '\n')
+        elif kind == 'subtitle_error':
+            self.append('\n〔中文字幕失败：' + payload + '〕\n')
         elif kind in ('error', 'chat_error'):
             self.generating = False
             self.recognizing = False
