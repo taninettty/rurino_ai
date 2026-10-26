@@ -16,6 +16,10 @@
 
 不要把 PNG 晃动、透明视频或序列帧桌宠称作完成的 Live2D。用户已明确拒绝那个方案。
 
+## 下载素材
+
+[下载完整交接包（PSD、PNG、语音）](https://github.com/taninettty/rurino_ai/releases/download/live2d-prep-v0.2/Rurino-Live2D-Handoff.zip) · [Release 页面与校验值](https://github.com/taninettty/rurino_ai/releases/tag/live2d-prep-v0.2)
+
 ## 给下一位 AI
 
 先阅读 [HANDOFF.md](HANDOFF.md)。源脚本在 `production/`，检查结果在 `metadata/`。较大的 PSD、PNG 原件和音频由配套 Release 素材包提供，不把语音权重或 Python 环境重复上传。

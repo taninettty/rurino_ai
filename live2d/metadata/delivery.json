@@ -3,5 +3,6 @@
   "bytes": 41398285,
   "sha256": "ed986f551d80460a656a99b4d7362f13ba9aca72a6b58958ec41fa8ef1f16e52",
   "entries": 83,
-  "status": "prepared_locally_upload_pending"
+  "status": "uploaded",
+  "release_url": "https://github.com/taninettty/rurino_ai/releases/tag/live2d-prep-v0.2"
 }
