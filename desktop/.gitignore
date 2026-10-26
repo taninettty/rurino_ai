@@ -2,3 +2,6 @@
 __pycache__/
 *.log
 test-output/
+.voice-env/
+.voice-assets/
+*.download

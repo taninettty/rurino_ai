@@ -1,0 +1,47 @@
+[
+  {
+    "path": "model_assets/speaker_1/config.json",
+    "size": 2273,
+    "sha256": "ada7e2fc5e1db950c0ae80349bb7966eafcc007f14dfd87ea5f7aae4d3d55265"
+  },
+  {
+    "path": "model_assets/speaker_1/speaker_1_e24_s25000.safetensors",
+    "size": 251150980,
+    "sha256": "7f2d2377e405804ddf49aaa0ec6ff0f26fcca422d281fced4d6c2d81d65683d2"
+  },
+  {
+    "path": "model_assets/speaker_1/style_vectors.npy",
+    "size": 1152,
+    "sha256": "2570f4a2934e5048ed39d3bfa562ff7fdd657de5fc84e8d687750987e3c124cd"
+  },
+  {
+    "path": "bert/deberta-v2-large-japanese-char-wwm/config.json",
+    "size": 895,
+    "sha256": "8f387ab4c6b36e47c7071327c7a42099002781279b00a7e6a7fe88f3da237a3f"
+  },
+  {
+    "path": "bert/deberta-v2-large-japanese-char-wwm/pytorch_model.bin",
+    "size": 1318456639,
+    "sha256": "bf0dab8ad87bd7c22e85ec71e04f2240804fda6d33196157d6b5923af6ea1201"
+  },
+  {
+    "path": "bert/deberta-v2-large-japanese-char-wwm/special_tokens_map.json",
+    "size": 125,
+    "sha256": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3"
+  },
+  {
+    "path": "bert/deberta-v2-large-japanese-char-wwm/tokenizer.json",
+    "size": 430981,
+    "sha256": "21a17e4d0032739e82dc60f155b4ae37e94519103e0d399657fdd249ec3e7905"
+  },
+  {
+    "path": "bert/deberta-v2-large-japanese-char-wwm/tokenizer_config.json",
+    "size": 520,
+    "sha256": "1cc5203f09ecac12bb7a98a05cb9c2e39a9e37a113a7d85d12542ef29190583b"
+  },
+  {
+    "path": "bert/deberta-v2-large-japanese-char-wwm/vocab.txt",
+    "size": 88151,
+    "sha256": "902cbd7e218aaf23a72955533293ceac12fcc4e010ad98c0c14757b94ce7abb6"
+  }
+]

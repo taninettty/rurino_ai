@@ -121,7 +121,7 @@ class Pet(QWidget):
         self.setWindowIcon(QIcon(str(ROOT / 'assets/approved.png')))
         self.setCursor(Qt.OpenHandCursor)
         self.setMouseTracking(True)
-        self.voice = Voice(ROOT / 'assets/greeting.wav', self)
+        self.voice = controller.voice
         self.view = ModelView(self, path)
         self.view.loaded.connect(self.model_ready)
         self.view.failed.connect(self.model_failed)
@@ -158,6 +158,8 @@ class Pet(QWidget):
 
     def greet(self):
         if self.ready and not self.muted and not self.voice.playing():
+            self.controller.stop_conversation()
+            self.voice.load(ROOT / 'assets/greeting.wav')
             self.voice.play()
 
     def resizeEvent(self, event):
@@ -180,7 +182,7 @@ class Pet(QWidget):
     def mouseReleaseEvent(self, event):
         if event.button() == Qt.LeftButton and self.press_origin is not None:
             if not self.dragging:
-                self.greet()
+                self.controller.open_chat()
             self.press_origin = None
             self.setCursor(Qt.OpenHandCursor)
             self.keep_on_screen()
@@ -193,6 +195,7 @@ class Pet(QWidget):
 
     def keyPressEvent(self, event):
         if event.key() == Qt.Key_Escape:
+            self.controller.stop_conversation()
             self.voice.stop()
         elif event.key() == Qt.Key_Space:
             self.greet()
@@ -218,6 +221,7 @@ class Pet(QWidget):
 
     def make_menu(self):
         menu = QMenu(self)
+        menu.addAction('和瑠璃乃聊天…', self.controller.open_chat)
         menu.addAction('打招呼', self.greet)
         for title, state, callback in [('静音', self.muted, self.toggle_mute),
                                        ('始终置顶', self.on_top, self.toggle_top),
@@ -242,6 +246,7 @@ class Pet(QWidget):
     def toggle_mute(self):
         self.muted = not self.muted
         if self.muted:
+            self.controller.stop_conversation()
             self.voice.stop()
         self.save()
         self.refresh_menu()
@@ -292,6 +297,7 @@ class Setup(QWidget):
         super().__init__()
         self.settings = settings or QSettings('RurinoLive2D', 'Desktop')
         self.pet = None
+        self.chat_window = None
         self.setWindowTitle('瑠璃乃 · Live2D 模型接入')
         self.setMinimumWidth(400)
         self.setStyleSheet('QWidget {background:#fff8fb;color:#513c49;font-size:14px;} '
@@ -316,19 +322,42 @@ class Setup(QWidget):
         self.preview_button = QPushButton('试听现有音色')
         self.preview_button.clicked.connect(self.preview_voice)
         layout.addWidget(self.preview_button)
+        chat_button = QPushButton('和瑠璃乃聊天 · 本地 Ollama')
+        chat_button.clicked.connect(self.open_chat)
+        layout.addWidget(chat_button)
         self.audio_timer = QTimer(self)
         self.audio_timer.timeout.connect(self.update_audio_button)
         self.audio_timer.start(100)
-        help_text = QLabel('导入后：拖动移动 · 滚轮缩放 · 点击问候\n右键设置与退出 · M 静音 · Esc 停止语音')
+        help_text = QLabel('导入后：拖动移动 · 滚轮缩放 · 点击聊天\n右键设置与退出 · M 静音 · Esc 打断对话')
         help_text.setAlignment(Qt.AlignCenter)
         layout.addWidget(help_text)
 
     def preview_voice(self):
         if self.voice.playing():
+            self.stop_conversation()
             self.voice.stop()
         else:
+            self.stop_conversation()
+            self.voice.load(ROOT / 'assets/greeting.wav')
             self.voice.play()
         self.update_audio_button()
+
+    def open_chat(self):
+        if self.chat_window is None:
+            from chat import ChatWindow
+            self.chat_window = ChatWindow(self)
+        self.chat_window.show()
+        self.chat_window.raise_()
+        self.chat_window.activateWindow()
+
+    def stop_conversation(self):
+        if self.chat_window:
+            self.chat_window.interrupt()
+
+    def shutdown(self):
+        if self.chat_window:
+            self.chat_window.shutdown()
+        self.voice.stop()
 
     def update_audio_button(self):
         self.preview_button.setText('停止试听' if self.voice.playing() else '试听现有音色')
@@ -402,6 +431,7 @@ def main():
     app = QApplication(sys.argv)
     app.setQuitOnLastWindowClosed(False)
     setup = Setup()
+    app.aboutToQuit.connect(setup.shutdown)
     setup.show()
     saved = setup.settings.value('model_path', '', type=str)
     if saved:

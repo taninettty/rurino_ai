@@ -1,0 +1,8 @@
+numpy==1.26.4
+transformers==4.44.2
+accelerate==0.34.2
+soundfile>=0.12,<1
+scipy==1.14.1
+faster-whisper==1.2.1
+av==15.1.0
+style-bert-vits2 @ https://github.com/litagin02/Style-Bert-VITS2/archive/66de777e06392c0f313600be03c43ef96658b244.zip
