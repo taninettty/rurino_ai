@@ -22,6 +22,8 @@
 
 ## 给下一位 AI
 
+桌宠接入代码位于 [desktop/](../desktop/README.md)，已准备真实模型加载与问候语音联动。瑠璃乃模型仍需按下方说明完成 Cubism 绑定。
+
 先阅读 [HANDOFF.md](HANDOFF.md)。源脚本在 `production/`，检查结果在 `metadata/`。较大的 PSD、PNG 原件和音频由配套 Release 素材包提供，不把语音权重或 Python 环境重复上传。
 
 ![表情图层检查](preview/expression_layers_preview.jpg)

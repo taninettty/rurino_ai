@@ -1,5 +1,9 @@
 # Style-Bert-VITS2 日文语音模型
 
+## 瑠璃乃 Live2D 制作
+
+[人物素材与 Cubism 交接](live2d/README.md) · [桌宠模型接入程序](desktop/README.md)。当前仍待瑠璃乃模型绑定，桌宠程序已提供真实模型加载与已有音色的问候播放。
+
 ## 使用方法
 
 ### 1. 安装依赖
