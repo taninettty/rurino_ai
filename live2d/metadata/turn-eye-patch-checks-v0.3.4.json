@@ -1,5 +1,5 @@
 {
-  "method": "same-coordinate RGB compositing; no warp, resize, mirror or translation",
+  "method": "local RGB compositing; no anatomical warp or mirror; crop outputs use documented uniform pixel-resolution normalization",
   "patches": [
     {
       "side": "right",
@@ -9,6 +9,7 @@
       "outside_polygon_exact": true,
       "original_alpha_exact": true,
       "saved_png_roundtrip_exact": true,
+      "crop_resolution_normalization": null,
       "protected_rectangles_exact": {
         "near_eye": [
           865,
@@ -130,6 +131,160 @@
           ]
         },
         "selection_reason": "Second local redraw visibly widens far iris; integrate only eye drawing to preserve original head and near eye."
+      }
+    },
+    {
+      "side": "left",
+      "output": "corrected/turn-left-eye-calibrated.png",
+      "sha256": "a98e03edcd8653084f71525ebb29cf667a4f15f1c9a2f04c8904096d9eba481b",
+      "changed_pixels": 17824,
+      "outside_polygon_exact": true,
+      "original_alpha_exact": true,
+      "saved_png_roundtrip_exact": true,
+      "crop_resolution_normalization": {
+        "original_output_size": [
+          1024,
+          1024
+        ],
+        "destination_crop_xyxy": [
+          434,
+          574,
+          946,
+          1086
+        ],
+        "method": "uniform resolution normalization, LANCZOS; fixed original crop position"
+      },
+      "protected_rectangles_exact": {
+        "near_eye": [
+          930,
+          735,
+          1190,
+          906
+        ],
+        "nose": [
+          755,
+          915,
+          815,
+          982
+        ],
+        "mouth": [
+          785,
+          1025,
+          995,
+          1100
+        ],
+        "chin": [
+          640,
+          1110,
+          1150,
+          1300
+        ],
+        "upper_bang_tip": [
+          605,
+          700,
+          645,
+          750
+        ]
+      },
+      "source": {
+        "original": "sources/turn-left-v2-source.png",
+        "candidate": "sources/left-eye-crop-generated.png",
+        "original_sha256": "000870d6ab5329ba6be075384119ac40fd3148b2bfd4555ef48679651bc73c14",
+        "candidate_sha256": "e0fa2d037f6770d4075cba70e061dc22404ac2abd2f856c00093cda8a0724134",
+        "candidate_crop_xyxy": [
+          434,
+          574,
+          946,
+          1086
+        ],
+        "candidate_dimensions": [
+          1024,
+          1024
+        ],
+        "polygon": [
+          [
+            627,
+            777
+          ],
+          [
+            646,
+            759
+          ],
+          [
+            693,
+            756
+          ],
+          [
+            733,
+            775
+          ],
+          [
+            759,
+            813
+          ],
+          [
+            771,
+            846
+          ],
+          [
+            752,
+            882
+          ],
+          [
+            724,
+            902
+          ],
+          [
+            655,
+            904
+          ],
+          [
+            629,
+            882
+          ],
+          [
+            614,
+            842
+          ],
+          [
+            615,
+            807
+          ]
+        ],
+        "inner_feather_px": 4,
+        "protected_rectangles": {
+          "near_eye": [
+            930,
+            735,
+            1190,
+            906
+          ],
+          "nose": [
+            755,
+            915,
+            815,
+            982
+          ],
+          "mouth": [
+            785,
+            1025,
+            995,
+            1100
+          ],
+          "chin": [
+            640,
+            1110,
+            1150,
+            1300
+          ],
+          "upper_bang_tip": [
+            605,
+            700,
+            645,
+            750
+          ]
+        },
+        "selection_reason": "Focused crop redraw broadens visible far iris from 90 to 97 pixels while keeping centroid within 1px; only opening/iris/lower-lid patch is selected."
       }
     }
   ]

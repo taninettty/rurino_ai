@@ -1,5 +1,14 @@
 [
   {
+    "file": "left-eye-crop-generated.png",
+    "bytes": 1093543,
+    "sha256": "e0fa2d037f6770d4075cba70e061dc22404ac2abd2f856c00093cda8a0724134",
+    "task_id": "20261027204203206827456",
+    "resource_id": "res_a6c2afcdd1b946f18b705638e8239ea2",
+    "node_id": "i-dlGL6KQgGO",
+    "decoded": true
+  },
+  {
     "file": "turn-left-eye-generated.png",
     "bytes": 4226686,
     "sha256": "98e01c747a958db98005a2715f8d8fc8406ce0fb137a1dc1b24ba093674c5cdd",

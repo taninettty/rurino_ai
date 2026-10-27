@@ -1,8 +1,10 @@
-"""Composite selected local LibTV redraws, with no geometric transformation.
+"""Composite selected local LibTV redraws without anatomical warping.
 
 Selection is explicit in eye_calibration/patch-selection.json. No candidate is
 automatically accepted. Masks are polygon interiors with a small inner feather;
 all pixels outside each polygon and the full original alpha remain identical.
+Crop outputs may use a different pixel resolution. Normalize their resolution
+uniformly to the original crop box; never fit, rotate or warp facial landmarks.
 """
 import hashlib,json
 from pathlib import Path
@@ -26,10 +28,25 @@ def main():
         assert sha(source)==item['original_sha256']
         assert sha(candidate)==item['candidate_sha256']
         original=np.array(Image.open(source).convert('RGBA'))
-        generated=np.array(Image.open(candidate).convert('RGBA'))
+        generated_image=Image.open(candidate).convert('RGBA')
+        normalization=None
+        if 'candidate_crop_xyxy' in item:
+            x,y,r,b=item['candidate_crop_xyxy']
+            assert 0<=x<r<=2048 and 0<=y<b<=2048
+            assert generated_image.width*(b-y)==generated_image.height*(r-x)
+            assert list(generated_image.size)==item['candidate_dimensions']
+            normalization={'original_output_size':list(generated_image.size),
+                           'destination_crop_xyxy':[x,y,r,b],
+                           'method':'uniform resolution normalization, LANCZOS; fixed original crop position'}
+            generated=original.copy()
+            generated[y:b,x:r]=np.array(generated_image.resize((r-x,b-y),Image.Resampling.LANCZOS))
+        else:generated=np.array(generated_image)
         assert original.shape==generated.shape==(2048,2048,4)
         polygon=Image.new('L',(2048,2048));ImageDraw.Draw(polygon).polygon(item['polygon'],fill=255)
         inside=np.array(polygon)>0
+        if normalization:
+            crop_mask=np.zeros(inside.shape,bool);crop_mask[y:b,x:r]=True
+            assert not np.any(inside&~crop_mask)
         distance=cv2.distanceTransform(inside.astype('uint8'),cv2.DIST_L2,5)
         mask=np.minimum(distance/item['inner_feather_px'],1)
         # LibTV's nominally opaque face has alpha 252-254. Reject transparent
@@ -49,9 +66,10 @@ def main():
                         'changed_pixels':int(np.any(result!=original,axis=2).sum()),
                         'outside_polygon_exact':True,'original_alpha_exact':True,
                         'saved_png_roundtrip_exact':True,
+                        'crop_resolution_normalization':normalization,
                         'protected_rectangles_exact':item['protected_rectangles'],
                         'source':item})
-    (OUT/'qa/patch-verification.json').write_text(json.dumps({'method':'same-coordinate RGB compositing; no warp, resize, mirror or translation','patches':records},indent=2)+'\n')
+    (OUT/'qa/patch-verification.json').write_text(json.dumps({'method':'local RGB compositing; no anatomical warp or mirror; crop outputs use documented uniform pixel-resolution normalization','patches':records},indent=2)+'\n')
     print(json.dumps(records,indent=2))
 
 if __name__=='__main__':main()

@@ -230,27 +230,27 @@
       "note": "different pitch, eyelid openness and gaze: reference metrics are guides, not exact targets"
     },
     "left_after": {
-      "file": "rebuild_v3_4/turn_redraw/sources/turn-left-v2-source.png",
-      "sha256": "000870d6ab5329ba6be075384119ac40fd3148b2bfd4555ef48679651bc73c14",
+      "file": "rebuild_v3_4/turn_redraw/eye_calibration/corrected/turn-left-eye-calibrated.png",
+      "sha256": "a98e03edcd8653084f71525ebb29cf667a4f15f1c9a2f04c8904096d9eba481b",
       "eyes": [
         {
           "iris_bbox": [
-            640,
-            777,
-            730,
-            884
+            636,
+            776,
+            733,
+            885
           ],
           "iris_centroid": [
-            684.0373277516135,
-            828.8226059654631
+            683.5656905104817,
+            828.2706032965275
           ],
           "visible_fill_bbox": [
-            620,
+            617,
             753,
             758,
             885
           ],
-          "iris_pixels": 5733,
+          "iris_pixels": 6249,
           "touches_roi": false
         },
         {
@@ -274,15 +274,15 @@
           "touches_roi": false
         }
       ],
-      "far_near_visible_iris_width_ratio": 0.7258064516129032,
-      "far_near_visible_iris_aspect_ratio": 0.7800723545372324,
-      "iris_center_distance_px": 358.68940969697775,
+      "far_near_visible_iris_width_ratio": 0.782258064516129,
+      "far_near_visible_iris_aspect_ratio": 0.825318141461971,
+      "iris_center_distance_px": 359.1578057557866,
       "inner_visible_fill_gap_px": 198,
       "nose_mark_manual": [
         780,
         942
       ],
-      "nose_offset_along_eye_axis_over_center_distance": -0.23456091261222414,
+      "nose_offset_along_eye_axis_over_center_distance": -0.2331122800956399,
       "note": "different pitch, eyelid openness and gaze: reference metrics are guides, not exact targets"
     },
     "right_after": {
@@ -342,9 +342,7 @@
       "note": "different pitch, eyelid openness and gaze: reference metrics are guides, not exact targets"
     }
   },
-  "original_retained_not_corrected": [
-    "left_after"
-  ],
+  "original_retained_not_corrected": [],
   "limits": [
     "manual ROI and nose mark; low-resolution video; roughly 1-2 video pixels of boundary uncertainty",
     "eye corners hidden by lashes/hair are not recovered; fill bounds are not true anatomical canthi",

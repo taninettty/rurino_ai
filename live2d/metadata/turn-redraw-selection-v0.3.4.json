@@ -2,10 +2,10 @@
   "method": "two independently generated LibTV viewpoints, with selected local eye redraw patches; no face warp, mirror or interpolated animation",
   "selected_outputs": [
     {
-      "label": "LEFT / redrawn v2",
-      "file": "rebuild_v3_4/turn_redraw/sources/turn-left-v2-source.png",
-      "bytes": 4108815,
-      "sha256": "000870d6ab5329ba6be075384119ac40fd3148b2bfd4555ef48679651bc73c14",
+      "label": "LEFT / local eye redraw",
+      "file": "rebuild_v3_4/turn_redraw/eye_calibration/corrected/turn-left-eye-calibrated.png",
+      "bytes": 4089364,
+      "sha256": "a98e03edcd8653084f71525ebb29cf667a4f15f1c9a2f04c8904096d9eba481b",
       "dimensions": [
         2048,
         2048

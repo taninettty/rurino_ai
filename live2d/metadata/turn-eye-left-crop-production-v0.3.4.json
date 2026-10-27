@@ -1,0 +1,101 @@
+{
+  "request": {
+    "projectId": "963dde8d48a34e449f4b09ff2a381a57",
+    "name": "左转远侧眼 裁切局部重绘",
+    "nodeType": "image",
+    "model": "lib-image-2.5-s",
+    "left": [
+      "i-ZfjgukktPB"
+    ],
+    "prompt": "Retouch this exact eye close-up {{Node i-ZfjgukktPB}}. Keep exactly the same crop and framing, eyebrow, hair, nose and skin. Gently repaint the single visible turquoise iris so it is about twelve percent wider horizontally. Its center stays exactly where it is and its height stays the same. Retain its vertically oval perspective: it must remain clearly taller than wide. Adjust the small visible sclera and lower eyelid around it to fit the wider iris. Keep the original upper eyelash contour, clean anime line style, dark-blue pupil, turquoise-green iris gradient and two white light reflections. The task is a tiny precise change to eye anatomy, not a new portrait. Output one image of the SAME close-up, with no recropping, rotation, text or annotations.",
+    "params": {
+      "quality": "high",
+      "resolution": "1K",
+      "ratio": "1:1",
+      "background": "auto",
+      "count": 1
+    },
+    "run": true,
+    "idempotencyKey": "rurino-left-eye-crop-redraw-20261027-01"
+  },
+  "upload": {
+    "projectId": "963dde8d48a34e449f4b09ff2a381a57",
+    "status": "completed",
+    "idempotencyKey": "rurino-left-eye-crop-input-20261027-01",
+    "resourceId": "res_11322b3c0335440c83845a046f7394ee",
+    "nodeId": "i-ZfjgukktPB",
+    "task_id": "cop_1e260b25f506a154951ee846ebf5ea21",
+    "resource": {
+      "resource_id": "res_11322b3c0335440c83845a046f7394ee",
+      "remote_registered": true,
+      "review": {
+        "state": "passed"
+      }
+    },
+    "replayed": false,
+    "recovery": {
+      "action": "none",
+      "tool": "upload_media",
+      "projectId": "963dde8d48a34e449f4b09ff2a381a57",
+      "idempotencyKey": "rurino-left-eye-crop-input-20261027-01",
+      "preserveOriginalArguments": true
+    },
+    "message": "Media was attached to the canvas; use nodeId and resourceId below. A replay returns the original attachment receipt, not proof of current playback or rendering.",
+    "errorCode": null
+  },
+  "generation": {
+    "ok": true,
+    "projectId": "963dde8d48a34e449f4b09ff2a381a57",
+    "task_id": "20261027204203206827456",
+    "taskKind": "generation",
+    "status": "accepted",
+    "replayed": false,
+    "operationResult": {
+      "affectedNodes": {
+        "created": [
+          "i-dlGL6KQgGO"
+        ],
+        "deleted": [],
+        "updated": []
+      },
+      "graphRevision": "sha256-7888261e3dd079742e8ebcfcd91b471f8d791f0653fb0a5f3cc39b5a58a9faa3",
+      "operation": "create_node",
+      "previousGraphRevision": "sha256-cd5542b8daad9e43988386e01870384a06747b72e2fa12dfd5e6c1d88bc3333c",
+      "projectId": "963dde8d48a34e449f4b09ff2a381a57",
+      "schemaVersion": 1,
+      "subjectNodeId": "i-dlGL6KQgGO",
+      "subjectNodeType": "image",
+      "teamId": 0
+    },
+    "plan": {
+      "nodeId": "i-dlGL6KQgGO",
+      "nodeType": "image",
+      "warnings": [],
+      "incomingRecalcNodeKeys": [
+        "i-dlGL6KQgGO"
+      ],
+      "generationCount": 1
+    },
+    "canvasOperation": {
+      "task_id": "cop_2948cc765fca18322ffe3c6a5f4ed861",
+      "status": "completed"
+    },
+    "canvasOperationTaskId": "cop_2948cc765fca18322ffe3c6a5f4ed861",
+    "generation": {
+      "schema_version": 1,
+      "status": "accepted",
+      "task_id": "20261027204203206827456",
+      "tool_call_id": "run.08e33e4a482201099990e1428c947d4b48810fd7aec568f1b79579056ec0f50d"
+    },
+    "revision": {
+      "token": "sha256-96c22f7a209eb7cc6b5f92d1119d5620e197c1169fd6e631ff854e1d32163f11",
+      "fingerprint": "96c22f7a209eb7cc6b5f92d1119d5620e197c1169fd6e631ff854e1d32163f11",
+      "source": "api",
+      "projectUpdatedAtMs": 1792989373000
+    },
+    "currentStateVerification": "verified",
+    "projectName": "瑠璃乃日语说话测试",
+    "spaceId": 13010233,
+    "operationStateUnchanged": false
+  }
+}
