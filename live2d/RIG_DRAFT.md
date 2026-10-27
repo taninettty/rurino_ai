@@ -1,19 +1,30 @@
-# 瑠璃乃 Live2D 可运行绑定测试稿 v0.3
+# 瑠璃乃 Live2D 可运行绑定测试稿 v0.3.1
 
 更新：2026-10-27。已在真正的 Cubism Editor 中应用 Epsilon FREE 模板、校正对应部件、保存工程并导出运行模型。它是可运行的绑定初稿，画面精修尚未完成。
 
-[下载模型与工程](https://github.com/taninettty/rurino_ai/releases/tag/live2d-rig-v0.3) · [桌宠程序](../desktop/README.md)
+[下载模型与工程](https://github.com/taninettty/rurino_ai/releases/tag/live2d-rig-v0.3.1) · [桌宠程序](../desktop/README.md)
 
 ## Windows 直接使用
 
 1. 使用已有的 [desktop-chat-v0.2.1 桌宠程序](https://github.com/taninettty/rurino_ai/releases/tag/desktop-chat-v0.2.1)。
-2. 完整解压 `Rurino-Live2D-Runtime-v0.3.zip` 到固定目录，例如 `C:\Models\Rurino`。
+2. 完整解压 `Rurino-Live2D-Runtime-v0.3.1.zip` 到固定目录，例如 `C:\Models\Rurino`。
 3. 启动桌宠，选择包内 `runtime/Rurino.model3.json`。保留同目录的 `.moc3`、纹理、物理文件等，不能单独移动 JSON。
 4. 此模型包不含语音权重或聊天服务；继续使用已有 Ollama、Whisper 和用户训练的日语音色配置。
 
-运行模型不需要安装 Cubism Editor，也不需要重新拆分图片或绑定。`Rurino-Live2D-Source-v0.3.zip` 是继续编辑用的工程包，普通使用者不必下载。
+运行模型不需要安装 Cubism Editor，也不需要重新拆分图片或绑定。`Rurino-Live2D-Source-v0.3.1.zip` 是继续编辑用的工程包，普通使用者不必下载。
 
-## 本次实际完成
+## v0.3.1 面部修正
+
+- 重画左右对称的闭合嘴线，缩短过宽嘴角；清除张嘴时右侧残留嘴线与下唇遮盖层中的下巴轮廓。
+- 对称化口腔素材并校正它在实际网格中的水平偏移。张嘴颜色区域相对鼻部参考线的偏移由约 3.4 px 降至约 1.0 px（768×1024 渲染，仅作近似检查）。
+- 两侧眼白、瞳孔与上下睫毛作为完整部件组各向内移动 2 px；眼白素材横向收至 94%。这些是素材调整量，实际网格渲染位移不一定完全相同。
+- 按官方 PSD 再导入流程保留图层名称、顺序及对应关系，在已有绑定中替换素材，更新纹理并重新导出。没有要求使用者手动重新绑定。
+
+对照图：上排 v0.3，下排 v0.3.1；依次为闭嘴、半张嘴、张嘴。眼距为小幅调整，头部角度与裁切相同。
+
+![面部修正前后](preview/face-before-after-v0.3.1.jpg)
+
+## 已有绑定与本版保留
 
 - 33 个 ArtMesh、26 个有效参数、1 张 2048×2048 纹理；真实 `.moc3`，按 SDK 4.2 格式导出。
 - 对照官方 Epsilon 手动修正脸、鼻子、眼睛、嘴、头发、手臂的模板映射。
@@ -32,13 +43,15 @@
 
 仍待完成：头发边缘及肩侧缺口补画、闭眼睫毛线条清理和半闭眼色泽、较大转头的脸发衔接、头部 Z 轴歪头效果与头发物理的专项验收、自然手臂动作。现阶段适合小幅转头与口型测试，不能当作精修完成的模型。Windows 实机的透明窗口、麦克风、Ollama 与语音整链路尚未验收。
 
-![实际参数姿态检查](preview/rig-poses-v0.3.jpg)
+![实际参数姿态检查](preview/rig-poses-v0.3.1.jpg)
 
 ## 接着制作
 
-从工程包的 `Rurino_Template_Rig_Draft.cmo3` 继续，不必从旧版 v0.2 PSD 重绑。`Rurino_Template_Named.psd` 是此次实际导入的 33 层素材；`required_mapping.json` 记录语义部件与模板 ID。左右语义名称按观看者视角；模板 `ParamEyeL/ROpen` 按角色视角。
+本次最终导入素材为 t032，已写入工程与运行模型。
 
-当前修正已写入工程及运行文件。不要重新自动匹配后覆盖手动校正；即使 PSD 名称相同，Cubism 自动对应也曾把眼部和嘴部匹配错误。优先精修美术与闭眼过渡，每次重新导出后运行 `production/check_rig.py` 和桌宠 `tests/smoke_live2d.py` 并检查截图。
+从工程包的 `Rurino_Template_Rig_Draft.cmo3` 继续，不必从旧版 v0.2 PSD 重绑。`Rurino_Face_Corrected_t032.psd` 是此次实际导入的 33 层素材；`required_mapping.json` 记录语义部件与模板 ID。左右语义名称按观看者视角；模板 `ParamEyeL/ROpen` 按角色视角。
+
+当前修正已写入工程及运行文件。不要重新自动匹配后覆盖手动校正；即使 PSD 名称相同，Cubism 自动对应也曾把眼部和嘴部匹配错误。下一步优先精修闭眼睫毛线条与头发边缘，每次重新导出后运行 `production/check_rig.py` 和桌宠 `tests/smoke_live2d.py` 并检查截图。
 
 ## 来源
 
@@ -49,3 +62,5 @@
 - [Epsilon 样本](https://www.live2d.com/zh-CHS/learn/sample/epsilon/)
 - [素材使用条件](https://www.live2d.com/zh-CHS/learn/sample/model-terms/)
 - [无偿提供素材使用许可](https://www.live2d.com/eula/live2d-free-material-license-agreement_cn.html)
+
+PSD 更新参考：[官方再导入流程](https://docs.live2d.com/en/cubism-editor-manual/psd-re-import/)。

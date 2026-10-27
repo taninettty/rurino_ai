@@ -1,0 +1,21 @@
+{
+  "changed": [
+    "D_EYE_00",
+    "D_EYE_BALL_00",
+    "D_EYE_08",
+    "D_EYE_02",
+    "D_EYE_01",
+    "D_EYE_BALL_01",
+    "D_EYE_09",
+    "D_EYE_03",
+    "D_MOUTH_00",
+    "D_MOUTH_03",
+    "D_MOUTH_01"
+  ],
+  "review_eye_shift_px": {
+    "left": 2,
+    "right": -2
+  },
+  "sclera_width_scale": 0.94,
+  "note": "Must re-import, verify mapping, and export in Cubism."
+}

@@ -1,0 +1,13 @@
+{
+  "rebuild_v3": {
+    "open_mouth_color_centroid_x": 380.61944444444447,
+    "nose_reference_x": 384,
+    "horizontal_offset_px": -3.3805555555555316
+  },
+  "rebuild_v3_1": {
+    "open_mouth_color_centroid_x": 382.95538057742783,
+    "nose_reference_x": 384,
+    "horizontal_offset_px": -1.0446194225721683
+  },
+  "note": "Approximate mouth color centroid on 768x1024 actual SDK renders; not an anatomical landmark measurement."
+}
