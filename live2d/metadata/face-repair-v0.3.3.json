@@ -1,0 +1,35 @@
+{
+  "version": "v0.3.3",
+  "source_psd": "Rurino_Coordinated_Face_t052.psd",
+  "source_cmo3": "Rurino_Coordinated_Face.cmo3",
+  "face_material_width_scale": 0.94,
+  "rig_status": "exported and checked in actual SDK",
+  "face_keyforms": {
+    "X": [
+      -30,
+      0,
+      30
+    ],
+    "Y": [
+      -30,
+      0,
+      30
+    ],
+    "x_translation_at_endpoints_review_px": [
+      -20,
+      20
+    ],
+    "y_translation_at_endpoints_review_px": [
+      -12,
+      12
+    ],
+    "width_change_with_angle": 0
+  },
+  "neck": "Filled hidden V-shaped cutout in artwork; original mesh and collar retained",
+  "mouth": "Frontal mouth from v0.3.2 t044; removed old MouthForm mesh binding; one smile expression",
+  "limitations": [
+    "Simple corrective face translation, not a fully sculpted perspective turn",
+    "Hair edges, closed-eye lines, extreme turns remain imperfect",
+    "Windows hardware and full voice/chat chain not tested"
+  ]
+}

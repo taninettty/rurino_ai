@@ -1,6 +1,6 @@
 # 瑠璃乃 Live2D 桌宠程序 · 接入版
 
-本目录提供真正的 Cubism 模型播放器，以及已确认形象的导入界面。**瑠璃乃现有 [v0.3.1 可运行模型测试稿](../live2d/RIG_DRAFT.md)，可直接下载加载，精修尚未完成。** 没有模型时显示导入窗口；不会把立绘变成晃动的截图桌宠，也不包含此前被拒绝的举手动画。
+本目录提供真正的 Cubism 模型播放器，以及已确认形象的导入界面。**瑠璃乃现有 [v0.3.3 可运行模型测试稿](../live2d/RIG_DRAFT.md)，可直接下载加载，精修尚未完成。** 没有模型时显示导入窗口；不会把立绘变成晃动的截图桌宠，也不包含此前被拒绝的举手动画。
 
 [下载本地对话版](https://github.com/taninettty/rurino_ai/releases/tag/desktop-chat-v0.2.1) · [Ollama、录音和语音服务配置](CHAT.md)
 
@@ -32,7 +32,7 @@
 
 ## 给负责 Cubism 的 AI
 
-继续编辑请先读 [v0.3.1 工程与剩余问题](../live2d/RIG_DRAFT.md)。以下链接保留为历史资料：
+继续编辑请先读 [v0.3.3 工程与剩余问题](../live2d/RIG_DRAFT.md)。以下链接保留为历史资料：
 
 先读 [制作交接说明](https://github.com/taninettty/rurino_ai/blob/live2d-handoff/live2d/HANDOFF.md)，从 [素材 Release](https://github.com/taninettty/rurino_ai/releases/tag/live2d-prep-v0.2) 下载 PSD 并完成绑定。
 
@@ -47,7 +47,7 @@
 .venv\Scripts\python.exe tests\smoke_live2d.py C:\Models\Test\Test.model3.json
 ```
 
-第二项需要真实模型与可用的 OpenGL 上下文；测试应在隔离桌面执行，会创建并关闭测试窗口，使用临时设置，不写入正常桌宠设置。测试模型需有 `ParamMouthOpenY`。模型由独立的 [v0.3.1 Release](../live2d/RIG_DRAFT.md) 提供。
+第二项需要真实模型与可用的 OpenGL 上下文；测试应在隔离桌面执行，会创建并关闭测试窗口，使用临时设置，不写入正常桌宠设置。测试模型需有 `ParamMouthOpenY`。模型由独立的 [v0.3.3 Release](../live2d/RIG_DRAFT.md) 提供。
 
 验证记录：6 项资源检查测试通过；使用本地 Haru 测试资源在 Xvfb / Mesa 下通过真实透明渲染、静音和嘴型归零、置顶切换、拖动、缩放、设置保存、重新加载与退出检查。这个测试资源不含动作/物理，因此尚不能证明完整的动作和物理播放，也不能证明瑠璃乃绑定效果。
 
@@ -55,4 +55,4 @@ Windows 日志：`%LOCALAPPDATA%\RurinoLive2D\desktop.log`；原生库输出：�
 
 运行库来自 [live2d-py](https://github.com/Arkueid/live2d-py)，基于 Live2D Cubism SDK。依赖与 SDK 的使用、再分发遵循各自许可；本包不包含 Cubism Editor 或第三方测试模型。
 
-2026-10-27 更新：上述桌宠集成测试已使用瑠璃乃 v0.3.1 自身导出模型重新通过；姿态截图与剩余视觉问题见 [模型状态](../live2d/RIG_DRAFT.md)。这不代替 Windows 实机验收。
+2026-10-27 更新：上述桌宠集成测试已使用瑠璃乃 v0.3.3 自身导出模型重新通过；姿态截图与剩余视觉问题见 [模型状态](../live2d/RIG_DRAFT.md)。这不代替 Windows 实机验收。
