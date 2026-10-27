@@ -1,0 +1,77 @@
+{
+  "scope": "restrained frontal MouthForm raster references, not bound",
+  "source_psd_sha256": "52fe18bc6cd432bbe3637c015c875c3d0c447aad413f088bf05b26b2d45a0db3",
+  "form_parameters": {
+    "corner_y_shift_px_at_full_form": 6,
+    "width_scale_range": [
+      0.975,
+      1.025
+    ],
+    "center_x_global": 1019.5
+  },
+  "cases": [
+    {
+      "name": "Default_Closed",
+      "form": 0,
+      "opening": 0,
+      "psd_visible_rgb_max_error": 1,
+      "psd_alpha_max_error": 1,
+      "outside_mouth_roi_max_change": 0
+    },
+    {
+      "name": "Relaxed_Closed",
+      "form": -1,
+      "opening": 0,
+      "psd_visible_rgb_max_error": 1,
+      "psd_alpha_max_error": 1,
+      "outside_mouth_roi_max_change": 0
+    },
+    {
+      "name": "Relaxed_Half",
+      "form": -1,
+      "opening": 0.5,
+      "psd_visible_rgb_max_error": 1,
+      "psd_alpha_max_error": 1,
+      "outside_mouth_roi_max_change": 0
+    },
+    {
+      "name": "Relaxed_Open",
+      "form": -1,
+      "opening": 1,
+      "psd_visible_rgb_max_error": 2,
+      "psd_alpha_max_error": 1,
+      "outside_mouth_roi_max_change": 0
+    },
+    {
+      "name": "Smile_Closed",
+      "form": 1,
+      "opening": 0,
+      "psd_visible_rgb_max_error": 1,
+      "psd_alpha_max_error": 1,
+      "outside_mouth_roi_max_change": 0
+    },
+    {
+      "name": "Smile_Half",
+      "form": 1,
+      "opening": 0.5,
+      "psd_visible_rgb_max_error": 2,
+      "psd_alpha_max_error": 1,
+      "outside_mouth_roi_max_change": 0
+    },
+    {
+      "name": "Smile_Open",
+      "form": 1,
+      "opening": 1,
+      "psd_visible_rgb_max_error": 2,
+      "psd_alpha_max_error": 1,
+      "outside_mouth_roi_max_change": 0
+    }
+  ],
+  "layer_count": 76,
+  "clipping_layer_count": 18,
+  "psd_sha256": "9ed64745dcd291c3ecc12b6de9f105b24350d50ffe404e5df0ed18cb825b58af",
+  "limitations": [
+    "restrained smile/relaxed shape only; no vowel-specific visemes",
+    "no Cubism mesh, parameter binding, audio alignment or runtime model"
+  ]
+}

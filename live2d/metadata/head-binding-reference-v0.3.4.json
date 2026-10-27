@@ -1,0 +1,1105 @@
+{
+  "status": "binding planning reference only; no model has been bound",
+  "canvas": [
+    2048,
+    2048
+  ],
+  "layer_count": 76,
+  "coordinate_system": "image pixels, origin top-left, +X right, +Y down",
+  "proxy_parameters": {
+    "head_x_degrees": [
+      -8,
+      0,
+      8
+    ],
+    "head_y_degrees": [
+      -5,
+      0,
+      5
+    ],
+    "mouth_form": [
+      -1,
+      0,
+      1
+    ],
+    "mouth_open": [
+      0,
+      0.5,
+      1
+    ]
+  },
+  "layers": [
+    {
+      "group": "01_Body_and_Skin",
+      "layer": "BackHair_Concealed_Support",
+      "bbox": [
+        0,
+        109,
+        2048,
+        2048
+      ],
+      "clip_to": null,
+      "default_group_visible": true,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "01_Body_and_Skin",
+      "layer": "Skin_Concealed_Support",
+      "bbox": [
+        577,
+        174,
+        1472,
+        1275
+      ],
+      "clip_to": null,
+      "default_group_visible": true,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "01_Body_and_Skin",
+      "layer": "Ponytail_L",
+      "bbox": [
+        0,
+        977,
+        784,
+        2048
+      ],
+      "clip_to": null,
+      "default_group_visible": true,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "01_Body_and_Skin",
+      "layer": "Ponytail_R",
+      "bbox": [
+        1258,
+        787,
+        2048,
+        2048
+      ],
+      "clip_to": null,
+      "default_group_visible": true,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "01_Body_and_Skin",
+      "layer": "Body_Reference",
+      "bbox": [
+        220,
+        1302,
+        1714,
+        2048
+      ],
+      "clip_to": null,
+      "default_group_visible": true,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "01_Body_and_Skin",
+      "layer": "Neck_Reference",
+      "bbox": [
+        828,
+        1204,
+        1221,
+        1555
+      ],
+      "clip_to": null,
+      "default_group_visible": true,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "01_Body_and_Skin",
+      "layer": "Face_Reference",
+      "bbox": [
+        666,
+        278,
+        1373,
+        1288
+      ],
+      "clip_to": null,
+      "default_group_visible": true,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "01_Body_and_Skin",
+      "layer": "Ear_L",
+      "bbox": [
+        678,
+        936,
+        739,
+        1043
+      ],
+      "clip_to": null,
+      "default_group_visible": true,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "01_Body_and_Skin",
+      "layer": "Ear_R",
+      "bbox": [
+        1304,
+        938,
+        1366,
+        1043
+      ],
+      "clip_to": null,
+      "default_group_visible": true,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "02_Eyes_Open_DEFAULT",
+      "layer": "Eye_L_White_Open",
+      "bbox": [
+        707,
+        768,
+        931,
+        911
+      ],
+      "clip_to": null,
+      "default_group_visible": true,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "02_Eyes_Open_DEFAULT",
+      "layer": "Eye_L_Iris_Open",
+      "bbox": [
+        748,
+        778,
+        890,
+        912
+      ],
+      "clip_to": "Eye_L_White_Open",
+      "default_group_visible": true,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "02_Eyes_Open_DEFAULT",
+      "layer": "Eye_L_UpperLid_Open",
+      "bbox": [
+        666,
+        722,
+        927,
+        884
+      ],
+      "clip_to": null,
+      "default_group_visible": true,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "02_Eyes_Open_DEFAULT",
+      "layer": "Eye_L_LowerLid_Open",
+      "bbox": [
+        720,
+        884,
+        863,
+        923
+      ],
+      "clip_to": null,
+      "default_group_visible": true,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "02_Eyes_Open_DEFAULT",
+      "layer": "Eye_R_White_Open",
+      "bbox": [
+        1119,
+        765,
+        1338,
+        908
+      ],
+      "clip_to": null,
+      "default_group_visible": true,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "02_Eyes_Open_DEFAULT",
+      "layer": "Eye_R_Iris_Open",
+      "bbox": [
+        1153,
+        773,
+        1294,
+        912
+      ],
+      "clip_to": "Eye_R_White_Open",
+      "default_group_visible": true,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "02_Eyes_Open_DEFAULT",
+      "layer": "Eye_R_UpperLid_Open",
+      "bbox": [
+        1115,
+        719,
+        1378,
+        884
+      ],
+      "clip_to": null,
+      "default_group_visible": true,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "02_Eyes_Open_DEFAULT",
+      "layer": "Eye_R_LowerLid_Open",
+      "bbox": [
+        1180,
+        884,
+        1319,
+        921
+      ],
+      "clip_to": null,
+      "default_group_visible": true,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "03_Eyes_Half_ENABLE_ONLY_ONE_EYE_GROUP",
+      "layer": "Eye_L_White_Half",
+      "bbox": [
+        710,
+        822,
+        919,
+        893
+      ],
+      "clip_to": null,
+      "default_group_visible": false,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "03_Eyes_Half_ENABLE_ONLY_ONE_EYE_GROUP",
+      "layer": "Eye_L_Iris_Half",
+      "bbox": [
+        748,
+        778,
+        890,
+        912
+      ],
+      "clip_to": "Eye_L_White_Half",
+      "default_group_visible": false,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "03_Eyes_Half_ENABLE_ONLY_ONE_EYE_GROUP",
+      "layer": "Eye_L_UpperLid_Half",
+      "bbox": [
+        667,
+        742,
+        925,
+        869
+      ],
+      "clip_to": null,
+      "default_group_visible": false,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "03_Eyes_Half_ENABLE_ONLY_ONE_EYE_GROUP",
+      "layer": "Eye_L_LowerLid_Half",
+      "bbox": [
+        720,
+        874,
+        863,
+        898
+      ],
+      "clip_to": null,
+      "default_group_visible": false,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "03_Eyes_Half_ENABLE_ONLY_ONE_EYE_GROUP",
+      "layer": "Eye_R_White_Half",
+      "bbox": [
+        1125,
+        819,
+        1334,
+        890
+      ],
+      "clip_to": null,
+      "default_group_visible": false,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "03_Eyes_Half_ENABLE_ONLY_ONE_EYE_GROUP",
+      "layer": "Eye_R_Iris_Half",
+      "bbox": [
+        1153,
+        773,
+        1294,
+        912
+      ],
+      "clip_to": "Eye_R_White_Half",
+      "default_group_visible": false,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "03_Eyes_Half_ENABLE_ONLY_ONE_EYE_GROUP",
+      "layer": "Eye_R_UpperLid_Half",
+      "bbox": [
+        1117,
+        739,
+        1376,
+        866
+      ],
+      "clip_to": null,
+      "default_group_visible": false,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "03_Eyes_Half_ENABLE_ONLY_ONE_EYE_GROUP",
+      "layer": "Eye_R_LowerLid_Half",
+      "bbox": [
+        1180,
+        874,
+        1319,
+        896
+      ],
+      "clip_to": null,
+      "default_group_visible": false,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "04_Eyes_Closed_ENABLE_ONLY_ONE_EYE_GROUP",
+      "layer": "Eye_L_UpperLid_Closed",
+      "bbox": [
+        667,
+        751,
+        926,
+        881
+      ],
+      "clip_to": null,
+      "default_group_visible": false,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "04_Eyes_Closed_ENABLE_ONLY_ONE_EYE_GROUP",
+      "layer": "Eye_R_UpperLid_Closed",
+      "bbox": [
+        1116,
+        748,
+        1377,
+        879
+      ],
+      "clip_to": null,
+      "default_group_visible": false,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "05_Neutral_Mouth",
+      "layer": "Mouth_Neutral",
+      "bbox": [
+        934,
+        1086,
+        1106,
+        1117
+      ],
+      "clip_to": null,
+      "default_group_visible": true,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "05_Mouth_Open_ENABLE_ONLY_ONE_MOUTH_GROUP",
+      "layer": "Mouth_Cavity_Open",
+      "bbox": [
+        937,
+        1076,
+        1103,
+        1130
+      ],
+      "clip_to": null,
+      "default_group_visible": false,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "05_Mouth_Open_ENABLE_ONLY_ONE_MOUTH_GROUP",
+      "layer": "Mouth_Teeth_Open",
+      "bbox": [
+        963,
+        1076,
+        1077,
+        1087
+      ],
+      "clip_to": "Mouth_Cavity_Open",
+      "default_group_visible": false,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "05_Mouth_Open_ENABLE_ONLY_ONE_MOUTH_GROUP",
+      "layer": "Mouth_Tongue_Open",
+      "bbox": [
+        961,
+        1099,
+        1080,
+        1130
+      ],
+      "clip_to": "Mouth_Cavity_Open",
+      "default_group_visible": false,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "05_Mouth_Open_ENABLE_ONLY_ONE_MOUTH_GROUP",
+      "layer": "Mouth_UpperLip_Open",
+      "bbox": [
+        936,
+        1073,
+        1104,
+        1093
+      ],
+      "clip_to": null,
+      "default_group_visible": false,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "05_Mouth_Open_ENABLE_ONLY_ONE_MOUTH_GROUP",
+      "layer": "Mouth_LowerLip_Open",
+      "bbox": [
+        932,
+        1092,
+        1104,
+        1136
+      ],
+      "clip_to": null,
+      "default_group_visible": false,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "05_Mouth_Half_ENABLE_ONLY_ONE_MOUTH_GROUP",
+      "layer": "Mouth_Cavity_Half",
+      "bbox": [
+        937,
+        1089,
+        1103,
+        1116
+      ],
+      "clip_to": null,
+      "default_group_visible": false,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "05_Mouth_Half_ENABLE_ONLY_ONE_MOUTH_GROUP",
+      "layer": "Mouth_Teeth_Half",
+      "bbox": [
+        963,
+        1076,
+        1077,
+        1087
+      ],
+      "clip_to": "Mouth_Cavity_Half",
+      "default_group_visible": false,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "05_Mouth_Half_ENABLE_ONLY_ONE_MOUTH_GROUP",
+      "layer": "Mouth_Tongue_Half",
+      "bbox": [
+        961,
+        1099,
+        1080,
+        1130
+      ],
+      "clip_to": "Mouth_Cavity_Half",
+      "default_group_visible": false,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "05_Mouth_Half_ENABLE_ONLY_ONE_MOUTH_GROUP",
+      "layer": "Mouth_UpperLip_Half",
+      "bbox": [
+        936,
+        1085,
+        1104,
+        1095
+      ],
+      "clip_to": null,
+      "default_group_visible": false,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "05_Mouth_Half_ENABLE_ONLY_ONE_MOUTH_GROUP",
+      "layer": "Mouth_LowerLip_Half",
+      "bbox": [
+        932,
+        1090,
+        1104,
+        1123
+      ],
+      "clip_to": null,
+      "default_group_visible": false,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "05_Mouth_Small_ENABLE_ONLY_ONE_MOUTH_GROUP",
+      "layer": "Mouth_Cavity_Small",
+      "bbox": [
+        937,
+        1091,
+        1103,
+        1110
+      ],
+      "clip_to": null,
+      "default_group_visible": false,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "05_Mouth_Small_ENABLE_ONLY_ONE_MOUTH_GROUP",
+      "layer": "Mouth_Teeth_Small",
+      "bbox": [
+        963,
+        1076,
+        1077,
+        1087
+      ],
+      "clip_to": "Mouth_Cavity_Small",
+      "default_group_visible": false,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "05_Mouth_Small_ENABLE_ONLY_ONE_MOUTH_GROUP",
+      "layer": "Mouth_Tongue_Small",
+      "bbox": [
+        961,
+        1099,
+        1080,
+        1130
+      ],
+      "clip_to": "Mouth_Cavity_Small",
+      "default_group_visible": false,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "05_Mouth_Small_ENABLE_ONLY_ONE_MOUTH_GROUP",
+      "layer": "Mouth_UpperLip_Small",
+      "bbox": [
+        936,
+        1087,
+        1104,
+        1097
+      ],
+      "clip_to": null,
+      "default_group_visible": false,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "05_Mouth_Small_ENABLE_ONLY_ONE_MOUTH_GROUP",
+      "layer": "Mouth_LowerLip_Small",
+      "bbox": [
+        932,
+        1090,
+        1104,
+        1117
+      ],
+      "clip_to": null,
+      "default_group_visible": false,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "05_MouthForm_Relaxed_Closed_ENABLE_ONLY_ONE_MOUTH_GROUP",
+      "layer": "MouthForm_Neutral_Relaxed_Closed",
+      "bbox": [
+        936,
+        1090,
+        1104,
+        1117
+      ],
+      "clip_to": null,
+      "default_group_visible": false,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "05_MouthForm_Relaxed_Half_ENABLE_ONLY_ONE_MOUTH_GROUP",
+      "layer": "MouthForm_Cavity_Relaxed_Half",
+      "bbox": [
+        939,
+        1089,
+        1101,
+        1117
+      ],
+      "clip_to": null,
+      "default_group_visible": false,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "05_MouthForm_Relaxed_Half_ENABLE_ONLY_ONE_MOUTH_GROUP",
+      "layer": "MouthForm_Teeth_Relaxed_Half",
+      "bbox": [
+        964,
+        1076,
+        1076,
+        1088
+      ],
+      "clip_to": "MouthForm_Cavity_Relaxed_Half",
+      "default_group_visible": false,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "05_MouthForm_Relaxed_Half_ENABLE_ONLY_ONE_MOUTH_GROUP",
+      "layer": "MouthForm_Tongue_Relaxed_Half",
+      "bbox": [
+        962,
+        1099,
+        1079,
+        1131
+      ],
+      "clip_to": "MouthForm_Cavity_Relaxed_Half",
+      "default_group_visible": false,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "05_MouthForm_Relaxed_Half_ENABLE_ONLY_ONE_MOUTH_GROUP",
+      "layer": "MouthForm_UpperLip_Relaxed_Half",
+      "bbox": [
+        938,
+        1085,
+        1102,
+        1101
+      ],
+      "clip_to": null,
+      "default_group_visible": false,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "05_MouthForm_Relaxed_Half_ENABLE_ONLY_ONE_MOUTH_GROUP",
+      "layer": "MouthForm_LowerLip_Relaxed_Half",
+      "bbox": [
+        934,
+        1096,
+        1102,
+        1124
+      ],
+      "clip_to": null,
+      "default_group_visible": false,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "05_MouthForm_Relaxed_Open_ENABLE_ONLY_ONE_MOUTH_GROUP",
+      "layer": "MouthForm_Cavity_Relaxed_Open",
+      "bbox": [
+        939,
+        1076,
+        1101,
+        1131
+      ],
+      "clip_to": null,
+      "default_group_visible": false,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "05_MouthForm_Relaxed_Open_ENABLE_ONLY_ONE_MOUTH_GROUP",
+      "layer": "MouthForm_Teeth_Relaxed_Open",
+      "bbox": [
+        964,
+        1076,
+        1076,
+        1088
+      ],
+      "clip_to": "MouthForm_Cavity_Relaxed_Open",
+      "default_group_visible": false,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "05_MouthForm_Relaxed_Open_ENABLE_ONLY_ONE_MOUTH_GROUP",
+      "layer": "MouthForm_Tongue_Relaxed_Open",
+      "bbox": [
+        962,
+        1099,
+        1079,
+        1131
+      ],
+      "clip_to": "MouthForm_Cavity_Relaxed_Open",
+      "default_group_visible": false,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "05_MouthForm_Relaxed_Open_ENABLE_ONLY_ONE_MOUTH_GROUP",
+      "layer": "MouthForm_UpperLip_Relaxed_Open",
+      "bbox": [
+        938,
+        1073,
+        1102,
+        1099
+      ],
+      "clip_to": null,
+      "default_group_visible": false,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "05_MouthForm_Relaxed_Open_ENABLE_ONLY_ONE_MOUTH_GROUP",
+      "layer": "MouthForm_LowerLip_Relaxed_Open",
+      "bbox": [
+        934,
+        1097,
+        1102,
+        1137
+      ],
+      "clip_to": null,
+      "default_group_visible": false,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "05_MouthForm_Smile_Closed_ENABLE_ONLY_ONE_MOUTH_GROUP",
+      "layer": "MouthForm_Neutral_Smile_Closed",
+      "bbox": [
+        932,
+        1080,
+        1108,
+        1117
+      ],
+      "clip_to": null,
+      "default_group_visible": false,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "05_MouthForm_Smile_Half_ENABLE_ONLY_ONE_MOUTH_GROUP",
+      "layer": "MouthForm_Cavity_Smile_Half",
+      "bbox": [
+        934,
+        1084,
+        1106,
+        1116
+      ],
+      "clip_to": null,
+      "default_group_visible": false,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "05_MouthForm_Smile_Half_ENABLE_ONLY_ONE_MOUTH_GROUP",
+      "layer": "MouthForm_Teeth_Smile_Half",
+      "bbox": [
+        961,
+        1075,
+        1079,
+        1087
+      ],
+      "clip_to": "MouthForm_Cavity_Smile_Half",
+      "default_group_visible": false,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "05_MouthForm_Smile_Half_ENABLE_ONLY_ONE_MOUTH_GROUP",
+      "layer": "MouthForm_Tongue_Smile_Half",
+      "bbox": [
+        959,
+        1098,
+        1082,
+        1130
+      ],
+      "clip_to": "MouthForm_Cavity_Smile_Half",
+      "default_group_visible": false,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "05_MouthForm_Smile_Half_ENABLE_ONLY_ONE_MOUTH_GROUP",
+      "layer": "MouthForm_UpperLip_Smile_Half",
+      "bbox": [
+        933,
+        1080,
+        1107,
+        1091
+      ],
+      "clip_to": null,
+      "default_group_visible": false,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "05_MouthForm_Smile_Half_ENABLE_ONLY_ONE_MOUTH_GROUP",
+      "layer": "MouthForm_LowerLip_Smile_Half",
+      "bbox": [
+        929,
+        1084,
+        1107,
+        1123
+      ],
+      "clip_to": null,
+      "default_group_visible": false,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "05_MouthForm_Smile_Open_ENABLE_ONLY_ONE_MOUTH_GROUP",
+      "layer": "MouthForm_Cavity_Smile_Open",
+      "bbox": [
+        934,
+        1075,
+        1106,
+        1130
+      ],
+      "clip_to": null,
+      "default_group_visible": false,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "05_MouthForm_Smile_Open_ENABLE_ONLY_ONE_MOUTH_GROUP",
+      "layer": "MouthForm_Teeth_Smile_Open",
+      "bbox": [
+        961,
+        1075,
+        1079,
+        1087
+      ],
+      "clip_to": "MouthForm_Cavity_Smile_Open",
+      "default_group_visible": false,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "05_MouthForm_Smile_Open_ENABLE_ONLY_ONE_MOUTH_GROUP",
+      "layer": "MouthForm_Tongue_Smile_Open",
+      "bbox": [
+        959,
+        1098,
+        1082,
+        1130
+      ],
+      "clip_to": "MouthForm_Cavity_Smile_Open",
+      "default_group_visible": false,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "05_MouthForm_Smile_Open_ENABLE_ONLY_ONE_MOUTH_GROUP",
+      "layer": "MouthForm_UpperLip_Smile_Open",
+      "bbox": [
+        933,
+        1072,
+        1107,
+        1087
+      ],
+      "clip_to": null,
+      "default_group_visible": false,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "05_MouthForm_Smile_Open_ENABLE_ONLY_ONE_MOUTH_GROUP",
+      "layer": "MouthForm_LowerLip_Smile_Open",
+      "bbox": [
+        929,
+        1085,
+        1107,
+        1136
+      ],
+      "clip_to": null,
+      "default_group_visible": false,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "06_Foreground_Hair_and_Brows",
+      "layer": "SideHair_L",
+      "bbox": [
+        175,
+        201,
+        533,
+        1041
+      ],
+      "clip_to": null,
+      "default_group_visible": true,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "06_Foreground_Hair_and_Brows",
+      "layer": "SideHair_R",
+      "bbox": [
+        1489,
+        199,
+        1864,
+        1051
+      ],
+      "clip_to": null,
+      "default_group_visible": true,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "06_Foreground_Hair_and_Brows",
+      "layer": "Bang_L",
+      "bbox": [
+        625,
+        107,
+        1043,
+        1295
+      ],
+      "clip_to": null,
+      "default_group_visible": true,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "06_Foreground_Hair_and_Brows",
+      "layer": "CheekLock_L",
+      "bbox": [
+        452,
+        170,
+        865,
+        1313
+      ],
+      "clip_to": null,
+      "default_group_visible": true,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "06_Foreground_Hair_and_Brows",
+      "layer": "CheekLock_R",
+      "bbox": [
+        1206,
+        170,
+        1531,
+        1288
+      ],
+      "clip_to": null,
+      "default_group_visible": true,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "06_Foreground_Hair_and_Brows",
+      "layer": "FrontLock_R_Long",
+      "bbox": [
+        1454,
+        908,
+        1675,
+        2048
+      ],
+      "clip_to": null,
+      "default_group_visible": true,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "06_Foreground_Hair_and_Brows",
+      "layer": "Flower_L",
+      "bbox": [
+        424,
+        98,
+        733,
+        504
+      ],
+      "clip_to": null,
+      "default_group_visible": true,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "06_Foreground_Hair_and_Brows",
+      "layer": "Flower_R",
+      "bbox": [
+        1285,
+        97,
+        1604,
+        504
+      ],
+      "clip_to": null,
+      "default_group_visible": true,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "06_Foreground_Hair_and_Brows",
+      "layer": "Bang_R",
+      "bbox": [
+        1010,
+        106,
+        1405,
+        1285
+      ],
+      "clip_to": null,
+      "default_group_visible": true,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "06_Foreground_Hair_and_Brows",
+      "layer": "Brow_L",
+      "bbox": [
+        666,
+        638,
+        935,
+        706
+      ],
+      "clip_to": null,
+      "default_group_visible": true,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    },
+    {
+      "group": "06_Foreground_Hair_and_Brows",
+      "layer": "Brow_R",
+      "bbox": [
+        1104,
+        634,
+        1376,
+        698
+      ],
+      "clip_to": null,
+      "default_group_visible": true,
+      "suggested_shared_parent": "Head_XY_Reference",
+      "artmesh_id": null
+    }
+  ],
+  "instructions": [
+    "Create real Cubism meshes and a shared parent head deformer; IDs here are not assigned.",
+    "Use the 65x65 JSON grids only as coordinate references, not as importable Cubism files.",
+    "Keep only one eye-state group and one mouth-state group visible while examining raster references.",
+    "Convert reference states into real parameters, rather than showing all groups simultaneously.",
+    "All canvas positions below y=1480 are fixed in this study; upper collar lies in the transition zone.",
+    "Repaint newly exposed side surfaces and validate occlusion before increasing head angles."
+  ]
+}
