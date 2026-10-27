@@ -1,0 +1,71 @@
+{
+  "prompt": "Use case: precise-object-edit. Edit target {{Node i-o9sLdBuLml}}. Create exactly ONE registered Live2D MOUTH-OPEN technical source plate of the SAME front-facing character. Change ONLY the tiny mouth region. Keep the original mouth centered on the face and preserve the original left/right mouth corner x coordinates; the corners must remain level. Open the small mouth naturally as if speaking a soft 'a': a gently curved thin upper lip line, rounded shallow lower lip, dark warm burgundy oral cavity, a narrow white upper-teeth strip, a small soft pink tongue centered at the bottom. The open mouth height should be about one third of its width, not a wide grin or shouting mouth. Front view, balanced bilateral perspective, no sideways smirk, no slanted opening, no realistic protruding lips, no lipstick, no individual tooth outlines. Keep the original nose, cheeks, blush, chin contour, eyes, eyebrows, scalp, ears, neck and clothing exactly aligned and unchanged; do not widen or tilt the face. Keep the bald technical underpainting bald. Same 2K square canvas, same framing, true transparent background. No sheet, no labels, no extra expressions or views. Thin clean anime linework matching the source. Only the mouth changes.",
+  "model": "lib-image-2.5-s",
+  "params": {
+    "quality": "high",
+    "resolution": "2K",
+    "ratio": "1:1",
+    "background": "transparent",
+    "count": 1
+  },
+  "generation": {
+    "ok": true,
+    "projectId": "963dde8d48a34e449f4b09ff2a381a57",
+    "task_id": "20261027190203146387456",
+    "taskKind": "generation",
+    "status": "accepted",
+    "replayed": false,
+    "operationResult": {
+      "affectedNodes": {
+        "created": [
+          "i-GaiAAnH7VQ"
+        ],
+        "deleted": [],
+        "updated": []
+      },
+      "graphRevision": "sha256-6c755b1db74d10131d00923bcb1abace03743e70d6a4ee673e4f5ee9e14841a2",
+      "operation": "create_node",
+      "previousGraphRevision": "sha256-ef0b0808ec130bdfeb3ce57c45f44d3427d87ed975577ac0424e459ef3adc60c",
+      "projectId": "963dde8d48a34e449f4b09ff2a381a57",
+      "schemaVersion": 1,
+      "subjectNodeId": "i-GaiAAnH7VQ",
+      "subjectNodeType": "image",
+      "teamId": 0
+    },
+    "plan": {
+      "nodeId": "i-GaiAAnH7VQ",
+      "nodeType": "image",
+      "warnings": [],
+      "incomingRecalcNodeKeys": [
+        "i-GaiAAnH7VQ"
+      ],
+      "generationCount": 1
+    },
+    "canvasOperation": {
+      "task_id": "cop_5663365dc7a417f44024f3bb163bcff0",
+      "status": "completed"
+    },
+    "canvasOperationTaskId": "cop_5663365dc7a417f44024f3bb163bcff0",
+    "generation": {
+      "schema_version": 1,
+      "status": "accepted",
+      "task_id": "20261027190203146387456",
+      "tool_call_id": "run.a6603f2de05f6c122b177228d98a022bbd633b45d30c1b042c00dcdc6dce267f"
+    },
+    "revision": {
+      "token": "sha256-0cc8cf162df33dce8533d0db6aa0a1b299a52d8fee4d6c631fee32b51e1cecc6",
+      "fingerprint": "0cc8cf162df33dce8533d0db6aa0a1b299a52d8fee4d6c631fee32b51e1cecc6",
+      "source": "api",
+      "projectUpdatedAtMs": 1792989373000
+    },
+    "currentStateVerification": "verified",
+    "projectName": "瑠璃乃日语说话测试",
+    "spaceId": 13010233,
+    "operationStateUnchanged": false
+  },
+  "source_file": {
+    "name": "open-mouth-source.png",
+    "bytes": 3076010,
+    "sha256": "caffbc875570803f0fdfacf7460030652601f3f97c83c02d2a7a93758851ccee"
+  }
+}

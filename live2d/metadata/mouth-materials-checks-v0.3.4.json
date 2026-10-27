@@ -1,0 +1,89 @@
+{
+  "scope": "frontal mouth material study; no audio or Cubism lip-sync",
+  "registration": {
+    "source_bbox_global": [
+      943,
+      1066,
+      1094,
+      1141
+    ],
+    "target_corner_x_global": [
+      937,
+      1102
+    ],
+    "target_corner_y_global": 1092.4583333333333,
+    "x_scale": 1.0927152317880795,
+    "y_scale": 0.7333333333333333,
+    "removed_corner_tilt_dy": -0.10472972972972627,
+    "full_aperture_bbox_local": [
+      58,
+      36,
+      221,
+      89
+    ],
+    "teeth_pixels": 720,
+    "tongue_pixels": 2464
+  },
+  "poses": [
+    {
+      "openness": 0,
+      "outside_mouth_roi_max_change": 0,
+      "alpha_change_max": 1,
+      "aperture_alpha_sum": 0
+    },
+    {
+      "openness": 0.25,
+      "outside_mouth_roi_max_change": 0,
+      "alpha_change_max": 1,
+      "aperture_alpha_sum": 410194
+    },
+    {
+      "openness": 0.5,
+      "outside_mouth_roi_max_change": 0,
+      "alpha_change_max": 1,
+      "aperture_alpha_sum": 820474
+    },
+    {
+      "openness": 0.75,
+      "outside_mouth_roi_max_change": 0,
+      "alpha_change_max": 1,
+      "aperture_alpha_sum": 1230740
+    },
+    {
+      "openness": 1,
+      "outside_mouth_roi_max_change": 0,
+      "alpha_change_max": 1,
+      "aperture_alpha_sum": 1637505
+    }
+  ],
+  "apng_lossless": true,
+  "saved_psd_checks": [
+    {
+      "state": "Neutral",
+      "max_visible_rgb_error": 1,
+      "max_alpha_error": 1
+    },
+    {
+      "state": "Small",
+      "max_visible_rgb_error": 2,
+      "max_alpha_error": 1
+    },
+    {
+      "state": "Half",
+      "max_visible_rgb_error": 1,
+      "max_alpha_error": 1
+    },
+    {
+      "state": "Open",
+      "max_visible_rgb_error": 1,
+      "max_alpha_error": 1
+    }
+  ],
+  "layer_count": 54,
+  "psd_sha256": "52fe18bc6cd432bbe3637c015c875c3d0c447aad413f088bf05b26b2d45a0db3",
+  "limitations": [
+    "one frontal open-mouth family, not vowel-specific visemes",
+    "no audio alignment, Cubism mesh or exported runtime model",
+    "head X/Y perspectives and full-body rig remain pending"
+  ]
+}

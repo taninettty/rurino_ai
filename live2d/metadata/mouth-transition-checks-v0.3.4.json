@@ -1,0 +1,414 @@
+{
+  "states_checked": 101,
+  "aperture_pixelwise_monotonic": true,
+  "teeth_and_tongue_texture_and_position_unchanged": true,
+  "clipped_teeth_and_tongue_outside_aperture": 0,
+  "neutral_preserved_exactly": true,
+  "samples": [
+    {
+      "openness": 0.0,
+      "aperture_alpha_sum": 0
+    },
+    {
+      "openness": 0.01,
+      "aperture_alpha_sum": 21307
+    },
+    {
+      "openness": 0.02,
+      "aperture_alpha_sum": 34304
+    },
+    {
+      "openness": 0.03,
+      "aperture_alpha_sum": 49914
+    },
+    {
+      "openness": 0.04,
+      "aperture_alpha_sum": 66060
+    },
+    {
+      "openness": 0.05,
+      "aperture_alpha_sum": 82344
+    },
+    {
+      "openness": 0.06,
+      "aperture_alpha_sum": 98693
+    },
+    {
+      "openness": 0.07,
+      "aperture_alpha_sum": 115063
+    },
+    {
+      "openness": 0.08,
+      "aperture_alpha_sum": 131442
+    },
+    {
+      "openness": 0.09,
+      "aperture_alpha_sum": 147800
+    },
+    {
+      "openness": 0.1,
+      "aperture_alpha_sum": 164193
+    },
+    {
+      "openness": 0.11,
+      "aperture_alpha_sum": 180585
+    },
+    {
+      "openness": 0.12,
+      "aperture_alpha_sum": 196989
+    },
+    {
+      "openness": 0.13,
+      "aperture_alpha_sum": 213360
+    },
+    {
+      "openness": 0.14,
+      "aperture_alpha_sum": 229756
+    },
+    {
+      "openness": 0.15,
+      "aperture_alpha_sum": 246131
+    },
+    {
+      "openness": 0.16,
+      "aperture_alpha_sum": 262537
+    },
+    {
+      "openness": 0.17,
+      "aperture_alpha_sum": 278944
+    },
+    {
+      "openness": 0.18,
+      "aperture_alpha_sum": 295343
+    },
+    {
+      "openness": 0.19,
+      "aperture_alpha_sum": 311740
+    },
+    {
+      "openness": 0.2,
+      "aperture_alpha_sum": 328143
+    },
+    {
+      "openness": 0.21,
+      "aperture_alpha_sum": 344556
+    },
+    {
+      "openness": 0.22,
+      "aperture_alpha_sum": 360948
+    },
+    {
+      "openness": 0.23,
+      "aperture_alpha_sum": 377369
+    },
+    {
+      "openness": 0.24,
+      "aperture_alpha_sum": 393782
+    },
+    {
+      "openness": 0.25,
+      "aperture_alpha_sum": 410194
+    },
+    {
+      "openness": 0.26,
+      "aperture_alpha_sum": 426613
+    },
+    {
+      "openness": 0.27,
+      "aperture_alpha_sum": 443021
+    },
+    {
+      "openness": 0.28,
+      "aperture_alpha_sum": 459430
+    },
+    {
+      "openness": 0.29,
+      "aperture_alpha_sum": 475846
+    },
+    {
+      "openness": 0.3,
+      "aperture_alpha_sum": 492252
+    },
+    {
+      "openness": 0.31,
+      "aperture_alpha_sum": 508669
+    },
+    {
+      "openness": 0.32,
+      "aperture_alpha_sum": 525081
+    },
+    {
+      "openness": 0.33,
+      "aperture_alpha_sum": 541487
+    },
+    {
+      "openness": 0.34,
+      "aperture_alpha_sum": 557905
+    },
+    {
+      "openness": 0.35,
+      "aperture_alpha_sum": 574315
+    },
+    {
+      "openness": 0.36,
+      "aperture_alpha_sum": 590731
+    },
+    {
+      "openness": 0.37,
+      "aperture_alpha_sum": 607134
+    },
+    {
+      "openness": 0.38,
+      "aperture_alpha_sum": 623548
+    },
+    {
+      "openness": 0.39,
+      "aperture_alpha_sum": 639969
+    },
+    {
+      "openness": 0.4,
+      "aperture_alpha_sum": 656362
+    },
+    {
+      "openness": 0.41,
+      "aperture_alpha_sum": 672771
+    },
+    {
+      "openness": 0.42,
+      "aperture_alpha_sum": 689189
+    },
+    {
+      "openness": 0.43,
+      "aperture_alpha_sum": 705598
+    },
+    {
+      "openness": 0.44,
+      "aperture_alpha_sum": 722009
+    },
+    {
+      "openness": 0.45,
+      "aperture_alpha_sum": 738418
+    },
+    {
+      "openness": 0.46,
+      "aperture_alpha_sum": 754827
+    },
+    {
+      "openness": 0.47,
+      "aperture_alpha_sum": 771239
+    },
+    {
+      "openness": 0.48,
+      "aperture_alpha_sum": 787658
+    },
+    {
+      "openness": 0.49,
+      "aperture_alpha_sum": 804058
+    },
+    {
+      "openness": 0.5,
+      "aperture_alpha_sum": 820474
+    },
+    {
+      "openness": 0.51,
+      "aperture_alpha_sum": 836882
+    },
+    {
+      "openness": 0.52,
+      "aperture_alpha_sum": 853301
+    },
+    {
+      "openness": 0.53,
+      "aperture_alpha_sum": 869702
+    },
+    {
+      "openness": 0.54,
+      "aperture_alpha_sum": 886117
+    },
+    {
+      "openness": 0.55,
+      "aperture_alpha_sum": 902528
+    },
+    {
+      "openness": 0.56,
+      "aperture_alpha_sum": 918936
+    },
+    {
+      "openness": 0.57,
+      "aperture_alpha_sum": 935347
+    },
+    {
+      "openness": 0.58,
+      "aperture_alpha_sum": 951760
+    },
+    {
+      "openness": 0.59,
+      "aperture_alpha_sum": 968161
+    },
+    {
+      "openness": 0.6,
+      "aperture_alpha_sum": 984588
+    },
+    {
+      "openness": 0.61,
+      "aperture_alpha_sum": 1000990
+    },
+    {
+      "openness": 0.62,
+      "aperture_alpha_sum": 1017405
+    },
+    {
+      "openness": 0.63,
+      "aperture_alpha_sum": 1033812
+    },
+    {
+      "openness": 0.64,
+      "aperture_alpha_sum": 1050231
+    },
+    {
+      "openness": 0.65,
+      "aperture_alpha_sum": 1066634
+    },
+    {
+      "openness": 0.66,
+      "aperture_alpha_sum": 1083046
+    },
+    {
+      "openness": 0.67,
+      "aperture_alpha_sum": 1099466
+    },
+    {
+      "openness": 0.68,
+      "aperture_alpha_sum": 1115861
+    },
+    {
+      "openness": 0.69,
+      "aperture_alpha_sum": 1132278
+    },
+    {
+      "openness": 0.7,
+      "aperture_alpha_sum": 1148684
+    },
+    {
+      "openness": 0.71,
+      "aperture_alpha_sum": 1165100
+    },
+    {
+      "openness": 0.72,
+      "aperture_alpha_sum": 1181502
+    },
+    {
+      "openness": 0.73,
+      "aperture_alpha_sum": 1197932
+    },
+    {
+      "openness": 0.74,
+      "aperture_alpha_sum": 1214327
+    },
+    {
+      "openness": 0.75,
+      "aperture_alpha_sum": 1230740
+    },
+    {
+      "openness": 0.76,
+      "aperture_alpha_sum": 1247133
+    },
+    {
+      "openness": 0.77,
+      "aperture_alpha_sum": 1263554
+    },
+    {
+      "openness": 0.78,
+      "aperture_alpha_sum": 1279966
+    },
+    {
+      "openness": 0.79,
+      "aperture_alpha_sum": 1296362
+    },
+    {
+      "openness": 0.8,
+      "aperture_alpha_sum": 1312770
+    },
+    {
+      "openness": 0.81,
+      "aperture_alpha_sum": 1329171
+    },
+    {
+      "openness": 0.82,
+      "aperture_alpha_sum": 1345581
+    },
+    {
+      "openness": 0.83,
+      "aperture_alpha_sum": 1361977
+    },
+    {
+      "openness": 0.84,
+      "aperture_alpha_sum": 1378386
+    },
+    {
+      "openness": 0.85,
+      "aperture_alpha_sum": 1394782
+    },
+    {
+      "openness": 0.86,
+      "aperture_alpha_sum": 1411162
+    },
+    {
+      "openness": 0.87,
+      "aperture_alpha_sum": 1427566
+    },
+    {
+      "openness": 0.88,
+      "aperture_alpha_sum": 1443960
+    },
+    {
+      "openness": 0.89,
+      "aperture_alpha_sum": 1460343
+    },
+    {
+      "openness": 0.9,
+      "aperture_alpha_sum": 1476747
+    },
+    {
+      "openness": 0.91,
+      "aperture_alpha_sum": 1493137
+    },
+    {
+      "openness": 0.92,
+      "aperture_alpha_sum": 1509529
+    },
+    {
+      "openness": 0.93,
+      "aperture_alpha_sum": 1525896
+    },
+    {
+      "openness": 0.94,
+      "aperture_alpha_sum": 1542265
+    },
+    {
+      "openness": 0.95,
+      "aperture_alpha_sum": 1558610
+    },
+    {
+      "openness": 0.96,
+      "aperture_alpha_sum": 1574909
+    },
+    {
+      "openness": 0.97,
+      "aperture_alpha_sum": 1591089
+    },
+    {
+      "openness": 0.98,
+      "aperture_alpha_sum": 1607075
+    },
+    {
+      "openness": 0.99,
+      "aperture_alpha_sum": 1622468
+    },
+    {
+      "openness": 1.0,
+      "aperture_alpha_sum": 1637505
+    }
+  ],
+  "scope": "raster material checks; not Cubism binding or audio alignment"
+}
