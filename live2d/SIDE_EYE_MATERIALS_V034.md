@@ -1,5 +1,7 @@
 # 左右转头眼部分层工作稿
 
+后续进度：已新增[侧向清边与三组眨眼关键形](SIDE_BLINK_MATERIALS_V034.md)。下文保留此前 10 层检查点记录。
+
 本轮新增两份 2048×2048 PSD，每份 10 个像素图层、2 个虹膜裁切关系：
 
 - `left/Rurino_Turn_Left_Eye_Materials_v034.psd`

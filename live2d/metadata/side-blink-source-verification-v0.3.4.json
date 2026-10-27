@@ -1,0 +1,50 @@
+[
+  {
+    "file": "left-closed-generated.png",
+    "bytes": 2066220,
+    "dimensions": [
+      2048,
+      1024
+    ],
+    "sha256": "da94f70b6b7a95ff6d99ed7f3c5197a8434b1f9a3fc1d01a0327f7388ad5947f",
+    "resource_id": "res_8863aa87e0794ac4ae00b15e2e057482",
+    "task_id": "20261027214503226467456",
+    "size_and_decode_verified": true
+  },
+  {
+    "file": "left-half-generated.png",
+    "bytes": 2099854,
+    "dimensions": [
+      2048,
+      1024
+    ],
+    "sha256": "7a9a36bef8c3048faed56b3d202d7b9b6be04b496b39c80aaa64322ea75291d6",
+    "resource_id": "res_c761f38f448748beaa27c94e2250421e",
+    "task_id": "20261027214503477747456",
+    "size_and_decode_verified": true
+  },
+  {
+    "file": "right-closed-generated.png",
+    "bytes": 2017427,
+    "dimensions": [
+      2048,
+      1024
+    ],
+    "sha256": "c653ba2dedd4640f36e1c67046cf97fd4d04110b953ae23c6b808cbd24ed745e",
+    "resource_id": "res_20b80ca400dc43caaedc27fe546f5e34",
+    "task_id": "20261027214503910747456",
+    "size_and_decode_verified": true
+  },
+  {
+    "file": "right-half-generated.png",
+    "bytes": 2062353,
+    "dimensions": [
+      2048,
+      1024
+    ],
+    "sha256": "c7f810e8adc971e617259477d447c42f07166064f1751e702e77f158e8778e91",
+    "resource_id": "res_f41a4d0044104038b85cd3193a535ad2",
+    "task_id": "20261027214603058857456",
+    "size_and_decode_verified": true
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "side": "left",
+    "source_sha256": "a98e03edcd8653084f71525ebb29cf667a4f15f1c9a2f04c8904096d9eba481b",
+    "eyes": [
+      {
+        "eye": "Far",
+        "iris_rgb_preserved_pixels": 9926,
+        "iris_texture_scaled": false
+      },
+      {
+        "eye": "Near",
+        "iris_rgb_preserved_pixels": 13173,
+        "iris_texture_scaled": false
+      }
+    ],
+    "psd_sha256": "8a805cb37e52f187b0e04df105eff11d937d7cd2a4f8d9ccb415db306d5e73b6"
+  },
+  {
+    "side": "right",
+    "source_sha256": "a54733583600bd9001f2134c3c7f445f44403cdcb78ee5e1a4604609c8cc5089",
+    "eyes": [
+      {
+        "eye": "Near",
+        "iris_rgb_preserved_pixels": 13081,
+        "iris_texture_scaled": false
+      },
+      {
+        "eye": "Far",
+        "iris_rgb_preserved_pixels": 10861,
+        "iris_texture_scaled": false
+      }
+    ],
+    "psd_sha256": "d34929cf03ab65b33e0a986ec83a04af882e16bd7d960489470342d317347469"
+  }
+]

@@ -42,6 +42,7 @@ def main():
                                'limits':'static drawing review only; reference pitch and gaze differ; no fixed eye-gap ratio'}
     report['side_eye_layers']={'status':'separate 10-layer PSD for each side, small gaze material checks only',
                                'details':'eye_layers/STATUS.md','verification':'eye_layers/qa/saved-psd-verification.json'}
+    report['side_blink_materials']={'status':'two 20-layer PSDs; open/half/closed material keyforms, not a continuous rig', 'details':'side_blink_refinement/STATUS.md', 'verification':'side_blink_refinement/qa/saved-psd-verification.json'}
     (OUT/'selection.json').write_text(json.dumps(report,indent=2)+'\n')
     print(json.dumps({'outputs':len(records)-1,'source_files_verified':True,'source_geometry_modified':False},indent=2))
 

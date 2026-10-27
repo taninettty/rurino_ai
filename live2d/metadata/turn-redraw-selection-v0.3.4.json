@@ -69,5 +69,10 @@
     "status": "separate 10-layer PSD for each side, small gaze material checks only",
     "details": "eye_layers/STATUS.md",
     "verification": "eye_layers/qa/saved-psd-verification.json"
+  },
+  "side_blink_materials": {
+    "status": "two 20-layer PSDs; open/half/closed material keyforms, not a continuous rig",
+    "details": "side_blink_refinement/STATUS.md",
+    "verification": "side_blink_refinement/qa/saved-psd-verification.json"
   }
 }

@@ -1,0 +1,226 @@
+[
+  {
+    "side": "left",
+    "psd_sha256": "8a805cb37e52f187b0e04df105eff11d937d7cd2a4f8d9ccb415db306d5e73b6",
+    "pixel_layers": 20,
+    "clipping_layers": 4,
+    "saved_psd_states": [
+      {
+        "state": "Open",
+        "psd_vs_local_rgb_max": 8,
+        "alpha_max": 1,
+        "antialiased_pixels_rgb_error_over_3": 19,
+        "protected_pixels_unchanged_between_states": true
+      },
+      {
+        "state": "Half",
+        "psd_vs_local_rgb_max": 10,
+        "alpha_max": 1,
+        "antialiased_pixels_rgb_error_over_3": 17,
+        "protected_pixels_unchanged_between_states": true
+      },
+      {
+        "state": "Closed",
+        "psd_vs_local_rgb_max": 1,
+        "alpha_max": 1,
+        "antialiased_pixels_rgb_error_over_3": 0,
+        "protected_pixels_unchanged_between_states": true,
+        "cyan_iris_residue_pixels": 0
+      }
+    ],
+    "saved_psd_gaze_checks": [
+      {
+        "state": "Open",
+        "shift": [
+          -6,
+          0
+        ],
+        "outside_apertures_unchanged": true
+      },
+      {
+        "state": "Open",
+        "shift": [
+          6,
+          0
+        ],
+        "outside_apertures_unchanged": true
+      },
+      {
+        "state": "Open",
+        "shift": [
+          0,
+          -4
+        ],
+        "outside_apertures_unchanged": true
+      },
+      {
+        "state": "Open",
+        "shift": [
+          0,
+          4
+        ],
+        "outside_apertures_unchanged": true
+      },
+      {
+        "state": "Half",
+        "shift": [
+          -6,
+          0
+        ],
+        "outside_apertures_unchanged": true
+      },
+      {
+        "state": "Half",
+        "shift": [
+          6,
+          0
+        ],
+        "outside_apertures_unchanged": true
+      },
+      {
+        "state": "Half",
+        "shift": [
+          0,
+          -4
+        ],
+        "outside_apertures_unchanged": true
+      },
+      {
+        "state": "Half",
+        "shift": [
+          0,
+          4
+        ],
+        "outside_apertures_unchanged": true
+      }
+    ],
+    "iris_checks": [
+      {
+        "eye": "Far",
+        "open_half_iris_texture_and_offset_identical": true,
+        "sclera_cyan_residue_pixels": 0
+      },
+      {
+        "eye": "Near",
+        "open_half_iris_texture_and_offset_identical": true,
+        "sclera_cyan_residue_pixels": 0
+      }
+    ],
+    "outside_eye_band_context_exact_rgba": true,
+    "outside_eye_band_render_alpha_exact": true,
+    "outside_eye_band_render_visible_rgb_max": 1,
+    "scope": "three editable material keyforms; not continuous blink, head-turn or Cubism runtime validation"
+  },
+  {
+    "side": "right",
+    "psd_sha256": "d34929cf03ab65b33e0a986ec83a04af882e16bd7d960489470342d317347469",
+    "pixel_layers": 20,
+    "clipping_layers": 4,
+    "saved_psd_states": [
+      {
+        "state": "Open",
+        "psd_vs_local_rgb_max": 7,
+        "alpha_max": 1,
+        "antialiased_pixels_rgb_error_over_3": 18,
+        "protected_pixels_unchanged_between_states": true
+      },
+      {
+        "state": "Half",
+        "psd_vs_local_rgb_max": 11,
+        "alpha_max": 1,
+        "antialiased_pixels_rgb_error_over_3": 13,
+        "protected_pixels_unchanged_between_states": true
+      },
+      {
+        "state": "Closed",
+        "psd_vs_local_rgb_max": 1,
+        "alpha_max": 1,
+        "antialiased_pixels_rgb_error_over_3": 0,
+        "protected_pixels_unchanged_between_states": true,
+        "cyan_iris_residue_pixels": 0
+      }
+    ],
+    "saved_psd_gaze_checks": [
+      {
+        "state": "Open",
+        "shift": [
+          -6,
+          0
+        ],
+        "outside_apertures_unchanged": true
+      },
+      {
+        "state": "Open",
+        "shift": [
+          6,
+          0
+        ],
+        "outside_apertures_unchanged": true
+      },
+      {
+        "state": "Open",
+        "shift": [
+          0,
+          -4
+        ],
+        "outside_apertures_unchanged": true
+      },
+      {
+        "state": "Open",
+        "shift": [
+          0,
+          4
+        ],
+        "outside_apertures_unchanged": true
+      },
+      {
+        "state": "Half",
+        "shift": [
+          -6,
+          0
+        ],
+        "outside_apertures_unchanged": true
+      },
+      {
+        "state": "Half",
+        "shift": [
+          6,
+          0
+        ],
+        "outside_apertures_unchanged": true
+      },
+      {
+        "state": "Half",
+        "shift": [
+          0,
+          -4
+        ],
+        "outside_apertures_unchanged": true
+      },
+      {
+        "state": "Half",
+        "shift": [
+          0,
+          4
+        ],
+        "outside_apertures_unchanged": true
+      }
+    ],
+    "iris_checks": [
+      {
+        "eye": "Near",
+        "open_half_iris_texture_and_offset_identical": true,
+        "sclera_cyan_residue_pixels": 0
+      },
+      {
+        "eye": "Far",
+        "open_half_iris_texture_and_offset_identical": true,
+        "sclera_cyan_residue_pixels": 0
+      }
+    ],
+    "outside_eye_band_context_exact_rgba": true,
+    "outside_eye_band_render_alpha_exact": true,
+    "outside_eye_band_render_visible_rgb_max": 1,
+    "scope": "three editable material keyforms; not continuous blink, head-turn or Cubism runtime validation"
+  }
+]
