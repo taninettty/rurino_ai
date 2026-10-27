@@ -1,0 +1,120 @@
+{
+  "scope": "raster blink material study; no Cubism export",
+  "hair_edge_patches": [
+    {
+      "layer": "Bang_L",
+      "box": [
+        743,
+        730,
+        766,
+        793
+      ]
+    },
+    {
+      "layer": "Bang_R",
+      "box": [
+        1112,
+        791,
+        1128,
+        816
+      ]
+    }
+  ],
+  "registration": {
+    "L": {
+      "original_lash_x": [
+        667,
+        925
+      ],
+      "generated_lash_x": [
+        680,
+        922
+      ]
+    },
+    "R": {
+      "original_lash_x": [
+        1116,
+        1376
+      ],
+      "generated_lash_x": [
+        1125,
+        1367
+      ]
+    }
+  },
+  "poses": [
+    {
+      "openness": 1,
+      "outside_eye_boxes_max_change": 0,
+      "visible_aperture_alpha_sum": {
+        "L": 5736737,
+        "R": 5784936
+      },
+      "iris_texture_unchanged": true
+    },
+    {
+      "openness": 0.75,
+      "outside_eye_boxes_max_change": 0,
+      "visible_aperture_alpha_sum": {
+        "L": 4282519,
+        "R": 4323160
+      },
+      "iris_texture_unchanged": true
+    },
+    {
+      "openness": 0.5,
+      "outside_eye_boxes_max_change": 0,
+      "visible_aperture_alpha_sum": {
+        "L": 2849315,
+        "R": 2876675
+      },
+      "iris_texture_unchanged": true
+    },
+    {
+      "openness": 0.25,
+      "outside_eye_boxes_max_change": 0,
+      "visible_aperture_alpha_sum": {
+        "L": 1420681,
+        "R": 1434940
+      },
+      "iris_texture_unchanged": true
+    },
+    {
+      "openness": 0,
+      "outside_eye_boxes_max_change": 0,
+      "visible_aperture_alpha_sum": {
+        "L": 0,
+        "R": 0
+      },
+      "iris_texture_unchanged": true
+    }
+  ],
+  "neutral_changed_only_in_hair_edge_patches": true,
+  "apng_lossless": true,
+  "saved_psd_checks": [
+    {
+      "form": "Open",
+      "max_visible_rgb_error": 6,
+      "max_alpha_error": 1,
+      "visible_pixels_rgb_error_above_7": 0
+    },
+    {
+      "form": "Half",
+      "max_visible_rgb_error": 9,
+      "max_alpha_error": 1,
+      "visible_pixels_rgb_error_above_7": 2
+    },
+    {
+      "form": "Closed",
+      "max_visible_rgb_error": 1,
+      "max_alpha_error": 1,
+      "visible_pixels_rgb_error_above_7": 0
+    }
+  ],
+  "psd_sha256": "c179cb23dbcbb8bd82cd131f669e0e7ed3e97beed4c8f6a6e5809d4ef4223421",
+  "remaining": [
+    "small eye/hair matte edges still need manual cleanup",
+    "intermediate contours need visual review before mesh keyforms",
+    "no Cubism mesh, parameters, motions or Windows export"
+  ]
+}
