@@ -74,5 +74,10 @@
     "status": "two 20-layer PSDs; open/half/closed material keyforms, not a continuous rig",
     "details": "side_blink_refinement/STATUS.md",
     "verification": "side_blink_refinement/qa/saved-psd-verification.json"
+  },
+  "eye_correspondence": {
+    "status": "119-layer assembly; source art unchanged; per-eye partial blink guide anchors; not a registered head or rig",
+    "details": "eye_registration/STATUS.md",
+    "verification": "eye_registration/qa/saved-assembly-verification.json"
   }
 }

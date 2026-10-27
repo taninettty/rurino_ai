@@ -1,0 +1,112 @@
+{
+  "passed": true,
+  "pixel_layers": 119,
+  "unchanged_art_layers": 116,
+  "hidden_guide_layers": 3,
+  "clipping_layers": 26,
+  "views": {
+    "Left": {
+      "source_sha_unchanged": true,
+      "render_checks": [
+        {
+          "state": "Open",
+          "max_visible_rgb_difference": 0,
+          "max_alpha_difference": 0
+        },
+        {
+          "state": "Partial",
+          "max_visible_rgb_difference": 0,
+          "max_alpha_difference": 0
+        },
+        {
+          "state": "Closed",
+          "max_visible_rgb_difference": 0,
+          "max_alpha_difference": 0
+        }
+      ],
+      "guide_checks": {
+        "ImageLeft": {
+          "partial_anchor": 0.6738538051713182,
+          "samples_checked": 101,
+          "min_gap_step": -1.1368683772161603e-13
+        },
+        "ImageRight": {
+          "partial_anchor": 0.6546683676510915,
+          "samples_checked": 101,
+          "min_gap_step": 0.0
+        }
+      }
+    },
+    "Front": {
+      "source_sha_unchanged": true,
+      "render_checks": [
+        {
+          "state": "Open",
+          "max_visible_rgb_difference": 0,
+          "max_alpha_difference": 0
+        },
+        {
+          "state": "Partial",
+          "max_visible_rgb_difference": 0,
+          "max_alpha_difference": 0
+        },
+        {
+          "state": "Closed",
+          "max_visible_rgb_difference": 0,
+          "max_alpha_difference": 0
+        }
+      ],
+      "guide_checks": {
+        "ImageLeft": {
+          "partial_anchor": 0.49704289396704027,
+          "samples_checked": 101,
+          "min_gap_step": 0.0
+        },
+        "ImageRight": {
+          "partial_anchor": 0.4975024398131305,
+          "samples_checked": 101,
+          "min_gap_step": 0.0
+        }
+      }
+    },
+    "Right": {
+      "source_sha_unchanged": true,
+      "render_checks": [
+        {
+          "state": "Open",
+          "max_visible_rgb_difference": 0,
+          "max_alpha_difference": 0
+        },
+        {
+          "state": "Partial",
+          "max_visible_rgb_difference": 0,
+          "max_alpha_difference": 0
+        },
+        {
+          "state": "Closed",
+          "max_visible_rgb_difference": 0,
+          "max_alpha_difference": 0
+        }
+      ],
+      "guide_checks": {
+        "ImageLeft": {
+          "partial_anchor": 0.621976109194099,
+          "samples_checked": 101,
+          "min_gap_step": -1.1368683772161603e-13
+        },
+        "ImageRight": {
+          "partial_anchor": 0.5905683025081226,
+          "samples_checked": 101,
+          "min_gap_step": 0.0
+        }
+      }
+    }
+  },
+  "limits": [
+    "visible aperture endpoints are not hidden anatomical corners",
+    "iris references follow original gaze, not orbit centers",
+    "Partial artwork is NOT a universal 0.5 blink key",
+    "contour guides are preliminary interpolation targets, not meshes or visible animation",
+    "original view scale/neck registration and concealed lid/hair structure remain unresolved"
+  ]
+}
