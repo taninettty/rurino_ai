@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-27",
+  "stage": "rig draft; visual polish incomplete",
+  "parameters": 26,
+  "drawables": 33,
+  "standard_ids": true,
+  "runtime_format": "SDK 4.2",
+  "render_check": "12 poses + 96-frame controlled SDK preview",
+  "desktop_smoke": "PASS: transparent render, mouth/mute, sizing, topmost, drag, settings, reload, cleanup",
+  "environment": "Linux Xvfb/Mesa; live2d-py 1.0.0",
+  "windows_verified": false,
+  "audio_in_preview": false
+}

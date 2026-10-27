@@ -1,0 +1,158 @@
+[
+  {
+    "id": "ParamAngleX",
+    "min": -30.0,
+    "max": 30.0,
+    "default": 0.0
+  },
+  {
+    "id": "ParamAngleY",
+    "min": -30.0,
+    "max": 30.0,
+    "default": 0.0
+  },
+  {
+    "id": "ParamAngleZ",
+    "min": -30.0,
+    "max": 30.0,
+    "default": 0.0
+  },
+  {
+    "id": "ParamEyeLOpen",
+    "min": 0.0,
+    "max": 1.5,
+    "default": 1.0
+  },
+  {
+    "id": "ParamEyeLSmile",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.0
+  },
+  {
+    "id": "ParamEyeROpen",
+    "min": 0.0,
+    "max": 1.5,
+    "default": 1.0
+  },
+  {
+    "id": "ParamEyeRSmile",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.0
+  },
+  {
+    "id": "ParamEyeBallX",
+    "min": -1.0,
+    "max": 1.0,
+    "default": 0.0
+  },
+  {
+    "id": "ParamEyeBallY",
+    "min": -1.0,
+    "max": 1.0,
+    "default": 0.0
+  },
+  {
+    "id": "ParamBrowLY",
+    "min": -1.0,
+    "max": 1.0,
+    "default": 0.0
+  },
+  {
+    "id": "ParamBrowRY",
+    "min": -1.0,
+    "max": 1.0,
+    "default": 0.0
+  },
+  {
+    "id": "ParamBrowLX",
+    "min": -1.0,
+    "max": 1.0,
+    "default": 0.0
+  },
+  {
+    "id": "ParamBrowRX",
+    "min": -1.0,
+    "max": 1.0,
+    "default": 0.0
+  },
+  {
+    "id": "ParamBrowLAngle",
+    "min": -1.0,
+    "max": 1.0,
+    "default": 0.0
+  },
+  {
+    "id": "ParamBrowRAngle",
+    "min": -1.0,
+    "max": 1.0,
+    "default": 0.0
+  },
+  {
+    "id": "ParamBrowLForm",
+    "min": -1.0,
+    "max": 1.0,
+    "default": 0.0
+  },
+  {
+    "id": "ParamBrowRForm",
+    "min": -1.0,
+    "max": 1.0,
+    "default": 0.0
+  },
+  {
+    "id": "ParamMouthForm",
+    "min": -1.0,
+    "max": 1.0,
+    "default": 1.0
+  },
+  {
+    "id": "ParamMouthOpenY",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.0
+  },
+  {
+    "id": "ParamBodyAngleX",
+    "min": -10.0,
+    "max": 10.0,
+    "default": 0.0
+  },
+  {
+    "id": "ParamBodyAngleZ",
+    "min": -10.0,
+    "max": 10.0,
+    "default": 0.0
+  },
+  {
+    "id": "ParamBodyAngleY",
+    "min": -10.0,
+    "max": 10.0,
+    "default": 0.0
+  },
+  {
+    "id": "ParamArmL",
+    "min": -10.0,
+    "max": 20.0,
+    "default": 0.0
+  },
+  {
+    "id": "ParamArmR",
+    "min": -10.0,
+    "max": 20.0,
+    "default": 0.0
+  },
+  {
+    "id": "ParamBreath",
+    "min": 0.0,
+    "max": 1.0,
+    "default": 0.0
+  },
+  {
+    "id": "ParamHairBack",
+    "min": -1.0,
+    "max": 1.0,
+    "default": 0.0
+  }
+]
