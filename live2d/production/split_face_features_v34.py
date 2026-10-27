@@ -9,6 +9,7 @@ from PIL import Image,ImageDraw,ImageFilter
 from psd_tools import PSDImage
 from psd_tools.api.layers import Group,PixelLayer
 from split_head_v34 import OUT as BASE,thumbnail,mask
+from export_gaze_v34 import export_frames
 BROWS=BASE/'brow_refinement';OUT=BASE/'face_features';SIZE=(2048,2048)
 OCCLUDERS={
  'CheekLock_L':'M 305 335 L 339 335 C 332 375 330 408 339 444 Q 345 465 350 480 L 305 480 Z',
@@ -204,7 +205,7 @@ def main():
     for k in range(36):
         gaze=(round(12*np.sin(k*2*np.pi/36)),round(5*np.sin(k*4*np.pi/36)))
         im=render(gaze);tile=thumbnail(im.crop((380,180,1660,1400)),(640,640),(225,229,237));ImageDraw.Draw(tile).text((12,10),'IRIS CLIPPING CHECK / MATERIALS ONLY',fill=(40,45,60));frames.append(tile)
-    frames[0].save(OUT/'qa/gaze-material-check.gif',save_all=True,append_images=frames[1:],duration=90,loop=0,disposal=2)
+    export_frames(frames, OUT/'qa')
     thumbnail(neutral,(800,800),(225,229,237)).save(OUT/'qa/head-progress.jpg',quality=95)
     report={'status':'facial material checkpoint; not rigged','layer_count':len(allparts),'iris_ellipses_in_2048':ellipses,'neutral_vs_previous_mean_rgb':float(delta[:,:,:3].mean()),'psd_alpha_error_max':int(diff[:,:,3].max()),'psd_rgb_error_max':int(diff[:,:,:3][expected[:,:,3]>0].max()),'gaze_tests':tests,'remaining':['inspect edge matting and neutral eye likeness before Cubism import','eye closure requires eyelid/white keyforms and masking, not whole-eye scaling','neutral mouth only, no open mouth cavity or lip-sync forms','head X/Y perspective and full-body integration remain pending','shared rear support still needs separate tail-root ownership']}
     (OUT/'qa/checks.json').write_text(json.dumps(report,indent=2));(OUT/'manifest.json').write_text(json.dumps({'canvas':SIZE,'layers':[{'name':n,'file':'layers/'+n+'.png','clip_to':n.replace('_Iris','_White') if n.endswith('_Iris') else None} for n in allparts]},indent=2))

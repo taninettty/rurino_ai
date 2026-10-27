@@ -25,6 +25,19 @@
 
 预览：`qa/psd-gaze-verification.jpg`（实际 PSD 五姿态）；`qa/gaze-material-check.gif`（连续素材位移演示）；`qa/facial-layer-sheet.jpg`（拆层概览）；`qa/features-hidden.png`（检查底图残留）。
 
+## 视线预览跳色修复
+
+旧 GIF 逐帧生成调色板，导致青蓝虹膜随帧跳色；检查中有 37,410 个原本静止的像素也发生了颜色变化。此问题发生在预览编码环节。
+
+- 新 GIF 使用整段共用的 256 色调色板并关闭误差扩散；原本静止的像素闪色数量降为 0。GIF 仍有颜色量化损失。
+- 新增 `qa/gaze-material-check.png`，这是 36 帧无损 APNG。以它作为颜色验收预览，解码后与渲染帧的 RGB 最大差为 0。
+- 连续跟踪左眼 13,891、右眼 13,851 个无遮挡的虹膜像素，36 帧内 RGB 最大差均为 0。中性合成与原保存 PNG 完全一致。
+- 此次只修复预览导出，没有修改 PSD、眼球贴图或绑定。眼发交界收整与完整眨眼仍待制作。
+
+详细检查：[颜色检查报告](metadata/gaze-colour-checks-v0.3.4.json)；前后对比：[颜色对照图](preview/gaze-colour-comparison-v0.3.4.png)。可单独运行 `python production/export_gaze_v34.py` 从现有 PNG 重导出并检查，无需重建 PSD。
+
+![无损视线预览](preview/material-gaze-v0.3.4.png)
+
 ## 仍需制作，当前不能称为成品
 
 1. 刘海尖端与眼睑交界处还有细小边缘需要收整；完整闭眼前必须再次检查遮挡和线条，不应只看睁眼合成。

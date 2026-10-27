@@ -1,0 +1,34 @@
+{
+  "scope": "preview encoding, unchanged PSD and material textures",
+  "frames": 36,
+  "old_gif": {
+    "stationary_pixels": 399486,
+    "stationary_pixels_recoloured": 37410,
+    "max_rgb_error": 54,
+    "eye_crop_mean_absolute_rgb_error": 3.7129409775071878,
+    "eye_crop_p95_absolute_rgb_error": 17.0
+  },
+  "shared_palette_gif": {
+    "stationary_pixels": 399486,
+    "stationary_pixels_recoloured": 0,
+    "max_rgb_error": 46,
+    "eye_crop_mean_absolute_rgb_error": 2.460498336997576,
+    "eye_crop_p95_absolute_rgb_error": 8.0
+  },
+  "lossless_apng": {
+    "stationary_pixels": 399486,
+    "stationary_pixels_recoloured": 0,
+    "max_rgb_error": 0,
+    "eye_crop_mean_absolute_rgb_error": 0.0,
+    "eye_crop_p95_absolute_rgb_error": 0.0
+  },
+  "tracked_iris_texels": {
+    "L": 13891,
+    "R": 13851
+  },
+  "tracked_iris_rgb_error_max": {
+    "L": 0,
+    "R": 0
+  },
+  "limitation": "GIF remains limited to 256 colours; use APNG for colour review"
+}
