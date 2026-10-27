@@ -22,8 +22,6 @@ PSD 中所有以 `05_` 开头的嘴部分组，每次只能显示一个。原默
 
 在完成上一轮嘴部素材之后运行：`python production/build_expression_materials_v34.py`。使用已有本地素材，不调用 LibTV。
 
-同期小角度头部变形研究见 `../head_motion_study/STATUS.md`；本 PSD 本身仍是正面分层稿，不能将转头 PNG 误认为已绑定的侧脸分层。
+转头阶段改为独立重绘多视角，见 `../turn_redraw/STATUS.md`。此前正面图变形方案已撤回，不作为转头绑定依据。
 
-![本轮预览](preview/mouth-form-keyforms-v0.3.4.jpg)
-
-完整 PSD、PNG 与控制网格在 v0.3.4 GitHub 草稿源码 ZIP 内。
+![嘴角表情](preview/mouth-form-keyforms-v0.3.4.jpg)

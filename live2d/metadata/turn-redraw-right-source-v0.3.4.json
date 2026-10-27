@@ -1,0 +1,83 @@
+{
+  "projectId": "963dde8d48a34e449f4b09ff2a381a57",
+  "sourceNode": "i-KDiHAjQU4C",
+  "model": "lib-image-2.5-s",
+  "params": {
+    "quality": "high",
+    "resolution": "2K",
+    "ratio": "1:1",
+    "background": "transparent",
+    "count": 1
+  },
+  "prompt": "Use {{Node i-KDiHAjQU4C}} as the exact character identity and art-style reference. Create ONE newly drawn head-and-shoulders view of the same Osawa Rurino, now turning her head about 20 degrees toward the viewer's RIGHT while her shoulders remain frontal. This must be a believable new three-dimensional viewpoint, with anatomically coherent perspective and redrawn occlusions, NOT a horizontally stretched, skewed, liquified, mirrored or translated frontal face. The nose points slightly RIGHT on the image; the eye on image-right is the farther eye and appears naturally a little narrower; the cheek on image-left is the nearer cheek; redraw the nose plane, mouth perspective, chin and jaw silhouette, visible near ear and hair overlap for this angle. Both eyes remain visible, gaze follows the head gently. Keep the head upright with no roll and no pitch, closed mouth with the same soft smile. Preserve exactly the character's teal irises, eyelash design, compact cheek-to-jaw proportions, original asymmetric blonde forehead parting and side locks, blue/lavender hair tips, two long ponytails, pink-and-white flower ornaments, wine-red sailor uniform with white gold-trimmed collar. Do not swap or mirror the asymmetric bangs or flower arrangement. Maintain the same head size, neck pivot location, camera distance, centered head-and-shoulders framing, full top of head, level shoulders and lower crop as the reference. Natural toon 3D-like surface shading and thin clean lines matching the source; no generic redesign, no cheek inflation, no oversized face, no huge eyes. Newly expose and draw the appropriate side face and rear hair volume. Hands out of frame. True transparent alpha background, single full composition, no collage, no grids, no labels, no text. One image only.",
+  "generation": {
+    "ok": true,
+    "projectId": "963dde8d48a34e449f4b09ff2a381a57",
+    "task_id": "20261027194703005267456",
+    "taskKind": "generation",
+    "status": "accepted",
+    "replayed": false,
+    "operationResult": {
+      "affectedNodes": {
+        "created": [
+          "i-5vzWygpNaL"
+        ],
+        "deleted": [],
+        "updated": []
+      },
+      "graphRevision": "sha256-3e7eec5d7e5dc97cb98ae7d812ff19ef58108981462d8cbb643e2f406e79dc36",
+      "operation": "create_node",
+      "previousGraphRevision": "sha256-41925b6aca118a6bc4ef7ab9ea4c62276c3188ddcf744248ad2c09c78fbed71a",
+      "projectId": "963dde8d48a34e449f4b09ff2a381a57",
+      "schemaVersion": 1,
+      "subjectNodeId": "i-5vzWygpNaL",
+      "subjectNodeType": "image",
+      "teamId": 0
+    },
+    "plan": {
+      "nodeId": "i-5vzWygpNaL",
+      "nodeType": "image",
+      "warnings": [],
+      "incomingRecalcNodeKeys": [
+        "i-5vzWygpNaL"
+      ],
+      "generationCount": 1
+    },
+    "canvasOperation": {
+      "task_id": "cop_9d8019cc20112c8692b6bf8129d7dc17",
+      "status": "completed"
+    },
+    "canvasOperationTaskId": "cop_9d8019cc20112c8692b6bf8129d7dc17",
+    "generation": {
+      "schema_version": 1,
+      "status": "accepted",
+      "task_id": "20261027194703005267456",
+      "tool_call_id": "run.21c74d4cdbb619f7dfd322234cebd56861af6f5b24b7b43b5bb067803b3831d1"
+    },
+    "revision": {
+      "token": "sha256-76ee800f0919de9e10dbce3a3025aa0984d69cefd53040b2407aa9bb3a7b82d2",
+      "fingerprint": "76ee800f0919de9e10dbce3a3025aa0984d69cefd53040b2407aa9bb3a7b82d2",
+      "source": "api",
+      "projectUpdatedAtMs": 1792989373000
+    },
+    "currentStateVerification": "verified",
+    "projectName": "\u7460\u7483\u4e43\u65e5\u8bed\u8bf4\u8bdd\u6d4b\u8bd5",
+    "spaceId": 13010233,
+    "operationStateUnchanged": false
+  },
+  "user_constraint": "\u4e0d\u8981\u9760\u7740\u62c9\u4f38\u8f6c\u5934\u554a",
+  "method": "independent redrawn viewpoint; no source-face warp",
+  "idempotencyKey": "rurino-v034-turn-redraw-right-20261027-01",
+  "source_file": {
+    "name": "turn-right-source.png",
+    "bytes": 3981536,
+    "sha256": "d4a62384ad2adda6014cb9e9a9ba28b753577653f112f08ec0c661bf8587b275",
+    "dimensions": [
+      2048,
+      2048
+    ]
+  },
+  "terminal_status": "SUCCEEDED",
+  "actual_output_count": 1,
+  "selected": true
+}

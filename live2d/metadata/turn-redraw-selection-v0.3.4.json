@@ -1,0 +1,62 @@
+{
+  "method": "two independently generated LibTV viewpoints; no face warp, mirror or interpolated animation",
+  "selected_outputs": [
+    {
+      "label": "LEFT / redrawn v2",
+      "file": "rebuild_v3_4/turn_redraw/sources/turn-left-v2-source.png",
+      "bytes": 4108815,
+      "sha256": "000870d6ab5329ba6be075384119ac40fd3148b2bfd4555ef48679651bc73c14",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "zero_alpha_pixels": 1268299
+    },
+    {
+      "label": "FRONT / identity reference",
+      "file": "reference_v34/rurino_head_master_v34.png",
+      "bytes": 3913582,
+      "sha256": "f087be664e47ac91a800db730c6264d2cbed0e41386befefca7fcfc559374162",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "zero_alpha_pixels": 1261819
+    },
+    {
+      "label": "RIGHT / independently redrawn",
+      "file": "rebuild_v3_4/turn_redraw/sources/turn-right-source.png",
+      "bytes": 3981536,
+      "sha256": "d4a62384ad2adda6014cb9e9a9ba28b753577653f112f08ec0c661bf8587b275",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "zero_alpha_pixels": 1316535
+    }
+  ],
+  "status": "viewpoint drawing references; not split or rigged",
+  "display_only": {
+    "common_crop": [
+      180,
+      0,
+      1868,
+      1540
+    ],
+    "uniform_thumbnail_max_size": [
+      600,
+      620
+    ]
+  },
+  "review": {
+    "left_v1": "superseded: larger apparent turn and unwanted head roll",
+    "left_v2": "more level eye line; new near ear, far eye and jaw drawing",
+    "right": "new near ear, far eye and jaw drawing; asymmetric bangs retained"
+  },
+  "remaining": [
+    "precise head scale and neck/body registration",
+    "per-part side-view separation and concealed-area painting",
+    "Cubism parameter meshes and changing occlusion validation"
+  ],
+  "rejected_method": "earlier shared-coordinate head warp withdrawn at user request"
+}

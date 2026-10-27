@@ -1,0 +1,86 @@
+{
+  "projectId": "963dde8d48a34e449f4b09ff2a381a57",
+  "sourceNodes": [
+    "i-KDiHAjQU4C",
+    "i-5vzWygpNaL"
+  ],
+  "model": "lib-image-2.5-s",
+  "params": {
+    "quality": "high",
+    "resolution": "2K",
+    "ratio": "1:1",
+    "background": "transparent",
+    "count": 1
+  },
+  "prompt": "Create ONE corrected LEFT-turn key drawing of Osawa Rurino. Exact frontal identity and asymmetric hair design: {{Node i-KDiHAjQU4C}}. Opposite-side TURN ANGLE AND UPRIGHT POSTURE benchmark: {{Node i-5vzWygpNaL}}. Use the frontal character as the identity, and make the same modest amount of yaw as the second reference but toward the viewer's LEFT. REDRAW the appropriate left-looking perspective from three-dimensional anatomy, do not mirror either reference and do not skew or stretch a frontal picture. Strictly upright head: zero roll, zero pitch, both pupil centers on a level horizontal eye line; no cute tilted head. Nose points slightly image-left, eye on image-left is the far eye with mild foreshortening, image-right cheek is near with the near ear partly visible. Preserve eye identity, original non-mirrored bangs and forehead part, hair locks, flower ornaments and blue/lavender tip colors. Retain compact face size, shallow natural jaw, same small closed smile. Same square 2048 framing, head size and vertical placement as the frontal image, chin near the same height, neck centered on frontal level shoulders. Body, white sailor collar and wine-red clothes remain frontal and unchanged in design. No extra ponytail ornaments or generic redesign. Accurate redraw of near/far eye and cheek widths, nose plane, lip perspective, ear and hair occlusions. Soft 3D-toon style with thin lines matching the identity reference. Transparent alpha background. Hands out of frame. Single image, no grid, no labels.",
+  "generation": {
+    "ok": true,
+    "projectId": "963dde8d48a34e449f4b09ff2a381a57",
+    "task_id": "20261027195203980557456",
+    "taskKind": "generation",
+    "status": "accepted",
+    "replayed": false,
+    "operationResult": {
+      "affectedNodes": {
+        "created": [
+          "i-ZHiUUWMxP1"
+        ],
+        "deleted": [],
+        "updated": []
+      },
+      "graphRevision": "sha256-c9cdfc4db5721699ce3899740ceab56524e2ed4bab85759f3f15959adf518aec",
+      "operation": "create_node",
+      "previousGraphRevision": "sha256-4766052c7859f0db9f7f17a9598e11007cc8836b2f96cb8aeec95a402666683b",
+      "projectId": "963dde8d48a34e449f4b09ff2a381a57",
+      "schemaVersion": 1,
+      "subjectNodeId": "i-ZHiUUWMxP1",
+      "subjectNodeType": "image",
+      "teamId": 0
+    },
+    "plan": {
+      "nodeId": "i-ZHiUUWMxP1",
+      "nodeType": "image",
+      "warnings": [],
+      "incomingRecalcNodeKeys": [
+        "i-ZHiUUWMxP1"
+      ],
+      "generationCount": 1
+    },
+    "canvasOperation": {
+      "task_id": "cop_34480d355dcf3f6bfc7c9c5c713c2f7c",
+      "status": "completed"
+    },
+    "canvasOperationTaskId": "cop_34480d355dcf3f6bfc7c9c5c713c2f7c",
+    "generation": {
+      "schema_version": 1,
+      "status": "accepted",
+      "task_id": "20261027195203980557456",
+      "tool_call_id": "run.517a6e40dc8a9d9fb6649dbec769cbe888545e19dc4fafc4865c9f03e42b30f7"
+    },
+    "revision": {
+      "token": "sha256-a4acb72046251e826f152e3cae36f3c3b6fbf50af88d3ecec15096aff75685ab",
+      "fingerprint": "a4acb72046251e826f152e3cae36f3c3b6fbf50af88d3ecec15096aff75685ab",
+      "source": "api",
+      "projectUpdatedAtMs": 1792989373000
+    },
+    "currentStateVerification": "verified",
+    "projectName": "\u7460\u7483\u4e43\u65e5\u8bed\u8bf4\u8bdd\u6d4b\u8bd5",
+    "spaceId": 13010233,
+    "operationStateUnchanged": false
+  },
+  "user_constraint": "\u4e0d\u8981\u9760\u7740\u62c9\u4f38\u8f6c\u5934\u554a",
+  "method": "independent redrawn viewpoint; correction for head roll and yaw consistency",
+  "idempotencyKey": "rurino-v034-turn-redraw-left-20261027-02",
+  "source_file": {
+    "name": "turn-left-v2-source.png",
+    "bytes": 4108815,
+    "sha256": "000870d6ab5329ba6be075384119ac40fd3148b2bfd4555ef48679651bc73c14",
+    "dimensions": [
+      2048,
+      2048
+    ]
+  },
+  "terminal_status": "SUCCEEDED",
+  "actual_output_count": 1,
+  "selected": true
+}
