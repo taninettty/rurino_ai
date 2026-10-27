@@ -1,0 +1,355 @@
+{
+  "method": "fixed-ROI largest iris color component; visible sclera+iris fill; manual nose mark",
+  "color_thresholds": {
+    "G_minus_R": 18,
+    "B_minus_R": 16
+  },
+  "measurements": {
+    "left_before": {
+      "file": "rebuild_v3_4/turn_redraw/sources/turn-left-v2-source.png",
+      "sha256": "000870d6ab5329ba6be075384119ac40fd3148b2bfd4555ef48679651bc73c14",
+      "eyes": [
+        {
+          "iris_bbox": [
+            640,
+            777,
+            730,
+            884
+          ],
+          "iris_centroid": [
+            684.0373277516135,
+            828.8226059654631
+          ],
+          "visible_fill_bbox": [
+            620,
+            753,
+            758,
+            885
+          ],
+          "iris_pixels": 5733,
+          "touches_roi": false
+        },
+        {
+          "iris_bbox": [
+            983,
+            769,
+            1107,
+            884
+          ],
+          "iris_centroid": [
+            1042.718853769524,
+            826.4444717746894
+          ],
+          "visible_fill_bbox": [
+            956,
+            750,
+            1167,
+            885
+          ],
+          "iris_pixels": 8131,
+          "touches_roi": false
+        }
+      ],
+      "far_near_visible_iris_width_ratio": 0.7258064516129032,
+      "far_near_visible_iris_aspect_ratio": 0.7800723545372324,
+      "iris_center_distance_px": 358.68940969697775,
+      "inner_visible_fill_gap_px": 198,
+      "nose_mark_manual": [
+        780,
+        942
+      ],
+      "nose_offset_along_eye_axis_over_center_distance": -0.23456091261222414,
+      "note": "different pitch, eyelid openness and gaze: reference metrics are guides, not exact targets"
+    },
+    "right_before": {
+      "file": "rebuild_v3_4/turn_redraw/sources/turn-right-source.png",
+      "sha256": "d4a62384ad2adda6014cb9e9a9ba28b753577653f112f08ec0c661bf8587b275",
+      "eyes": [
+        {
+          "iris_bbox": [
+            941,
+            772,
+            1067,
+            878
+          ],
+          "iris_centroid": [
+            1003.0290850081138,
+            822.3062039695419
+          ],
+          "visible_fill_bbox": [
+            887,
+            747,
+            1089,
+            879
+          ],
+          "iris_pixels": 8011,
+          "touches_roi": false
+        },
+        {
+          "iris_bbox": [
+            1317,
+            787,
+            1407,
+            889
+          ],
+          "iris_centroid": [
+            1360.7896451846489,
+            834.9994569152788
+          ],
+          "visible_fill_bbox": [
+            1293,
+            761,
+            1433,
+            890
+          ],
+          "iris_pixels": 5524,
+          "touches_roi": false
+        }
+      ],
+      "far_near_visible_iris_width_ratio": 0.7142857142857143,
+      "far_near_visible_iris_aspect_ratio": 0.742296918767507,
+      "iris_center_distance_px": 357.9856660373046,
+      "inner_visible_fill_gap_px": 204,
+      "nose_mark_manual": [
+        1264,
+        948
+      ],
+      "nose_offset_along_eye_axis_over_center_distance": 0.24098942443379215,
+      "note": "different pitch, eyelid openness and gaze: reference metrics are guides, not exact targets"
+    },
+    "official_left": {
+      "file": "rebuild_v3_4/turn_redraw/eye_calibration/official-56.4s-close.png",
+      "sha256": "5b6d79ef624575038cbd909dab0d5780ed74f7505536fe3935c7026888f5b9da",
+      "eyes": [
+        {
+          "iris_bbox": [
+            164,
+            292,
+            196,
+            318
+          ],
+          "iris_centroid": [
+            178.77175697865354,
+            305.1855500821018
+          ],
+          "visible_fill_bbox": [
+            156,
+            282,
+            198,
+            322
+          ],
+          "iris_pixels": 609,
+          "touches_roi": false
+        },
+        {
+          "iris_bbox": [
+            260,
+            290,
+            298,
+            318
+          ],
+          "iris_centroid": [
+            277.77792041078305,
+            304.0629011553273
+          ],
+          "visible_fill_bbox": [
+            253,
+            285,
+            310,
+            322
+          ],
+          "iris_pixels": 779,
+          "touches_roi": false
+        }
+      ],
+      "far_near_visible_iris_width_ratio": 0.8421052631578947,
+      "far_near_visible_iris_aspect_ratio": 0.9068825910931174,
+      "iris_center_distance_px": 99.0125281879133,
+      "inner_visible_fill_gap_px": 55,
+      "nose_mark_manual": [
+        210,
+        349
+      ],
+      "nose_offset_along_eye_axis_over_center_distance": -0.18964081550666884,
+      "note": "different pitch, eyelid openness and gaze: reference metrics are guides, not exact targets"
+    },
+    "official_right": {
+      "file": "rebuild_v3_4/turn_redraw/eye_calibration/official-58.2s-close.png",
+      "sha256": "3e49c59376e97bb774af4c367e451d7dfa8c8b4d1f2aa8a1e6ae79a7e627bb9d",
+      "eyes": [
+        {
+          "iris_bbox": [
+            202,
+            284,
+            236,
+            308
+          ],
+          "iris_centroid": [
+            218.39650145772595,
+            296.2886297376093
+          ],
+          "visible_fill_bbox": [
+            191,
+            276,
+            242,
+            313
+          ],
+          "iris_pixels": 686,
+          "touches_roi": false
+        },
+        {
+          "iris_bbox": [
+            294,
+            276,
+            320,
+            300
+          ],
+          "iris_centroid": [
+            306.9049676025918,
+            287.4924406047516
+          ],
+          "visible_fill_bbox": [
+            292,
+            276,
+            323,
+            304
+          ],
+          "iris_pixels": 463,
+          "touches_roi": false
+        }
+      ],
+      "far_near_visible_iris_width_ratio": 0.7647058823529411,
+      "far_near_visible_iris_aspect_ratio": 0.7647058823529411,
+      "iris_center_distance_px": 88.94448562208828,
+      "inner_visible_fill_gap_px": 50,
+      "nose_mark_manual": [
+        284,
+        337
+      ],
+      "nose_offset_along_eye_axis_over_center_distance": 0.1886962994410514,
+      "note": "different pitch, eyelid openness and gaze: reference metrics are guides, not exact targets"
+    },
+    "left_after": {
+      "file": "rebuild_v3_4/turn_redraw/sources/turn-left-v2-source.png",
+      "sha256": "000870d6ab5329ba6be075384119ac40fd3148b2bfd4555ef48679651bc73c14",
+      "eyes": [
+        {
+          "iris_bbox": [
+            640,
+            777,
+            730,
+            884
+          ],
+          "iris_centroid": [
+            684.0373277516135,
+            828.8226059654631
+          ],
+          "visible_fill_bbox": [
+            620,
+            753,
+            758,
+            885
+          ],
+          "iris_pixels": 5733,
+          "touches_roi": false
+        },
+        {
+          "iris_bbox": [
+            983,
+            769,
+            1107,
+            884
+          ],
+          "iris_centroid": [
+            1042.718853769524,
+            826.4444717746894
+          ],
+          "visible_fill_bbox": [
+            956,
+            750,
+            1167,
+            885
+          ],
+          "iris_pixels": 8131,
+          "touches_roi": false
+        }
+      ],
+      "far_near_visible_iris_width_ratio": 0.7258064516129032,
+      "far_near_visible_iris_aspect_ratio": 0.7800723545372324,
+      "iris_center_distance_px": 358.68940969697775,
+      "inner_visible_fill_gap_px": 198,
+      "nose_mark_manual": [
+        780,
+        942
+      ],
+      "nose_offset_along_eye_axis_over_center_distance": -0.23456091261222414,
+      "note": "different pitch, eyelid openness and gaze: reference metrics are guides, not exact targets"
+    },
+    "right_after": {
+      "file": "rebuild_v3_4/turn_redraw/eye_calibration/corrected/turn-right-eye-calibrated.png",
+      "sha256": "a54733583600bd9001f2134c3c7f445f44403cdcb78ee5e1a4604609c8cc5089",
+      "eyes": [
+        {
+          "iris_bbox": [
+            941,
+            772,
+            1067,
+            878
+          ],
+          "iris_centroid": [
+            1003.0290850081138,
+            822.3062039695419
+          ],
+          "visible_fill_bbox": [
+            887,
+            747,
+            1089,
+            879
+          ],
+          "iris_pixels": 8011,
+          "touches_roi": false
+        },
+        {
+          "iris_bbox": [
+            1308,
+            787,
+            1413,
+            889
+          ],
+          "iris_centroid": [
+            1359.8132057716437,
+            834.1772271016312
+          ],
+          "visible_fill_bbox": [
+            1276,
+            761,
+            1445,
+            889
+          ],
+          "iris_pixels": 6376,
+          "touches_roi": false
+        }
+      ],
+      "far_near_visible_iris_width_ratio": 0.8333333333333334,
+      "far_near_visible_iris_aspect_ratio": 0.8660130718954248,
+      "iris_center_distance_px": 356.9815541722116,
+      "inner_visible_fill_gap_px": 187,
+      "nose_mark_manual": [
+        1264,
+        948
+      ],
+      "nose_offset_along_eye_axis_over_center_distance": 0.24235317018936353,
+      "note": "different pitch, eyelid openness and gaze: reference metrics are guides, not exact targets"
+    }
+  },
+  "original_retained_not_corrected": [
+    "left_after"
+  ],
+  "limits": [
+    "manual ROI and nose mark; low-resolution video; roughly 1-2 video pixels of boundary uncertainty",
+    "eye corners hidden by lashes/hair are not recovered; fill bounds are not true anatomical canthi",
+    "iris centroid is not the orbital center, and gaze can move it",
+    "no calibrated camera, true yaw or common fixed eye-distance ratio",
+    "no claim of Cubism runtime or animation validation"
+  ]
+}

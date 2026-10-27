@@ -1,0 +1,28 @@
+{
+  "source_url": "https://www.youtube.com/watch?v=ltAEA_Lq5Js",
+  "source_video_sha256": "0d397c680d7108a67d9018613137fa614817dc0ad35c2ca1b6ea9969aa20f300",
+  "source_dimensions": [
+    1920,
+    1080
+  ],
+  "fps": 30,
+  "crop_xyxy": [
+    760,
+    150,
+    1320,
+    710
+  ],
+  "frames": [
+    {
+      "seconds": 56.4,
+      "file": "official-56.4s-close.png",
+      "sha256": "5b6d79ef624575038cbd909dab0d5780ed74f7505536fe3935c7026888f5b9da"
+    },
+    {
+      "seconds": 58.2,
+      "file": "official-58.2s-close.png",
+      "sha256": "3e49c59376e97bb774af4c367e451d7dfa8c8b4d1f2aa8a1e6ae79a7e627bb9d"
+    }
+  ],
+  "limits": "Different pitch, roll and gaze from the drawings; not calibrated same-yaw targets."
+}

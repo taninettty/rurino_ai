@@ -1,0 +1,592 @@
+[
+  {
+    "side": "left",
+    "version": 1,
+    "selected": false,
+    "reason": "far iris became narrower, near iris changed; contrary to requested correction",
+    "before": {
+      "file": "rebuild_v3_4/turn_redraw/sources/turn-left-v2-source.png",
+      "sha256": "000870d6ab5329ba6be075384119ac40fd3148b2bfd4555ef48679651bc73c14",
+      "eyes": [
+        {
+          "iris_bbox": [
+            640,
+            777,
+            730,
+            884
+          ],
+          "iris_centroid": [
+            684.0373277516135,
+            828.8226059654631
+          ],
+          "visible_fill_bbox": [
+            620,
+            753,
+            758,
+            885
+          ],
+          "iris_pixels": 5733,
+          "touches_roi": false
+        },
+        {
+          "iris_bbox": [
+            983,
+            769,
+            1107,
+            884
+          ],
+          "iris_centroid": [
+            1042.718853769524,
+            826.4444717746894
+          ],
+          "visible_fill_bbox": [
+            956,
+            750,
+            1167,
+            885
+          ],
+          "iris_pixels": 8131,
+          "touches_roi": false
+        }
+      ],
+      "far_near_visible_iris_width_ratio": 0.7258064516129032,
+      "far_near_visible_iris_aspect_ratio": 0.7800723545372324,
+      "iris_center_distance_px": 358.68940969697775,
+      "inner_visible_fill_gap_px": 198,
+      "nose_mark_manual": [
+        780,
+        942
+      ],
+      "nose_offset_along_eye_axis_over_center_distance": -0.23456091261222414,
+      "note": "different pitch, eyelid openness and gaze: reference metrics are guides, not exact targets"
+    },
+    "candidate": {
+      "file": "rebuild_v3_4/turn_redraw/eye_calibration/sources/turn-left-eye-generated.png",
+      "sha256": "98e01c747a958db98005a2715f8d8fc8406ce0fb137a1dc1b24ba093674c5cdd",
+      "eyes": [
+        {
+          "iris_bbox": [
+            646,
+            777,
+            725,
+            881
+          ],
+          "iris_centroid": [
+            683.471646788031,
+            824.5047080979284
+          ],
+          "visible_fill_bbox": [
+            630,
+            751,
+            761,
+            882
+          ],
+          "iris_pixels": 4779,
+          "touches_roi": false
+        },
+        {
+          "iris_bbox": [
+            982,
+            775,
+            1104,
+            884
+          ],
+          "iris_centroid": [
+            1040.6290871043684,
+            825.9550091551138
+          ],
+          "visible_fill_bbox": [
+            953,
+            750,
+            1167,
+            885
+          ],
+          "iris_pixels": 7646,
+          "touches_roi": false
+        }
+      ],
+      "far_near_visible_iris_width_ratio": 0.6475409836065574,
+      "far_near_visible_iris_aspect_ratio": 0.6786727616645649,
+      "iris_center_distance_px": 357.1603849063815,
+      "inner_visible_fill_gap_px": 192,
+      "nose_mark_manual": [
+        780,
+        942
+      ],
+      "nose_offset_along_eye_axis_over_center_distance": -0.22840027057280093,
+      "note": "different pitch, eyelid openness and gaze: reference metrics are guides, not exact targets"
+    }
+  },
+  {
+    "side": "right",
+    "version": 1,
+    "selected": false,
+    "reason": "far iris became narrower, near iris changed; contrary to requested correction",
+    "before": {
+      "file": "rebuild_v3_4/turn_redraw/sources/turn-right-source.png",
+      "sha256": "d4a62384ad2adda6014cb9e9a9ba28b753577653f112f08ec0c661bf8587b275",
+      "eyes": [
+        {
+          "iris_bbox": [
+            941,
+            772,
+            1067,
+            878
+          ],
+          "iris_centroid": [
+            1003.0290850081138,
+            822.3062039695419
+          ],
+          "visible_fill_bbox": [
+            887,
+            747,
+            1089,
+            879
+          ],
+          "iris_pixels": 8011,
+          "touches_roi": false
+        },
+        {
+          "iris_bbox": [
+            1317,
+            787,
+            1407,
+            889
+          ],
+          "iris_centroid": [
+            1360.7896451846489,
+            834.9994569152788
+          ],
+          "visible_fill_bbox": [
+            1293,
+            761,
+            1433,
+            890
+          ],
+          "iris_pixels": 5524,
+          "touches_roi": false
+        }
+      ],
+      "far_near_visible_iris_width_ratio": 0.7142857142857143,
+      "far_near_visible_iris_aspect_ratio": 0.742296918767507,
+      "iris_center_distance_px": 357.9856660373046,
+      "inner_visible_fill_gap_px": 204,
+      "nose_mark_manual": [
+        1264,
+        948
+      ],
+      "nose_offset_along_eye_axis_over_center_distance": 0.24098942443379215,
+      "note": "different pitch, eyelid openness and gaze: reference metrics are guides, not exact targets"
+    },
+    "candidate": {
+      "file": "rebuild_v3_4/turn_redraw/eye_calibration/sources/turn-right-eye-generated.png",
+      "sha256": "8bca0f3e95f85c5f55251ae00f268b9501d2794b9ff4430619b2cdc06ec7be3f",
+      "eyes": [
+        {
+          "iris_bbox": [
+            948,
+            774,
+            1066,
+            878
+          ],
+          "iris_centroid": [
+            1004.5181297709923,
+            820.7437295528898
+          ],
+          "visible_fill_bbox": [
+            888,
+            748,
+            1091,
+            879
+          ],
+          "iris_pixels": 7336,
+          "touches_roi": false
+        },
+        {
+          "iris_bbox": [
+            1316,
+            789,
+            1394,
+            889
+          ],
+          "iris_centroid": [
+            1355.6451264318132,
+            835.0717527555652
+          ],
+          "visible_fill_bbox": [
+            1294,
+            762,
+            1427,
+            890
+          ],
+          "iris_pixels": 4627,
+          "touches_roi": false
+        }
+      ],
+      "far_near_visible_iris_width_ratio": 0.6610169491525424,
+      "far_near_visible_iris_aspect_ratio": 0.6874576271186441,
+      "iris_center_distance_px": 351.41920840065717,
+      "inner_visible_fill_gap_px": 203,
+      "nose_mark_manual": [
+        1264,
+        948
+      ],
+      "nose_offset_along_eye_axis_over_center_distance": 0.25253309354290965,
+      "note": "different pitch, eyelid openness and gaze: reference metrics are guides, not exact targets"
+    }
+  },
+  {
+    "side": "left",
+    "version": 2,
+    "selected": false,
+    "reason": "far iris almost as wide as near iris and moved too far toward nose",
+    "before": {
+      "file": "rebuild_v3_4/turn_redraw/sources/turn-left-v2-source.png",
+      "sha256": "000870d6ab5329ba6be075384119ac40fd3148b2bfd4555ef48679651bc73c14",
+      "eyes": [
+        {
+          "iris_bbox": [
+            640,
+            777,
+            730,
+            884
+          ],
+          "iris_centroid": [
+            684.0373277516135,
+            828.8226059654631
+          ],
+          "visible_fill_bbox": [
+            620,
+            753,
+            758,
+            885
+          ],
+          "iris_pixels": 5733,
+          "touches_roi": false
+        },
+        {
+          "iris_bbox": [
+            983,
+            769,
+            1107,
+            884
+          ],
+          "iris_centroid": [
+            1042.718853769524,
+            826.4444717746894
+          ],
+          "visible_fill_bbox": [
+            956,
+            750,
+            1167,
+            885
+          ],
+          "iris_pixels": 8131,
+          "touches_roi": false
+        }
+      ],
+      "far_near_visible_iris_width_ratio": 0.7258064516129032,
+      "far_near_visible_iris_aspect_ratio": 0.7800723545372324,
+      "iris_center_distance_px": 358.68940969697775,
+      "inner_visible_fill_gap_px": 198,
+      "nose_mark_manual": [
+        780,
+        942
+      ],
+      "nose_offset_along_eye_axis_over_center_distance": -0.23456091261222414,
+      "note": "different pitch, eyelid openness and gaze: reference metrics are guides, not exact targets"
+    },
+    "candidate": {
+      "file": "rebuild_v3_4/turn_redraw/eye_calibration/sources/turn-left-eye-generated-v2.png",
+      "sha256": "36e66eb6bb24262486009557d8a766b06af135427794e454720067b75540b2ea",
+      "eyes": [
+        {
+          "iris_bbox": [
+            653,
+            779,
+            773,
+            886
+          ],
+          "iris_centroid": [
+            709.3112591431557,
+            828.1295715778474
+          ],
+          "visible_fill_bbox": [
+            608,
+            753,
+            780,
+            887
+          ],
+          "iris_pixels": 7656,
+          "touches_roi": false
+        },
+        {
+          "iris_bbox": [
+            984,
+            777,
+            1103,
+            884
+          ],
+          "iris_centroid": [
+            1041.7464042392128,
+            827.0692657077972
+          ],
+          "visible_fill_bbox": [
+            954,
+            750,
+            1167,
+            885
+          ],
+          "iris_pixels": 7926,
+          "touches_roi": false
+        }
+      ],
+      "far_near_visible_iris_width_ratio": 1.0084033613445378,
+      "far_near_visible_iris_aspect_ratio": 1.0084033613445378,
+      "iris_center_distance_px": 332.43683602088174,
+      "inner_visible_fill_gap_px": 174,
+      "nose_mark_manual": [
+        780,
+        942
+      ],
+      "nose_offset_along_eye_axis_over_center_distance": -0.2884554765411884,
+      "note": "different pitch, eyelid openness and gaze: reference metrics are guides, not exact targets"
+    }
+  },
+  {
+    "side": "left",
+    "version": 3,
+    "selected": false,
+    "reason": "far iris became narrower than original; center remained too far toward nose",
+    "before": {
+      "file": "rebuild_v3_4/turn_redraw/sources/turn-left-v2-source.png",
+      "sha256": "000870d6ab5329ba6be075384119ac40fd3148b2bfd4555ef48679651bc73c14",
+      "eyes": [
+        {
+          "iris_bbox": [
+            640,
+            777,
+            730,
+            884
+          ],
+          "iris_centroid": [
+            684.0373277516135,
+            828.8226059654631
+          ],
+          "visible_fill_bbox": [
+            620,
+            753,
+            758,
+            885
+          ],
+          "iris_pixels": 5733,
+          "touches_roi": false
+        },
+        {
+          "iris_bbox": [
+            983,
+            769,
+            1107,
+            884
+          ],
+          "iris_centroid": [
+            1042.718853769524,
+            826.4444717746894
+          ],
+          "visible_fill_bbox": [
+            956,
+            750,
+            1167,
+            885
+          ],
+          "iris_pixels": 8131,
+          "touches_roi": false
+        }
+      ],
+      "far_near_visible_iris_width_ratio": 0.7258064516129032,
+      "far_near_visible_iris_aspect_ratio": 0.7800723545372324,
+      "iris_center_distance_px": 358.68940969697775,
+      "inner_visible_fill_gap_px": 198,
+      "nose_mark_manual": [
+        780,
+        942
+      ],
+      "nose_offset_along_eye_axis_over_center_distance": -0.23456091261222414,
+      "note": "different pitch, eyelid openness and gaze: reference metrics are guides, not exact targets"
+    },
+    "candidate": {
+      "file": "rebuild_v3_4/turn_redraw/eye_calibration/sources/turn-left-eye-generated-v3.png",
+      "sha256": "dc1ef7de71b16ac9d38819ecdbc929342668775dc533fd10bf23962a2f430532",
+      "eyes": [
+        {
+          "iris_bbox": [
+            668,
+            781,
+            740,
+            886
+          ],
+          "iris_centroid": [
+            702.00334001336,
+            829.1774660431975
+          ],
+          "visible_fill_bbox": [
+            623,
+            758,
+            759,
+            888
+          ],
+          "iris_pixels": 4491,
+          "touches_roi": false
+        },
+        {
+          "iris_bbox": [
+            984,
+            775,
+            1102,
+            885
+          ],
+          "iris_centroid": [
+            1041.5144243043146,
+            826.8483533316313
+          ],
+          "visible_fill_bbox": [
+            946,
+            751,
+            1167,
+            886
+          ],
+          "iris_pixels": 7834,
+          "touches_roi": false
+        }
+      ],
+      "far_near_visible_iris_width_ratio": 0.6101694915254238,
+      "far_near_visible_iris_aspect_ratio": 0.639225181598063,
+      "iris_center_distance_px": 339.5190732822574,
+      "inner_visible_fill_gap_px": 187,
+      "nose_mark_manual": [
+        780,
+        942
+      ],
+      "nose_offset_along_eye_axis_over_center_distance": -0.2725581145499852,
+      "note": "different pitch, eyelid openness and gaze: reference metrics are guides, not exact targets"
+    }
+  },
+  {
+    "side": "left",
+    "version": 4,
+    "selected": false,
+    "reason": "far iris width remains 90px; intended widening not achieved, retain original instead of cosmetic replacement",
+    "before": {
+      "file": "rebuild_v3_4/turn_redraw/sources/turn-left-v2-source.png",
+      "sha256": "000870d6ab5329ba6be075384119ac40fd3148b2bfd4555ef48679651bc73c14",
+      "eyes": [
+        {
+          "iris_bbox": [
+            640,
+            777,
+            730,
+            884
+          ],
+          "iris_centroid": [
+            684.0373277516135,
+            828.8226059654631
+          ],
+          "visible_fill_bbox": [
+            620,
+            753,
+            758,
+            885
+          ],
+          "iris_pixels": 5733,
+          "touches_roi": false
+        },
+        {
+          "iris_bbox": [
+            983,
+            769,
+            1107,
+            884
+          ],
+          "iris_centroid": [
+            1042.718853769524,
+            826.4444717746894
+          ],
+          "visible_fill_bbox": [
+            956,
+            750,
+            1167,
+            885
+          ],
+          "iris_pixels": 8131,
+          "touches_roi": false
+        }
+      ],
+      "far_near_visible_iris_width_ratio": 0.7258064516129032,
+      "far_near_visible_iris_aspect_ratio": 0.7800723545372324,
+      "iris_center_distance_px": 358.68940969697775,
+      "inner_visible_fill_gap_px": 198,
+      "nose_mark_manual": [
+        780,
+        942
+      ],
+      "nose_offset_along_eye_axis_over_center_distance": -0.23456091261222414,
+      "note": "different pitch, eyelid openness and gaze: reference metrics are guides, not exact targets"
+    },
+    "candidate": {
+      "file": "rebuild_v3_4/turn_redraw/eye_calibration/sources/turn-left-eye-generated-v4.png",
+      "sha256": "5009cd470adae970bb02586c95cf8d026a3ce6fa841d5377bf762c9b17abeea4",
+      "eyes": [
+        {
+          "iris_bbox": [
+            641,
+            780,
+            731,
+            885
+          ],
+          "iris_centroid": [
+            685.0690789473684,
+            828.6002423822715
+          ],
+          "visible_fill_bbox": [
+            621,
+            753,
+            756,
+            887
+          ],
+          "iris_pixels": 5776,
+          "touches_roi": false
+        },
+        {
+          "iris_bbox": [
+            984,
+            774,
+            1106,
+            885
+          ],
+          "iris_centroid": [
+            1041.4882951653944,
+            826.3235368956744
+          ],
+          "visible_fill_bbox": [
+            956,
+            750,
+            1167,
+            885
+          ],
+          "iris_pixels": 7860,
+          "touches_roi": false
+        }
+      ],
+      "far_near_visible_iris_width_ratio": 0.7377049180327869,
+      "far_near_visible_iris_aspect_ratio": 0.7798594847775174,
+      "iris_center_distance_px": 356.42648762030115,
+      "inner_visible_fill_gap_px": 200,
+      "nose_mark_manual": [
+        780,
+        942
+      ],
+      "nose_offset_along_eye_axis_over_center_distance": -0.2356968779137188,
+      "note": "different pitch, eyelid openness and gaze: reference metrics are guides, not exact targets"
+    }
+  }
+]

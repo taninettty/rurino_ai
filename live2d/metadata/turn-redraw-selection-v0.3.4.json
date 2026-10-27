@@ -1,5 +1,5 @@
 {
-  "method": "two independently generated LibTV viewpoints; no face warp, mirror or interpolated animation",
+  "method": "two independently generated LibTV viewpoints, with selected local eye redraw patches; no face warp, mirror or interpolated animation",
   "selected_outputs": [
     {
       "label": "LEFT / redrawn v2",
@@ -24,10 +24,10 @@
       "zero_alpha_pixels": 1261819
     },
     {
-      "label": "RIGHT / independently redrawn",
-      "file": "rebuild_v3_4/turn_redraw/sources/turn-right-source.png",
-      "bytes": 3981536,
-      "sha256": "d4a62384ad2adda6014cb9e9a9ba28b753577653f112f08ec0c661bf8587b275",
+      "label": "RIGHT / local eye redraw",
+      "file": "rebuild_v3_4/turn_redraw/eye_calibration/corrected/turn-right-eye-calibrated.png",
+      "bytes": 3960730,
+      "sha256": "a54733583600bd9001f2134c3c7f445f44403cdcb78ee5e1a4604609c8cc5089",
       "dimensions": [
         2048,
         2048
@@ -58,5 +58,11 @@
     "per-part side-view separation and concealed-area painting",
     "Cubism parameter meshes and changing occlusion validation"
   ],
-  "rejected_method": "earlier shared-coordinate head warp withdrawn at user request"
+  "rejected_method": "earlier shared-coordinate head warp withdrawn at user request",
+  "eye_calibration": {
+    "selection": "eye_calibration/patch-selection.json",
+    "measurements": "eye_calibration/qa/eye-measurements.json",
+    "local_patch_verification": "eye_calibration/qa/patch-verification.json",
+    "limits": "static drawing review only; reference pitch and gaze differ; no fixed eye-gap ratio"
+  }
 }

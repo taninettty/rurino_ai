@@ -1,0 +1,136 @@
+{
+  "method": "same-coordinate RGB compositing; no warp, resize, mirror or translation",
+  "patches": [
+    {
+      "side": "right",
+      "output": "corrected/turn-right-eye-calibrated.png",
+      "sha256": "a54733583600bd9001f2134c3c7f445f44403cdcb78ee5e1a4604609c8cc5089",
+      "changed_pixels": 26655,
+      "outside_polygon_exact": true,
+      "original_alpha_exact": true,
+      "saved_png_roundtrip_exact": true,
+      "protected_rectangles_exact": {
+        "near_eye": [
+          865,
+          735,
+          1120,
+          906
+        ],
+        "nose": [
+          1220,
+          920,
+          1290,
+          990
+        ],
+        "mouth": [
+          1100,
+          1020,
+          1300,
+          1100
+        ],
+        "chin": [
+          900,
+          1110,
+          1360,
+          1300
+        ]
+      },
+      "source": {
+        "original": "sources/turn-right-source.png",
+        "candidate": "sources/turn-right-eye-generated-v2.png",
+        "original_sha256": "d4a62384ad2adda6014cb9e9a9ba28b753577653f112f08ec0c661bf8587b275",
+        "candidate_sha256": "742ebb73229be3086893275a0e3612de7f00d4c7050ee40939c4471f965aaa6e",
+        "polygon": [
+          [
+            1272,
+            782
+          ],
+          [
+            1290,
+            758
+          ],
+          [
+            1320,
+            742
+          ],
+          [
+            1396,
+            742
+          ],
+          [
+            1415,
+            759
+          ],
+          [
+            1440,
+            768
+          ],
+          [
+            1454,
+            790
+          ],
+          [
+            1460,
+            820
+          ],
+          [
+            1441,
+            849
+          ],
+          [
+            1425,
+            883
+          ],
+          [
+            1407,
+            905
+          ],
+          [
+            1300,
+            908
+          ],
+          [
+            1275,
+            884
+          ],
+          [
+            1257,
+            831
+          ],
+          [
+            1254,
+            813
+          ]
+        ],
+        "inner_feather_px": 4,
+        "protected_rectangles": {
+          "near_eye": [
+            865,
+            735,
+            1120,
+            906
+          ],
+          "nose": [
+            1220,
+            920,
+            1290,
+            990
+          ],
+          "mouth": [
+            1100,
+            1020,
+            1300,
+            1100
+          ],
+          "chin": [
+            900,
+            1110,
+            1360,
+            1300
+          ]
+        },
+        "selection_reason": "Second local redraw visibly widens far iris; integrate only eye drawing to preserve original head and near eye."
+      }
+    }
+  ]
+}

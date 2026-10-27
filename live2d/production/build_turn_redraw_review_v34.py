@@ -8,9 +8,11 @@ OUT=ROOT/'rebuild_v3_4/turn_redraw'
 
 def main():
     (OUT/'qa').mkdir(parents=True,exist_ok=True)
-    inputs=[('LEFT / redrawn v2',OUT/'sources/turn-left-v2-source.png'),
+    left=OUT/'eye_calibration/corrected/turn-left-eye-calibrated.png'
+    right=OUT/'eye_calibration/corrected/turn-right-eye-calibrated.png'
+    inputs=[('LEFT / local eye redraw' if left.exists() else 'LEFT / redrawn v2',left if left.exists() else OUT/'sources/turn-left-v2-source.png'),
             ('FRONT / identity reference',ROOT/'reference_v34/rurino_head_master_v34.png'),
-            ('RIGHT / independently redrawn',OUT/'sources/turn-right-source.png')]
+            ('RIGHT / local eye redraw' if right.exists() else 'RIGHT / independently redrawn',right if right.exists() else OUT/'sources/turn-right-source.png')]
     sheet=Image.new('RGB',(1800,680),(225,229,237));draw=ImageDraw.Draw(sheet);records=[]
     for i,(label,path) in enumerate(inputs):
         with Image.open(path) as check:check.verify()
@@ -24,7 +26,7 @@ def main():
         sheet.paste(tile,(i*600+(600-tile.width)//2,50),tile)
         draw.text((i*600+12,15),label,fill=(40,45,60))
     sheet.save(OUT/'qa/turn-redraw-comparison.jpg',quality=96)
-    report={'method':'two independently generated LibTV viewpoints; no face warp, mirror or interpolated animation',
+    report={'method':'two independently generated LibTV viewpoints, with selected local eye redraw patches; no face warp, mirror or interpolated animation',
             'selected_outputs':records,'status':'viewpoint drawing references; not split or rigged',
             'display_only':{'common_crop':[180,0,1868,1540],'uniform_thumbnail_max_size':[600,620]},
             'review':{'left_v1':'superseded: larger apparent turn and unwanted head roll',
@@ -34,6 +36,10 @@ def main():
                          'per-part side-view separation and concealed-area painting',
                          'Cubism parameter meshes and changing occlusion validation'],
             'rejected_method':'earlier shared-coordinate head warp withdrawn at user request'}
+    report['eye_calibration']={'selection':'eye_calibration/patch-selection.json',
+                               'measurements':'eye_calibration/qa/eye-measurements.json',
+                               'local_patch_verification':'eye_calibration/qa/patch-verification.json',
+                               'limits':'static drawing review only; reference pitch and gaze differ; no fixed eye-gap ratio'}
     (OUT/'selection.json').write_text(json.dumps(report,indent=2)+'\n')
     print(json.dumps({'outputs':len(records)-1,'source_files_verified':True,'source_geometry_modified':False},indent=2))
 
