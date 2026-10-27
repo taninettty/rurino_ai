@@ -1,0 +1,26 @@
+{
+  "L": {
+    "samples": 101,
+    "opening_area_monotonic": true,
+    "iris_texture_exact": true,
+    "aperture_inside_original": true,
+    "major_upper_lid_component_counts": [
+      2
+    ],
+    "max_upper_lid_components": 2,
+    "component_min_area_px_exclusive": 8,
+    "scope": "raster material topology; not Cubism mesh verification"
+  },
+  "R": {
+    "samples": 101,
+    "opening_area_monotonic": true,
+    "iris_texture_exact": true,
+    "aperture_inside_original": true,
+    "major_upper_lid_component_counts": [
+      2
+    ],
+    "max_upper_lid_components": 2,
+    "component_min_area_px_exclusive": 8,
+    "scope": "raster material topology; not Cubism mesh verification"
+  }
+}

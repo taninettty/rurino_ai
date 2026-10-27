@@ -18,6 +18,46 @@
         1128,
         816
       ]
+    },
+    {
+      "layer": "Bang_L",
+      "box": [
+        651,
+        773,
+        704,
+        916
+      ],
+      "max_boundary_shift_px": 4.800592422485352
+    },
+    {
+      "layer": "CheekLock_L",
+      "box": [
+        651,
+        773,
+        704,
+        916
+      ],
+      "max_boundary_shift_px": 4.800592422485352
+    },
+    {
+      "layer": "Bang_R",
+      "box": [
+        1347,
+        773,
+        1404,
+        916
+      ],
+      "max_boundary_shift_px": 4.200855255126953
+    },
+    {
+      "layer": "CheekLock_R",
+      "box": [
+        1347,
+        773,
+        1404,
+        916
+      ],
+      "max_boundary_shift_px": 4.200855255126953
     }
   ],
   "registration": {
@@ -56,8 +96,8 @@
       "openness": 0.75,
       "outside_eye_boxes_max_change": 0,
       "visible_aperture_alpha_sum": {
-        "L": 4282519,
-        "R": 4323160
+        "L": 4143338,
+        "R": 4181375
       },
       "iris_texture_unchanged": true
     },
@@ -65,8 +105,8 @@
       "openness": 0.5,
       "outside_eye_boxes_max_change": 0,
       "visible_aperture_alpha_sum": {
-        "L": 2849315,
-        "R": 2876675
+        "L": 2666233,
+        "R": 2690360
       },
       "iris_texture_unchanged": true
     },
@@ -74,8 +114,8 @@
       "openness": 0.25,
       "outside_eye_boxes_max_change": 0,
       "visible_aperture_alpha_sum": {
-        "L": 1420681,
-        "R": 1434940
+        "L": 1285776,
+        "R": 1298219
       },
       "iris_texture_unchanged": true
     },
@@ -111,7 +151,7 @@
       "visible_pixels_rgb_error_above_7": 0
     }
   ],
-  "psd_sha256": "c179cb23dbcbb8bd82cd131f669e0e7ed3e97beed4c8f6a6e5809d4ef4223421",
+  "psd_sha256": "4b891ee3a654f876141e48000f340bf09d499e7aa65e6a21005f6ae541e73785",
   "remaining": [
     "small eye/hair matte edges still need manual cleanup",
     "intermediate contours need visual review before mesh keyforms",

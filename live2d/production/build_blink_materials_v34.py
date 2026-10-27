@@ -13,9 +13,9 @@ import numpy as np
 from PIL import Image, ImageDraw
 from psd_tools import PSDImage
 from psd_tools.api.layers import Group, PixelLayer
-from scipy.ndimage import gaussian_filter1d, distance_transform_edt
+from scipy.ndimage import gaussian_filter1d, distance_transform_edt, median_filter
 
-from export_gaze_v34 import BASE, decode
+from export_gaze_v34 import BASE
 from split_head_v34 import thumbnail
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -62,7 +62,7 @@ def blend_rgba(a, b, t):
     return np.uint8(np.clip(np.rint(out*255), 0, 255))
 
 
-def morph_lashes(a, b, t):
+def morph_lashes(a, b, t, profile=None):
     if t == 0: return b
     if t == 1: return a
     # Interpolate contours, not the visibility of two outlines: alpha crossfade
@@ -70,8 +70,14 @@ def morph_lashes(a, b, t):
     def sdf(im):
         m=(im[:, :, 3]>100).astype('uint8')
         return cv2.distanceTransform(m,cv2.DIST_L2,5)-cv2.distanceTransform(1-m,cv2.DIST_L2,5)
-    alpha=np.clip(.5+t*sdf(a)+(1-t)*sdf(b),0,1)
-    out=blend_rgba(a,b,t)
+    weights=t if profile is None else profile[None,:]
+    distance=weights*sdf(a)+(1-weights)*sdf(b)
+    # Suppress one-pixel spurs created when two different lash tips merge.
+    # Endpoint art is kept intact; filtering peaks only in the middle states.
+    strength=4*weights*(1-weights)
+    distance=(1-strength)*distance+strength*cv2.GaussianBlur(distance,(0,0),.85)
+    alpha=np.clip(.5+distance,0,1)
+    out=blend_rgba(a,b,t if profile is None else profile[None,:,None])
     out[:, :, 3]=np.rint(alpha*255)
     out[out[:, :, 3]==0]=0
     return out
@@ -83,6 +89,14 @@ def prepare_eye(side, parts, closed_source, blank):
            for suffix in ['White', 'Iris', 'UpperLid', 'LowerLid']}
     lash = eye['UpperLid'].copy(); lash[:, :, 3] = component(lash[:, :, 3])
     crease = eye['UpperLid'].copy(); crease[:, :, 3] = component(crease[:, :, 3], 1)
+    # The earlier source mixed visible art with underpainting at hair edges.
+    # Use continuous ink from the existing bald LibTV plate for the moving lash,
+    # extending only real opaque dark pixels beneath the antialiased edge.
+    raw=np.array(Image.open(ROOT/'rebuild_v3_4/underpaint/skin-underpaint-raw.png').crop(box))
+    valid=(lash[:,:,3]>245)&(raw[:,:,:3].max(2)<135)
+    assert valid.sum()>1000
+    nearest=distance_transform_edt(~valid,return_distances=False,return_indices=True)
+    lash[:,:,:3]=raw[nearest[0],nearest[1],:3]
     generated = np.array(closed_source.crop(box)).astype('float32')
     skin = np.array(blank.crop(box)).astype('float32')
     # Take only the connected closed eyelash, excluding ear edges and folds.
@@ -110,7 +124,8 @@ def prepare_eye(side, parts, closed_source, blank):
         indices=distance_transform_edt(ink[:,:,3]<250,return_distances=False,return_indices=True)
         ink[:,:,:3]=ink[indices[0],indices[1],:3]
     upper, lower = curves(eye['White'][:, :, 3])
-    return {'parts': eye, 'lash': lash, 'crease': crease, 'closed': closed,
+    return {'side':side,'span':(int(ox[0]),int(ox[-1])),
+            'parts': eye, 'lash': lash, 'crease': crease, 'closed': closed,
             'lt': lt, 'lb': lb, 'ct': ct, 'cb': cb, 'upper': upper, 'lower': lower,
             'registration': {'original_lash_x': [int(ox[0]+box[0]), int(ox[-1]+box[0])],
                              'generated_lash_x': [int(cx[0]+box[0]), int(cx[-1]+box[0])]}}
@@ -122,19 +137,23 @@ def keyform(eye, openness):
     p = openness
     h, w = eye['closed'].shape[:2]
     yy = np.broadcast_to(np.arange(h)[:, None], (h, w)).astype('float32')
+    xx=np.arange(w)
+    outer=np.clip((eye['span'][0]+120-xx)/70,0,1) if eye['side']=='L' else np.clip((xx-eye['span'][1]+120)/70,0,1)
+    outer=outer*outer*(3-2*outer)
+    profile=p*(1-outer)+p*p*outer
     # Match the two eyelash envelopes before interpolation, avoiding two
     # spatially separated outlines. This is a material study, not mesh binding.
-    top = eye['lt']*p + eye['ct']*(1-p)
-    bottom = eye['lb']*p + eye['cb']*(1-p)
+    top = eye['lt']*profile + eye['ct']*(1-profile)
+    bottom = eye['lb']*profile + eye['cb']*(1-profile)
     phase = (yy-top) / np.maximum(bottom-top, 1)
     a = remap_rgba(eye['lash'], eye['lt'] + phase*(eye['lb']-eye['lt']))
     b = remap_rgba(eye['closed'], eye['ct'] + phase*(eye['cb']-eye['ct']))
-    upper_lash = morph_lashes(a, b, p)
+    upper_lash = morph_lashes(a, b, p, profile)
     # Keep a single crease; the generated plate's additional crease is omitted.
     crease = remap_rgba(eye['crease'], yy-18*(1-p))
     upper_image = Image.fromarray(upper_lash)
     upper_image.alpha_composite(Image.fromarray(crease))
-    upper_edge = eye['upper']*p + eye['cb']*(1-p)
+    upper_edge = eye['upper']*profile + eye['cb']*(1-profile)
     lower_edge = eye['lower']*p + eye['cb']*(1-p)
     aperture = np.minimum(np.clip(yy-upper_edge+.5, 0, 1), np.clip(lower_edge-yy+.5, 0, 1))
     if p == 0:
@@ -167,8 +186,37 @@ def refine_hair_edges(parts, blank):
     alpha=hi.resize((tr-tx,tb-ty),Image.Resampling.LANCZOS)
     patch=np.array(mother.crop(tipbox));patch[:,:,3]=np.array(alpha)
     layer=parts['Bang_R'].copy();layer.alpha_composite(Image.fromarray(patch),(tx,ty));parts['Bang_R']=layer
-    for n in ['Bang_L','Bang_R']:parts[n].save(OUT/'layers'/f'{n}.png')
-    return [{'layer':'Bang_L','box':list(box)},{'layer':'Bang_R','box':list(tipbox)}]
+    patches=[{'layer':'Bang_L','box':list(box)},{'layer':'Bang_R','box':list(tipbox)}]
+    for names,rect,edge in [(('Bang_L','CheekLock_L'),(651,773,704,916),'right'),
+                            (('Bang_R','CheekLock_R'),(1347,773,1404,916),'left')]:
+        x,y,r,b=rect
+        combined=Image.new('RGBA',(r-x,b-y))
+        for name in names:combined.alpha_composite(parts[name].crop(rect))
+        a=np.array(combined)
+        boundary=[]
+        for row in a[:,:,3]:
+            occupied=np.flatnonzero(row>128)
+            assert len(occupied)>0
+            boundary.append(occupied[-1] if edge=='right' else occupied[0])
+        boundary=np.asarray(boundary,dtype='float32')
+        smooth=gaussian_filter1d(median_filter(boundary,size=15,mode='nearest'),2)
+        yy=np.arange(b-y);fade=np.minimum(np.clip(yy/18,0,1),np.clip((b-y-1-yy)/18,0,1))
+        shift=(boundary-smooth)*fade
+        xx=np.broadcast_to(np.arange(r-x,dtype='float32'),a.shape[:2])
+        # Limit the edit to a narrow band beside the existing hair boundary.
+        weight=np.clip(1-np.abs(xx-boundary[:,None])/14,0,1)
+        xmap=xx+shift[:,None]*weight
+        ymap=np.broadcast_to(yy[:,None],a.shape[:2]).astype('float32')
+        for name in names:
+            layer=parts[name].copy();premul=np.array(layer.crop(rect)).astype('float32')/255
+            premul[:,:,:3]*=premul[:,:,3:4]
+            v=cv2.remap(premul,xmap.astype('float32'),ymap,cv2.INTER_LINEAR,borderMode=cv2.BORDER_REPLICATE)
+            v[:,:,:3]/=np.maximum(v[:,:,3:4],1/65536)
+            repaired=np.uint8(np.clip(np.rint(v*255),0,255))
+            layer.paste(Image.fromarray(repaired),(x,y));parts[name]=layer
+            patches.append({'layer':name,'box':list(rect),'max_boundary_shift_px':float(np.abs(shift).max())})
+    for n in ['Bang_L','Bang_R','CheekLock_L','CheekLock_R']:parts[n].save(OUT/'layers'/f'{n}.png')
+    return patches
 
 
 def main():
