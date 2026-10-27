@@ -1,0 +1,89 @@
+{
+  "saved_psd_layer_count": 29,
+  "iris_clipping_flags_preserved": true,
+  "psd_gaze_checks": [
+    {
+      "iris_shift_original_px": [
+        -12,
+        0
+      ],
+      "outside_eye_openings_max_change": 0,
+      "alpha_change_max": 0,
+      "changed_rgb_pixels": 33257
+    },
+    {
+      "iris_shift_original_px": [
+        0,
+        0
+      ],
+      "outside_eye_openings_max_change": 0,
+      "alpha_change_max": 0,
+      "changed_rgb_pixels": 0
+    },
+    {
+      "iris_shift_original_px": [
+        12,
+        0
+      ],
+      "outside_eye_openings_max_change": 0,
+      "alpha_change_max": 0,
+      "changed_rgb_pixels": 33402
+    },
+    {
+      "iris_shift_original_px": [
+        0,
+        -8
+      ],
+      "outside_eye_openings_max_change": 0,
+      "alpha_change_max": 0,
+      "changed_rgb_pixels": 31899
+    },
+    {
+      "iris_shift_original_px": [
+        0,
+        8
+      ],
+      "outside_eye_openings_max_change": 0,
+      "alpha_change_max": 0,
+      "changed_rgb_pixels": 31640
+    }
+  ],
+  "neutral_landmarks": [
+    {
+      "feature": "left_pupil",
+      "best_offset_px": [
+        0,
+        0
+      ],
+      "correlation": 0.9999972581863403
+    },
+    {
+      "feature": "right_pupil",
+      "best_offset_px": [
+        0,
+        0
+      ],
+      "correlation": 0.9999991655349731
+    },
+    {
+      "feature": "mouth",
+      "best_offset_px": [
+        0,
+        0
+      ],
+      "correlation": 0.9994711875915527
+    }
+  ],
+  "neutral_silhouette_unchanged": true,
+  "hidden_layer_ghost_checks": [
+    {
+      "region": "left_iris_area",
+      "remaining_blue_eye_pixels": 0
+    },
+    {
+      "region": "right_iris_area",
+      "remaining_blue_eye_pixels": 0
+    }
+  ],
+  "limits": "Tests cover material separation, fixed aperture clipping and neutral alignment. No blink, talking, head turn, Cubism mesh or Windows host verification."
+}
