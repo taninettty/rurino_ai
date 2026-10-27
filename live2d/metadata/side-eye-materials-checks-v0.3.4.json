@@ -1,0 +1,380 @@
+[
+  {
+    "side": "left",
+    "status": "side eye materials only; not head/blink rig",
+    "source_sha256": "a98e03edcd8653084f71525ebb29cf667a4f15f1c9a2f04c8904096d9eba481b",
+    "crop_xyxy": [
+      512,
+      640,
+      1280,
+      1024
+    ],
+    "plates": {
+      "white": {
+        "file": "sources/left-white-generated.png",
+        "sha256": "7fd6fd0f24c52ba0478df4810c0872b506405f9334b9baacec0f15363e4646a9",
+        "source_dimensions": [
+          2048,
+          1024
+        ],
+        "destination_crop": [
+          512,
+          640,
+          1280,
+          1024
+        ]
+      },
+      "skin": {
+        "file": "sources/left-skin-generated.png",
+        "sha256": "3b7175fa4fbf20d26b7f19487095659a01c193b84b9def1faf80199fba4978f1",
+        "source_dimensions": [
+          2048,
+          1024
+        ],
+        "destination_crop": [
+          512,
+          640,
+          1280,
+          1024
+        ]
+      }
+    },
+    "layer_count": 10,
+    "clipping_layers": 2,
+    "psd_sha256": "92dbdd19fd28efa2d640731ca006b532c8920751d2b59df3d1c67feaf0c8d796",
+    "psd_vs_local_render_rgb_max": 1,
+    "psd_vs_local_render_alpha_max": 1,
+    "neutral_vs_original_rgb_mean": 6.357828776041667e-06,
+    "neutral_vs_original_rgb_max": 1,
+    "neutral_vs_original_alpha_max": 4,
+    "eyes": [
+      {
+        "name": "Far",
+        "roi": [
+          575,
+          700,
+          805,
+          915
+        ],
+        "iris_ellipse": [
+          684,
+          824,
+          56,
+          73,
+          8
+        ],
+        "clip_to": "Far_White",
+        "hidden_margin_method": "nearest original visible texel, no rescaling; only small gaze checks",
+        "hidden_margin_pixels": 1018,
+        "visible_iris_pixels": 10948
+      },
+      {
+        "name": "Near",
+        "roi": [
+          900,
+          695,
+          1220,
+          910
+        ],
+        "iris_ellipse": [
+          1041,
+          818,
+          78,
+          77,
+          6
+        ],
+        "clip_to": "Near_White",
+        "hidden_margin_method": "nearest original visible texel, no rescaling; only small gaze checks",
+        "hidden_margin_pixels": 1958,
+        "visible_iris_pixels": 14263
+      }
+    ],
+    "gaze_checks": [
+      {
+        "eye": "Far",
+        "shift": [
+          -6,
+          0
+        ],
+        "interior_pixels": 10795,
+        "interior_rgb_error_max": 0
+      },
+      {
+        "eye": "Near",
+        "shift": [
+          -6,
+          0
+        ],
+        "interior_pixels": 13935,
+        "interior_rgb_error_max": 0
+      },
+      {
+        "eye": "Far",
+        "shift": [
+          0,
+          0
+        ],
+        "interior_pixels": 10831,
+        "interior_rgb_error_max": 0
+      },
+      {
+        "eye": "Near",
+        "shift": [
+          0,
+          0
+        ],
+        "interior_pixels": 14112,
+        "interior_rgb_error_max": 0
+      },
+      {
+        "eye": "Far",
+        "shift": [
+          6,
+          0
+        ],
+        "interior_pixels": 10657,
+        "interior_rgb_error_max": 0
+      },
+      {
+        "eye": "Near",
+        "shift": [
+          6,
+          0
+        ],
+        "interior_pixels": 14112,
+        "interior_rgb_error_max": 0
+      },
+      {
+        "eye": "Far",
+        "shift": [
+          0,
+          -4
+        ],
+        "interior_pixels": 10565,
+        "interior_rgb_error_max": 0
+      },
+      {
+        "eye": "Near",
+        "shift": [
+          0,
+          -4
+        ],
+        "interior_pixels": 13823,
+        "interior_rgb_error_max": 0
+      },
+      {
+        "eye": "Far",
+        "shift": [
+          0,
+          4
+        ],
+        "interior_pixels": 10595,
+        "interior_rgb_error_max": 0
+      },
+      {
+        "eye": "Near",
+        "shift": [
+          0,
+          4
+        ],
+        "interior_pixels": 13779,
+        "interior_rgb_error_max": 0
+      }
+    ],
+    "remaining": [
+      "complete concealed eyelid/hair anatomy for head angles",
+      "closed and half-closed side keyforms",
+      "near/far eye-to-frontal registration",
+      "Cubism mesh/parameters and runtime validation"
+    ]
+  },
+  {
+    "side": "right",
+    "status": "side eye materials only; not head/blink rig",
+    "source_sha256": "a54733583600bd9001f2134c3c7f445f44403cdcb78ee5e1a4604609c8cc5089",
+    "crop_xyxy": [
+      768,
+      640,
+      1536,
+      1024
+    ],
+    "plates": {
+      "white": {
+        "file": "sources/right-white-generated.png",
+        "sha256": "3003d45bd9c5fb3f657a424b09a3efdcbfad757707afd734bd7053e8908d9579",
+        "source_dimensions": [
+          2048,
+          1024
+        ],
+        "destination_crop": [
+          768,
+          640,
+          1536,
+          1024
+        ]
+      },
+      "skin": {
+        "file": "sources/right-skin-generated.png",
+        "sha256": "e7fe02af05b2df724a5e8544e08d8fdda3b26f5b588dc6bbe7872f6f994f8517",
+        "source_dimensions": [
+          2048,
+          1024
+        ],
+        "destination_crop": [
+          768,
+          640,
+          1536,
+          1024
+        ]
+      }
+    },
+    "layer_count": 10,
+    "clipping_layers": 2,
+    "psd_sha256": "f1de0de5d93300033324e0af1944cf94df274d3b49ebf640f52a6d193b8387f1",
+    "psd_vs_local_render_rgb_max": 1,
+    "psd_vs_local_render_alpha_max": 1,
+    "neutral_vs_original_rgb_mean": 5.3246815999348956e-06,
+    "neutral_vs_original_rgb_max": 1,
+    "neutral_vs_original_alpha_max": 3,
+    "eyes": [
+      {
+        "name": "Near",
+        "roi": [
+          845,
+          690,
+          1145,
+          910
+        ],
+        "iris_ellipse": [
+          1006,
+          814,
+          79,
+          77,
+          8
+        ],
+        "clip_to": "Near_White",
+        "hidden_margin_method": "nearest original visible texel, no rescaling; only small gaze checks",
+        "hidden_margin_pixels": 2215,
+        "visible_iris_pixels": 14226
+      },
+      {
+        "name": "Far",
+        "roi": [
+          1235,
+          705,
+          1485,
+          918
+        ],
+        "iris_ellipse": [
+          1361,
+          825,
+          64,
+          76,
+          8
+        ],
+        "clip_to": "Far_White",
+        "hidden_margin_method": "nearest original visible texel, no rescaling; only small gaze checks",
+        "hidden_margin_pixels": 1709,
+        "visible_iris_pixels": 12182
+      }
+    ],
+    "gaze_checks": [
+      {
+        "eye": "Near",
+        "shift": [
+          -6,
+          0
+        ],
+        "interior_pixels": 14067,
+        "interior_rgb_error_max": 0
+      },
+      {
+        "eye": "Far",
+        "shift": [
+          -6,
+          0
+        ],
+        "interior_pixels": 11896,
+        "interior_rgb_error_max": 0
+      },
+      {
+        "eye": "Near",
+        "shift": [
+          0,
+          0
+        ],
+        "interior_pixels": 14067,
+        "interior_rgb_error_max": 0
+      },
+      {
+        "eye": "Far",
+        "shift": [
+          0,
+          0
+        ],
+        "interior_pixels": 12024,
+        "interior_rgb_error_max": 0
+      },
+      {
+        "eye": "Near",
+        "shift": [
+          6,
+          0
+        ],
+        "interior_pixels": 13895,
+        "interior_rgb_error_max": 0
+      },
+      {
+        "eye": "Far",
+        "shift": [
+          6,
+          0
+        ],
+        "interior_pixels": 12015,
+        "interior_rgb_error_max": 0
+      },
+      {
+        "eye": "Near",
+        "shift": [
+          0,
+          -4
+        ],
+        "interior_pixels": 13736,
+        "interior_rgb_error_max": 0
+      },
+      {
+        "eye": "Far",
+        "shift": [
+          0,
+          -4
+        ],
+        "interior_pixels": 11755,
+        "interior_rgb_error_max": 0
+      },
+      {
+        "eye": "Near",
+        "shift": [
+          0,
+          4
+        ],
+        "interior_pixels": 13734,
+        "interior_rgb_error_max": 0
+      },
+      {
+        "eye": "Far",
+        "shift": [
+          0,
+          4
+        ],
+        "interior_pixels": 11735,
+        "interior_rgb_error_max": 0
+      }
+    ],
+    "remaining": [
+      "complete concealed eyelid/hair anatomy for head angles",
+      "closed and half-closed side keyforms",
+      "near/far eye-to-frontal registration",
+      "Cubism mesh/parameters and runtime validation"
+    ]
+  }
+]

@@ -2,7 +2,7 @@
 
 ## 瑠璃乃 Live2D 制作
 
-[当前制作目标与下一步](live2d/CURRENT_WORK.md)：正在重做转头结构和分层；v0.3.4 已有左右眼部修订参考，尚未导出新的运行模型。
+[当前制作目标与下一步](live2d/CURRENT_WORK.md)：正在重做转头结构和分层；v0.3.4 新增[左右侧向眼部分层 PSD 与视线检查](live2d/SIDE_EYE_MATERIALS_V034.md)，边缘仍待收整，尚未导出新的运行模型。
 
 [人物素材与 Cubism 交接](live2d/README.md) · [桌宠模型接入程序](desktop/README.md)。已提供 [v0.3.3 可运行绑定测试稿](live2d/RIG_DRAFT.md)，支持眨眼、口型与小幅转头；头发边缘和变形仍在精修。
 

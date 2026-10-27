@@ -1,0 +1,154 @@
+[
+  {
+    "side": "left",
+    "psd_sha256": "92dbdd19fd28efa2d640731ca006b532c8920751d2b59df3d1c67feaf0c8d796",
+    "pixel_layers": 10,
+    "iris_clipping_layers": 2,
+    "gaze_checks": [
+      {
+        "shift": [
+          -6,
+          0
+        ],
+        "saved_psd_rgb_error_max": 2,
+        "saved_psd_alpha_error_max": 1,
+        "outside_apertures_unchanged": true,
+        "antialiased_edge_pixels_over_2_levels": 0,
+        "opaque_aperture_rgb_error_max": 1
+      },
+      {
+        "shift": [
+          0,
+          0
+        ],
+        "saved_psd_rgb_error_max": 1,
+        "saved_psd_alpha_error_max": 1,
+        "outside_apertures_unchanged": true,
+        "antialiased_edge_pixels_over_2_levels": 0,
+        "opaque_aperture_rgb_error_max": 1
+      },
+      {
+        "shift": [
+          6,
+          0
+        ],
+        "saved_psd_rgb_error_max": 8,
+        "saved_psd_alpha_error_max": 1,
+        "outside_apertures_unchanged": true,
+        "antialiased_edge_pixels_over_2_levels": 2,
+        "opaque_aperture_rgb_error_max": 1
+      },
+      {
+        "shift": [
+          0,
+          -4
+        ],
+        "saved_psd_rgb_error_max": 1,
+        "saved_psd_alpha_error_max": 1,
+        "outside_apertures_unchanged": true,
+        "antialiased_edge_pixels_over_2_levels": 0,
+        "opaque_aperture_rgb_error_max": 1
+      },
+      {
+        "shift": [
+          0,
+          4
+        ],
+        "saved_psd_rgb_error_max": 2,
+        "saved_psd_alpha_error_max": 1,
+        "outside_apertures_unchanged": true,
+        "antialiased_edge_pixels_over_2_levels": 0,
+        "opaque_aperture_rgb_error_max": 1
+      }
+    ],
+    "white_layer_checks": [
+      {
+        "eye": "Far",
+        "cyan_iris_residue_pixels_on_sclera": 0
+      },
+      {
+        "eye": "Near",
+        "cyan_iris_residue_pixels_on_sclera": 0
+      }
+    ],
+    "outside_eye_band_exact": true,
+    "source_alpha_note": "opaque eye-layer compositing can raise near-opaque source alpha by a few levels inside the eye band",
+    "limits": "small iris translation only; no side blink, head turn, physics, or Cubism runtime validation"
+  },
+  {
+    "side": "right",
+    "psd_sha256": "f1de0de5d93300033324e0af1944cf94df274d3b49ebf640f52a6d193b8387f1",
+    "pixel_layers": 10,
+    "iris_clipping_layers": 2,
+    "gaze_checks": [
+      {
+        "shift": [
+          -6,
+          0
+        ],
+        "saved_psd_rgb_error_max": 5,
+        "saved_psd_alpha_error_max": 1,
+        "outside_apertures_unchanged": true,
+        "antialiased_edge_pixels_over_2_levels": 2,
+        "opaque_aperture_rgb_error_max": 1
+      },
+      {
+        "shift": [
+          0,
+          0
+        ],
+        "saved_psd_rgb_error_max": 1,
+        "saved_psd_alpha_error_max": 1,
+        "outside_apertures_unchanged": true,
+        "antialiased_edge_pixels_over_2_levels": 0,
+        "opaque_aperture_rgb_error_max": 1
+      },
+      {
+        "shift": [
+          6,
+          0
+        ],
+        "saved_psd_rgb_error_max": 5,
+        "saved_psd_alpha_error_max": 1,
+        "outside_apertures_unchanged": true,
+        "antialiased_edge_pixels_over_2_levels": 1,
+        "opaque_aperture_rgb_error_max": 1
+      },
+      {
+        "shift": [
+          0,
+          -4
+        ],
+        "saved_psd_rgb_error_max": 1,
+        "saved_psd_alpha_error_max": 1,
+        "outside_apertures_unchanged": true,
+        "antialiased_edge_pixels_over_2_levels": 0,
+        "opaque_aperture_rgb_error_max": 1
+      },
+      {
+        "shift": [
+          0,
+          4
+        ],
+        "saved_psd_rgb_error_max": 3,
+        "saved_psd_alpha_error_max": 1,
+        "outside_apertures_unchanged": true,
+        "antialiased_edge_pixels_over_2_levels": 1,
+        "opaque_aperture_rgb_error_max": 1
+      }
+    ],
+    "white_layer_checks": [
+      {
+        "eye": "Far",
+        "cyan_iris_residue_pixels_on_sclera": 0
+      },
+      {
+        "eye": "Near",
+        "cyan_iris_residue_pixels_on_sclera": 0
+      }
+    ],
+    "outside_eye_band_exact": true,
+    "source_alpha_note": "opaque eye-layer compositing can raise near-opaque source alpha by a few levels inside the eye band",
+    "limits": "small iris translation only; no side blink, head turn, physics, or Cubism runtime validation"
+  }
+]

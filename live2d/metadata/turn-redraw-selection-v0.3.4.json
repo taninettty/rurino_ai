@@ -35,7 +35,7 @@
       "zero_alpha_pixels": 1316535
     }
   ],
-  "status": "viewpoint drawing references; not split or rigged",
+  "status": "viewpoint drawing references; separate side-eye PSDs available; full head not split or rigged",
   "display_only": {
     "common_crop": [
       180,
@@ -64,5 +64,10 @@
     "measurements": "eye_calibration/qa/eye-measurements.json",
     "local_patch_verification": "eye_calibration/qa/patch-verification.json",
     "limits": "static drawing review only; reference pitch and gaze differ; no fixed eye-gap ratio"
+  },
+  "side_eye_layers": {
+    "status": "separate 10-layer PSD for each side, small gaze material checks only",
+    "details": "eye_layers/STATUS.md",
+    "verification": "eye_layers/qa/saved-psd-verification.json"
   }
 }

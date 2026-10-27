@@ -27,7 +27,7 @@ def main():
         draw.text((i*600+12,15),label,fill=(40,45,60))
     sheet.save(OUT/'qa/turn-redraw-comparison.jpg',quality=96)
     report={'method':'two independently generated LibTV viewpoints, with selected local eye redraw patches; no face warp, mirror or interpolated animation',
-            'selected_outputs':records,'status':'viewpoint drawing references; not split or rigged',
+            'selected_outputs':records,'status':'viewpoint drawing references; separate side-eye PSDs available; full head not split or rigged',
             'display_only':{'common_crop':[180,0,1868,1540],'uniform_thumbnail_max_size':[600,620]},
             'review':{'left_v1':'superseded: larger apparent turn and unwanted head roll',
                       'left_v2':'more level eye line; new near ear, far eye and jaw drawing',
@@ -40,6 +40,8 @@ def main():
                                'measurements':'eye_calibration/qa/eye-measurements.json',
                                'local_patch_verification':'eye_calibration/qa/patch-verification.json',
                                'limits':'static drawing review only; reference pitch and gaze differ; no fixed eye-gap ratio'}
+    report['side_eye_layers']={'status':'separate 10-layer PSD for each side, small gaze material checks only',
+                               'details':'eye_layers/STATUS.md','verification':'eye_layers/qa/saved-psd-verification.json'}
     (OUT/'selection.json').write_text(json.dumps(report,indent=2)+'\n')
     print(json.dumps({'outputs':len(records)-1,'source_files_verified':True,'source_geometry_modified':False},indent=2))
 
