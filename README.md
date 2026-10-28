@@ -2,7 +2,7 @@
 
 ## 瑠璃乃 Live2D 制作
 
-[当前制作目标与下一步](live2d/CURRENT_WORK.md)：[刘海发尖轮廓修正](live2d/BANGS_CONTOUR_REPAIR_V034.md)，54 层 PSD，实际修正发尖、旧线残片与眼前遮挡，保留独立黑线。尚未绑定新的 Cubism 动作。
+[当前制作目标与下一步](live2d/CURRENT_WORK.md)：[刘海轮廓与发根修正](live2d/BANGS_CONTOUR_REPAIR_V034.md)，55 层 PSD，实际修正发尖、旧线残片与眼前遮挡，保留独立黑线。尚未绑定新的 Cubism 动作。
 
 [人物素材与 Cubism 交接](live2d/README.md) · [桌宠模型接入程序](desktop/README.md)。已提供 [v0.3.3 可运行绑定测试稿](live2d/RIG_DRAFT.md)，支持眨眼、口型与小幅转头；头发边缘和变形仍在精修。
 

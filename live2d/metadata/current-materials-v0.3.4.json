@@ -1,8 +1,8 @@
 {
   "active_psd": "rebuild_v3_4/turn_redraw/bangs_contour_repair/Rurino_Bangs_Contour_Repaired_v034.psd",
-  "sha256": "6122418d6a8495c0da38217de40b3ffa98eee6d58624f9a178fe9f1a0ef015c5",
-  "status": "lower fringe contour repair, foreground carryovers and local skin underlap; left-view static material",
-  "pixel_layers": 54,
+  "sha256": "8cc7afed55ebd88bd417d76726ccdf82ed78d38ec81dc468164590ea2134bbe4",
+  "status": "fringe contour repair, two flow-line joins, right concealed root repair and local skin underlap; left-view static material",
+  "pixel_layers": 55,
   "canvas": [
     3456,
     2816
@@ -14,5 +14,5 @@
   "default_visible": true,
   "user_work_order": "repair actual bangs silhouette, keep continuous middle fringe and editable black contours",
   "previous_psd": "rebuild_v3_4/turn_redraw/hair_independent_ink/Rurino_Hair_Independent_Ink_v034.psd",
-  "next": "refine shared upper-root shape and line/shadow joins, then Cubism meshes and combined motion validation"
+  "next": "Cubism mesh/deformer setup and hidden-root exposure checks across head/body motion"
 }

@@ -71,7 +71,7 @@ def prepare():
       'C 1244 422 1227 386 1212 354 L 1180 220 Z')
     shape=curve_mask(tip_path)
     # Blend the contour change into the unedited upper hair over 80px.
-    t=np.clip((y-470)/80,0,1);t=t*t*(3-2*t);t*=x>900
+    t=np.clip((y-470)/80,0,1);t=t*t*(3-2*t);t*=(x>900)&(x<1290)
     alpha=np.rint(orig[:,:,3]*(1-t)+shape*t).astype('uint8')
     # Repair the left hidden root notch, using actual underlying source hair.
     closed=cv2.morphologyEx(orig[:,:,3],cv2.MORPH_CLOSE,cv2.getStructuringElement(cv2.MORPH_ELLIPSE,(37,37)))
@@ -92,11 +92,39 @@ def prepare():
     recoat=np.maximum(np.clip((20-olddepth)/7,0,1),np.clip((16-newdepth)/6,0,1))*t*(alpha>0)
     a[:,:,:3]=np.rint(a[:,:,:3]*(1-recoat[:,:,None])+extended*recoat[:,:,None]).astype('uint8')
     a[:,:,3]=alpha;a[alpha==0]=0
+    # Continue the scalp root underneath the right flower along a curved
+    # silhouette. The old mask followed petal cut-outs and retained petal ink.
+    # This concealed extension is inferred hair paint, not recovered flowers.
+    rootshape=curve_mask('M 1230 130 C 1350 165 1405 250 1440 350 C 1470 420 1495 470 1485 510 C 1460 550 1410 585 1380 581 C 1355 565 1340 520 1310 480 C 1280 440 1250 420 1220 390 L 1220 130 Z')
+    rootweight=np.clip((x-1300)/40,0,1)*np.clip((y-170)/30,0,1)*np.clip((510-y)/35,0,1)
+    u=np.clip((x-(1200+.5*y))/180,0,1)
+    rootcolour=np.array([250,233,195])+u[:,:,None]*np.array([-20,-31,-2])
+    rootpaint=np.clip((24-olddepth)/14,0,1)*rootweight*(a[:,:,3]>0)
+    a[:,:,:3]=np.rint(a[:,:,:3]*(1-rootpaint[:,:,None])+rootcolour*rootpaint[:,:,None]).astype('uint8')
+    # Extra concealed root paint goes BEHIND the side locks, so it cannot
+    # cap their visible flow lines. Preserve the original front alpha here.
+    rootback=np.zeros_like(a);rootback[:,:,:3]=np.rint(rootcolour).astype('uint8');rootback[:,:,3]=rootshape;rootback[rootshape==0]=0
+    rootchanges=int(((rootshape>0)&(a[:,:,3]==0)).sum())
     line=np.array(ink_image(Image.fromarray(a),2.8,'Crown',(DX+BOX[0],BOX[1])))
+    # Reconnect the original mauve flow strokes to the new fork endpoints.
+    # Draw into the colour material; the outer editable black ink stays separate.
+    join=Image.new('RGBA',(SIZE[0]*4,SIZE[1]*4));jd=ImageDraw.Draw(join)
+    for points in [[(1157,606),(1158,618),(1155,628),(1153,636)],[(1205,653),(1203,667),(1199,675),(1202,686)]]:
+        p0,p1,p2,p3=np.array(points,float);prev=None
+        for u in np.linspace(0,1,100):
+            p=(1-u)**3*p0+3*(1-u)**2*u*p1+3*(1-u)*u*u*p2+u**3*p3
+            if prev is not None:
+                opacity=round(235*min(u*5,1));c=np.rint(np.array([111,83,99])*(1-u*.85)).astype(int)
+                jd.line(((prev[0]-BOX[0])*4,(prev[1]-BOX[1])*4,(p[0]-BOX[0])*4,(p[1]-BOX[1])*4),fill=(*c,opacity),width=round((3.6-u*.8)*4))
+            prev=p
+    j=np.array(join.resize(SIZE,Image.Resampling.LANCZOS));j[:,:,3]=np.minimum(j[:,:,3],a[:,:,3])
+    painted=np.array(Image.alpha_composite(Image.fromarray(a),Image.fromarray(j)))
+    a[:,:,:3]=painted[:,:,:3]
     changed={
       'Crown':put_crop(paste_full(old['Crown'].topil().convert('RGBA'),old['Crown'].offset),a),
       'Ink_Crown':put_crop(paste_full(old['Ink_Crown'].topil().convert('RGBA'),old['Ink_Crown'].offset),line),
     }
+    changed['Crown_ConcealedRoot_Underlap_LOCAL']=put_crop(Image.new('RGBA',(W,H)),rootback)
     # The previous face was cut to the old hair silhouette. Supply only the
     # narrow newly exposed skin margin underneath the revised fringe; eyes
     # remain above this patch, and original face/eye layers remain unchanged.
@@ -125,10 +153,10 @@ def prepare():
     for n,m in [('fringe-new-alpha',a[:,:,3]),('tip-contour-edit',np.rint(t*255).astype('uint8'))]:
         Image.fromarray(m).save(OUT/'masks'/(n+'.png'))
     before=Image.alpha_composite(paste_full(old['Crown'].topil().convert('RGBA'),old['Crown'].offset),paste_full(old['Ink_Crown'].topil().convert('RGBA'),old['Ink_Crown'].offset))
-    after=Image.alpha_composite(changed['Crown'],changed['Ink_Crown']);after.save(OUT/'qa/bangs-isolated.png')
+    after=Image.alpha_composite(changed['Crown_ConcealedRoot_Underlap_LOCAL'],Image.alpha_composite(changed['Crown'],changed['Ink_Crown']));after.save(OUT/'qa/bangs-isolated.png')
     panel([('修改前 · 刘海原片',before),('修改后 · 连续轮廓与发尖',after)],OUT/'qa/bangs-contour-comparison.jpg',(DX+530,80,DX+1510,920),.8)
     panel([('修改前 · 断口与碎线',before),('修改后 · 发尖连接',after)],OUT/'qa/bangs-tips-detail.jpg',(DX+920,510,DX+1290,900),1.5)
-    report={'source_sha256':sha(SOURCE),'donor_sha256':sha(DONOR),'tip_alpha_changed_pixels':int(((alpha!=orig[:,:,3])&(t>0)).sum()),'left_notch_recovered_pixels':int(added_notch.sum()),'upper_shared_root_ownership_unchanged':True,'repainted_contour_pixels':int((recoat>0).sum()),'changed_layers':list(changed),'method':'local smooth tip contour reconstruction; original upper-root ownership retained; boundary colour extension inferred from neighbouring hair','not_a_new_angle_or_rig':True}
+    report={'source_sha256':sha(SOURCE),'donor_sha256':sha(DONOR),'tip_alpha_changed_pixels':int(((alpha!=orig[:,:,3])&(t>0)).sum()),'left_notch_recovered_pixels':int(added_notch.sum()),'upper_shared_root_ownership_unchanged':True,'right_root_new_backing_pixels':rootchanges,'root_backing_behind_side_locks':True,'right_root_inferred_under_flower':True,'flow_line_joins_reconnected':2,'repainted_contour_pixels':int((recoat>0).sum()),'changed_layers':list(changed),'method':'smooth tip and hidden root contour reconstruction, two flow-line joins; root layer ownership retained; boundary colour extension inferred from neighbouring hair','not_a_new_angle_or_rig':True}
     (OUT/'edit-record.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
     print(json.dumps(report,ensure_ascii=False,indent=2),flush=True)
 
@@ -141,6 +169,9 @@ def build():
             if item.is_group():
                 g=Group.new(item.name,parent=parent);g.visible=item.visible;g.opacity=item.opacity
                 if item.blend_mode is not None:g.blend_mode=item.blend_mode
+                if item.name=='01e_HeadHair':
+                    n='Crown_ConcealedRoot_Underlap_LOCAL';im=Image.open(files[n]).convert('RGBA');b=im.getbbox()
+                    g.append(PixelLayer.frompil(im.crop(b),psd_file=psd,layer_name=n,top=b[1],left=b[0]))
                 clone(item,g)
                 if item.name=='01d_Face_Ear':
                     n='Fringe_Edge_Skin_Underlap_LOCAL';im=Image.open(files[n]).convert('RGBA');b=im.getbbox()

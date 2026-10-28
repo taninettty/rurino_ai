@@ -1,29 +1,34 @@
 {
   "source_sha256": "c65494958a7b3059252d5d530547fb040e2c3d1a58fd69d6a73dc06c1253a65c",
   "donor_sha256": "1ca04e5ecd4759f3f1b3169231a8f564be810da6e42477492f2683b3cbe32dd9",
-  "tip_alpha_changed_pixels": 80639,
+  "tip_alpha_changed_pixels": 67223,
   "left_notch_recovered_pixels": 1522,
   "upper_shared_root_ownership_unchanged": true,
-  "repainted_contour_pixels": 38601,
+  "right_root_new_backing_pixels": 15566,
+  "root_backing_behind_side_locks": true,
+  "right_root_inferred_under_flower": true,
+  "flow_line_joins_reconnected": 2,
+  "repainted_contour_pixels": 29975,
   "changed_layers": [
     "Crown",
     "Ink_Crown",
+    "Crown_ConcealedRoot_Underlap_LOCAL",
     "Fringe_Edge_Skin_Underlap_LOCAL",
     "Left_Fringe_EyeOverlap_SOURCE",
     "Ink_Overlap_Left_Fringe_EyeOverlap_SOURCE",
     "RightFringe_ForegroundTips_SOURCE",
     "Ink_Overlap_RightFringe_ForegroundTips_SOURCE"
   ],
-  "method": "local smooth tip contour reconstruction; original upper-root ownership retained; boundary colour extension inferred from neighbouring hair",
+  "method": "smooth tip and hidden root contour reconstruction, two flow-line joins; root layer ownership retained; boundary colour extension inferred from neighbouring hair",
   "not_a_new_angle_or_rig": true,
   "psd": "Rurino_Bangs_Contour_Repaired_v034.psd",
-  "sha256": "6122418d6a8495c0da38217de40b3ffa98eee6d58624f9a178fe9f1a0ef015c5",
+  "sha256": "8cc7afed55ebd88bd417d76726ccdf82ed78d38ec81dc468164590ea2134bbe4",
   "source_psd": "rebuild_v3_4/turn_redraw/hair_independent_ink/Rurino_Hair_Independent_Ink_v034.psd",
   "canvas": [
     3456,
     2816
   ],
-  "pixel_layers": 54,
+  "pixel_layers": 55,
   "unchanged_layers": [
     "Large_L",
     "Ink_Large_L",
@@ -81,15 +86,15 @@
   "states": [
     {
       "name": "Open",
-      "sha256": "6422761701e95ec8b8dcf96761a713910e60dc9822ec4c1a37fec6f6fca5015e"
+      "sha256": "3f684549f927bc57bf33e5ad59b9f763d698b58dbfd67755a096e878498d3ed3"
     },
     {
       "name": "Half",
-      "sha256": "90cc0426a06d0c07f9a85eb10de213e753178c905c1cb402fd5eb309e90ed7cc"
+      "sha256": "a98c004e5053d72ee1ded7363573b711a510597be10700cc50406e38a2eb46ac"
     },
     {
       "name": "Closed",
-      "sha256": "d6882c548f0fd50c8c8302f3b9a7854fa6f3ae090749647feb16152eac6dae7b"
+      "sha256": "d13ee808fd5b080f493db69cebe914c1cf3bbce4a58490715a8bcc9680c51cae"
     }
   ],
   "scope": "current left-view raster material; no Cubism motion or new runtime model",
