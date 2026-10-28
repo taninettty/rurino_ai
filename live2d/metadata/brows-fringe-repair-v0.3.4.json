@@ -1,0 +1,53 @@
+{
+  "input_psd_sha256": "2fddde328f872a89ebd0587763da133bccca907a51b038d98bd45b401c62129c",
+  "saved_psd_sha256": "15346df9106cbc1365d6422af1d2b6f49fa570ba916f9b5a5875848ef20fb68f",
+  "pixel_layers": 71,
+  "original_66_layer_pixels_and_attributes_preserved": true,
+  "rejected_CD_split_used": false,
+  "fringe_further_split": false,
+  "independent_full_brows": 2,
+  "brow_method": "original arc/colour sampled; crossing hair remnants and matte locally cleaned, not pixel-exact source extraction",
+  "repair_method": "narrow directional interpolation along traced hair lines; per-pixel ownership rebuilt only in edit mask",
+  "edit_mask_pixels": 11328,
+  "modified_sources": [
+    {
+      "source_layer": "Bang_ImageLeft_Visible",
+      "new_layer": "CrownFringe_L_BrowRemoved_REPAIRED",
+      "edited_alpha_pixels": 2129,
+      "outside_edit_mask_visible_pixels_unchanged": true
+    },
+    {
+      "source_layer": "FacePaint_Visible_NOT_FEATURE_SPLIT",
+      "new_layer": "FacePaint_Visible_NOT_FEATURE_SPLIT_BrowRemoved_LOCAL",
+      "edited_alpha_pixels": 5273,
+      "outside_edit_mask_visible_pixels_unchanged": true
+    },
+    {
+      "source_layer": "Bang_ImageRight_Visible",
+      "new_layer": "CrownFringe_R_BrowRemoved_REPAIRED",
+      "edited_alpha_pixels": 3926,
+      "outside_edit_mask_visible_pixels_unchanged": true
+    }
+  ],
+  "states": [
+    {
+      "state": "Open",
+      "outside_brow_edit_mask_rgba_exact": true,
+      "changed_pixels_inside_mask": 11005
+    },
+    {
+      "state": "Half",
+      "outside_brow_edit_mask_rgba_exact": true,
+      "changed_pixels_inside_mask": 11005
+    },
+    {
+      "state": "Closed",
+      "outside_brow_edit_mask_rgba_exact": true,
+      "changed_pixels_inside_mask": 11005
+    }
+  ],
+  "new_layers_match_pngs": true,
+  "scope": "left-view head only; under-brow hair and skin repaired; remaining hair roots and hidden areas pending",
+  "generative_image_tasks_started": 0,
+  "new_mesh_or_physics": false
+}
