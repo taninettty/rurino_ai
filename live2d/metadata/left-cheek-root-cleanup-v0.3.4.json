@@ -1,0 +1,73 @@
+{
+  "input_psd_sha256": "c908e790f0fe4be4da0ac122edac76f010c7804c37067e25d5ed390dc62c741d",
+  "saved_psd_sha256": "00f7430b6484b2d3c675e8953380677dbdf8e9870e75bb85078332bfa3b19129",
+  "pixel_layers": 117,
+  "original_114_pixel_data_offsets_and_blending_preserved": true,
+  "replaced_original_layer_hidden": "CheekLock_ImageLeft",
+  "new_layers_match_pngs": true,
+  "records": {
+    "reassigned_flower_pixels": 1030,
+    "candidate_repaint_pixels": 1030,
+    "candidate_outside_repair_mask_exact": true,
+    "candidate_alpha_exact": true,
+    "source_partition_exact": true,
+    "native_contour": {
+      "y": [
+        235,
+        250,
+        275,
+        295,
+        305,
+        330,
+        350,
+        375,
+        400,
+        425
+      ],
+      "x": [
+        677,
+        659,
+        637,
+        620,
+        613,
+        594,
+        580,
+        565,
+        550,
+        535
+      ]
+    },
+    "local_rgb_sample_offset_from_contour": [
+      9,
+      24
+    ],
+    "sample_smoothing_sigma_y": 3
+  },
+  "states": [
+    {
+      "state": "Open",
+      "default_composite_rgba_exact": true,
+      "changed_pixels": 0
+    },
+    {
+      "state": "Half",
+      "default_composite_rgba_exact": true,
+      "changed_pixels": 0
+    },
+    {
+      "state": "Closed",
+      "default_composite_rgba_exact": true,
+      "changed_pixels": 0
+    }
+  ],
+  "root_clean_candidate_default_visible": false,
+  "method": "confirmed flower context reassignment; adjacent same-side hair colour continuation within a fixed local mask in hidden candidate only",
+  "limitations": [
+    "current left-view material only",
+    "lower blue patch ownership and old peripheral mixed colour remain to inspect",
+    "other roots, right-side fringe tip recovery and large-tail shoulder seams remain pending",
+    "off-canvas long-tail tips and motion coverage not completed",
+    "no new Cubism mesh, parameter binding, physics or runtime export"
+  ],
+  "libtv_generation_used": false
+}
