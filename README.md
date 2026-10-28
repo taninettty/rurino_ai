@@ -2,7 +2,7 @@
 
 ## 瑠璃乃 Live2D 制作
 
-[当前制作目标与下一步](live2d/CURRENT_WORK.md)：已修整[两缕头发的静态发根衔接和旧描边](live2d/HAIR_JOINS_V034.md)，提供 49 层检查稿、实际透明图层对照与增量包；旧可见段的平切根部明确标为未完成。完整重绘仍为 2 缕；下一缕 LibTV 生成被 COMMERCIAL_BLOCKED 拒绝，身体动作与头发物理尚未完成。
+[当前制作目标与下一步](live2d/CURRENT_WORK.md)：新增[下垂短发 L02/R02 沿发流补根](live2d/DROP_HAIR_ROOTS_V034.md)，提供 51 层检查稿、实际透明发束对照和增量包。完整 LibTV 重绘仍为此前 R01/L01 两缕，本轮为本地局部补画；R02 内侧边界、其他发束和运动绑定仍待制作。
 
 [人物素材与 Cubism 交接](live2d/README.md) · [桌宠模型接入程序](desktop/README.md)。已提供 [v0.3.3 可运行绑定测试稿](live2d/RIG_DRAFT.md)，支持眨眼、口型与小幅转头；头发边缘和变形仍在精修。
 

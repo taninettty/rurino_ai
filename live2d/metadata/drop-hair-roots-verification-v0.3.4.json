@@ -1,0 +1,127 @@
+{
+  "input_psd_sha256": "e37f13ff8a88ece9291f855a3aa4f855727b8133ef2898fa84ad9394604da7cb",
+  "saved_psd_sha256": "cd80a5fa10799bb8cffbde188438b16169fe3a0c42cc2946a46759f34413447e",
+  "pixel_layers": 51,
+  "source_49_layer_pixels_offsets_opacity_blend_clipping_retained": true,
+  "newly_hidden_source_layers": [
+    "L02_OuterDrop_EdgeCleanup_VISIBLE_ONLY",
+    "R02_OuterDrop"
+  ],
+  "locks": [
+    {
+      "name": "L02",
+      "source_layer": "L02_OuterDrop_EdgeCleanup_VISIBLE_ONLY",
+      "root_control_points": {
+        "source": "L02_OuterDrop_EdgeCleanup_VISIBLE_ONLY",
+        "y": [
+          250,
+          320,
+          400,
+          480,
+          550,
+          610
+        ],
+        "left": [
+          535,
+          490,
+          450,
+          427,
+          395,
+          371
+        ],
+        "right": [
+          535,
+          510,
+          484,
+          456,
+          428,
+          415
+        ]
+      },
+      "old_opaque_pixels_exact": true,
+      "rows_611_down_rgba_exact": true,
+      "added_alpha_pixels": 6579
+    },
+    {
+      "name": "R02",
+      "source_layer": "R02_OuterDrop",
+      "root_control_points": {
+        "source": "R02_OuterDrop",
+        "y": [
+          230,
+          320,
+          420,
+          500,
+          550,
+          610
+        ],
+        "left": [
+          1518,
+          1548,
+          1590,
+          1618,
+          1637,
+          1658
+        ],
+        "right": [
+          1518,
+          1585,
+          1650,
+          1694,
+          1711,
+          1729
+        ]
+      },
+      "old_opaque_pixels_exact": true,
+      "rows_611_down_rgba_exact": true,
+      "added_alpha_pixels": 12335
+    }
+  ],
+  "neutral_composite_changed_pixels": 30329,
+  "changed_pixels_outside_root_support": 0,
+  "new_pixels_outside_previous_head_silhouette": 0,
+  "saved_psd_state_checks": [
+    {
+      "state": "Open",
+      "central_opaque_face_max_difference": 0,
+      "roi_xyxy": [
+        620,
+        400,
+        1250,
+        1230
+      ]
+    },
+    {
+      "state": "Half",
+      "central_opaque_face_max_difference": 0,
+      "roi_xyxy": [
+        620,
+        400,
+        1250,
+        1230
+      ]
+    },
+    {
+      "state": "Closed",
+      "central_opaque_face_max_difference": 0,
+      "roi_xyxy": [
+        620,
+        400,
+        1250,
+        1230
+      ]
+    }
+  ],
+  "method": "local concealed-root raster painting on existing visible locks; not a new LibTV image",
+  "limitations": [
+    "R02 inner edge and neighbouring strand ownership still require refinement",
+    "root anchor positions and overlap not validated under movement",
+    "no new Cubism rig or body motion"
+  ],
+  "libtv": {
+    "node_id": "i-UcpjWnGYq3",
+    "status": "generation_rejected",
+    "code": "COMMERCIAL_BLOCKED",
+    "task_id": null
+  }
+}
