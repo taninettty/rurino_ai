@@ -1,0 +1,70 @@
+{
+  "saved_psd_sha256": "90b3127fc6092f74f398b7486c401d77c3290fac741adde64530cecfaee7cf3f",
+  "source_psd_unchanged": true,
+  "pixel_layers": 44,
+  "independent_visible_locks": 8,
+  "pending_root_boundary_layers": 2,
+  "unaltered_other_layers": 34,
+  "other_layers_rgba_offsets_flags_exact": true,
+  "source_parent_visible_rgba_and_full_alpha_exact": true,
+  "saved_psd_state_comparison": [
+    {
+      "state": "Open",
+      "visible_rgb_max_difference": 0,
+      "alpha_max_difference": 0
+    },
+    {
+      "state": "Half",
+      "visible_rgb_max_difference": 0,
+      "alpha_max_difference": 0
+    },
+    {
+      "state": "Closed",
+      "visible_rgb_max_difference": 0,
+      "alpha_max_difference": 0
+    }
+  ],
+  "isolation_checks": [
+    {
+      "name": "R01_OuterFlick",
+      "changed_pixels_when_hidden": 13391,
+      "outside_lock_changed_pixels": 0
+    },
+    {
+      "name": "R02_OuterDrop",
+      "changed_pixels_when_hidden": 31624,
+      "outside_lock_changed_pixels": 0
+    },
+    {
+      "name": "R03_UnderDrop",
+      "changed_pixels_when_hidden": 7616,
+      "outside_lock_changed_pixels": 0
+    },
+    {
+      "name": "R04_MainDrop",
+      "changed_pixels_when_hidden": 38724,
+      "outside_lock_changed_pixels": 0
+    },
+    {
+      "name": "R05_InnerLock",
+      "changed_pixels_when_hidden": 33299,
+      "outside_lock_changed_pixels": 0
+    },
+    {
+      "name": "L01_OuterFlick",
+      "changed_pixels_when_hidden": 8978,
+      "outside_lock_changed_pixels": 0
+    },
+    {
+      "name": "L02_OuterDrop",
+      "changed_pixels_when_hidden": 22188,
+      "outside_lock_changed_pixels": 0
+    },
+    {
+      "name": "L03_MiddleDrop",
+      "changed_pixels_when_hidden": 8029,
+      "outside_lock_changed_pixels": 0
+    }
+  ],
+  "scope": "visible segmentation and saved-file integrity; hidden roots, edge matting, movement and Cubism physics not validated"
+}

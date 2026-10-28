@@ -48,6 +48,7 @@ def main():
     report['corner_drawings']={'status':'four selected corner drawings and nine-direction review; head/neck registration, full separation and rigging incomplete','details':'corner_redraw/STATUS.md','selection':'corner_redraw/selection.json','verification':'corner_redraw/qa/source-verification.json'}
     report['left_head_parts']={'status':'36-layer visible ownership draft; 19 original eye/overlap layers exact; boundaries and concealed parts unfinished','details':'left_head_parts/STATUS.md','verification':'left_head_parts/qa/saved-psd-verification.json'}
     report['collar_registration']={'status':'integer garment-anchor translation only; not anatomical registration','details':'head_registration/STATUS.md','verification':'head_registration/registration.json'}
+    report['individual_hair_locks']={'status':'eight visible short-hair locks; 44-layer head PSD; hidden roots, remaining hair and physics unfinished','details':'left_hair_strands/STATUS.md','verification':'left_hair_strands/qa/saved-psd-verification.json'}
     (OUT/'selection.json').write_text(json.dumps(report,indent=2)+'\n')
     print(json.dumps({'outputs':len(records)-1,'source_files_verified':True,'source_geometry_modified':False},indent=2))
 

@@ -1,0 +1,613 @@
+{
+  "source_psd": "rebuild_v3_4/turn_redraw/left_head_parts/Rurino_Left_Head_Visible_Parts_v034.psd",
+  "source_sha256": "3e87d70b490bef5f1c700840c74385bc3eb530192f8449ab752894cfde61226e",
+  "saved_psd_sha256": "90b3127fc6092f74f398b7486c401d77c3290fac741adde64530cecfaee7cf3f",
+  "canvas": [
+    2048,
+    2048
+  ],
+  "traced_locks": [
+    {
+      "name": "R01_OuterFlick",
+      "label": "右 01 · 外翘束",
+      "parent": "ShortRearHair_ImageRight",
+      "path": "M 817 221 Q 846 248 857 278 Q 870 315 875 359 Q 910 391 952 385 L 974 376 L 974 286 L 871 200 Z",
+      "visible_tip_xy_1024": [
+        943,
+        382
+      ],
+      "visible_pixels": 13391,
+      "bbox": [
+        1634,
+        424,
+        1906,
+        773
+      ],
+      "status": "visible lock only; concealed root and underlap incomplete"
+    },
+    {
+      "name": "R02_OuterDrop",
+      "label": "右 02 · 外垂束",
+      "parent": "ShortRearHair_ImageRight",
+      "path": "M 804 233 Q 842 250 857 278 Q 870 317 875 357 Q 893 410 879 451 Q 870 472 860 487 Q 867 458 852 427 Q 839 396 835 365 Q 837 310 815 267 Z",
+      "visible_tip_xy_1024": [
+        861,
+        482
+      ],
+      "visible_pixels": 31624,
+      "bbox": [
+        1611,
+        469,
+        1771,
+        975
+      ],
+      "status": "visible lock only; concealed root and underlap incomplete"
+    },
+    {
+      "name": "R03_UnderDrop",
+      "label": "右 03 · 后侧尖束露出段",
+      "parent": "ShortRearHair_ImageRight",
+      "path": "M 834 367 Q 840 390 853 426 Q 855 470 789 505 Q 821 469 830 432 Q 840 397 834 367 Z",
+      "visible_tip_xy_1024": [
+        793,
+        499
+      ],
+      "visible_pixels": 7616,
+      "bbox": [
+        1590,
+        734,
+        1707,
+        1000
+      ],
+      "status": "visible lock only; concealed root and underlap incomplete"
+    },
+    {
+      "name": "R04_MainDrop",
+      "label": "右 04 · 长垂束",
+      "parent": "ShortRearHair_ImageRight",
+      "path": "M 773 248 Q 804 248 818 281 Q 839 329 837 376 Q 838 422 809 467 Q 785 494 748 516 Q 774 482 775 429 Q 804 401 794 365 Q 788 302 773 248 Z",
+      "visible_tip_xy_1024": [
+        750,
+        511
+      ],
+      "visible_pixels": 38724,
+      "bbox": [
+        1520,
+        501,
+        1672,
+        1018
+      ],
+      "status": "visible lock only; concealed root and underlap incomplete"
+    },
+    {
+      "name": "R05_InnerLock",
+      "label": "右 05 · 内侧遮挡束",
+      "parent": "ShortRearHair_ImageRight",
+      "path": "M 744 245 Q 773 253 779 296 Q 791 329 796 366 Q 806 402 777 429 Q 749 454 707 469 L 690 443 L 679 432 L 690 311 Z",
+      "visible_tip_xy_1024": [
+        718,
+        459
+      ],
+      "visible_pixels": 33299,
+      "bbox": [
+        1459,
+        490,
+        1593,
+        897
+      ],
+      "status": "visible lock only; concealed root and underlap incomplete"
+    },
+    {
+      "name": "L01_OuterFlick",
+      "label": "左 01 · 外翘束",
+      "parent": "ShortRearHair_ImageLeft",
+      "path": "M 206 245 Q 187 278 180 308 Q 170 338 166 363 Q 140 388 103 390 L 88 383 L 89 298 L 194 233 Z",
+      "visible_tip_xy_1024": [
+        106,
+        384
+      ],
+      "visible_pixels": 8978,
+      "bbox": [
+        204,
+        470,
+        413,
+        781
+      ],
+      "status": "visible lock only; concealed root and underlap incomplete"
+    },
+    {
+      "name": "L02_OuterDrop",
+      "label": "左 02 · 外垂束",
+      "parent": "ShortRearHair_ImageLeft",
+      "path": "M 211 249 Q 194 279 184 309 Q 175 337 166 361 Q 153 403 159 443 Q 164 469 183 485 Q 176 459 181 431 Q 195 391 203 349 Q 205 295 221 254 Z",
+      "visible_tip_xy_1024": [
+        181,
+        479
+      ],
+      "visible_pixels": 22188,
+      "bbox": [
+        314,
+        498,
+        443,
+        970
+      ],
+      "status": "visible lock only; concealed root and underlap incomplete"
+    },
+    {
+      "name": "L03_MiddleDrop",
+      "label": "左 03 · 中间垂束露出段",
+      "parent": "ShortRearHair_ImageLeft",
+      "path": "M 202 361 Q 199 407 216 436 Q 216 466 224 493 Q 188 476 181 432 Q 190 398 202 361 Z",
+      "visible_tip_xy_1024": [
+        218,
+        485
+      ],
+      "visible_pixels": 8029,
+      "bbox": [
+        362,
+        722,
+        435,
+        980
+      ],
+      "status": "visible lock only; concealed root and underlap incomplete"
+    }
+  ],
+  "lock_count": 8,
+  "root_boundary_layers": [
+    "ShortRearHair_ImageRight_RootBoundary_PENDING",
+    "ShortRearHair_ImageLeft_RootBoundary_PENDING"
+  ],
+  "preserved_layers": [
+    {
+      "name": "RearTail_ImageLeft_Visible",
+      "offset": [
+        0,
+        1000
+      ],
+      "size": [
+        896,
+        1048
+      ],
+      "rgba_sha256": "180f784e082c3a57bde295aca63dd56f4ade89c1cecfdac7887f53a510a835ec",
+      "clipping": false
+    },
+    {
+      "name": "RearTail_ImageRight_Visible",
+      "offset": [
+        1150,
+        1000
+      ],
+      "size": [
+        898,
+        1048
+      ],
+      "rgba_sha256": "3933cffec02b361fa119380b6962070689b9136d14ee88a071acd56cc930f724",
+      "clipping": false
+    },
+    {
+      "name": "Body_Visible",
+      "offset": [
+        220,
+        1288
+      ],
+      "size": [
+        1613,
+        760
+      ],
+      "rgba_sha256": "429812e6fbed4b647d17509925c009c8ce423e7c0c047d3b8c33cf07d5a83bd9",
+      "clipping": false
+    },
+    {
+      "name": "Bang_ImageLeft_Visible",
+      "offset": [
+        462,
+        101
+      ],
+      "size": [
+        533,
+        700
+      ],
+      "rgba_sha256": "f91917da69093cd1dfdad995632d67b8418ac7b78e750a9b38f7af972039f977",
+      "clipping": false
+    },
+    {
+      "name": "Neck_Visible",
+      "offset": [
+        828,
+        1096
+      ],
+      "size": [
+        401,
+        455
+      ],
+      "rgba_sha256": "f8648830c9c87c9804dbc54985a074dabe62b15093a8da3d559f0234c2f1830f",
+      "clipping": false
+    },
+    {
+      "name": "FacePaint_Visible_NOT_FEATURE_SPLIT",
+      "offset": [
+        591,
+        342
+      ],
+      "size": [
+        648,
+        899
+      ],
+      "rgba_sha256": "f783bf9d129a9971108fd9eb32abee17ef383da6c4d5616f484ead5062240202",
+      "clipping": false
+    },
+    {
+      "name": "Ear_Near_ImageRight",
+      "offset": [
+        1310,
+        798
+      ],
+      "size": [
+        138,
+        241
+      ],
+      "rgba_sha256": "a499dc659d38afef5835e159bb28be3bdbd345f62c16a6038b06d08ec1cb035e",
+      "clipping": false
+    },
+    {
+      "name": "CheekLock_ImageLeft",
+      "offset": [
+        433,
+        190
+      ],
+      "size": [
+        316,
+        1101
+      ],
+      "rgba_sha256": "99300dfe38237d76a0ebb86be6c77d70057aa4da85767d5a952c4112e1583513",
+      "clipping": false
+    },
+    {
+      "name": "CheekLock_ImageRight",
+      "offset": [
+        1102,
+        154
+      ],
+      "size": [
+        308,
+        1119
+      ],
+      "rgba_sha256": "98a444a8214476332ee18ac693523333fa29604f64ad8984f63d1b40d06c2ab5",
+      "clipping": false
+    },
+    {
+      "name": "LongFrontLock_ImageRight",
+      "offset": [
+        1378,
+        986
+      ],
+      "size": [
+        303,
+        1062
+      ],
+      "rgba_sha256": "c6516589589d7ef4f55cc38a77f0f790e5cfa3c58bc693f230189c836a39ecf2",
+      "clipping": false
+    },
+    {
+      "name": "Flower_ImageLeft",
+      "offset": [
+        432,
+        94
+      ],
+      "size": [
+        327,
+        407
+      ],
+      "rgba_sha256": "47807a5049983a5e85d833f01fcfef9100685b05f1789f3d97b808283a9f51cf",
+      "clipping": false
+    },
+    {
+      "name": "Flower_ImageRight",
+      "offset": [
+        1297,
+        96
+      ],
+      "size": [
+        325,
+        409
+      ],
+      "rgba_sha256": "f25611767332204f7b83e71334db0bd45c287663ea50fc9244a5aec3c116258b",
+      "clipping": false
+    },
+    {
+      "name": "TempleLock_ImageRight",
+      "offset": [
+        1196,
+        158
+      ],
+      "size": [
+        309,
+        893
+      ],
+      "rgba_sha256": "b6648b80f5793d8b63469353234573c18aebc4fa2e15cf5344ef954f58aa0825",
+      "clipping": false
+    },
+    {
+      "name": "Bang_ImageRight_Visible",
+      "offset": [
+        873,
+        100
+      ],
+      "size": [
+        429,
+        701
+      ],
+      "rgba_sha256": "429a3621d97239caed6ba338e6f5a9bee619bda40a4e4fcead5009799e2d25a4",
+      "clipping": false
+    },
+    {
+      "name": "Boundary_Review_NOT_RIG_READY",
+      "offset": [
+        0,
+        0
+      ],
+      "size": [
+        2043,
+        1926
+      ],
+      "rgba_sha256": "82078e569154a499a7ffd59cccaa78e219b159c3cecd4de900eb8828166cf838",
+      "clipping": false
+    },
+    {
+      "name": "Open_Far_White",
+      "offset": [
+        616,
+        752
+      ],
+      "size": [
+        154,
+        135
+      ],
+      "rgba_sha256": "8c063c140d4564627c6b9ab2ccb1faec6c417913c004971d090176752b78f746",
+      "clipping": false
+    },
+    {
+      "name": "Open_Far_Iris",
+      "offset": [
+        632,
+        749
+      ],
+      "size": [
+        104,
+        145
+      ],
+      "rgba_sha256": "57f50bfa93cd2d76c52b4ef536c6011c99dde287709bb8d5a0bbcfcd79b62f48",
+      "clipping": true
+    },
+    {
+      "name": "Open_Far_UpperLid",
+      "offset": [
+        584,
+        713
+      ],
+      "size": [
+        182,
+        157
+      ],
+      "rgba_sha256": "6a13ec85fdb893dd29d8b4b72831c1606ed85faff83c0b32b34bffb68d102cb9",
+      "clipping": false
+    },
+    {
+      "name": "Open_Far_LowerLid",
+      "offset": [
+        608,
+        870
+      ],
+      "size": [
+        106,
+        29
+      ],
+      "rgba_sha256": "94db02627b6189e9415bbaeddbadbb1940ad08b6ed52d510c5350909a7df27c6",
+      "clipping": false
+    },
+    {
+      "name": "Open_Near_White",
+      "offset": [
+        947,
+        748
+      ],
+      "size": [
+        222,
+        139
+      ],
+      "rgba_sha256": "b22e2071855bdf49ca316014b3fddd91a88559ce84c3a79caa48223fd0c3c8fb",
+      "clipping": false
+    },
+    {
+      "name": "Open_Near_Iris",
+      "offset": [
+        978,
+        747
+      ],
+      "size": [
+        132,
+        147
+      ],
+      "rgba_sha256": "cf3565d6369da65581c44d4745c5861a1061e4104d50804cafc1486865c76fe8",
+      "clipping": true
+    },
+    {
+      "name": "Open_Near_UpperLid",
+      "offset": [
+        943,
+        712
+      ],
+      "size": [
+        268,
+        152
+      ],
+      "rgba_sha256": "4fb4fabce3a420b8fded3b416f810d3c1519ff69c6ece4f47379c3ce88e6a271",
+      "clipping": false
+    },
+    {
+      "name": "Open_Near_LowerLid",
+      "offset": [
+        1001,
+        884
+      ],
+      "size": [
+        87,
+        15
+      ],
+      "rgba_sha256": "630baefd415b00ed7feedb1a24abef607435ba5ee79ca1e9d6969298ad815f0c",
+      "clipping": false
+    },
+    {
+      "name": "Half_Far_White",
+      "offset": [
+        619,
+        795
+      ],
+      "size": [
+        151,
+        92
+      ],
+      "rgba_sha256": "fbbb256e8263e9cb0329d1344af00b999795548a5b83d1e3f231dd9679aa4935",
+      "clipping": false
+    },
+    {
+      "name": "Half_Far_Iris",
+      "offset": [
+        632,
+        749
+      ],
+      "size": [
+        104,
+        145
+      ],
+      "rgba_sha256": "57f50bfa93cd2d76c52b4ef536c6011c99dde287709bb8d5a0bbcfcd79b62f48",
+      "clipping": true
+    },
+    {
+      "name": "Half_Far_UpperLid",
+      "offset": [
+        590,
+        738
+      ],
+      "size": [
+        177,
+        129
+      ],
+      "rgba_sha256": "3e77245e7235608f2732699f357c73a25ff449a8cb4597a389202c17ad956703",
+      "clipping": false
+    },
+    {
+      "name": "Half_Far_LowerLid",
+      "offset": [
+        608,
+        870
+      ],
+      "size": [
+        106,
+        29
+      ],
+      "rgba_sha256": "94db02627b6189e9415bbaeddbadbb1940ad08b6ed52d510c5350909a7df27c6",
+      "clipping": false
+    },
+    {
+      "name": "Half_Near_White",
+      "offset": [
+        948,
+        797
+      ],
+      "size": [
+        218,
+        90
+      ],
+      "rgba_sha256": "7e9805a2da3397de94f03edfa8762fbb78c35edcdc9303b5c5bd124bd61732ce",
+      "clipping": false
+    },
+    {
+      "name": "Half_Near_Iris",
+      "offset": [
+        978,
+        747
+      ],
+      "size": [
+        132,
+        147
+      ],
+      "rgba_sha256": "cf3565d6369da65581c44d4745c5861a1061e4104d50804cafc1486865c76fe8",
+      "clipping": true
+    },
+    {
+      "name": "Half_Near_UpperLid",
+      "offset": [
+        939,
+        733
+      ],
+      "size": [
+        271,
+        125
+      ],
+      "rgba_sha256": "c96cd60ea83e76806218e04895aae650084b694edd37d13cd66650579058807b",
+      "clipping": false
+    },
+    {
+      "name": "Half_Near_LowerLid",
+      "offset": [
+        1001,
+        884
+      ],
+      "size": [
+        87,
+        15
+      ],
+      "rgba_sha256": "630baefd415b00ed7feedb1a24abef607435ba5ee79ca1e9d6969298ad815f0c",
+      "clipping": false
+    },
+    {
+      "name": "Closed_Far_UpperLid",
+      "offset": [
+        592,
+        756
+      ],
+      "size": [
+        171,
+        121
+      ],
+      "rgba_sha256": "6a2c8d623e2eb6b51f56144f3e259b40a9090a6ef403743c2e1f514037725951",
+      "clipping": false
+    },
+    {
+      "name": "Closed_Near_UpperLid",
+      "offset": [
+        943,
+        751
+      ],
+      "size": [
+        263,
+        102
+      ],
+      "rgba_sha256": "8c538a510e549b10362756185420d4e04424a29d21156d0b9aa216a1978d5c33",
+      "clipping": false
+    },
+    {
+      "name": "Foreground_Hair_Overlap",
+      "offset": [
+        569,
+        697
+      ],
+      "size": [
+        657,
+        216
+      ],
+      "rgba_sha256": "2c72364b0b2d6fe8c461e8993730432ee8d4b5548cb0cdf9f3bfab8de3eef249",
+      "clipping": false
+    }
+  ],
+  "pixel_layer_count": 44,
+  "original_parent_partition_exact": true,
+  "scope": "eight visible short-hair locks; not finished rooted parts or physics",
+  "limitations": [
+    "upper roots and flower margins remain in explicit pending layers",
+    "hidden overlap extensions are not complete",
+    "brow-overlapping bangs and long ponytails not subdivided this stage",
+    "separation is not continuous motion validation"
+  ]
+}

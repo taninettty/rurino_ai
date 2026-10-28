@@ -101,5 +101,10 @@
     "status": "integer garment-anchor translation only; not anatomical registration",
     "details": "head_registration/STATUS.md",
     "verification": "head_registration/registration.json"
+  },
+  "individual_hair_locks": {
+    "status": "eight visible short-hair locks; 44-layer head PSD; hidden roots, remaining hair and physics unfinished",
+    "details": "left_hair_strands/STATUS.md",
+    "verification": "left_hair_strands/qa/saved-psd-verification.json"
   }
 }
