@@ -1,7 +1,7 @@
 {
   "input_psd_sha256": "90b3127fc6092f74f398b7486c401d77c3290fac741adde64530cecfaee7cf3f",
   "previous_trial_psd_sha256": "5f73688f610823e14946222c8cfa8795c95f999957e83008b5f2e5146755dcf4",
-  "saved_psd_sha256": "fd09f035c41017f00c0213bcd66be18d6a9a0036b46d19ae16709bc1335098bb",
+  "saved_psd_sha256": "e37f13ff8a88ece9291f855a3aa4f855727b8133ef2898fa84ad9394604da7cb",
   "pixel_layers": 49,
   "source_44_layers_rgba_offsets_and_render_flags_retained": true,
   "source_layers_hidden": [
@@ -25,7 +25,10 @@
         500,
         659
       ],
-      "method": "upper lock horizontal bend and original upper hair paint blended into generated lower hair; head never transformed"
+      "paint_reference": "bounded smoothed row-median colour adjustment from original per-lock hair interior; no donor pixel copying",
+      "max_colour_adjustment_per_channel": 18,
+      "generated_rgb_outside_join_retained": true,
+      "method": "upper lock horizontal bend and local colour grading of generated hair; head never transformed"
     },
     {
       "name": "R01",
@@ -40,7 +43,10 @@
         500,
         659
       ],
-      "method": "upper lock horizontal bend and original upper hair paint blended into generated lower hair; head never transformed"
+      "paint_reference": "bounded smoothed row-median colour adjustment from original per-lock hair interior; no donor pixel copying",
+      "max_colour_adjustment_per_channel": 18,
+      "generated_rgb_outside_join_retained": true,
+      "method": "upper lock horizontal bend and local colour grading of generated hair; head never transformed"
     }
   ],
   "L02_edge_cleanup_changed_pixels": 33,

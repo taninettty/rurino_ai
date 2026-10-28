@@ -35,10 +35,6 @@ def main():
         t = np.clip((yy - start) / (end - start), 0, 1)
         return t * t * (3 - 2 * t)
 
-    # Nearest foreground colour is used only to extend the original upper
-    # hair paint over the new lock's antialias; lower hair retains generated RGB.
-    _, nearest = distance_transform_edt(baseline[:, :, 3] < 200, return_indices=True)
-    reference = baseline[nearest[0], nearest[1], :3].astype('float32')
     replacements, locks, records, hidden = {}, {}, [], set()
     for name, side, start, radius in [('L01', 'Left', 495, 18), ('R01', 'Right', 490, 12)]:
         old_name = name + '_OuterFlick'
@@ -68,15 +64,36 @@ def main():
         alpha = np.clip(warped[:, :, 3], 0, 1)
         new[:, :, :3] = np.rint(np.clip(warped[:, :, :3] / np.maximum(alpha[:, :, None], 1e-6), 0, 1) * 255).astype('uint8')
         new[:, :, 3] = np.rint(alpha * 255).astype('uint8')
-        weight = (1 - smooth(500, 660))[:, :, None]
-        new[:, :, :3] = np.clip(np.rint(new[:, :, :3] * (1 - weight) + reference * weight), 0, 255).astype('uint8')
+        # Sample exclusively from this lock's original hair ownership. Sampling
+        # the whole composite previously copied flower paint into hidden roots.
+        # Preserve generated root paint away from the actual join.
+        hair_reference = ((original[:, :, 3] > 200) | cut) & (baseline[:, :, 3] > 200)
+        # Exclude the old contour stroke as a colour donor: otherwise its dark
+        # line can be copied into the interior of the differently shaped root.
+        hair_reference = cv2.distanceTransform(hair_reference.astype('uint8'), cv2.DIST_L2, 5) > 3
+        distance_from_hair, nearest = distance_transform_edt(~hair_reference, return_indices=True)
+        t = np.clip(distance_from_hair / 20, 0, 1)
+        join_weight = 1 - t * t * (3 - 2 * t)
+        weight = ((1 - smooth(500, 660)) * join_weight)[:, :, None]
+        generated_rgb = new[:, :, :3].copy()
+        # Transfer only a bounded low-frequency colour adjustment, never donor
+        # pixels or contours. This keeps the hidden root's drawing continuous.
+        correction = np.zeros((2048, 3), dtype='float32')
+        for row in range(360, 660):
+            valid = hair_reference[row] & (new[row, :, 3] > 200)
+            if valid.sum() >= 3:
+                correction[row] = np.median(baseline[row, valid, :3].astype('float32') - generated_rgb[row, valid].astype('float32'), axis=0)
+        correction = np.clip(gaussian_filter(correction, sigma=(12, 0)), -18, 18)
+        new[:, :, :3] = np.clip(np.rint(generated_rgb + correction[:, None, :] * weight), 0, 255).astype('uint8')
         new[new[:, :, 3] == 0] = 0
+        unpainted = (weight[:, :, 0] == 0) & (new[:, :, 3] > 0)
+        assert np.array_equal(new[:, :, :3][unpainted], generated_rgb[unpainted])
         locks[name] = new
         replacements[pending_name] = (name + '_RootBoundary_Cleaned', revised_pending)
         hidden.update([old_name, pending_name])
         for label, arr in [(f'{name}_Complete_Joined', new), (f'{name}_RootBoundary_Cleaned', revised_pending)]:
             Image.fromarray(arr).save(OUT / 'layers' / (label + '.png'))
-        records.append({'name': name, 'input_sha256': sha(input_path), 'removed_pending_outline_pixels': int(cut.sum()), 'max_upper_row_translation_pixels': float(np.abs(shift).max()), 'geometry_affected_rows': [360, 699], 'paint_transition_rows': [500, 659], 'method': 'upper lock horizontal bend and original upper hair paint blended into generated lower hair; head never transformed'})
+        records.append({'name': name, 'input_sha256': sha(input_path), 'removed_pending_outline_pixels': int(cut.sum()), 'max_upper_row_translation_pixels': float(np.abs(shift).max()), 'geometry_affected_rows': [360, 699], 'paint_transition_rows': [500, 659], 'paint_reference': 'bounded smoothed row-median colour adjustment from original per-lock hair interior; no donor pixel copying', 'max_colour_adjustment_per_channel': 18, 'generated_rgb_outside_join_retained': True, 'method': 'upper lock horizontal bend and local colour grading of generated hair; head never transformed'})
 
     # A 2–3px spur of the obsolete outer flick was assigned to the adjacent L02.
     # Fit its uninterrupted outer edge above/below that spur and trim only alpha.
@@ -162,6 +179,28 @@ def main():
         sheet.paste(tile, (col * 700 + (700 - tile.width) // 2, 50), tile)
         draw.text((col * 700 + 16, 12), title, font=font, fill='#29394e')
     sheet.save(OUT / 'qa/head-join-comparison.jpg', quality=95)
+    # Inspect actual saved layer alpha, including unfinished roots. A rectangular
+    # crop of the assembled head must never stand in for a layer-shape preview.
+    sheet = Image.new('RGB', (1440, 880), '#edf1f6')
+    draw = ImageDraw.Draw(sheet)
+    items = [('L01_Complete_Joined', 'L01 · 重绘发束', '完整曲线轮廓，摆动尚未验证'),
+             ('R01_Complete_Joined', 'R01 · 重绘发束', '完整曲线轮廓，摆动尚未验证'),
+             ('L02_OuterDrop_EdgeCleanup_VISIBLE_ONLY', 'L02 · 旧可见段（未完成）', '顶部仍是切口，需要补画发根')]
+    smallfont = ImageFont.truetype(FONT, 18)
+    for col, (name, title, note) in enumerate(items):
+        x = col * 480
+        draw.text((x + 18, 18), title, font=font, fill='#29394e')
+        draw.text((x + 18, 58), note, font=smallfont, fill='#53637c')
+        for cy in range(110, 790, 20):
+            for cx in range(x + 20, x + 460, 20):
+                colour = '#d3dbe5' if ((cx-x-20)//20+(cy-110)//20) % 2 else '#e7ecf2'
+                draw.rectangle((cx, cy, cx+19, cy+19), fill=colour)
+        im = after[name].topil().convert('RGBA')
+        im = im.crop(im.getbbox())
+        im.thumbnail((400, 640))
+        sheet.paste(im, (x + (480-im.width)//2, 130+(640-im.height)//2), im)
+    draw.text((20, 814), '棋盘格表示透明区域；完整保留每层边界。各栏单独放大，非原图大小比例。', font=smallfont, fill='#53637c')
+    sheet.save(OUT / 'qa/actual-hair-layer-alpha.jpg', quality=96)
     report = {'input_psd_sha256': sha(SOURCE), 'previous_trial_psd_sha256': sha(PREVIOUS / 'Rurino_Left_Head_Two_Redrawn_Locks_TRIAL_v034.psd'), 'saved_psd_sha256': sha(path), 'pixel_layers': 49, 'source_44_layers_rgba_offsets_and_render_flags_retained': True, 'source_layers_hidden': sorted(hidden), 'locks': records, 'L02_edge_cleanup_changed_pixels': int(spur_mask.sum()), 'root_roi_checks': root_checks, 'saved_psd_state_checks': states, 'new_generated_locks': 0, 'R02_generation': {'status': 'rejected', 'code': 'COMMERCIAL_BLOCKED', 'task_id': None, 'node_id': 'i-UcpjWnGYq3'}, 'scope': 'static joins of two existing redraws; L02 alpha cleanup only; no Cubism physics or body motion validation'}
     dump(OUT / 'verification.json', report)
     print(json.dumps(report, indent=2))
