@@ -1,7 +1,7 @@
 {
-  "active_psd": "rebuild_v3_4/turn_redraw/crown_root_completion/Rurino_Crown_Roots_v034.psd",
-  "sha256": "ba361d17da06a852c50dd55dc7fc83277c7cef7136ef56381fe4441a910ae356",
-  "status": "source hairline recovered from misclassified context; continuous crown/fringe with two concealed junction margins hidden for review; not complete or rigged",
+  "active_psd": "rebuild_v3_4/turn_redraw/left_fringe_cheek_refinement/Rurino_Left_Fringe_Cheek_v034.psd",
+  "sha256": "c908e790f0fe4be4da0ac122edac76f010c7804c37067e25d5ed390dc62c741d",
+  "status": "left fringe/cheek source ownership corrected and foreground hair recovered; continuous materials with limited underlap hidden for review; not fully complete or rigged",
   "user_work_order": "complete hair components while preserving independent brows and continuous middle fringe",
-  "previous_psd": "rebuild_v3_4/turn_redraw/hair_concealed_completion/Rurino_Hair_Concealed_Backings_v034.psd"
+  "previous_psd": "rebuild_v3_4/turn_redraw/crown_root_completion/Rurino_Crown_Roots_v034.psd"
 }

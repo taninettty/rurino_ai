@@ -1,0 +1,123 @@
+{
+  "input_psd_sha256": "ba361d17da06a852c50dd55dc7fc83277c7cef7136ef56381fe4441a910ae356",
+  "saved_psd_sha256": "c908e790f0fe4be4da0ac122edac76f010c7804c37067e25d5ed390dc62c741d",
+  "pixel_layers": 114,
+  "original_106_pixel_data_offsets_and_blending_preserved": true,
+  "replaced_original_layers_hidden": [
+    "Fringe_L_SourceRestored_WHOLE",
+    "Foreground_Hair_Overlap"
+  ],
+  "new_layers_match_pngs": true,
+  "source_partitions_exact": true,
+  "records": {
+    "cheek_original_pixels_reassigned": 5425,
+    "skin_original_pixels_separated": 419,
+    "fringe_foreground_hair_pixels_recovered": 1616,
+    "cheek_foreground_hair_pixels_recovered": 2552,
+    "new_concealed_underlap_pixels": 869,
+    "max_underlap_native_pixels": 14,
+    "fringe_boundary_native": {
+      "y": [
+        610,
+        620,
+        630,
+        640,
+        650,
+        660,
+        670,
+        680,
+        690,
+        700,
+        710,
+        720,
+        730,
+        740,
+        750,
+        760,
+        770,
+        780,
+        801
+      ],
+      "x": [
+        550,
+        550,
+        551,
+        553,
+        555,
+        558,
+        561,
+        565,
+        569,
+        573,
+        579,
+        584,
+        591,
+        598,
+        610,
+        623,
+        638,
+        655,
+        660
+      ]
+    },
+    "cheek_boundary_native": {
+      "y": [
+        610,
+        620,
+        640,
+        660,
+        680,
+        700,
+        710,
+        718,
+        725,
+        740,
+        760,
+        780,
+        801
+      ],
+      "x": [
+        550,
+        550,
+        553,
+        558,
+        565,
+        573,
+        579,
+        586,
+        589,
+        588,
+        588,
+        590,
+        593
+      ]
+    }
+  },
+  "states": [
+    {
+      "state": "Open",
+      "default_composite_rgba_exact": true,
+      "changed_pixels": 0
+    },
+    {
+      "state": "Half",
+      "default_composite_rgba_exact": true,
+      "changed_pixels": 0
+    },
+    {
+      "state": "Closed",
+      "default_composite_rgba_exact": true,
+      "changed_pixels": 0
+    }
+  ],
+  "connected_materials_default_visible": false,
+  "source_z_order_preserved": true,
+  "limitations": [
+    "current left-view only; no mirroring or head warp",
+    "some old outer-edge antialias and colour contamination remain",
+    "limited underlap is reconstructed and not motion approved",
+    "other crown/temple ownership and large ponytail shoulders and canvas-cropped ends remain pending",
+    "no new Cubism mesh, parameter binding, physics or runtime export"
+  ],
+  "libtv_generation_used": false
+}
