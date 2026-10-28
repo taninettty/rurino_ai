@@ -1,0 +1,67 @@
+{
+  "R02_pixels_reassigned": 2154,
+  "pending_outline_pixels_reassigned": 1133,
+  "antialiased_overlap_pixels": 0,
+  "curve_y": [
+    650,
+    690,
+    730,
+    770,
+    810,
+    840,
+    870,
+    900,
+    930,
+    950,
+    965,
+    975
+  ],
+  "curve_x": [
+    1663,
+    1671,
+    1680,
+    1691,
+    1703,
+    1712,
+    1716,
+    1719,
+    1721,
+    1720,
+    1716,
+    1712
+  ],
+  "input_psd_sha256": "cd80a5fa10799bb8cffbde188438b16169fe3a0c42cc2946a46759f34413447e",
+  "saved_psd_sha256": "62f25626b33bfd532d4b4bcac96cee25e26de19d0e4486cd50796a5311afd664",
+  "pixel_layers": 54,
+  "original_51_layers_preserved": true,
+  "original_layers_newly_hidden": [
+    "R02_RootExtended_LOCAL_PAINT",
+    "R03_UnderDrop",
+    "R01_RootBoundary_Cleaned"
+  ],
+  "changed_composite_pixels": 0,
+  "max_composite_channel_difference": 0,
+  "changed_pixels_outside_support": 0,
+  "new_exterior_pixels": 0,
+  "previous_opaque_pixels_becoming_transparent": 0,
+  "face_checks": [
+    {
+      "state": "Open",
+      "central_face_rgba_exact": true
+    },
+    {
+      "state": "Half",
+      "central_face_rgba_exact": true
+    },
+    {
+      "state": "Closed",
+      "central_face_rgba_exact": true
+    }
+  ],
+  "limitations": [
+    "R03 hidden root still incomplete",
+    "no motion underlap added; semi-transparent boundary pixels retain a single owner",
+    "other locks, motion range and Cubism binding are unfinished"
+  ],
+  "method": "local outline ownership reassignment; no new LibTV generation"
+}
