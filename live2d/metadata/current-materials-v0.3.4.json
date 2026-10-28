@@ -1,7 +1,7 @@
 {
-  "active_psd": "rebuild_v3_4/turn_redraw/brows_clean_fringe_repair/Rurino_Brows_Separated_Fringe_Repaired_v034.psd",
-  "sha256": "15346df9106cbc1365d6422af1d2b6f49fa570ba916f9b5a5875848ef20fb68f",
-  "status": "brows separated and under-brow fringe repaired; full hair reconstruction pending",
-  "superseded_candidate": "right_fringe_visible_split/Rurino_Right_Fringe_Visible_Split_v034.psd",
-  "user_work_order": "separate brows, then complete hair components; keep middle fringe continuous"
+  "active_psd": "rebuild_v3_4/turn_redraw/fringe_material_completion/Rurino_Fringe_SourceRestored_v034.psd",
+  "sha256": "2c5047f2da040696a8cfc703d8ec60a09420bf24525efdf4f9b9b5eea188ddf8",
+  "status": "fringe source-pixel restoration with independent brows; concealed margins are hidden review layers; other hair incomplete",
+  "user_work_order": "complete hair components after separating brows; keep middle fringe continuous",
+  "previous_psd": "rebuild_v3_4/turn_redraw/brows_clean_fringe_repair/Rurino_Brows_Separated_Fringe_Repaired_v034.psd"
 }

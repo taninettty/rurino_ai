@@ -1,0 +1,57 @@
+{
+  "input_psd_sha256": "15346df9106cbc1365d6422af1d2b6f49fa570ba916f9b5a5875848ef20fb68f",
+  "saved_psd_sha256": "2c5047f2da040696a8cfc703d8ec60a09420bf24525efdf4f9b9b5eea188ddf8",
+  "pixel_layers": 77,
+  "original_71_layers_retained": true,
+  "independent_brows_preserved": true,
+  "new_layers_match_pngs": true,
+  "fringe_parts": [
+    {
+      "side": "L",
+      "reassigned_context_pixels": 9371,
+      "source_recovered_pixels": 7541,
+      "concealed_padding_pixels": 1010,
+      "max_padding_native_pixels": 16,
+      "fringe_further_split": false
+    },
+    {
+      "side": "R",
+      "reassigned_context_pixels": 4591,
+      "source_recovered_pixels": 13098,
+      "concealed_padding_pixels": 1314,
+      "max_padding_native_pixels": 16,
+      "fringe_further_split": false
+    }
+  ],
+  "states": [
+    {
+      "state": "Open",
+      "outside_recovery_mask_exact": true,
+      "changed_pixels": 20631,
+      "max_channel_difference": 3
+    },
+    {
+      "state": "Half",
+      "outside_recovery_mask_exact": true,
+      "changed_pixels": 20631,
+      "max_channel_difference": 3
+    },
+    {
+      "state": "Closed",
+      "outside_recovery_mask_exact": true,
+      "changed_pixels": 20631,
+      "max_channel_difference": 3
+    }
+  ],
+  "source_recovery_image": "../brows_clean_fringe_repair/qa/saved-psd-brows-hidden.png",
+  "source_recovery_sha256": "dcf60261a703f7e45cffbab7ab828559305fd36d75cd69f20bc08bc7f042d07a",
+  "concealed_margin_default_visibility": false,
+  "method": "local source-pixel recovery, non-hair context reassignment, limited interior-colour concealed backing",
+  "limitations": [
+    "only current left-turn fringe materials advanced",
+    "concealed padding is limited to 16 native pixels and has not passed motion checks",
+    "shared crown and remaining lower fringe/temple seams still need repair",
+    "small/large ponytail roots and body-hidden hair not completed",
+    "no new generative task, mesh or physics; C/D subdivision not used"
+  ]
+}

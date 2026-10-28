@@ -2,7 +2,7 @@
 
 ## 瑠璃乃 Live2D 制作
 
-[当前制作目标与下一步](live2d/CURRENT_WORK.md)：[完整眉毛独立分层，开始补全头发](live2d/BROWS_FRINGE_REPAIR_V034.md)。中间刘海保持连续，已补接左右眉下缺口；上一轮 C/D 拆分稿不再采用，其他隐藏发面仍待补全。
+[当前制作目标与下一步](live2d/CURRENT_WORK.md)：[刘海补全第一批](live2d/FRINGE_MATERIAL_COMPLETION_V034.md)，补回原画中已有的上部连接和部分发尖，移出混入的花饰/肤色；两侧保持整块，眉毛独立。隐藏补边仍待运动检查，其他头发继续制作。
 
 [人物素材与 Cubism 交接](live2d/README.md) · [桌宠模型接入程序](desktop/README.md)。已提供 [v0.3.3 可运行绑定测试稿](live2d/RIG_DRAFT.md)，支持眨眼、口型与小幅转头；头发边缘和变形仍在精修。
 
