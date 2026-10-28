@@ -1,7 +1,7 @@
 {
-  "active_psd": "rebuild_v3_4/turn_redraw/right_fringe_tip_recovery/Rurino_Right_Fringe_Tips_v034.psd",
-  "sha256": "641f28657af37ad86404be2f9fc3a5d9ad1523cf59bd339cbf7b432541bc89a2",
-  "status": "right fringe original tips recovered from face, cheek, context and foreground hair; complete materials hidden for review; not fully complete or rigged",
+  "active_psd": "rebuild_v3_4/turn_redraw/right_cheek_ownership/Rurino_Right_Cheek_Ownership_v034.psd",
+  "sha256": "58a2af8a2350b2ef6c50785ff93e83c69526082a160dc693815290e1d3fbbb80",
+  "status": "right cheek inner contour recovered; ear and rear context separated; complete review hidden; not fully complete or rigged",
   "user_work_order": "complete hair components while preserving independent brows and continuous middle fringe",
-  "previous_psd": "rebuild_v3_4/turn_redraw/left_cheek_root_cleanup/Rurino_Left_Cheek_RootClean_v034.psd"
+  "previous_psd": "rebuild_v3_4/turn_redraw/right_fringe_tip_recovery/Rurino_Right_Fringe_Tips_v034.psd"
 }

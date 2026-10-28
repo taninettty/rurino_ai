@@ -1,0 +1,103 @@
+{
+  "input_psd_sha256": "641f28657af37ad86404be2f9fc3a5d9ad1523cf59bd339cbf7b432541bc89a2",
+  "saved_psd_sha256": "58a2af8a2350b2ef6c50785ff93e83c69526082a160dc693815290e1d3fbbb80",
+  "pixel_layers": 131,
+  "original_126_pixel_data_offsets_and_blending_preserved": true,
+  "replaced_original_layers_hidden": [
+    "FacePaint_AfterRightFringeRecovery_SOURCE",
+    "Cheek_R_AfterFringeRecovery_SOURCE"
+  ],
+  "new_layers_match_pngs": true,
+  "records": {
+    "recovered_inner_hair_pixels": 1216,
+    "separated_ear_rear_context_pixels": 5233,
+    "source_partitions_exact": true,
+    "outer_boundary_y": [
+      540,
+      560,
+      580,
+      600,
+      620,
+      640,
+      660,
+      680,
+      700,
+      720,
+      740,
+      760,
+      780,
+      800,
+      820,
+      840,
+      860,
+      880,
+      900,
+      920,
+      940,
+      960,
+      980,
+      1000,
+      1020,
+      1040,
+      1060,
+      1080
+    ],
+    "outer_boundary_x": [
+      1380,
+      1380,
+      1381,
+      1382,
+      1383,
+      1385,
+      1387,
+      1389,
+      1389,
+      1389,
+      1388,
+      1387,
+      1385,
+      1383,
+      1381,
+      1377,
+      1374,
+      1371,
+      1367,
+      1362,
+      1357,
+      1350,
+      1346,
+      1339,
+      1332,
+      1323,
+      1315,
+      1303
+    ],
+    "new_painted_pixels": 0
+  },
+  "states": [
+    {
+      "state": "Open",
+      "default_composite_rgba_exact": true,
+      "changed_pixels": 0
+    },
+    {
+      "state": "Half",
+      "default_composite_rgba_exact": true,
+      "changed_pixels": 0
+    },
+    {
+      "state": "Closed",
+      "default_composite_rgba_exact": true,
+      "changed_pixels": 0
+    }
+  ],
+  "complete_material_candidates_default_visible": false,
+  "limitations": [
+    "conservative inner contour trace; some antialias/skin mixed edge remains",
+    "current left-view material only; concealed root and full motion surfaces not completed",
+    "ear/rear context retained together; not a completed independent ear",
+    "large-tail shoulder junctions and off-canvas tips not completed",
+    "no Cubism mesh, parameter keyforms, body motion or physics added"
+  ],
+  "libtv_generation_used": false
+}
