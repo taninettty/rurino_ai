@@ -2,7 +2,7 @@
 
 ## 瑠璃乃 Live2D 制作
 
-[当前制作目标与下一步](live2d/CURRENT_WORK.md)：新增[头顶/刘海来源中的眉线覆盖区分层](live2d/FRINGE_OVERLAP_V034.md)，保留原位置和合成效果。头顶/刘海共用区仍未拆开，覆盖下的头发留待最后补画；四类头发结构仍按用户确认的顺序处理。
+[当前制作目标与下一步](live2d/CURRENT_WORK.md)：新增[右侧刘海两段可见分叉候选](live2d/RIGHT_FRINGE_VISIBLE_V034.md)，69 层工作稿。上端临时切线、眉下缺口及共用发面仍待后续修整；不是新的可运行模型。
 
 [人物素材与 Cubism 交接](live2d/README.md) · [桌宠模型接入程序](desktop/README.md)。已提供 [v0.3.3 可运行绑定测试稿](live2d/RIG_DRAFT.md)，支持眨眼、口型与小幅转头；头发边缘和变形仍在精修。
 
