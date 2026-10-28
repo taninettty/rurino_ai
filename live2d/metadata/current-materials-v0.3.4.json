@@ -1,7 +1,7 @@
 {
-  "active_psd": "rebuild_v3_4/turn_redraw/smalltail_inner_refinement/Rurino_SmallTwinTail_Inner_v034.psd",
-  "sha256": "ea75cf2726100816c0c20072cc489c54aa19485092fdbc3cda1bba12a1e978e6",
-  "status": "small-tail inner context cleaned, right existing hair rejoined, limited concealed padding; motion incomplete",
-  "user_work_order": "complete hair after separating brows; keep middle fringe continuous",
-  "previous_psd": "rebuild_v3_4/turn_redraw/smalltail_root_completion/Rurino_SmallTwinTail_Roots_v034.psd"
+  "active_psd": "rebuild_v3_4/turn_redraw/hair_concealed_completion/Rurino_Hair_Concealed_Backings_v034.psd",
+  "sha256": "dc440c01b7ef506ee57c9cb7cf80583cb433c0704dad35d8c46d55d00de4313e",
+  "status": "8 concealed hair regions painted; limited opaque-coverage backings active, full outline materials hidden for review; not complete or rigged",
+  "user_work_order": "complete hair components while preserving independent brows and continuous middle fringe",
+  "previous_psd": "rebuild_v3_4/turn_redraw/smalltail_inner_refinement/Rurino_SmallTwinTail_Inner_v034.psd"
 }

@@ -1,0 +1,437 @@
+{
+  "input_psd_sha256": "ea75cf2726100816c0c20072cc489c54aa19485092fdbc3cda1bba12a1e978e6",
+  "saved_psd_sha256": "dc440c01b7ef506ee57c9cb7cf80583cb433c0704dad35d8c46d55d00de4313e",
+  "pixel_layers": 101,
+  "all_original_85_pixels_and_properties_preserved": true,
+  "saved_backings_match_pngs": true,
+  "backing_group_default_visible": true,
+  "full_material_candidate_group_default_visible": false,
+  "parts": [
+    {
+      "key": "Large_L",
+      "source_layer": "LargeTwinTail_L_Visible",
+      "label": "左大马尾",
+      "scope": "reconstructed tie-to-shoulder root and body-occluded long hair; bottom remains canvas-cropped",
+      "painted_pixels": 258134,
+      "added_alpha_pixels": 247170,
+      "default_safe_backing_pixels": 194115,
+      "unoccluded_candidate_pixels": 23928,
+      "opaque_source_pixels_outside_candidate_seam_mask_preserved": true,
+      "candidate_seam_repair_pixels": 2135,
+      "geometry_and_palette": {
+        "source": "LargeTwinTail_L_Visible",
+        "label": "左大马尾",
+        "y": [
+          330,
+          500,
+          750,
+          1000,
+          1200,
+          1400,
+          1600,
+          1800,
+          2048
+        ],
+        "left": [
+          550,
+          485,
+          440,
+          425,
+          350,
+          245,
+          95,
+          -70,
+          -200
+        ],
+        "right": [
+          570,
+          630,
+          690,
+          730,
+          740,
+          650,
+          480,
+          330,
+          240
+        ],
+        "sample": [
+          1290,
+          1310,
+          355,
+          740
+        ],
+        "tip_sample": [
+          1840,
+          1860,
+          12,
+          245
+        ],
+        "scope": "reconstructed tie-to-shoulder root and body-occluded long hair; bottom remains canvas-cropped"
+      }
+    },
+    {
+      "key": "Large_R",
+      "source_layer": "LargeTwinTail_R_Visible",
+      "label": "右大马尾",
+      "scope": "reconstructed tie-to-shoulder root and body-occluded long hair; bottom remains canvas-cropped",
+      "painted_pixels": 353632,
+      "added_alpha_pixels": 347188,
+      "default_safe_backing_pixels": 312323,
+      "unoccluded_candidate_pixels": 30255,
+      "opaque_source_pixels_outside_candidate_seam_mask_preserved": true,
+      "candidate_seam_repair_pixels": 1056,
+      "geometry_and_palette": {
+        "source": "LargeTwinTail_R_Visible",
+        "label": "右大马尾",
+        "y": [
+          330,
+          500,
+          750,
+          1000,
+          1200,
+          1400,
+          1600,
+          1800,
+          2048
+        ],
+        "left": [
+          1450,
+          1380,
+          1330,
+          1290,
+          1250,
+          1270,
+          1440,
+          1610,
+          1780
+        ],
+        "right": [
+          1470,
+          1540,
+          1600,
+          1660,
+          1720,
+          1830,
+          1970,
+          2120,
+          2250
+        ],
+        "sample": [
+          1290,
+          1310,
+          1445,
+          1735
+        ],
+        "tip_sample": [
+          1840,
+          1860,
+          1800,
+          2000
+        ],
+        "scope": "reconstructed tie-to-shoulder root and body-occluded long hair; bottom remains canvas-cropped"
+      }
+    },
+    {
+      "key": "Small_L",
+      "source_layer": "SmallTwinTail_L_InnerRepaired_LOCAL",
+      "label": "左小马尾内缘",
+      "scope": "concealed inward continuity behind front gold lock; existing blue tips retained",
+      "painted_pixels": 7577,
+      "added_alpha_pixels": 7366,
+      "default_safe_backing_pixels": 6239,
+      "unoccluded_candidate_pixels": 1338,
+      "opaque_source_pixels_outside_candidate_seam_mask_preserved": true,
+      "candidate_seam_repair_pixels": 0,
+      "geometry_and_palette": {
+        "source": "SmallTwinTail_L_InnerRepaired_LOCAL",
+        "label": "左小马尾内缘",
+        "y": [
+          450,
+          550,
+          650,
+          750,
+          850,
+          950
+        ],
+        "left": [
+          420,
+          365,
+          330,
+          340,
+          370,
+          400
+        ],
+        "right": [
+          505,
+          475,
+          455,
+          450,
+          445,
+          435
+        ],
+        "sample": [
+          510,
+          530,
+          395,
+          450
+        ],
+        "scope": "concealed inward continuity behind front gold lock; existing blue tips retained"
+      }
+    },
+    {
+      "key": "Small_R",
+      "source_layer": "SmallTwinTail_R_InnerRepaired_LOCAL",
+      "label": "右小马尾内缘",
+      "scope": "bridge remaining inner notches, retaining existing blue tips",
+      "painted_pixels": 10464,
+      "added_alpha_pixels": 10464,
+      "default_safe_backing_pixels": 10464,
+      "unoccluded_candidate_pixels": 0,
+      "opaque_source_pixels_outside_candidate_seam_mask_preserved": true,
+      "candidate_seam_repair_pixels": 0,
+      "geometry_and_palette": {
+        "source": "SmallTwinTail_R_InnerRepaired_LOCAL",
+        "label": "右小马尾内缘",
+        "y": [
+          450,
+          500,
+          600,
+          700,
+          800,
+          890
+        ],
+        "left": [
+          1480,
+          1450,
+          1425,
+          1435,
+          1460,
+          1500
+        ],
+        "right": [
+          1510,
+          1530,
+          1555,
+          1575,
+          1560,
+          1510
+        ],
+        "sample": [
+          510,
+          530,
+          1500,
+          1580
+        ],
+        "scope": "bridge remaining inner notches, retaining existing blue tips"
+      }
+    },
+    {
+      "key": "Cheek_L",
+      "source_layer": "CheekLock_ImageLeft",
+      "label": "左贴脸发根",
+      "scope": "short concealed continuation into shared crown/fringe, not a full replacement lock",
+      "painted_pixels": 11269,
+      "added_alpha_pixels": 11269,
+      "default_safe_backing_pixels": 11084,
+      "unoccluded_candidate_pixels": 185,
+      "opaque_source_pixels_outside_candidate_seam_mask_preserved": true,
+      "candidate_seam_repair_pixels": 0,
+      "geometry_and_palette": {
+        "source": "CheekLock_ImageLeft",
+        "label": "左贴脸发根",
+        "y": [
+          150,
+          190,
+          250,
+          350,
+          450
+        ],
+        "left": [
+          790,
+          710,
+          625,
+          550,
+          520
+        ],
+        "right": [
+          798,
+          755,
+          715,
+          650,
+          600
+        ],
+        "sample": [
+          350,
+          365,
+          582,
+          628
+        ],
+        "scope": "short concealed continuation into shared crown/fringe, not a full replacement lock"
+      }
+    },
+    {
+      "key": "Cheek_R",
+      "source_layer": "CheekLock_ImageRight",
+      "label": "右贴脸发根",
+      "scope": "short concealed continuation into shared crown/fringe",
+      "painted_pixels": 11354,
+      "added_alpha_pixels": 11354,
+      "default_safe_backing_pixels": 11350,
+      "unoccluded_candidate_pixels": 4,
+      "opaque_source_pixels_outside_candidate_seam_mask_preserved": true,
+      "candidate_seam_repair_pixels": 0,
+      "geometry_and_palette": {
+        "source": "CheekLock_ImageRight",
+        "label": "右贴脸发根",
+        "y": [
+          110,
+          150,
+          250,
+          350,
+          450
+        ],
+        "left": [
+          1040,
+          1090,
+          1160,
+          1210,
+          1250
+        ],
+        "right": [
+          1045,
+          1145,
+          1270,
+          1325,
+          1365
+        ],
+        "sample": [
+          440,
+          460,
+          1265,
+          1340
+        ],
+        "scope": "short concealed continuation into shared crown/fringe"
+      }
+    },
+    {
+      "key": "Temple_R",
+      "source_layer": "TempleLock_ImageRight",
+      "label": "右鬓发根",
+      "scope": "concealed upper connection only; junction ownership remains reviewable",
+      "painted_pixels": 11978,
+      "added_alpha_pixels": 11978,
+      "default_safe_backing_pixels": 11978,
+      "unoccluded_candidate_pixels": 0,
+      "opaque_source_pixels_outside_candidate_seam_mask_preserved": true,
+      "candidate_seam_repair_pixels": 0,
+      "geometry_and_palette": {
+        "source": "TempleLock_ImageRight",
+        "label": "右鬓发根",
+        "y": [
+          120,
+          180,
+          300,
+          450
+        ],
+        "left": [
+          1140,
+          1180,
+          1255,
+          1325
+        ],
+        "right": [
+          1145,
+          1250,
+          1370,
+          1450
+        ],
+        "sample": [
+          350,
+          365,
+          1325,
+          1385
+        ],
+        "scope": "concealed upper connection only; junction ownership remains reviewable"
+      }
+    },
+    {
+      "key": "Thin_R",
+      "source_layer": "LongFrontLock_ImageRight",
+      "label": "右侧细长前发根",
+      "scope": "concealed upper shaft behind short hair; not an additional ponytail",
+      "painted_pixels": 17182,
+      "added_alpha_pixels": 17182,
+      "default_safe_backing_pixels": 10594,
+      "unoccluded_candidate_pixels": 0,
+      "opaque_source_pixels_outside_candidate_seam_mask_preserved": true,
+      "candidate_seam_repair_pixels": 0,
+      "geometry_and_palette": {
+        "source": "LongFrontLock_ImageRight",
+        "label": "右侧细长前发根",
+        "y": [
+          760,
+          850,
+          950,
+          1050,
+          1150
+        ],
+        "left": [
+          1420,
+          1400,
+          1380,
+          1380,
+          1400
+        ],
+        "right": [
+          1428,
+          1465,
+          1475,
+          1475,
+          1480
+        ],
+        "sample": [
+          1090,
+          1110,
+          1395,
+          1460
+        ],
+        "scope": "concealed upper shaft behind short hair; not an additional ponytail"
+      }
+    }
+  ],
+  "states": [
+    {
+      "state": "Open",
+      "outside_backing_mask_exact": true,
+      "changed_pixels": 530050,
+      "max_channel_difference": 5,
+      "protected_face_eyes_brows_neck_rgba_exact": true,
+      "new_pixels_outside_previous_silhouette": 0
+    },
+    {
+      "state": "Half",
+      "outside_backing_mask_exact": true,
+      "changed_pixels": 530050,
+      "max_channel_difference": 5,
+      "protected_face_eyes_brows_neck_rgba_exact": true,
+      "new_pixels_outside_previous_silhouette": 0
+    },
+    {
+      "state": "Closed",
+      "outside_backing_mask_exact": true,
+      "changed_pixels": 530050,
+      "max_channel_difference": 5,
+      "protected_face_eyes_brows_neck_rgba_exact": true,
+      "new_pixels_outside_previous_silhouette": 0
+    }
+  ],
+  "placement": "default backings are clipped to original opaque coverage and placed behind art; full merged candidates have smooth untrimmed contours and are in a separate hidden review group",
+  "limitations": [
+    "concealed paint is reconstructed, not observed original anatomy",
+    "long tail ends remain clipped by the 2048 canvas",
+    "shared crown and fringe not newly separated or fully reconstructed",
+    "forehead/cheek/temple mixed ownership and old contour dirt remain pending",
+    "no Cubism binding, continuous turns, body motion or physics validation"
+  ],
+  "libtv_generation_used": false
+}
