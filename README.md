@@ -2,7 +2,7 @@
 
 ## 瑠璃乃 Live2D 制作
 
-[当前制作目标与下一步](live2d/CURRENT_WORK.md)：新增[右侧 R02/R03 发束边界修整](live2d/HAIR_EDGES_V034.md)，修正多带出的尖边和遗漏描边，提供 54 层 PSD 与独立透明图层对照。R03 隐藏根部、其他发束和运动绑定仍待制作。
+[当前制作目标与下一步](live2d/CURRENT_WORK.md)：按“先拆完、最后统一修”的顺序，新增[刘海、贴脸发和长马尾拆分初稿](live2d/REMAINING_HAIR_SPLIT_V034.md)，6 个原图层拆成 18 个可见部件，提供 72 层 PSD。三个表情状态拼回原图完全一致；补根、边缘和整体修形留待统一处理。
 
 [人物素材与 Cubism 交接](live2d/README.md) · [桌宠模型接入程序](desktop/README.md)。已提供 [v0.3.3 可运行绑定测试稿](live2d/RIG_DRAFT.md)，支持眨眼、口型与小幅转头；头发边缘和变形仍在精修。
 

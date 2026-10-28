@@ -1,0 +1,303 @@
+{
+  "input_psd_sha256": "62f25626b33bfd532d4b4bcac96cee25e26de19d0e4486cd50796a5311afd664",
+  "saved_psd_sha256": "36e083087ae72fa0f64ce03cff7020c836ae5f0f293e68966ccf809f38ee9c3f",
+  "pixel_layers": 72,
+  "source_pixel_layers_retained": 54,
+  "source_groups_split": 6,
+  "new_visible_parts": 18,
+  "original_layers_newly_hidden": [
+    "Bang_ImageLeft_Visible",
+    "Bang_ImageRight_Visible",
+    "CheekLock_ImageLeft",
+    "CheekLock_ImageRight",
+    "RearTail_ImageLeft_Visible",
+    "RearTail_ImageRight_Visible"
+  ],
+  "source_visible_rgba_and_alpha_reconstruct_exactly": true,
+  "new_parts_zero_hidden_rgb_at_alpha_zero": true,
+  "new_layers_match_saved_pngs": true,
+  "state_checks": [
+    {
+      "state": "Open",
+      "full_composite_rgba_max_difference": 0
+    },
+    {
+      "state": "Half",
+      "full_composite_rgba_max_difference": 0
+    },
+    {
+      "state": "Closed",
+      "full_composite_rgba_max_difference": 0
+    }
+  ],
+  "parts": [
+    {
+      "name": "BL01_Visible_ONLY",
+      "source": "Bang_ImageLeft_Visible",
+      "label": "左刘海 01",
+      "bbox": [
+        462,
+        113,
+        871,
+        801
+      ],
+      "alpha_pixels": 39482,
+      "status": "visible ownership split only; shared roots, hidden overlap and source contamination deferred"
+    },
+    {
+      "name": "BL02_Visible_ONLY",
+      "source": "Bang_ImageLeft_Visible",
+      "label": "左刘海 02",
+      "bbox": [
+        590,
+        101,
+        995,
+        773
+      ],
+      "alpha_pixels": 67492,
+      "status": "visible ownership split only; shared roots, hidden overlap and source contamination deferred"
+    },
+    {
+      "name": "BR01_Visible_ONLY",
+      "source": "Bang_ImageRight_Visible",
+      "label": "右刘海 01",
+      "bbox": [
+        873,
+        253,
+        992,
+        729
+      ],
+      "alpha_pixels": 19066,
+      "status": "visible ownership split only; shared roots, hidden overlap and source contamination deferred"
+    },
+    {
+      "name": "BR02_Visible_ONLY",
+      "source": "Bang_ImageRight_Visible",
+      "label": "右刘海 02",
+      "bbox": [
+        910,
+        190,
+        1151,
+        751
+      ],
+      "alpha_pixels": 55003,
+      "status": "visible ownership split only; shared roots, hidden overlap and source contamination deferred"
+    },
+    {
+      "name": "BR03_Visible_ONLY",
+      "source": "Bang_ImageRight_Visible",
+      "label": "右刘海 03",
+      "bbox": [
+        942,
+        156,
+        1215,
+        791
+      ],
+      "alpha_pixels": 40876,
+      "status": "visible ownership split only; shared roots, hidden overlap and source contamination deferred"
+    },
+    {
+      "name": "BR04_Visible_ONLY",
+      "source": "Bang_ImageRight_Visible",
+      "label": "右刘海 04",
+      "bbox": [
+        962,
+        100,
+        1302,
+        801
+      ],
+      "alpha_pixels": 66799,
+      "status": "visible ownership split only; shared roots, hidden overlap and source contamination deferred"
+    },
+    {
+      "name": "CL01_Visible_ONLY",
+      "source": "CheekLock_ImageLeft",
+      "label": "左贴脸发 01",
+      "bbox": [
+        433,
+        225,
+        735,
+        1291
+      ],
+      "alpha_pixels": 58284,
+      "status": "visible ownership split only; shared roots, hidden overlap and source contamination deferred"
+    },
+    {
+      "name": "CL02_Visible_ONLY",
+      "source": "CheekLock_ImageLeft",
+      "label": "左贴脸发 02",
+      "bbox": [
+        497,
+        197,
+        739,
+        1234
+      ],
+      "alpha_pixels": 42881,
+      "status": "visible ownership split only; shared roots, hidden overlap and source contamination deferred"
+    },
+    {
+      "name": "CL03_Visible_ONLY",
+      "source": "CheekLock_ImageLeft",
+      "label": "左贴脸发 03",
+      "bbox": [
+        559,
+        190,
+        749,
+        1288
+      ],
+      "alpha_pixels": 9618,
+      "status": "visible ownership split only; shared roots, hidden overlap and source contamination deferred"
+    },
+    {
+      "name": "CR01_Visible_ONLY",
+      "source": "CheekLock_ImageRight",
+      "label": "右贴脸发 01",
+      "bbox": [
+        1102,
+        154,
+        1291,
+        1273
+      ],
+      "alpha_pixels": 14501,
+      "status": "visible ownership split only; shared roots, hidden overlap and source contamination deferred"
+    },
+    {
+      "name": "CR02_Visible_ONLY",
+      "source": "CheekLock_ImageRight",
+      "label": "右贴脸发 02",
+      "bbox": [
+        1104,
+        155,
+        1363,
+        1259
+      ],
+      "alpha_pixels": 72457,
+      "status": "visible ownership split only; shared roots, hidden overlap and source contamination deferred"
+    },
+    {
+      "name": "CR03_Visible_ONLY",
+      "source": "CheekLock_ImageRight",
+      "label": "右贴脸发 03",
+      "bbox": [
+        1121,
+        168,
+        1410,
+        1258
+      ],
+      "alpha_pixels": 36521,
+      "status": "visible ownership split only; shared roots, hidden overlap and source contamination deferred"
+    },
+    {
+      "name": "TL01_Visible_ONLY",
+      "source": "RearTail_ImageLeft_Visible",
+      "label": "左长马尾可见段 01",
+      "bbox": [
+        0,
+        1000,
+        537,
+        2048
+      ],
+      "alpha_pixels": 194095,
+      "status": "visible ownership split only; shared roots, hidden overlap and source contamination deferred"
+    },
+    {
+      "name": "TL02_Visible_ONLY",
+      "source": "RearTail_ImageLeft_Visible",
+      "label": "左长马尾可见段 02",
+      "bbox": [
+        169,
+        1033,
+        676,
+        2048
+      ],
+      "alpha_pixels": 51683,
+      "status": "visible ownership split only; shared roots, hidden overlap and source contamination deferred"
+    },
+    {
+      "name": "TL03_Visible_ONLY",
+      "source": "RearTail_ImageLeft_Visible",
+      "label": "左长马尾可见段 03",
+      "bbox": [
+        596,
+        1079,
+        896,
+        1414
+      ],
+      "alpha_pixels": 33850,
+      "status": "visible ownership split only; shared roots, hidden overlap and source contamination deferred"
+    },
+    {
+      "name": "TR01_Visible_ONLY",
+      "source": "RearTail_ImageRight_Visible",
+      "label": "右长马尾可见段 01",
+      "bbox": [
+        1150,
+        1001,
+        1432,
+        1404
+      ],
+      "alpha_pixels": 30813,
+      "status": "visible ownership split only; shared roots, hidden overlap and source contamination deferred"
+    },
+    {
+      "name": "TR02_Visible_ONLY",
+      "source": "RearTail_ImageRight_Visible",
+      "label": "右长马尾可见段 02",
+      "bbox": [
+        1359,
+        1000,
+        2017,
+        2048
+      ],
+      "alpha_pixels": 163162,
+      "status": "visible ownership split only; shared roots, hidden overlap and source contamination deferred"
+    },
+    {
+      "name": "TR03_Visible_ONLY",
+      "source": "RearTail_ImageRight_Visible",
+      "label": "右长马尾可见段 03",
+      "bbox": [
+        1572,
+        1000,
+        2048,
+        2048
+      ],
+      "alpha_pixels": 116761,
+      "status": "visible ownership split only; shared roots, hidden overlap and source contamination deferred"
+    }
+  ],
+  "trace_curves_1024": {
+    "Bang_ImageLeft_Visible": [
+      "435 0 L 435 85 C 393 111 346 156 319 209 C 291 264 286 326 309 381 L 309 1100"
+    ],
+    "Bang_ImageRight_Visible": [
+      "436 0 L 436 88 C 466 144 492 212 495 275 C 498 322 489 365 477 391 L 477 1100",
+      "451 0 L 451 78 C 491 107 530 165 550 215 C 581 280 585 331 551 376 L 551 1100",
+      "470 0 L 470 72 C 531 103 577 165 596 229 C 615 294 610 347 574 396 L 574 1100"
+    ],
+    "CheekLock_ImageLeft": [
+      "347 0 L 347 112 C 303 174 265 279 251 363 C 239 439 264 519 296 567 C 315 597 340 624 367 645 L 367 1100",
+      "369 0 L 369 100 C 324 158 288 250 279 329 C 271 404 289 477 313 519 Q 324 537 336 545 L 336 1100"
+    ],
+    "CheekLock_ImageRight": [
+      "551 0 L 551 77 C 606 123 639 190 644 260 C 650 342 629 418 601 461 Q 582 508 559 530 L 559 1100",
+      "565 0 L 565 88 C 626 130 674 207 680 290 C 687 386 661 482 622 547 Q 588 607 551 636 L 551 1100"
+    ],
+    "RearTail_ImageLeft_Visible": [
+      "290 0 L 290 480 C 277 557 246 652 207 730 C 161 819 109 909 84 1024 L 84 1100",
+      "340 0 L 340 500 C 338 567 321 640 297 708 C 260 806 211 904 182 1024 L 182 1100"
+    ],
+    "RearTail_ImageRight_Visible": [
+      "679 0 L 679 485 C 677 548 688 615 712 691 C 740 782 785 894 835 1024 L 835 1100",
+      "783 0 L 783 490 C 799 570 822 654 861 724 C 917 821 977 917 1008 1024 L 1008 1100"
+    ]
+  },
+  "limitations": [
+    "visible-source partition only; roots and hidden motion overlap not painted",
+    "inherited eyebrow/flower/boundary contamination is deferred for joint cleanup",
+    "long ponytails extend beyond source frame; no complete tail tips inferred",
+    "temple strand and thin front strand already isolated, retained unchanged",
+    "no Cubism mesh or physics added"
+  ],
+  "user_work_order": "split remaining hair first; repair seams, roots and shapes together afterward"
+}
