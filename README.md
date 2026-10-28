@@ -2,7 +2,7 @@
 
 ## 瑠璃乃 Live2D 制作
 
-[当前制作目标与下一步](live2d/CURRENT_WORK.md)：[右贴脸发连续轮廓重修](live2d/RIGHT_CHEEK_CONTOUR_REWORK_V034.md)，修平根部台阶、移除下部三角残线、补齐外侧缺口。新候选仍隐藏，待装配及动作检验。
+[当前制作目标与下一步](live2d/CURRENT_WORK.md)：[左贴脸发下部轮廓修整](live2d/LEFT_CHEEK_LOWER_CONTOUR_V034.md)，分开后层蓝发，修正长短分叉和缺边。上部旧接缝仍待修，新候选未接入运行模型。
 
 [人物素材与 Cubism 交接](live2d/README.md) · [桌宠模型接入程序](desktop/README.md)。已提供 [v0.3.3 可运行绑定测试稿](live2d/RIG_DRAFT.md)，支持眨眼、口型与小幅转头；头发边缘和变形仍在精修。
 

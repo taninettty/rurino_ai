@@ -1,0 +1,41 @@
+{
+  "input_psd_sha256": "1e06d6af7b88ad319b1bea29399f146a8ee674bae13217af8c585ada8720c117",
+  "saved_psd_sha256": "9d77e093666dc708a125afdb1f308ff97f4457bec0dd4d2c85386c62223322f0",
+  "pixel_layers": 133,
+  "all_132_original_pixel_layers_and_properties_preserved": true,
+  "new_layer_matches_png_after_save": true,
+  "records": {
+    "changed_review_pixels": 61991,
+    "added_alpha_pixels": 1570,
+    "removed_alpha_pixels": 22943,
+    "edge_or_source_gap_pixels_colored_from_nearest_hair_interior": 1397,
+    "reference_composite_sha256": "e87feb4c5e49a7e581f01e8593e548adfc612c514edc2f54898424aa1e7ae9da",
+    "upper_material_y_below_750_exact": true,
+    "opaque_components": 1,
+    "enclosed_alpha_holes": 39,
+    "repaired_lower_region_enclosed_alpha_holes": 0
+  },
+  "states": [
+    {
+      "state": "Open",
+      "default_composite_changed_pixels": 0
+    },
+    {
+      "state": "Half",
+      "default_composite_changed_pixels": 0
+    },
+    {
+      "state": "Closed",
+      "default_composite_changed_pixels": 0
+    }
+  ],
+  "review_group_default_visible": false,
+  "method": "trace left front strand branches; open gap previously occupied by rear hair; remove lower rear overlap; restore lower hair colors within contours; preserve upper material exactly",
+  "limitations": [
+    "current left-view review material only; no new angle artwork",
+    "upper y<750 concealed root/junction remains from earlier candidate and needs further repair",
+    "not a fully repainted hidden surface or a new runtime model",
+    "no Cubism mesh, keyforms, body motion or hair physics added"
+  ],
+  "libtv_generation_used": false
+}
