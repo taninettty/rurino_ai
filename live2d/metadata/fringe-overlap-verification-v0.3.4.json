@@ -1,0 +1,48 @@
+{
+  "input_sha256": "b8925befe3edbf88fb10511e20bf60952cf2fe36db86a24614aba78c84f7240b",
+  "saved_sha256": "2fddde328f872a89ebd0587763da133bccca907a51b038d98bd45b401c62129c",
+  "pixel_layers": 66,
+  "original_62_layers_retained": true,
+  "parts": [
+    {
+      "side": "L",
+      "source_layer": "Bang_ImageLeft_Visible",
+      "path_1024": "M 264 347 C 289 324 318 308 337 313 Q 354 316 369 332 Q 342 318 323 324 Q 294 331 264 347 Z",
+      "patch_padding_source_pixels": 8,
+      "moved_alpha_pixels": 4684,
+      "scope": "brow-overlap patch from hair source only, includes adjacent antialias/background pixels; not complete brow artwork"
+    },
+    {
+      "side": "R",
+      "source_layer": "Bang_ImageRight_Visible",
+      "path_1024": "M 452 333 C 469 317 490 309 510 312 Q 558 316 608 350 Q 561 330 517 325 Q 480 317 452 333 Z",
+      "patch_padding_source_pixels": 8,
+      "moved_alpha_pixels": 6616,
+      "scope": "brow-overlap patch from hair source only, includes adjacent antialias/background pixels; not complete brow artwork"
+    }
+  ],
+  "states": [
+    {
+      "state": "Open",
+      "whole_composite_rgba_exact": true
+    },
+    {
+      "state": "Half",
+      "whole_composite_rgba_exact": true
+    },
+    {
+      "state": "Closed",
+      "whole_composite_rgba_exact": true
+    }
+  ],
+  "new_hair_strands": 0,
+  "crown_fringe_separation_completed": false,
+  "limitations": [
+    "only eyebrow-overlap patches within the original bang layers were separated",
+    "patches include nearby edge/background pixels, not complete eyebrow layers",
+    "removed patches leave transparent gaps in isolated hair; under-brow hair reconstruction deferred",
+    "crown/fringe shared surface and internal strand identities are still pending",
+    "no repainting, mesh or physics"
+  ],
+  "rejected_72_layer_candidate_used": false
+}
