@@ -1,0 +1,107 @@
+{
+  "source_psd_sha256": "62f25626b33bfd532d4b4bcac96cee25e26de19d0e4486cd50796a5311afd664",
+  "saved_psd_sha256": "b8925befe3edbf88fb10511e20bf60952cf2fe36db86a24614aba78c84f7240b",
+  "pixel_layers": 62,
+  "original_54_layers_retained": true,
+  "newly_hidden_originals": [
+    "L01_Complete_Joined",
+    "L03_MiddleDrop",
+    "L01_RootBoundary_Cleaned",
+    "L02_RootExtended_LOCAL_PAINT",
+    "R01_Complete_Joined",
+    "R03_Outline_Reassigned_VISIBLE_ONLY",
+    "R02_InnerEdge_Refined",
+    "R04_MainDrop",
+    "R05_InnerLock",
+    "R01_RootBoundary_Ownership_Cleaned",
+    "RearTail_ImageLeft_Visible",
+    "RearTail_ImageRight_Visible"
+  ],
+  "components": [
+    {
+      "component": "SmallTwinTail_L_Visible",
+      "source_layers": [
+        "L01_Complete_Joined",
+        "L03_MiddleDrop",
+        "L01_RootBoundary_Cleaned",
+        "L02_RootExtended_LOCAL_PAINT"
+      ],
+      "kind": "small ponytail visible assembly; outer/inner boundary candidate with excluded pixels retained",
+      "boundary_path_1024": "M 100 70 L 278 70 L 278 130 Q 250 180 238 230 Q 224 280 217 335 Q 211 390 219 440 Q 228 475 246 510 L 240 540 L 70 540 Z"
+    },
+    {
+      "component": "SmallTwinTail_R_Visible",
+      "source_layers": [
+        "R01_Complete_Joined",
+        "R03_Outline_Reassigned_VISIBLE_ONLY",
+        "R02_InnerEdge_Refined",
+        "R04_MainDrop",
+        "R05_InnerLock",
+        "R01_RootBoundary_Ownership_Cleaned"
+      ],
+      "kind": "small ponytail visible assembly; outer/inner boundary candidate with excluded pixels retained",
+      "boundary_path_1024": "M 760 70 L 1010 70 L 1010 550 L 741 550 L 745 520 Q 755 465 755 400 Q 775 330 748 240 Q 727 185 708 150 L 708 70 Z"
+    },
+    {
+      "component": "LargeTwinTail_L_Visible",
+      "source_layers": [
+        "RearTail_ImageLeft_Visible"
+      ],
+      "kind": "visible silhouette ownership; excluded pixels retained separately",
+      "review_alpha_pixels": 9965,
+      "path_1024": "M 210 470 L 334 490 Q 338 552 364 600 Q 381 625 387 640 Q 379 669 371 689 Q 344 711 298 723 Q 264 723 236 738 Q 205 752 198 790 Q 158 875 110 1024 L 110 1100 L -30 1100 L -30 870 Q 118 728 178 593 Q 202 534 210 470 Z"
+    },
+    {
+      "component": "LargeTwinTail_R_Visible",
+      "source_layers": [
+        "RearTail_ImageRight_Visible"
+      ],
+      "kind": "visible silhouette ownership; excluded pixels retained separately",
+      "review_alpha_pixels": 20811,
+      "path_1024": "M 646 490 L 851 470 Q 876 634 969 790 L 1050 870 L 1050 1100 L 916 1100 L 916 1024 Q 875 870 838 813 Q 816 773 787 739 L 787 723 Q 737 714 679 692 Q 660 642 651 589 Q 646 545 646 490 Z"
+    }
+  ],
+  "states": [
+    {
+      "state": "Open",
+      "full_rgba_max_difference": 1,
+      "changed_pixels": 25335,
+      "opaque_alpha_rounded_to_254": 26,
+      "difference_outside_small_tail_support": 0,
+      "note": "8-bit alpha flattening rounds small-tail overlaps by at most 1/255; all other pixels exact"
+    },
+    {
+      "state": "Half",
+      "full_rgba_max_difference": 1,
+      "changed_pixels": 25335,
+      "opaque_alpha_rounded_to_254": 26,
+      "difference_outside_small_tail_support": 0,
+      "note": "8-bit alpha flattening rounds small-tail overlaps by at most 1/255; all other pixels exact"
+    },
+    {
+      "state": "Closed",
+      "full_rgba_max_difference": 1,
+      "changed_pixels": 25335,
+      "opaque_alpha_rounded_to_254": 26,
+      "difference_outside_small_tail_support": 0,
+      "note": "8-bit alpha flattening rounds small-tail overlaps by at most 1/255; all other pixels exact"
+    }
+  ],
+  "classification": [
+    "crown",
+    "fringe",
+    "small twin ponytails L/R",
+    "large twin ponytails L/R"
+  ],
+  "crown_fringe_separation_completed": false,
+  "fine_strand_split_completed": false,
+  "limitations": [
+    "crown/fringe common surface remains explicitly shared",
+    "cheek/temple/thin-front junctions remain pending",
+    "old source boundary contamination still needs review",
+    "small-tail modules inherit prior root experiments; hidden roots not anatomically validated",
+    "large tails are visible portions only and extend beyond canvas",
+    "no rig or physics"
+  ],
+  "rejected_72_layer_candidate_used": false
+}

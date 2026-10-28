@@ -2,7 +2,7 @@
 
 ## 瑠璃乃 Live2D 制作
 
-[当前制作目标与下一步](live2d/CURRENT_WORK.md)：[最新头发拆分候选未通过视觉复核](live2d/REMAINING_HAIR_VISUAL_REVIEW_V034.md)。72 层稿保留追溯，不计为有效拆分；重新辨认原画发束边界，仍按先拆分、最后统一修整的顺序进行。
+[当前制作目标与下一步](live2d/CURRENT_WORK.md)：按头顶、刘海、小双马尾、大双马尾重新整理，新增[四条马尾可见组件与结构指示图](live2d/HAIR_STRUCTURE_ASSEMBLY_V034.md)。头顶和刘海共用区仍未拆开；此前 72 层候选继续标为未通过。
 
 [人物素材与 Cubism 交接](live2d/README.md) · [桌宠模型接入程序](desktop/README.md)。已提供 [v0.3.3 可运行绑定测试稿](live2d/RIG_DRAFT.md)，支持眨眼、口型与小幅转头；头发边缘和变形仍在精修。
 
