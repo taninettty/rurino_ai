@@ -1,0 +1,123 @@
+{
+  "input_psd_sha256": "9d77e093666dc708a125afdb1f308ff97f4457bec0dd4d2c85386c62223322f0",
+  "saved_psd_sha256": "af90791a4abf86fd286668dffc6727dd1278acc9a6f2324d1b5af0570048b882",
+  "pixel_layers": 134,
+  "all_133_original_pixel_layers_and_properties_preserved": true,
+  "new_layer_matches_png_after_save": true,
+  "records": {
+    "changed_review_pixels": 11159,
+    "added_alpha_pixels": 4043,
+    "removed_alpha_pixels": 124,
+    "old_enclosed_alpha_hole_pixels": 39,
+    "new_enclosed_alpha_hole_pixels": 0,
+    "opaque_components": 1,
+    "lower_y_ge_770_exact": true,
+    "upper_y_lt_450_exact": true,
+    "outside_repair_mask_exact": true,
+    "native_outer_curve": {
+      "y": [
+        450,
+        475,
+        500,
+        525,
+        550,
+        575,
+        600,
+        625,
+        650,
+        675,
+        700,
+        725,
+        750,
+        770
+      ],
+      "x": [
+        600,
+        592,
+        589,
+        587,
+        585,
+        584,
+        584,
+        584,
+        585,
+        587,
+        587,
+        586,
+        585.3,
+        586.1
+      ]
+    },
+    "native_interior_line": {
+      "y": [
+        450,
+        475,
+        500,
+        525,
+        550,
+        575,
+        600,
+        625,
+        650,
+        675,
+        700,
+        725,
+        750,
+        770
+      ],
+      "x": [
+        578,
+        568,
+        559,
+        553,
+        547,
+        543,
+        541,
+        539,
+        538,
+        538,
+        539,
+        541,
+        543,
+        547
+      ]
+    },
+    "colour_donor_profiles": [
+      {
+        "y": 520,
+        "x_start": 564,
+        "x_end": 573
+      },
+      {
+        "y": 770,
+        "x_start": 552,
+        "x_end": 584.5
+      }
+    ],
+    "colour_sampling": "five-row median; 256-sample horizontal profiles; Gaussian sigma2; smoothstep along y",
+    "local_repaint_is_inferred_concealed_hair_not_recovered_original": true
+  },
+  "states": [
+    {
+      "state": "Open",
+      "default_composite_changed_pixels": 0
+    },
+    {
+      "state": "Half",
+      "default_composite_changed_pixels": 0
+    },
+    {
+      "state": "Closed",
+      "default_composite_changed_pixels": 0
+    }
+  ],
+  "review_group_default_visible": false,
+  "method": "smooth local hidden right silhouette; infer paint from same-strand gold/pink profiles; retain interior line and lower branches",
+  "limitations": [
+    "current left-view review material only; no new angle artwork",
+    "local concealed patch inferred from adjacent colours; not recovered original artwork; assembly and moving occlusion need validation",
+    "not a fully repainted hidden surface or a new runtime model",
+    "no Cubism mesh, keyforms, body motion or hair physics added"
+  ],
+  "libtv_generation_used": false
+}

@@ -1,7 +1,7 @@
 {
-  "active_psd": "rebuild_v3_4/turn_redraw/left_cheek_lower_contour/Rurino_Left_Cheek_Lower_Contour_v034.psd",
-  "sha256": "9d77e093666dc708a125afdb1f308ff97f4457bec0dd4d2c85386c62223322f0",
-  "status": "left cheek lower branches repaired and rear-hair overlap excluded; upper root/junction still pending; not assembled or rigged",
+  "active_psd": "rebuild_v3_4/turn_redraw/left_cheek_upper_surface/Rurino_Left_Cheek_Upper_Surface_v034.psd",
+  "sha256": "af90791a4abf86fd286668dffc6727dd1278acc9a6f2324d1b5af0570048b882",
+  "status": "left cheek local upper concealed surface repainted; notch and holes repaired; lower branches retained; not assembled or rigged",
   "user_work_order": "complete hair components while preserving independent brows and continuous middle fringe",
-  "previous_psd": "rebuild_v3_4/turn_redraw/right_cheek_contour_rework/Rurino_Right_Cheek_Contour_Rework_v034.psd"
+  "previous_psd": "rebuild_v3_4/turn_redraw/left_cheek_lower_contour/Rurino_Left_Cheek_Lower_Contour_v034.psd"
 }
