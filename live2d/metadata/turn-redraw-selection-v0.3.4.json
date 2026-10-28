@@ -106,5 +106,10 @@
     "status": "eight visible short-hair locks; 44-layer head PSD; hidden roots, remaining hair and physics unfinished",
     "details": "left_hair_strands/STATUS.md",
     "verification": "left_hair_strands/qa/saved-psd-verification.json"
+  },
+  "complete_hair_redraw": {
+    "status": "two complete independently redrawn locks; 46-layer TRIAL assembly; seams and remaining locks unfinished",
+    "details": "hair_flow_redraw/STATUS.md",
+    "verification": "hair_flow_redraw/verification.json"
   }
 }

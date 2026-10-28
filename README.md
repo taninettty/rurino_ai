@@ -2,7 +2,7 @@
 
 ## 瑠璃乃 Live2D 制作
 
-[当前制作目标与下一步](live2d/CURRENT_WORK.md)：按发束细拆，新增[第一批 8 缕短发](live2d/HAIR_STRANDS_V034.md)，保存为 44 层头部工作 PSD；原有三个眼部状态无损保留。隐藏发根、其余头发与新模型绑定仍未完成。
+[当前制作目标与下一步](live2d/CURRENT_WORK.md)：已用 LibTV 沿发流分别重绘[左右两缕完整发束](live2d/HAIR_FLOW_REDRAW_V034.md)，提供透明 PNG 和 46 层头部试装 PSD。发根衔接仍待修，其余发束与新模型绑定尚未完成。
 
 [人物素材与 Cubism 交接](live2d/README.md) · [桌宠模型接入程序](desktop/README.md)。已提供 [v0.3.3 可运行绑定测试稿](live2d/RIG_DRAFT.md)，支持眨眼、口型与小幅转头；头发边缘和变形仍在精修。
 

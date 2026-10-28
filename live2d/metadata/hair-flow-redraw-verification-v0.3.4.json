@@ -1,0 +1,126 @@
+{
+  "input_psd_sha256": "90b3127fc6092f74f398b7486c401d77c3290fac741adde64530cecfaee7cf3f",
+  "saved_psd_sha256": "5f73688f610823e14946222c8cfa8795c95f999957e83008b5f2e5146755dcf4",
+  "pixel_layers": 46,
+  "old_44_layers_pixels_offsets_retained": true,
+  "old_44_layers_opacity_blend_and_clipping_retained": true,
+  "old_R01_L01_hidden_only": true,
+  "central_opaque_face_and_eyes_unchanged": true,
+  "saved_psd_state_checks": [
+    {
+      "state": "Open",
+      "central_opaque_face_max_difference": 0,
+      "region_xyxy": [
+        620,
+        400,
+        1250,
+        1230
+      ]
+    },
+    {
+      "state": "Half",
+      "central_opaque_face_max_difference": 0,
+      "region_xyxy": [
+        620,
+        400,
+        1250,
+        1230
+      ]
+    },
+    {
+      "state": "Closed",
+      "central_opaque_face_max_difference": 0,
+      "region_xyxy": [
+        620,
+        400,
+        1250,
+        1230
+      ]
+    }
+  ],
+  "records": [
+    {
+      "name": "R01",
+      "source_file": "rebuild_v3_4/turn_redraw/hair_flow_redraw/sources/r01-flow-redraw-source.png",
+      "source_sha256": "16573f0de63aca8ec7eb60295cb9f96432157937b852a74e70904bcec0083462",
+      "source_bytes": 1426645,
+      "removed_remote_alpha_speck_pixels": 112,
+      "generated_canvas": [
+        2048,
+        2048
+      ],
+      "source_tip": [
+        1975.0,
+        1039.0
+      ],
+      "target_tip": [
+        1900.0,
+        764.0
+      ],
+      "similarity_transform_parameters": {
+        "uniform_scale": 0.6128382768974503,
+        "rotation_degrees": 2.3349413401623087,
+        "tip_dx": 11.888096041453863,
+        "tip_dy": -10.59254736560625
+      },
+      "matrix_native": [
+        [
+          0.612329458898735,
+          -0.024967727077536032,
+          728.478883150012
+        ],
+        [
+          0.024967727077536032,
+          0.612329458898735,
+          67.88588386047445
+        ]
+      ],
+      "old_visible_opaque_pixels": 11963,
+      "old_visible_covered_pixels": 11755,
+      "old_visible_uncovered_pixels": 208,
+      "registration_scope": "trial similarity placement of new lock only; not a warp of the head or continuous motion"
+    },
+    {
+      "name": "L01",
+      "source_file": "rebuild_v3_4/turn_redraw/hair_flow_redraw/sources/l01-flow-redraw-source.png",
+      "source_sha256": "4a382c52d1fde3228f11b15058c3e1cd90ecb45d7604ec50e026bf953d8f7a2b",
+      "source_bytes": 1593682,
+      "removed_remote_alpha_speck_pixels": 925,
+      "generated_canvas": [
+        2048,
+        2048
+      ],
+      "source_tip": [
+        351.0,
+        1518.0
+      ],
+      "target_tip": [
+        209.0,
+        770.0
+      ],
+      "similarity_transform_parameters": {
+        "uniform_scale": 0.35703598016734045,
+        "rotation_degrees": 2.823142467569444,
+        "tip_dx": -11.928150661318048,
+        "tip_dy": -6.0858853161578725
+      },
+      "matrix_native": [
+        [
+          0.35660265446915357,
+          -0.01758516305318194,
+          98.59859513473921
+        ],
+        [
+          0.01758516305318194,
+          0.35660265446915357,
+          216.41889296800014
+        ]
+      ],
+      "old_visible_opaque_pixels": 7926,
+      "old_visible_covered_pixels": 6895,
+      "old_visible_uncovered_pixels": 1031,
+      "registration_scope": "trial similarity placement of new lock only; not a warp of the head or continuous motion"
+    }
+  ],
+  "status": "two complete redrawn hair assets and a trial head assembly; other six locks remain visible-only cuts; roots/occlusion and physics still require review"
+}
