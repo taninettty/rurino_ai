@@ -1,0 +1,9245 @@
+{
+  "canvas": [
+    2048,
+    2048
+  ],
+  "source_psd": "rebuild_v3_4/turn_redraw/side_blink_refinement/left/Rurino_Turn_Left_Blink_Materials_v034.psd",
+  "source_sha256": "8a805cb37e52f187b0e04df105eff11d937d7cd2a4f8d9ccb415db306d5e73b6",
+  "context_rgba_sha256": "bd4ccd70df41de46325ee9d4a06e04f67f8af63d8a9761987a3ef32c6bfa764d",
+  "parts": [
+    {
+      "name": "RearTail_ImageLeft_Visible",
+      "bbox": [
+        0,
+        1000,
+        896,
+        2048
+      ],
+      "visible_pixels": 279628,
+      "file": "layers/RearTail_ImageLeft_Visible.png",
+      "status": "visible ownership only; concealed anatomy not complete"
+    },
+    {
+      "name": "RearTail_ImageRight_Visible",
+      "bbox": [
+        1150,
+        1000,
+        2048,
+        2048
+      ],
+      "visible_pixels": 310736,
+      "file": "layers/RearTail_ImageRight_Visible.png",
+      "status": "visible ownership only; concealed anatomy not complete"
+    },
+    {
+      "name": "Body_Visible",
+      "bbox": [
+        220,
+        1288,
+        1833,
+        2048
+      ],
+      "visible_pixels": 851872,
+      "file": "layers/Body_Visible.png",
+      "status": "visible ownership only; concealed anatomy not complete"
+    },
+    {
+      "name": "ShortRearHair_ImageLeft",
+      "bbox": [
+        204,
+        239,
+        523,
+        1000
+      ],
+      "visible_pixels": 73171,
+      "file": "layers/ShortRearHair_ImageLeft.png",
+      "status": "visible ownership only; concealed anatomy not complete"
+    },
+    {
+      "name": "ShortRearHair_ImageRight",
+      "bbox": [
+        1459,
+        191,
+        1906,
+        1037
+      ],
+      "visible_pixels": 160388,
+      "file": "layers/ShortRearHair_ImageRight.png",
+      "status": "visible ownership only; concealed anatomy not complete"
+    },
+    {
+      "name": "Bang_ImageLeft_Visible",
+      "bbox": [
+        462,
+        101,
+        995,
+        801
+      ],
+      "visible_pixels": 106974,
+      "file": "layers/Bang_ImageLeft_Visible.png",
+      "status": "visible ownership only; concealed anatomy not complete"
+    },
+    {
+      "name": "Neck_Visible",
+      "bbox": [
+        828,
+        1096,
+        1229,
+        1551
+      ],
+      "visible_pixels": 107850,
+      "file": "layers/Neck_Visible.png",
+      "status": "visible ownership only; concealed anatomy not complete"
+    },
+    {
+      "name": "FacePaint_Visible_NOT_FEATURE_SPLIT",
+      "bbox": [
+        591,
+        342,
+        1239,
+        1241
+      ],
+      "visible_pixels": 350969,
+      "file": "layers/FacePaint_Visible_NOT_FEATURE_SPLIT.png",
+      "status": "visible ownership only; concealed anatomy not complete"
+    },
+    {
+      "name": "Ear_Near_ImageRight",
+      "bbox": [
+        1310,
+        798,
+        1448,
+        1039
+      ],
+      "visible_pixels": 11054,
+      "file": "layers/Ear_Near_ImageRight.png",
+      "status": "visible ownership only; concealed anatomy not complete"
+    },
+    {
+      "name": "CheekLock_ImageLeft",
+      "bbox": [
+        433,
+        190,
+        749,
+        1291
+      ],
+      "visible_pixels": 110783,
+      "file": "layers/CheekLock_ImageLeft.png",
+      "status": "visible ownership only; concealed anatomy not complete"
+    },
+    {
+      "name": "CheekLock_ImageRight",
+      "bbox": [
+        1102,
+        154,
+        1410,
+        1273
+      ],
+      "visible_pixels": 123479,
+      "file": "layers/CheekLock_ImageRight.png",
+      "status": "visible ownership only; concealed anatomy not complete"
+    },
+    {
+      "name": "LongFrontLock_ImageRight",
+      "bbox": [
+        1378,
+        986,
+        1681,
+        2048
+      ],
+      "visible_pixels": 64826,
+      "file": "layers/LongFrontLock_ImageRight.png",
+      "status": "visible ownership only; concealed anatomy not complete"
+    },
+    {
+      "name": "Flower_ImageLeft",
+      "bbox": [
+        432,
+        94,
+        759,
+        501
+      ],
+      "visible_pixels": 41094,
+      "file": "layers/Flower_ImageLeft.png",
+      "status": "visible ownership only; concealed anatomy not complete"
+    },
+    {
+      "name": "Flower_ImageRight",
+      "bbox": [
+        1297,
+        96,
+        1622,
+        505
+      ],
+      "visible_pixels": 70922,
+      "file": "layers/Flower_ImageRight.png",
+      "status": "visible ownership only; concealed anatomy not complete"
+    },
+    {
+      "name": "TempleLock_ImageRight",
+      "bbox": [
+        1196,
+        158,
+        1505,
+        1051
+      ],
+      "visible_pixels": 49717,
+      "file": "layers/TempleLock_ImageRight.png",
+      "status": "visible ownership only; concealed anatomy not complete"
+    },
+    {
+      "name": "Bang_ImageRight_Visible",
+      "bbox": [
+        873,
+        100,
+        1302,
+        801
+      ],
+      "visible_pixels": 181744,
+      "file": "layers/Bang_ImageRight_Visible.png",
+      "status": "visible ownership only; concealed anatomy not complete"
+    },
+    {
+      "name": "Boundary_Review_NOT_RIG_READY",
+      "bbox": [
+        0,
+        0,
+        2043,
+        1926
+      ],
+      "visible_pixels": 29064,
+      "file": "layers/Boundary_Review_NOT_RIG_READY.png",
+      "status": "visible ownership only; concealed anatomy not complete"
+    }
+  ],
+  "preserved_eye_and_overlap_layers": [
+    {
+      "name": "Open_Far_White",
+      "offset": [
+        616,
+        752
+      ],
+      "size": [
+        154,
+        135
+      ],
+      "rgba_sha256": "8c063c140d4564627c6b9ab2ccb1faec6c417913c004971d090176752b78f746",
+      "clipping": false
+    },
+    {
+      "name": "Open_Far_Iris",
+      "offset": [
+        632,
+        749
+      ],
+      "size": [
+        104,
+        145
+      ],
+      "rgba_sha256": "57f50bfa93cd2d76c52b4ef536c6011c99dde287709bb8d5a0bbcfcd79b62f48",
+      "clipping": true
+    },
+    {
+      "name": "Open_Far_UpperLid",
+      "offset": [
+        584,
+        713
+      ],
+      "size": [
+        182,
+        157
+      ],
+      "rgba_sha256": "6a13ec85fdb893dd29d8b4b72831c1606ed85faff83c0b32b34bffb68d102cb9",
+      "clipping": false
+    },
+    {
+      "name": "Open_Far_LowerLid",
+      "offset": [
+        608,
+        870
+      ],
+      "size": [
+        106,
+        29
+      ],
+      "rgba_sha256": "94db02627b6189e9415bbaeddbadbb1940ad08b6ed52d510c5350909a7df27c6",
+      "clipping": false
+    },
+    {
+      "name": "Open_Near_White",
+      "offset": [
+        947,
+        748
+      ],
+      "size": [
+        222,
+        139
+      ],
+      "rgba_sha256": "b22e2071855bdf49ca316014b3fddd91a88559ce84c3a79caa48223fd0c3c8fb",
+      "clipping": false
+    },
+    {
+      "name": "Open_Near_Iris",
+      "offset": [
+        978,
+        747
+      ],
+      "size": [
+        132,
+        147
+      ],
+      "rgba_sha256": "cf3565d6369da65581c44d4745c5861a1061e4104d50804cafc1486865c76fe8",
+      "clipping": true
+    },
+    {
+      "name": "Open_Near_UpperLid",
+      "offset": [
+        943,
+        712
+      ],
+      "size": [
+        268,
+        152
+      ],
+      "rgba_sha256": "4fb4fabce3a420b8fded3b416f810d3c1519ff69c6ece4f47379c3ce88e6a271",
+      "clipping": false
+    },
+    {
+      "name": "Open_Near_LowerLid",
+      "offset": [
+        1001,
+        884
+      ],
+      "size": [
+        87,
+        15
+      ],
+      "rgba_sha256": "630baefd415b00ed7feedb1a24abef607435ba5ee79ca1e9d6969298ad815f0c",
+      "clipping": false
+    },
+    {
+      "name": "Half_Far_White",
+      "offset": [
+        619,
+        795
+      ],
+      "size": [
+        151,
+        92
+      ],
+      "rgba_sha256": "fbbb256e8263e9cb0329d1344af00b999795548a5b83d1e3f231dd9679aa4935",
+      "clipping": false
+    },
+    {
+      "name": "Half_Far_Iris",
+      "offset": [
+        632,
+        749
+      ],
+      "size": [
+        104,
+        145
+      ],
+      "rgba_sha256": "57f50bfa93cd2d76c52b4ef536c6011c99dde287709bb8d5a0bbcfcd79b62f48",
+      "clipping": true
+    },
+    {
+      "name": "Half_Far_UpperLid",
+      "offset": [
+        590,
+        738
+      ],
+      "size": [
+        177,
+        129
+      ],
+      "rgba_sha256": "3e77245e7235608f2732699f357c73a25ff449a8cb4597a389202c17ad956703",
+      "clipping": false
+    },
+    {
+      "name": "Half_Far_LowerLid",
+      "offset": [
+        608,
+        870
+      ],
+      "size": [
+        106,
+        29
+      ],
+      "rgba_sha256": "94db02627b6189e9415bbaeddbadbb1940ad08b6ed52d510c5350909a7df27c6",
+      "clipping": false
+    },
+    {
+      "name": "Half_Near_White",
+      "offset": [
+        948,
+        797
+      ],
+      "size": [
+        218,
+        90
+      ],
+      "rgba_sha256": "7e9805a2da3397de94f03edfa8762fbb78c35edcdc9303b5c5bd124bd61732ce",
+      "clipping": false
+    },
+    {
+      "name": "Half_Near_Iris",
+      "offset": [
+        978,
+        747
+      ],
+      "size": [
+        132,
+        147
+      ],
+      "rgba_sha256": "cf3565d6369da65581c44d4745c5861a1061e4104d50804cafc1486865c76fe8",
+      "clipping": true
+    },
+    {
+      "name": "Half_Near_UpperLid",
+      "offset": [
+        939,
+        733
+      ],
+      "size": [
+        271,
+        125
+      ],
+      "rgba_sha256": "c96cd60ea83e76806218e04895aae650084b694edd37d13cd66650579058807b",
+      "clipping": false
+    },
+    {
+      "name": "Half_Near_LowerLid",
+      "offset": [
+        1001,
+        884
+      ],
+      "size": [
+        87,
+        15
+      ],
+      "rgba_sha256": "630baefd415b00ed7feedb1a24abef607435ba5ee79ca1e9d6969298ad815f0c",
+      "clipping": false
+    },
+    {
+      "name": "Closed_Far_UpperLid",
+      "offset": [
+        592,
+        756
+      ],
+      "size": [
+        171,
+        121
+      ],
+      "rgba_sha256": "6a2c8d623e2eb6b51f56144f3e259b40a9090a6ef403743c2e1f514037725951",
+      "clipping": false
+    },
+    {
+      "name": "Closed_Near_UpperLid",
+      "offset": [
+        943,
+        751
+      ],
+      "size": [
+        263,
+        102
+      ],
+      "rgba_sha256": "8c538a510e549b10362756185420d4e04424a29d21156d0b9aa216a1978d5c33",
+      "clipping": false
+    },
+    {
+      "name": "Foreground_Hair_Overlap",
+      "offset": [
+        569,
+        697
+      ],
+      "size": [
+        657,
+        216
+      ],
+      "rgba_sha256": "2c72364b0b2d6fe8c461e8993730432ee8d4b5548cb0cdf9f3bfab8de3eef249",
+      "clipping": false
+    }
+  ],
+  "part_count": 17,
+  "pixel_layer_count": 36,
+  "partition_exact": true,
+  "disconnected_islands_retained_for_review": [
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        297,
+        1013,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        299,
+        1013,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        251,
+        1019,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        249,
+        1021,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        419,
+        1069,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        279,
+        1177,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        271,
+        1179,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 3,
+      "bbox": [
+        273,
+        1178,
+        1,
+        3
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        275,
+        1179,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        277,
+        1179,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        275,
+        1181,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        273,
+        1183,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        275,
+        1183,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        255,
+        1191,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        247,
+        1207,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        252,
+        1207,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        255,
+        1207,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        253,
+        1209,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        255,
+        1209,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        797,
+        1209,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        259,
+        1211,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 2,
+      "bbox": [
+        256,
+        1215,
+        2,
+        2
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        805,
+        1219,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        807,
+        1219,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 3,
+      "bbox": [
+        241,
+        1245,
+        1,
+        3
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        833,
+        1245,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        836,
+        1245,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        243,
+        1247,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 57,
+      "bbox": [
+        231,
+        1249,
+        9,
+        12
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        239,
+        1249,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        242,
+        1249,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        799,
+        1249,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        245,
+        1251,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        231,
+        1252,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 5,
+      "bbox": [
+        241,
+        1254,
+        2,
+        4
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 2,
+      "bbox": [
+        229,
+        1256,
+        1,
+        2
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        231,
+        1257,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        245,
+        1257,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        247,
+        1257,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        243,
+        1259,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        289,
+        1271,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 2,
+      "bbox": [
+        213,
+        1280,
+        1,
+        2
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        209,
+        1285,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        211,
+        1285,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        771,
+        1291,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 8,
+      "bbox": [
+        207,
+        1297,
+        3,
+        7
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 21,
+      "bbox": [
+        211,
+        1297,
+        5,
+        8
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        215,
+        1297,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 2,
+      "bbox": [
+        207,
+        1299,
+        1,
+        2
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 3,
+      "bbox": [
+        215,
+        1303,
+        1,
+        3
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        213,
+        1305,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        217,
+        1305,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        231,
+        1305,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        229,
+        1307,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        225,
+        1309,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        227,
+        1309,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        218,
+        1313,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        223,
+        1313,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        225,
+        1313,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        221,
+        1315,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        224,
+        1315,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        229,
+        1315,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        223,
+        1319,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        221,
+        1321,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        211,
+        1327,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 26,
+      "bbox": [
+        199,
+        1329,
+        7,
+        10
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 2,
+      "bbox": [
+        205,
+        1329,
+        1,
+        2
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 2,
+      "bbox": [
+        207,
+        1328,
+        1,
+        2
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        219,
+        1331,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 3,
+      "bbox": [
+        207,
+        1335,
+        1,
+        3
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        215,
+        1335,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        197,
+        1337,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 2,
+      "bbox": [
+        209,
+        1337,
+        2,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        213,
+        1337,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 3,
+      "bbox": [
+        201,
+        1341,
+        1,
+        3
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 2,
+      "bbox": [
+        203,
+        1340,
+        1,
+        2
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        295,
+        1340,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 300,
+      "bbox": [
+        181,
+        1342,
+        25,
+        34
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 2,
+      "bbox": [
+        203,
+        1343,
+        1,
+        2
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        207,
+        1345,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        187,
+        1349,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        203,
+        1349,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 2,
+      "bbox": [
+        199,
+        1355,
+        2,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        202,
+        1355,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        198,
+        1357,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        203,
+        1357,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        195,
+        1359,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        199,
+        1359,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        198,
+        1361,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        177,
+        1362,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 7,
+      "bbox": [
+        191,
+        1365,
+        3,
+        6
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        161,
+        1373,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        171,
+        1381,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        172,
+        1383,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 2,
+      "bbox": [
+        175,
+        1383,
+        1,
+        2
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        177,
+        1383,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 4,
+      "bbox": [
+        165,
+        1384,
+        3,
+        2
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        169,
+        1385,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        173,
+        1385,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 2,
+      "bbox": [
+        177,
+        1385,
+        2,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 3,
+      "bbox": [
+        181,
+        1384,
+        2,
+        2
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        171,
+        1387,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        175,
+        1386,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        179,
+        1387,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        181,
+        1387,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        171,
+        1389,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        173,
+        1389,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        175,
+        1389,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 2,
+      "bbox": [
+        169,
+        1390,
+        1,
+        2
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 11,
+      "bbox": [
+        171,
+        1391,
+        5,
+        5
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        173,
+        1391,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        167,
+        1393,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 2,
+      "bbox": [
+        169,
+        1393,
+        1,
+        2
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        177,
+        1393,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        125,
+        1409,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        159,
+        1409,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        161,
+        1409,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 4,
+      "bbox": [
+        165,
+        1408,
+        3,
+        2
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        163,
+        1411,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        165,
+        1411,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        161,
+        1413,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        159,
+        1415,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        161,
+        1415,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 2,
+      "bbox": [
+        162,
+        1418,
+        2,
+        2
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        147,
+        1445,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        149,
+        1445,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        101,
+        1481,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        153,
+        1495,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 9,
+      "bbox": [
+        0,
+        1648,
+        1,
+        9
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        125,
+        1703,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        109,
+        1739,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1795,
+        1003,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1797,
+        1003,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 3,
+      "bbox": [
+        1793,
+        1005,
+        1,
+        3
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1795,
+        1005,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 3,
+      "bbox": [
+        1788,
+        1007,
+        2,
+        3
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 3,
+      "bbox": [
+        1791,
+        1007,
+        1,
+        3
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 3,
+      "bbox": [
+        1792,
+        1009,
+        2,
+        3
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1797,
+        1009,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1789,
+        1011,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1793,
+        1013,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1795,
+        1013,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1783,
+        1033,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1895,
+        1063,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1897,
+        1063,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 12,
+      "bbox": [
+        1899,
+        1065,
+        3,
+        7
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1901,
+        1065,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 5,
+      "bbox": [
+        1897,
+        1067,
+        1,
+        5
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1809,
+        1097,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1813,
+        1097,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 2,
+      "bbox": [
+        1811,
+        1098,
+        1,
+        2
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1813,
+        1099,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 2,
+      "bbox": [
+        1809,
+        1100,
+        1,
+        2
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1769,
+        1113,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 2,
+      "bbox": [
+        1773,
+        1112,
+        1,
+        2
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1769,
+        1117,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 2,
+      "bbox": [
+        1785,
+        1132,
+        1,
+        2
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1787,
+        1133,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1783,
+        1135,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1785,
+        1135,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1781,
+        1137,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1783,
+        1137,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 3,
+      "bbox": [
+        1777,
+        1141,
+        1,
+        3
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 22,
+      "bbox": [
+        1779,
+        1141,
+        7,
+        8
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 3,
+      "bbox": [
+        1785,
+        1143,
+        2,
+        3
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1285,
+        1145,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1753,
+        1145,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1777,
+        1145,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 2,
+      "bbox": [
+        1788,
+        1145,
+        2,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1791,
+        1145,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1283,
+        1147,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1285,
+        1147,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1757,
+        1147,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1787,
+        1147,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1789,
+        1147,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1777,
+        1149,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1779,
+        1149,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1777,
+        1151,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1781,
+        1151,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 3,
+      "bbox": [
+        1253,
+        1158,
+        2,
+        2
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 122,
+      "bbox": [
+        1823,
+        1159,
+        17,
+        17
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 2,
+      "bbox": [
+        1825,
+        1158,
+        1,
+        2
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 6,
+      "bbox": [
+        1255,
+        1161,
+        3,
+        4
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1703,
+        1160,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1831,
+        1161,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1253,
+        1163,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1819,
+        1163,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 2,
+      "bbox": [
+        1831,
+        1163,
+        1,
+        2
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 4,
+      "bbox": [
+        1258,
+        1164,
+        2,
+        4
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1795,
+        1165,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1839,
+        1171,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1826,
+        1177,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1829,
+        1177,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1833,
+        1177,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1836,
+        1183,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 912,
+      "bbox": [
+        1789,
+        1183,
+        55,
+        39
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1791,
+        1185,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 2,
+      "bbox": [
+        1829,
+        1185,
+        2,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1789,
+        1187,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1831,
+        1187,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1843,
+        1189,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 2,
+      "bbox": [
+        1807,
+        1192,
+        1,
+        2
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1823,
+        1193,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1825,
+        1193,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1787,
+        1195,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1817,
+        1194,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1827,
+        1194,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1789,
+        1200,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1801,
+        1207,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1811,
+        1211,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1821,
+        1217,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1823,
+        1217,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 2849,
+      "bbox": [
+        1825,
+        1221,
+        71,
+        112
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1827,
+        1226,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1829,
+        1227,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1827,
+        1229,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 7,
+      "bbox": [
+        1811,
+        1231,
+        5,
+        5
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1857,
+        1231,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1809,
+        1233,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1823,
+        1232,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1162,
+        1235,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1857,
+        1237,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1859,
+        1237,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 7,
+      "bbox": [
+        1814,
+        1239,
+        3,
+        5
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 130,
+      "bbox": [
+        1813,
+        1239,
+        19,
+        20
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1859,
+        1239,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1861,
+        1241,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1863,
+        1240,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1859,
+        1243,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1861,
+        1243,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1883,
+        1243,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1814,
+        1245,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1807,
+        1247,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1826,
+        1249,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1829,
+        1249,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1811,
+        1253,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1813,
+        1253,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 3,
+      "bbox": [
+        1817,
+        1253,
+        1,
+        3
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 3,
+      "bbox": [
+        1815,
+        1255,
+        1,
+        3
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1823,
+        1255,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1945,
+        1255,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1817,
+        1257,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1821,
+        1257,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1811,
+        1259,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1809,
+        1261,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 3,
+      "bbox": [
+        1887,
+        1263,
+        1,
+        3
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1889,
+        1265,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 3,
+      "bbox": [
+        1879,
+        1267,
+        3,
+        2
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1885,
+        1267,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1881,
+        1271,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1153,
+        1279,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1871,
+        1279,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 2,
+      "bbox": [
+        1825,
+        1281,
+        1,
+        2
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1871,
+        1281,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 3,
+      "bbox": [
+        1871,
+        1287,
+        1,
+        3
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1313,
+        1289,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1825,
+        1289,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1873,
+        1289,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1313,
+        1293,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1829,
+        1297,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1879,
+        1297,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 83,
+      "bbox": [
+        1893,
+        1303,
+        23,
+        14
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1903,
+        1303,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 2,
+      "bbox": [
+        1879,
+        1304,
+        1,
+        2
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 2,
+      "bbox": [
+        1893,
+        1304,
+        1,
+        2
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1911,
+        1305,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1258,
+        1307,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1767,
+        1306,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1891,
+        1309,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1911,
+        1308,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1911,
+        1311,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1853,
+        1313,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 2,
+      "bbox": [
+        1897,
+        1313,
+        2,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1900,
+        1313,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 4,
+      "bbox": [
+        1915,
+        1313,
+        3,
+        3
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1919,
+        1313,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 2,
+      "bbox": [
+        1929,
+        1313,
+        1,
+        2
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1935,
+        1313,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1853,
+        1315,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 2,
+      "bbox": [
+        1895,
+        1315,
+        2,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1899,
+        1315,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1901,
+        1315,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 2,
+      "bbox": [
+        1903,
+        1315,
+        2,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1909,
+        1315,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1911,
+        1315,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1931,
+        1315,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1933,
+        1315,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1907,
+        1317,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1909,
+        1317,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1915,
+        1317,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 2,
+      "bbox": [
+        1929,
+        1316,
+        1,
+        2
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1931,
+        1317,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 2,
+      "bbox": [
+        1327,
+        1318,
+        2,
+        2
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 3,
+      "bbox": [
+        1855,
+        1319,
+        1,
+        3
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 4,
+      "bbox": [
+        1889,
+        1319,
+        3,
+        3
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 6,
+      "bbox": [
+        1911,
+        1319,
+        4,
+        3
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1915,
+        1319,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1935,
+        1319,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1909,
+        1321,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1919,
+        1321,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1891,
+        1323,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1907,
+        1323,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1917,
+        1323,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 3,
+      "bbox": [
+        1857,
+        1324,
+        1,
+        3
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 2,
+      "bbox": [
+        1879,
+        1327,
+        2,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1855,
+        1329,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1857,
+        1329,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 11,
+      "bbox": [
+        1863,
+        1329,
+        7,
+        8
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1851,
+        1331,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1853,
+        1331,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1863,
+        1331,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1941,
+        1345,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 26,
+      "bbox": [
+        1897,
+        1349,
+        5,
+        11
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 5,
+      "bbox": [
+        1903,
+        1351,
+        3,
+        3
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1895,
+        1353,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1917,
+        1353,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 2,
+      "bbox": [
+        1903,
+        1355,
+        1,
+        2
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1899,
+        1359,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1911,
+        1359,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1897,
+        1361,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1909,
+        1361,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1915,
+        1363,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1903,
+        1367,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1905,
+        1367,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1909,
+        1369,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1921,
+        1397,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1913,
+        1399,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1919,
+        1399,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1921,
+        1399,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 59,
+      "bbox": [
+        1919,
+        1399,
+        15,
+        11
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 2,
+      "bbox": [
+        1913,
+        1401,
+        2,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 15,
+      "bbox": [
+        1915,
+        1401,
+        3,
+        11
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1935,
+        1401,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 2,
+      "bbox": [
+        1913,
+        1404,
+        1,
+        2
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1913,
+        1407,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1923,
+        1407,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1931,
+        1407,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1921,
+        1409,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1919,
+        1411,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1915,
+        1413,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1919,
+        1415,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1925,
+        1417,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1997,
+        1459,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        2019,
+        1459,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1985,
+        1461,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        2021,
+        1513,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        2023,
+        1513,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        2025,
+        1513,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 2,
+      "bbox": [
+        2031,
+        1513,
+        1,
+        2
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 2,
+      "bbox": [
+        2027,
+        1515,
+        1,
+        2
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        2029,
+        1515,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        2027,
+        1519,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        2011,
+        1559,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1943,
+        1652,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1965,
+        1685,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1986,
+        1764,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 2,
+      "bbox": [
+        2023,
+        1814,
+        2,
+        2
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        2041,
+        1887,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        2042,
+        1889,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "RearTail_ImageRight_Visible",
+      "pixels": 3,
+      "bbox": [
+        2034,
+        1923,
+        1,
+        3
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 85,
+      "bbox": [
+        698,
+        0,
+        20,
+        8
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 52,
+      "bbox": [
+        795,
+        0,
+        18,
+        4
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        797,
+        5,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        802,
+        5,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        810,
+        5,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        813,
+        5,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        708,
+        7,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        682,
+        17,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        685,
+        17,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        781,
+        17,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        978,
+        17,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        981,
+        17,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 12,
+      "bbox": [
+        680,
+        19,
+        4,
+        5
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 3,
+      "bbox": [
+        685,
+        19,
+        1,
+        3
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        687,
+        20,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 3,
+      "bbox": [
+        689,
+        21,
+        1,
+        3
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        691,
+        21,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        785,
+        21,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        977,
+        21,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        979,
+        21,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        988,
+        21,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        691,
+        23,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        977,
+        23,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 3,
+      "bbox": [
+        983,
+        22,
+        3,
+        2
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        987,
+        23,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        681,
+        25,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        683,
+        27,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        683,
+        29,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        991,
+        31,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        673,
+        33,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        893,
+        33,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        989,
+        32,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        891,
+        35,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        889,
+        37,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        599,
+        39,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        625,
+        39,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 2,
+      "bbox": [
+        631,
+        39,
+        1,
+        2
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        613,
+        41,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 2,
+      "bbox": [
+        625,
+        41,
+        1,
+        2
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        625,
+        45,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        627,
+        45,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        625,
+        47,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        831,
+        47,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        821,
+        51,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        823,
+        51,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        787,
+        53,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        819,
+        53,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        987,
+        53,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        989,
+        53,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        519,
+        55,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        521,
+        55,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        577,
+        55,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        820,
+        55,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        823,
+        55,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        517,
+        57,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 14,
+      "bbox": [
+        519,
+        57,
+        7,
+        7
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        527,
+        57,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        791,
+        57,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        793,
+        57,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        821,
+        57,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        823,
+        57,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        519,
+        59,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        789,
+        58,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        795,
+        59,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        821,
+        59,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 46,
+      "bbox": [
+        781,
+        60,
+        9,
+        12
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 2,
+      "bbox": [
+        787,
+        60,
+        1,
+        2
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        789,
+        61,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        793,
+        61,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        523,
+        63,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        793,
+        63,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        517,
+        65,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        520,
+        65,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        779,
+        65,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        791,
+        65,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        781,
+        69,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        787,
+        71,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        521,
+        73,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        837,
+        72,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        835,
+        77,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        835,
+        79,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 2328,
+      "bbox": [
+        510,
+        88,
+        211,
+        123
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        719,
+        100,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 3,
+      "bbox": [
+        971,
+        106,
+        3,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 9,
+      "bbox": [
+        976,
+        107,
+        8,
+        2
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 5,
+      "bbox": [
+        984,
+        109,
+        4,
+        2
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        657,
+        111,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        659,
+        111,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 31,
+      "bbox": [
+        987,
+        110,
+        15,
+        4
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        479,
+        112,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        655,
+        113,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        657,
+        113,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 2,
+      "bbox": [
+        721,
+        113,
+        1,
+        2
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        483,
+        115,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        483,
+        117,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        521,
+        117,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        523,
+        117,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 3,
+      "bbox": [
+        519,
+        119,
+        1,
+        3
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        521,
+        119,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        527,
+        119,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        517,
+        121,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        521,
+        121,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 15,
+      "bbox": [
+        514,
+        123,
+        4,
+        9
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 2,
+      "bbox": [
+        519,
+        123,
+        1,
+        2
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 280,
+      "bbox": [
+        722,
+        122,
+        22,
+        30
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 3,
+      "bbox": [
+        513,
+        125,
+        1,
+        3
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        519,
+        127,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 2,
+      "bbox": [
+        521,
+        126,
+        1,
+        2
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 2,
+      "bbox": [
+        513,
+        129,
+        1,
+        2
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        519,
+        129,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        465,
+        133,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        467,
+        133,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        515,
+        133,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        513,
+        135,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        515,
+        135,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        519,
+        135,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        486,
+        145,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        485,
+        147,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        481,
+        149,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        483,
+        149,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        721,
+        153,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        525,
+        201,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        497,
+        214,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        499,
+        215,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        501,
+        214,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        497,
+        216,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        121,
+        343,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        524,
+        397,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        523,
+        399,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        410,
+        411,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        400,
+        442,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        342,
+        623,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        201,
+        647,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        203,
+        647,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        298,
+        769,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        300,
+        769,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        276,
+        775,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        269,
+        783,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        271,
+        783,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        167,
+        807,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        365,
+        929,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        340,
+        951,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 3,
+      "bbox": [
+        339,
+        953,
+        2,
+        3
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 2,
+      "bbox": [
+        342,
+        955,
+        2,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        342,
+        957,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        351,
+        971,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        354,
+        975,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageLeft",
+      "pixels": 1,
+      "bbox": [
+        415,
+        975,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1036,
+      "bbox": [
+        1201,
+        0,
+        97,
+        18
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 8,
+      "bbox": [
+        1195,
+        7,
+        5,
+        3
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 2,
+      "bbox": [
+        1194,
+        9,
+        2,
+        2
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1297,
+        9,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1295,
+        15,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1237,
+        17,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1239,
+        17,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1242,
+        17,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1244,
+        17,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1281,
+        17,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1235,
+        19,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1237,
+        19,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1244,
+        19,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1241,
+        21,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1243,
+        21,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1245,
+        21,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 3,
+      "bbox": [
+        1249,
+        21,
+        1,
+        3
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1105,
+        23,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1241,
+        23,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 2,
+      "bbox": [
+        1243,
+        23,
+        2,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1133,
+        25,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 2,
+      "bbox": [
+        1241,
+        25,
+        2,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 3,
+      "bbox": [
+        1244,
+        25,
+        2,
+        3
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1247,
+        25,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 2,
+      "bbox": [
+        1263,
+        24,
+        1,
+        2
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1699,
+      "bbox": [
+        1190,
+        24,
+        104,
+        56
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1293,
+        25,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1295,
+        25,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 4,
+      "bbox": [
+        1299,
+        25,
+        3,
+        3
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1093,
+        27,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1297,
+        26,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1297,
+        29,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1299,
+        29,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1295,
+        31,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1297,
+        31,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1303,
+        31,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 4,
+      "bbox": [
+        1219,
+        33,
+        3,
+        3
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1223,
+        33,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 2,
+      "bbox": [
+        1225,
+        33,
+        2,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1258,
+        33,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 2,
+      "bbox": [
+        1277,
+        33,
+        2,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1281,
+        33,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1224,
+        35,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1227,
+        35,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1229,
+        35,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1277,
+        35,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1277,
+        37,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 2,
+      "bbox": [
+        1275,
+        39,
+        1,
+        2
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1417,
+        39,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1420,
+        39,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 4,
+      "bbox": [
+        1423,
+        39,
+        1,
+        4
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 48,
+      "bbox": [
+        1493,
+        39,
+        9,
+        11
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1503,
+        39,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1519,
+        39,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1191,
+        41,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1290,
+        41,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1293,
+        41,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1295,
+        41,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 4,
+      "bbox": [
+        1417,
+        41,
+        1,
+        4
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1421,
+        41,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 4,
+      "bbox": [
+        1503,
+        41,
+        1,
+        4
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1509,
+        41,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1525,
+        41,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1527,
+        41,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1275,
+        43,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1277,
+        43,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1291,
+        43,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1293,
+        43,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1331,
+        43,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 3,
+      "bbox": [
+        1419,
+        43,
+        1,
+        3
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1525,
+        43,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1209,
+        45,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1211,
+        45,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1233,
+        45,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1521,
+        45,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1523,
+        45,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1529,
+        45,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1279,
+        47,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1417,
+        46,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1419,
+        47,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 2,
+      "bbox": [
+        1503,
+        47,
+        2,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1197,
+        49,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1265,
+        49,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1270,
+        49,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1295,
+        49,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1325,
+        49,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1271,
+        51,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1325,
+        51,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1270,
+        53,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 4,
+      "bbox": [
+        1295,
+        53,
+        3,
+        3
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1345,
+        53,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1279,
+        55,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 30,
+      "bbox": [
+        1305,
+        55,
+        5,
+        13
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1311,
+        55,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1313,
+        55,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1345,
+        55,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 2,
+      "bbox": [
+        1279,
+        57,
+        1,
+        2
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1311,
+        57,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 2,
+      "bbox": [
+        1313,
+        57,
+        2,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1317,
+        57,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 2,
+      "bbox": [
+        1319,
+        56,
+        1,
+        2
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1321,
+        57,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1465,
+        57,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 3,
+      "bbox": [
+        1469,
+        57,
+        1,
+        3
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 2,
+      "bbox": [
+        1471,
+        57,
+        1,
+        2
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1232,
+        59,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 3,
+      "bbox": [
+        1311,
+        59,
+        1,
+        3
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1315,
+        59,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1317,
+        59,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1319,
+        59,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1217,
+        61,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1220,
+        61,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1313,
+        61,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1465,
+        61,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1196,
+        63,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 2,
+      "bbox": [
+        1199,
+        63,
+        2,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1203,
+        63,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1207,
+        63,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1303,
+        63,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1311,
+        63,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1314,
+        63,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 7,
+      "bbox": [
+        1292,
+        64,
+        6,
+        2
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1301,
+        65,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 8,
+      "bbox": [
+        1311,
+        65,
+        5,
+        3
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1318,
+        65,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1565,
+        65,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 3,
+      "bbox": [
+        1295,
+        67,
+        2,
+        2
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1299,
+        67,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1301,
+        67,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1547,
+        67,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1549,
+        67,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1297,
+        69,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1299,
+        69,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1305,
+        68,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1310,
+        69,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1313,
+        69,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1315,
+        69,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1295,
+        71,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1297,
+        71,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1300,
+        71,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1303,
+        71,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1311,
+        71,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 2,
+      "bbox": [
+        1673,
+        70,
+        1,
+        2
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1295,
+        73,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1301,
+        73,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1282,
+        79,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1289,
+        79,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1295,
+        79,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1295,
+        81,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1297,
+        81,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1299,
+        81,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1301,
+        81,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1525,
+        81,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1300,
+        83,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 3,
+      "bbox": [
+        1523,
+        83,
+        3,
+        3
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1297,
+        85,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1299,
+        85,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1295,
+        87,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1297,
+        87,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1519,
+        87,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1521,
+        87,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1523,
+        87,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1301,
+        89,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1303,
+        89,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 73,
+      "bbox": [
+        1519,
+        88,
+        15,
+        16
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1529,
+        89,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1301,
+        91,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1701,
+      "bbox": [
+        1345,
+        90,
+        145,
+        116
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 5,
+      "bbox": [
+        1521,
+        91,
+        1,
+        5
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1531,
+        91,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1529,
+        93,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1531,
+        93,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1532,
+        95,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 66,
+      "bbox": [
+        1063,
+        97,
+        25,
+        4
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 97,
+      "bbox": [
+        1101,
+        96,
+        29,
+        5
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1129,
+        97,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1535,
+        97,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1130,
+        101,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1531,
+        103,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1527,
+        105,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1529,
+        105,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1525,
+        106,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1527,
+        107,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1573,
+        107,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 5,
+      "bbox": [
+        1191,
+        111,
+        5,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1421,
+        111,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1199,
+        113,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1466,
+        113,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1417,
+        117,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 316,
+      "bbox": [
+        1293,
+        121,
+        28,
+        26
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1479,
+        132,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1689,
+        135,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1691,
+        139,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1681,
+        141,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1683,
+        141,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1489,
+        143,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1691,
+        227,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1693,
+        227,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 2,
+      "bbox": [
+        1623,
+        274,
+        1,
+        2
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1624,
+        277,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1717,
+        281,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1749,
+        425,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1761,
+        433,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 2,
+      "bbox": [
+        1765,
+        432,
+        2,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 2,
+      "bbox": [
+        1761,
+        436,
+        1,
+        2
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1769,
+        441,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1700,
+        475,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 2,
+      "bbox": [
+        1703,
+        482,
+        1,
+        2
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1713,
+        518,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1857,
+        565,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1855,
+        567,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1849,
+        573,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1851,
+        575,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1901,
+        609,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1897,
+        610,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1897,
+        613,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1885,
+        617,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1889,
+        617,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1891,
+        618,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 2,
+      "bbox": [
+        1892,
+        619,
+        2,
+        2
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1905,
+        625,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1903,
+        631,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1895,
+        632,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1901,
+        641,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1903,
+        641,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 8278,
+      "bbox": [
+        1360,
+        725,
+        111,
+        275
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1775,
+        747,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1829,
+        768,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 3,
+      "bbox": [
+        1839,
+        770,
+        3,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 3,
+      "bbox": [
+        1882,
+        771,
+        3,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 10,
+      "bbox": [
+        1859,
+        773,
+        10,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1775,
+        867,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1771,
+        871,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1773,
+        873,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1769,
+        875,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1887,
+        887,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1889,
+        887,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1885,
+        889,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1883,
+        891,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1718,
+        909,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1759,
+        913,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1759,
+        927,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1753,
+        929,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1757,
+        929,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1693,
+        931,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 2,
+      "bbox": [
+        1865,
+        942,
+        1,
+        2
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 3,
+      "bbox": [
+        1866,
+        947,
+        2,
+        3
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1865,
+        951,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1867,
+        951,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1865,
+        953,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1718,
+        956,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 6,
+      "bbox": [
+        1817,
+        969,
+        1,
+        6
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1823,
+        969,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1819,
+        971,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1821,
+        971,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 2,
+      "bbox": [
+        1819,
+        973,
+        2,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1727,
+        975,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "ShortRearHair_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1657,
+        999,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "Bang_ImageLeft_Visible",
+      "pixels": 3,
+      "bbox": [
+        888,
+        109,
+        3,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "Bang_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        461,
+        657,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "Bang_ImageLeft_Visible",
+      "pixels": 1,
+      "bbox": [
+        620,
+        735,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "FacePaint_Visible_NOT_FEATURE_SPLIT",
+      "pixels": 1,
+      "bbox": [
+        954,
+        764,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "FacePaint_Visible_NOT_FEATURE_SPLIT",
+      "pixels": 1,
+      "bbox": [
+        619,
+        945,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "CheekLock_ImageRight",
+      "pixels": 346,
+      "bbox": [
+        1406,
+        801,
+        29,
+        27
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "CheekLock_ImageRight",
+      "pixels": 1,
+      "bbox": [
+        1152,
+        1097,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "CheekLock_ImageRight",
+      "pixels": 2,
+      "bbox": [
+        1163,
+        1151,
+        1,
+        2
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "Bang_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1023,
+        109,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "Bang_ImageRight_Visible",
+      "pixels": 2,
+      "bbox": [
+        1018,
+        110,
+        2,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "Bang_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1247,
+        129,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "Bang_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        1279,
+        145,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "Bang_ImageRight_Visible",
+      "pixels": 3617,
+      "bbox": [
+        1428,
+        441,
+        44,
+        177
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "Bang_ImageRight_Visible",
+      "pixels": 3125,
+      "bbox": [
+        1396,
+        661,
+        40,
+        140
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "Bang_ImageRight_Visible",
+      "pixels": 2,
+      "bbox": [
+        978,
+        721,
+        1,
+        2
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "Bang_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        975,
+        722,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "Bang_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        977,
+        724,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "Bang_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        974,
+        726,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "Bang_ImageRight_Visible",
+      "pixels": 4,
+      "bbox": [
+        975,
+        726,
+        2,
+        4
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "Bang_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        973,
+        729,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "Bang_ImageRight_Visible",
+      "pixels": 3,
+      "bbox": [
+        960,
+        731,
+        1,
+        3
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "Bang_ImageRight_Visible",
+      "pixels": 2,
+      "bbox": [
+        963,
+        731,
+        1,
+        2
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "Bang_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        974,
+        731,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "Bang_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        973,
+        733,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "Bang_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        972,
+        735,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "Bang_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        971,
+        737,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "Bang_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        959,
+        738,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "Bang_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        962,
+        739,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "Bang_ImageRight_Visible",
+      "pixels": 3,
+      "bbox": [
+        960,
+        745,
+        2,
+        3
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "Bang_ImageRight_Visible",
+      "pixels": 1,
+      "bbox": [
+        967,
+        745,
+        1,
+        1
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    },
+    {
+      "source": "Bang_ImageRight_Visible",
+      "pixels": 55,
+      "bbox": [
+        952,
+        747,
+        15,
+        29
+      ],
+      "target": "Boundary_Review_NOT_RIG_READY"
+    }
+  ],
+  "psd_sha256": "3e87d70b490bef5f1c700840c74385bc3eb530192f8449ab752894cfde61226e",
+  "scope": "first left-view visible component split; not all hidden roots or facial subparts are complete",
+  "limits": [
+    "nose mouth and brows not independently separated in this stage",
+    "far ear is occluded and has not been invented",
+    "local foreground eye-hair overlap still belongs to existing blink reference group",
+    "visible part ownership requires visual boundary review",
+    "no Cubism mesh binding or continuous rotation verification"
+  ]
+}

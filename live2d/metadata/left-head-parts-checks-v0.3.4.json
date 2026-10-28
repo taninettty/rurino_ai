@@ -1,0 +1,34 @@
+{
+  "pixel_layers": 36,
+  "clipping_layers": 4,
+  "preserved_eye_foreground_layers": 19,
+  "preserved_rgba_offsets_visibility_opacity_blend_clipping_exact": true,
+  "all_visible_context_pixels_have_exactly_one_owner": true,
+  "saved_context_visible_rgba_and_full_alpha_exact": true,
+  "saved_psd_states": [
+    {
+      "state": "Open",
+      "source_vs_split_alpha_max_error": 0,
+      "source_vs_split_visible_rgb_max_error": 0
+    },
+    {
+      "state": "Half",
+      "source_vs_split_alpha_max_error": 0,
+      "source_vs_split_visible_rgb_max_error": 0
+    },
+    {
+      "state": "Closed",
+      "source_vs_split_alpha_max_error": 0,
+      "source_vs_split_visible_rgb_max_error": 0
+    }
+  ],
+  "boundary_review_pixels": 29064,
+  "source_psd_sha256": "8a805cb37e52f187b0e04df105eff11d937d7cd2a4f8d9ccb415db306d5e73b6",
+  "saved_psd_sha256": "3e87d70b490bef5f1c700840c74385bc3eb530192f8449ab752894cfde61226e",
+  "limits": [
+    "pixel reconstruction does not certify semantic cut boundaries",
+    "eyebrows cross hair and skin; nose/mouth not separate yet",
+    "concealed roots and skin candidates not adopted",
+    "not Cubism meshes or continuous animation"
+  ]
+}

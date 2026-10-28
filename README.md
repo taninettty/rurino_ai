@@ -2,7 +2,7 @@
 
 ## 瑠璃乃 Live2D 制作
 
-[当前制作目标与下一步](live2d/CURRENT_WORK.md)：v0.3.4 已补画[四角组合视角与九方向参考](live2d/CORNER_MATERIALS_V034.md)，修订向上转头的下颌与右下构图。完整部件拆分、头身配准及新模型绑定仍未完成。
+[当前制作目标与下一步](live2d/CURRENT_WORK.md)：本轮保存[36 层左侧头部拆层初稿](live2d/LEFT_HEAD_PARTS_V034.md)及[九方向领口平移对照](live2d/COLLAR_REGISTRATION_V034.md)。原眼部三个状态无损保留；发束边界、隐藏补画、完整头身配准及新模型绑定仍未完成。
 
 [人物素材与 Cubism 交接](live2d/README.md) · [桌宠模型接入程序](desktop/README.md)。已提供 [v0.3.3 可运行绑定测试稿](live2d/RIG_DRAFT.md)，支持眨眼、口型与小幅转头；头发边缘和变形仍在精修。
 

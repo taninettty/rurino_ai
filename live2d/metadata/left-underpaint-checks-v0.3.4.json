@@ -1,0 +1,114 @@
+[
+  {
+    "file": "skin-underpaint-source.png",
+    "task_id": "20261028111503892497456",
+    "resource_id": "res_401ff7d7bed744d1be04a0441fc8e88a",
+    "bytes": 3999427,
+    "sha256": "fbfd629a4d8c103a2a746eb19afe77ca4b6827990d84fd83d243f970590364d9",
+    "decoded_dimensions": [
+      2048,
+      2048
+    ],
+    "zero_alpha_pixels": 1277388,
+    "matches": {
+      "far_eye": {
+        "template_correlation": 0.9317,
+        "best_match_displacement_native_px": [
+          0,
+          -2
+        ],
+        "interpretation": "appearance match diagnostic, not validated anatomical registration"
+      },
+      "near_eye": {
+        "template_correlation": 0.9257,
+        "best_match_displacement_native_px": [
+          2,
+          -2
+        ],
+        "interpretation": "appearance match diagnostic, not validated anatomical registration"
+      },
+      "nose": {
+        "template_correlation": 0.9892,
+        "best_match_displacement_native_px": [
+          -2,
+          -2
+        ],
+        "interpretation": "appearance match diagnostic, not validated anatomical registration"
+      },
+      "mouth": {
+        "template_correlation": 0.9341,
+        "best_match_displacement_native_px": [
+          0,
+          0
+        ],
+        "interpretation": "appearance match diagnostic, not validated anatomical registration"
+      },
+      "chin": {
+        "template_correlation": 0.815,
+        "best_match_displacement_native_px": [
+          -2,
+          0
+        ],
+        "interpretation": "appearance match diagnostic, not validated anatomical registration"
+      }
+    },
+    "adopted_in_psd": false,
+    "status": "concealed-paint candidate only; isolate local concealed skin/hair patches and verify registration before use"
+  },
+  {
+    "file": "rearhair-underpaint-source.png",
+    "task_id": "20261028111503272617456",
+    "resource_id": "res_b220cc12a46649038f1b600d473344c9",
+    "bytes": 3859376,
+    "sha256": "16de737a3ff511ce37363cda04cf4c5870494d866d36ff66fbd3ccdae97da002",
+    "decoded_dimensions": [
+      2048,
+      2048
+    ],
+    "zero_alpha_pixels": 1299889,
+    "matches": {
+      "far_eye": {
+        "template_correlation": 0.9272,
+        "best_match_displacement_native_px": [
+          0,
+          0
+        ],
+        "interpretation": "appearance match diagnostic, not validated anatomical registration"
+      },
+      "near_eye": {
+        "template_correlation": 0.9282,
+        "best_match_displacement_native_px": [
+          0,
+          -2
+        ],
+        "interpretation": "appearance match diagnostic, not validated anatomical registration"
+      },
+      "nose": {
+        "template_correlation": 0.9484,
+        "best_match_displacement_native_px": [
+          0,
+          0
+        ],
+        "interpretation": "appearance match diagnostic, not validated anatomical registration"
+      },
+      "mouth": {
+        "template_correlation": 0.9786,
+        "best_match_displacement_native_px": [
+          0,
+          0
+        ],
+        "interpretation": "appearance match diagnostic, not validated anatomical registration"
+      },
+      "chin": {
+        "template_correlation": 0.7482,
+        "best_match_displacement_native_px": [
+          2,
+          -2
+        ],
+        "interpretation": "appearance match diagnostic, not validated anatomical registration"
+      }
+    },
+    "adopted_in_psd": false,
+    "status": "concealed-paint candidate only; isolate local concealed skin/hair patches and verify registration before use"
+  }
+]

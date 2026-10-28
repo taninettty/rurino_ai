@@ -91,5 +91,15 @@
     "details": "corner_redraw/STATUS.md",
     "selection": "corner_redraw/selection.json",
     "verification": "corner_redraw/qa/source-verification.json"
+  },
+  "left_head_parts": {
+    "status": "36-layer visible ownership draft; 19 original eye/overlap layers exact; boundaries and concealed parts unfinished",
+    "details": "left_head_parts/STATUS.md",
+    "verification": "left_head_parts/qa/saved-psd-verification.json"
+  },
+  "collar_registration": {
+    "status": "integer garment-anchor translation only; not anatomical registration",
+    "details": "head_registration/STATUS.md",
+    "verification": "head_registration/registration.json"
   }
 }

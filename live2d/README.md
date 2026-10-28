@@ -1,5 +1,7 @@
 # 瑠璃乃 Live2D 桌宠模型
 
+当前阶段：[左侧可见部件拆层初稿](LEFT_HEAD_PARTS_V034.md)与[九方向领口对照](COLLAR_REGISTRATION_V034.md)，尚未完成精细切线、隐藏补画和绑定。以下旧阶段记录按历史理解。
+
 已完成真正的 Cubism 绑定初稿，能加载、眨眼、张嘴和小幅转头。头发边缘、闭眼过渡和部分变形仍需精修。
 
 [下载 v0.3.3 模型与工程](https://github.com/taninettty/rurino_ai/releases/tag/live2d-rig-v0.3.3) · [使用方法、验证结果与剩余问题](RIG_DRAFT.md) · [桌宠与本地对话程序](../desktop/README.md)
