@@ -1,0 +1,129 @@
+{
+  "input_psd_sha256": "2c5047f2da040696a8cfc703d8ec60a09420bf24525efdf4f9b9b5eea188ddf8",
+  "saved_psd_sha256": "07ed089fd9f4bd576b19330068da5d792ae4b98a5910297b23e52350cd2e69ce",
+  "pixel_layers": 81,
+  "original_77_layers_retained": true,
+  "new_layers_match_pngs": true,
+  "independent_brows_and_fringe_retained": true,
+  "parts": [
+    {
+      "side": "L",
+      "painted_pixels": 13059,
+      "added_alpha_pixels": 8005,
+      "flower_context_pixels": 207,
+      "below_row_590_exact": true,
+      "root_geometry_native": {
+        "y": [
+          210,
+          240,
+          320,
+          400,
+          480,
+          550,
+          590
+        ],
+        "left": [
+          505,
+          480,
+          440,
+          410,
+          380,
+          360,
+          345
+        ],
+        "right": [
+          525,
+          550,
+          530,
+          505,
+          477,
+          452,
+          443
+        ],
+        "sample_y": [
+          505,
+          535
+        ],
+        "sample_x": [
+          395,
+          455
+        ]
+      }
+    },
+    {
+      "side": "R",
+      "painted_pixels": 29314,
+      "added_alpha_pixels": 23337,
+      "flower_context_pixels": 718,
+      "below_row_590_exact": true,
+      "root_geometry_native": {
+        "y": [
+          200,
+          240,
+          320,
+          400,
+          480,
+          540,
+          590
+        ],
+        "left": [
+          1510,
+          1490,
+          1475,
+          1480,
+          1495,
+          1510,
+          1520
+        ],
+        "right": [
+          1540,
+          1595,
+          1640,
+          1675,
+          1705,
+          1735,
+          1760
+        ],
+        "sample_y": [
+          520,
+          550
+        ],
+        "sample_x": [
+          1535,
+          1695
+        ]
+      }
+    }
+  ],
+  "states": [
+    {
+      "state": "Open",
+      "outside_edit_mask_exact": true,
+      "changed_pixels": 36499,
+      "max_channel_difference": 5,
+      "new_pixels_outside_head": 0
+    },
+    {
+      "state": "Half",
+      "outside_edit_mask_exact": true,
+      "changed_pixels": 36499,
+      "max_channel_difference": 5,
+      "new_pixels_outside_head": 0
+    },
+    {
+      "state": "Closed",
+      "outside_edit_mask_exact": true,
+      "changed_pixels": 36499,
+      "max_channel_difference": 5,
+      "new_pixels_outside_head": 0
+    }
+  ],
+  "method": "local raster painting of flower-occluded small-tail roots using own-side hair palette; saturated flower fragments preserved separately",
+  "limitations": [
+    "root geometry is local reconstruction, not recovered unseen original art",
+    "not complete interior shaft or head-angle materials",
+    "no movement mesh or physics verification",
+    "large twin tails and boundary-review dirt remain pending"
+  ],
+  "libtv_generation_used": false
+}

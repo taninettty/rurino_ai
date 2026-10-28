@@ -1,7 +1,7 @@
 {
-  "active_psd": "rebuild_v3_4/turn_redraw/fringe_material_completion/Rurino_Fringe_SourceRestored_v034.psd",
-  "sha256": "2c5047f2da040696a8cfc703d8ec60a09420bf24525efdf4f9b9b5eea188ddf8",
-  "status": "fringe source-pixel restoration with independent brows; concealed margins are hidden review layers; other hair incomplete",
-  "user_work_order": "complete hair components after separating brows; keep middle fringe continuous",
-  "previous_psd": "rebuild_v3_4/turn_redraw/brows_clean_fringe_repair/Rurino_Brows_Separated_Fringe_Repaired_v034.psd"
+  "active_psd": "rebuild_v3_4/turn_redraw/smalltail_root_completion/Rurino_SmallTwinTail_Roots_v034.psd",
+  "sha256": "07ed089fd9f4bd576b19330068da5d792ae4b98a5910297b23e52350cd2e69ce",
+  "status": "local small-ponytail flower-occluded root painting; other concealed hair and motion incomplete",
+  "user_work_order": "complete hair after separating brows; keep middle fringe continuous",
+  "previous_psd": "rebuild_v3_4/turn_redraw/fringe_material_completion/Rurino_Fringe_SourceRestored_v034.psd"
 }
