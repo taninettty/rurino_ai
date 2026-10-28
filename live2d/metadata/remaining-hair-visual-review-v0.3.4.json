@@ -1,0 +1,10 @@
+{
+  "status": "visual_review_failed",
+  "candidate_psd": "Rurino_Left_Head_Remaining_Hair_Split_v034.psd",
+  "candidate_sha256": "36e083087ae72fa0f64ce03cff7020c836ae5f0f293e68966ccf809f38ee9c3f",
+  "generated_part_count": 18,
+  "part_count_is_not_validated_strand_count": true,
+  "reconstruction_checks_remain_valid": true,
+  "next_working_source": "hair_drop_ownership/Rurino_Left_Head_Hair_Edges_v034.psd",
+  "new_corrected_split_completed": false
+}
