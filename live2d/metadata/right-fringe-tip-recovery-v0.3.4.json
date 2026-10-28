@@ -1,0 +1,110 @@
+{
+  "input_psd_sha256": "00f7430b6484b2d3c675e8953380677dbdf8e9870e75bb85078332bfa3b19129",
+  "saved_psd_sha256": "641f28657af37ad86404be2f9fc3a5d9ad1523cf59bd339cbf7b432541bc89a2",
+  "pixel_layers": 126,
+  "original_117_pixel_data_offsets_and_blending_preserved": true,
+  "replaced_original_layers_hidden": [
+    "FacePaint_Visible_NOT_FEATURE_SPLIT_BrowRemoved_LOCAL",
+    "CheekLock_ImageRight",
+    "Fringe_R_Context_AfterHairlineRecovery",
+    "Other_Hair_EyeOverlap_SOURCE"
+  ],
+  "new_layers_match_pngs": true,
+  "records": {
+    "sources": [
+      {
+        "source_layer": "FacePaint_Visible_NOT_FEATURE_SPLIT_BrowRemoved_LOCAL",
+        "reassigned_hair_pixels": 1399,
+        "source_partition_exact": true
+      },
+      {
+        "source_layer": "CheekLock_ImageRight",
+        "reassigned_hair_pixels": 55,
+        "source_partition_exact": true
+      },
+      {
+        "source_layer": "Fringe_R_Context_AfterHairlineRecovery",
+        "reassigned_hair_pixels": 1017,
+        "source_partition_exact": true
+      }
+    ],
+    "foreground_hair_pixels": 4267,
+    "review_overlay_trimmed_pixels": 442,
+    "native_tip_bounds": {
+      "y": [
+        690,
+        710,
+        730,
+        750,
+        775,
+        800,
+        825,
+        835,
+        850,
+        860,
+        875,
+        885,
+        895
+      ],
+      "left": [
+        1198,
+        1203,
+        1206,
+        1209,
+        1212,
+        1211,
+        1209,
+        1207,
+        1203,
+        1199,
+        1192,
+        1187,
+        1180
+      ],
+      "right": [
+        1267,
+        1263,
+        1258,
+        1253,
+        1246,
+        1237,
+        1226,
+        1221,
+        1214,
+        1208,
+        1197,
+        1190,
+        1181
+      ]
+    },
+    "source_recovery_uses_eye_layers": false,
+    "new_painted_pixels": 0
+  },
+  "states": [
+    {
+      "state": "Open",
+      "default_composite_rgba_exact": true,
+      "changed_pixels": 0
+    },
+    {
+      "state": "Half",
+      "default_composite_rgba_exact": true,
+      "changed_pixels": 0
+    },
+    {
+      "state": "Closed",
+      "default_composite_rgba_exact": true,
+      "changed_pixels": 0
+    }
+  ],
+  "complete_material_candidates_default_visible": false,
+  "method": "trace rightmost fringe contour; recover original hair from face, cheek and context; include dedicated foreground hair and trim its pale exterior fringe in review copy",
+  "limitations": [
+    "current left-view artwork only; no new angle keyforms",
+    "minor source antialias and remaining skin/hair mixed edges still require inspection",
+    "right cheek and temple full concealed surfaces remain incomplete",
+    "large-tail shoulder junctions and off-canvas tips not completed",
+    "no Cubism meshes, parameter binding, body motion or physics added"
+  ],
+  "libtv_generation_used": false
+}

@@ -2,7 +2,7 @@
 
 ## 瑠璃乃 Live2D 制作
 
-[当前制作目标与下一步](live2d/CURRENT_WORK.md)：[左贴脸发根花瓣残色清理](live2d/LEFT_CHEEK_ROOT_CLEANUP_V034.md)，分出误带的红白花瓣边缘，在隐藏检查稿补回金色发面。默认三种眼睛状态像素不变；其他头发及动作尚未完成。
+[当前制作目标与下一步](live2d/CURRENT_WORK.md)：[右侧刘海发尖恢复](live2d/RIGHT_FRINGE_TIP_RECOVERY_V034.md)，找回被分到脸部等来源中的细长发尖，纳入前景头发并裁掉检查稿外侧浅边。默认三种眼睛状态像素不变；完整材料仍默认隐藏，其他头发及动作未完成。
 
 [人物素材与 Cubism 交接](live2d/README.md) · [桌宠模型接入程序](desktop/README.md)。已提供 [v0.3.3 可运行绑定测试稿](live2d/RIG_DRAFT.md)，支持眨眼、口型与小幅转头；头发边缘和变形仍在精修。
 
