@@ -1,0 +1,118 @@
+{
+  "scope": "nine-direction independent drawing review; not a Cubism model",
+  "selected": {
+    "left-up": {
+      "file": "rebuild_v3_4/turn_redraw/corner_redraw/sources/corner-left-up-v2-source.png",
+      "sha256": "283c790c18590b2d5d1a6825b652bd47e26f6397531986e4c8a461d33e8d94ef",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "zero_alpha_pixels": 1149277,
+      "review": "选用第二版：保留左转与抬头，削弱方直下颌；远眼偏窄仍需结合遮挡与网格检查，不以固定比例判定。"
+    },
+    "right-up": {
+      "file": "rebuild_v3_4/turn_redraw/corner_redraw/sources/corner-right-up-v2-source.png",
+      "sha256": "d5bd84abc147f93957da3e1c2708e057a278508fee2faf38038d5cf834bdf7d8",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "zero_alpha_pixels": 1111121,
+      "review": "选用第二版：下颌较第一版柔和、脸型更紧凑；颈部和身体仍须配准。"
+    },
+    "left-down": {
+      "file": "rebuild_v3_4/turn_redraw/corner_redraw/sources/corner-left-down-source.png",
+      "sha256": "46484680326d71952b240be5caf766ff501ef7cae53070276b6f371ed095be4e",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "zero_alpha_pixels": 1123483,
+      "review": "保留第一版：同时呈现左转与低头，头顶、远近眼、嘴下巴有组合透视；仍待配准和隐藏结构补绘。"
+    },
+    "right-down": {
+      "file": "rebuild_v3_4/turn_redraw/corner_redraw/sources/corner-right-down-v2-source.png",
+      "sha256": "612885d52bc1968f9e20a6a2317010ec0e722383f056b4c2e501093915894f22",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "zero_alpha_pixels": 1170701,
+      "review": "选用第二版：头部与颈根位置更接近正面构图，肩领倾斜减轻；身体像素并未锁定，不能视为完成配准。"
+    },
+    "up": {
+      "file": "rebuild_v3_4/turn_redraw/pitch_redraw/sources/pitch-up-v2-source.png",
+      "sha256": "e890893dbbf7e36e6645588cd07abb6036ee63b63f6a7c14ea787930b802492c",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "zero_alpha_pixels": 1229982,
+      "review": "沿用上轮抬头第二版。"
+    },
+    "down": {
+      "file": "rebuild_v3_4/turn_redraw/pitch_redraw/sources/pitch-down-source.png",
+      "sha256": "572c4b82ca64b1829d8271151fdb0aff75d091b25d5dc3a9d341e6da89a0c674",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "zero_alpha_pixels": 1158354,
+      "review": "沿用上轮低头图。"
+    },
+    "left": {
+      "file": "rebuild_v3_4/turn_redraw/eye_calibration/corrected/turn-left-eye-calibrated.png",
+      "sha256": "a98e03edcd8653084f71525ebb29cf667a4f15f1c9a2f04c8904096d9eba481b",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "zero_alpha_pixels": 1268299,
+      "review": "使用前一阶段眼距校正后的侧向图；不是较早未修正版本。"
+    },
+    "right": {
+      "file": "rebuild_v3_4/turn_redraw/eye_calibration/corrected/turn-right-eye-calibrated.png",
+      "sha256": "a54733583600bd9001f2134c3c7f445f44403cdcb78ee5e1a4604609c8cc5089",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "zero_alpha_pixels": 1316535,
+      "review": "使用前一阶段眼距校正后的侧向图；不是较早未修正版本。"
+    },
+    "front": {
+      "file": "reference_v34/rurino_head_master_v34.png",
+      "sha256": "f087be664e47ac91a800db730c6264d2cbed0e41386befefca7fcfc559374162",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "zero_alpha_pixels": 1261819,
+      "review": "已确认的身份母图，不改变源像素。"
+    }
+  },
+  "new_corner_count": 4,
+  "existing_axis_count": 5,
+  "display": {
+    "common_crop": [
+      180,
+      0,
+      1868,
+      1540
+    ],
+    "uniform_scale_only": true,
+    "source_geometry_modified": false
+  },
+  "missing_direction_drawings": [],
+  "full_material_separation_complete": false,
+  "neck_registration_complete": false,
+  "continuous_animation_verified": false,
+  "limits": [
+    "independent drawings may differ in head scale or neck/collar placement",
+    "yaw/pitch prompts are targets, not calibrated 3D angles",
+    "source gaze and eyelid openness vary",
+    "hidden anatomical eye corners not recovered",
+    "cannot switch or crossfade these whole images to claim a Live2D rig"
+  ]
+}

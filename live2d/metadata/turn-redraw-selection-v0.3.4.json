@@ -85,5 +85,11 @@
     "details": "pitch_redraw/STATUS.md",
     "selection": "pitch_redraw/selection.json",
     "verification": "pitch_redraw/qa/source-verification.json"
+  },
+  "corner_drawings": {
+    "status": "four selected corner drawings and nine-direction review; head/neck registration, full separation and rigging incomplete",
+    "details": "corner_redraw/STATUS.md",
+    "selection": "corner_redraw/selection.json",
+    "verification": "corner_redraw/qa/source-verification.json"
   }
 }

@@ -45,6 +45,7 @@ def main():
     report['side_blink_materials']={'status':'two 20-layer PSDs; open/half/closed material keyforms, not a continuous rig', 'details':'side_blink_refinement/STATUS.md', 'verification':'side_blink_refinement/qa/saved-psd-verification.json'}
     report['eye_correspondence']={'status':'119-layer assembly; source art unchanged; per-eye partial blink guide anchors; not a registered head or rig','details':'eye_registration/STATUS.md','verification':'eye_registration/qa/saved-assembly-verification.json'}
     report['pitch_drawings']={'status':'two selected independent up/down drawings; not split or rigged; four combined corner drawings still missing','details':'pitch_redraw/STATUS.md','selection':'pitch_redraw/selection.json','verification':'pitch_redraw/qa/source-verification.json'}
+    report['corner_drawings']={'status':'four selected corner drawings and nine-direction review; head/neck registration, full separation and rigging incomplete','details':'corner_redraw/STATUS.md','selection':'corner_redraw/selection.json','verification':'corner_redraw/qa/source-verification.json'}
     (OUT/'selection.json').write_text(json.dumps(report,indent=2)+'\n')
     print(json.dumps({'outputs':len(records)-1,'source_files_verified':True,'source_geometry_modified':False},indent=2))
 

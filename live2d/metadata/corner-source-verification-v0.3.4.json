@@ -1,0 +1,77 @@
+{
+  "passed": true,
+  "generated_downloaded_verified": 7,
+  "source_files": [
+    {
+      "selected": true,
+      "file": "rebuild_v3_4/turn_redraw/corner_redraw/sources/corner-left-up-v2-source.png",
+      "task_id": "20261028105503299827456",
+      "resource_id": "res_18ac2c0c59b344be98a9b89fd4153d45",
+      "bytes": 4297592,
+      "sha256": "283c790c18590b2d5d1a6825b652bd47e26f6397531986e4c8a461d33e8d94ef",
+      "png_decode_verified": true
+    },
+    {
+      "selected": true,
+      "file": "rebuild_v3_4/turn_redraw/corner_redraw/sources/corner-right-up-v2-source.png",
+      "task_id": "20261028105503115717456",
+      "resource_id": "res_68a78883b3b340e7af72845fce205b9d",
+      "bytes": 4182839,
+      "sha256": "d5bd84abc147f93957da3e1c2708e057a278508fee2faf38038d5cf834bdf7d8",
+      "png_decode_verified": true
+    },
+    {
+      "selected": true,
+      "file": "rebuild_v3_4/turn_redraw/corner_redraw/sources/corner-right-down-v2-source.png",
+      "task_id": "20261028105503187677456",
+      "resource_id": "res_d11999962a65461a8f55d12f4936abe5",
+      "bytes": 4298148,
+      "sha256": "612885d52bc1968f9e20a6a2317010ec0e722383f056b4c2e501093915894f22",
+      "png_decode_verified": true
+    },
+    {
+      "selected": false,
+      "file": "rebuild_v3_4/turn_redraw/corner_redraw/sources/corner-left-up-source.png",
+      "task_id": "20261028104903840867456",
+      "resource_id": "res_c6b3124c966541bbafce8856be2dcd6f",
+      "bytes": 4313733,
+      "sha256": "f2203fa26f2811b57e3b3d4ee939c9f95781e3d4c0306b215fe44aad1e1faf7d",
+      "png_decode_verified": true
+    },
+    {
+      "selected": false,
+      "file": "rebuild_v3_4/turn_redraw/corner_redraw/sources/corner-right-up-source.png",
+      "task_id": "20261028104903646697456",
+      "resource_id": "res_48f19bf68db74784a5d9a7dba298c03f",
+      "bytes": 4304925,
+      "sha256": "1696c3df70979da8b92226c9f5c50274be44c4a2ae53ac1a8a8df22feb879978",
+      "png_decode_verified": true
+    },
+    {
+      "selected": true,
+      "file": "rebuild_v3_4/turn_redraw/corner_redraw/sources/corner-left-down-source.png",
+      "task_id": "20261028105003381767456",
+      "resource_id": "res_ccdbeb88824740a8941a44c0ba8e7435",
+      "bytes": 4245796,
+      "sha256": "46484680326d71952b240be5caf766ff501ef7cae53070276b6f371ed095be4e",
+      "png_decode_verified": true
+    },
+    {
+      "selected": false,
+      "file": "rebuild_v3_4/turn_redraw/corner_redraw/sources/corner-right-down-source.png",
+      "task_id": "20261028105003924407456",
+      "resource_id": "res_fd270bbf77ac4ceba90f1bb38b34a3d9",
+      "bytes": 4353083,
+      "sha256": "491e1d2d7e7f34f037c81c9f6ec540593c789baf2d931c51269f2e41a65ab3a5",
+      "png_decode_verified": true
+    }
+  ],
+  "unchanged_existing_sources": {
+    "up": "e890893dbbf7e36e6645588cd07abb6036ee63b63f6a7c14ea787930b802492c",
+    "down": "572c4b82ca64b1829d8271151fdb0aff75d091b25d5dc3a9d341e6da89a0c674",
+    "left": "a98e03edcd8653084f71525ebb29cf667a4f15f1c9a2f04c8904096d9eba481b",
+    "right": "a54733583600bd9001f2134c3c7f445f44403cdcb78ee5e1a4604609c8cc5089",
+    "front": "f087be664e47ac91a800db730c6264d2cbed0e41386befefca7fcfc559374162"
+  },
+  "art_review_is_not_runtime_validation": true
+}

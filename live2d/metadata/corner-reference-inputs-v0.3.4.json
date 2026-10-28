@@ -1,0 +1,16 @@
+{
+  "left": {
+    "file": "eye_calibration/corrected/turn-left-eye-calibrated.png",
+    "sha256": "a98e03edcd8653084f71525ebb29cf667a4f15f1c9a2f04c8904096d9eba481b",
+    "bytes": 4089364,
+    "node_id": "i-ja6ifoDpxQ",
+    "resource_id": "res_aa090654559548ae8dd9e798aa6282d2"
+  },
+  "right": {
+    "file": "eye_calibration/corrected/turn-right-eye-calibrated.png",
+    "sha256": "a54733583600bd9001f2134c3c7f445f44403cdcb78ee5e1a4604609c8cc5089",
+    "bytes": 3960730,
+    "node_id": "i-rpSMTEBgSk",
+    "resource_id": "res_b8ccf2b2562a4c7b8806a99f1f499453"
+  }
+}
