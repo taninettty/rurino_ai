@@ -1,0 +1,90 @@
+{
+  "scope": "pitch drawing references and five-direction coverage review; no new runtime rig",
+  "selected": {
+    "Up": {
+      "file": "rebuild_v3_4/turn_redraw/pitch_redraw/sources/pitch-up-v2-source.png",
+      "bytes": 4234371,
+      "sha256": "e890893dbbf7e36e6645588cd07abb6036ee63b63f6a7c14ea787930b802492c",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "zero_alpha_pixels": 1229982,
+      "stage": "independent drawing reference; unrigged"
+    },
+    "Down": {
+      "file": "rebuild_v3_4/turn_redraw/pitch_redraw/sources/pitch-down-source.png",
+      "bytes": 4156821,
+      "sha256": "572c4b82ca64b1829d8271151fdb0aff75d091b25d5dc3a9d341e6da89a0c674",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "zero_alpha_pixels": 1158354,
+      "stage": "independent drawing reference; unrigged"
+    },
+    "Front": {
+      "file": "reference_v34/rurino_head_master_v34.png",
+      "bytes": 3913582,
+      "sha256": "f087be664e47ac91a800db730c6264d2cbed0e41386befefca7fcfc559374162",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "zero_alpha_pixels": 1261819,
+      "stage": "independent drawing reference; unrigged"
+    },
+    "Left": {
+      "file": "rebuild_v3_4/turn_redraw/eye_calibration/corrected/turn-left-eye-calibrated.png",
+      "bytes": 4089364,
+      "sha256": "a98e03edcd8653084f71525ebb29cf667a4f15f1c9a2f04c8904096d9eba481b",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "zero_alpha_pixels": 1268299,
+      "stage": "independent drawing reference; unrigged"
+    },
+    "Right": {
+      "file": "rebuild_v3_4/turn_redraw/eye_calibration/corrected/turn-right-eye-calibrated.png",
+      "bytes": 3960730,
+      "sha256": "a54733583600bd9001f2134c3c7f445f44403cdcb78ee5e1a4604609c8cc5089",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "zero_alpha_pixels": 1316535,
+      "stage": "independent drawing reference; unrigged"
+    }
+  },
+  "review": {
+    "up_v1": "superseded: mouth corners flattened and lower face appeared too long",
+    "up_v2": "selected as preliminary pitch drawing: closed smile restored, nose underside and chin/neck boundary visible; exact pitch and neck registration unresolved",
+    "down": "selected as preliminary pitch drawing: more crown visible, eyes/nose/mouth/chin lower, lower face foreshortened; head scale and gaze still need joint review",
+    "reference_limit": "official frames include expression and gaze differences; not camera-calibrated ground truth"
+  },
+  "display": {
+    "common_crop": [
+      180,
+      0,
+      1868,
+      1540
+    ],
+    "uniform_scale_only": true,
+    "source_pixels_modified": false
+  },
+  "missing_diagonal_drawings": [
+    "LeftUp",
+    "RightUp",
+    "LeftDown",
+    "RightDown"
+  ],
+  "continuous_motion_verified": false,
+  "required_next": [
+    "review identity and compact jaw across all directions",
+    "separate face ears bangs rear hair and paint concealed structure",
+    "register head/body anchors",
+    "draw combined yaw/pitch targets",
+    "bind per-part Cubism meshes and check blink/gaze/mouth combinations"
+  ]
+}

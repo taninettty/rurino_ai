@@ -2,7 +2,7 @@
 
 ## 瑠璃乃 Live2D 制作
 
-[当前制作目标与下一步](live2d/CURRENT_WORK.md)：v0.3.4 新增[三视角眼部组装与对应表](live2d/EYE_CORRESPONDENCE_V034.md)，119 层（含 3 个隐藏导线层），分别标记各视角的部分闭眼开放度。完整头部配准、连续动作和新的运行模型尚未完成。
+[当前制作目标与下一步](live2d/CURRENT_WORK.md)：v0.3.4 新增[抬头/低头结构参考](live2d/PITCH_MATERIALS_V034.md)。现在有五个主要方向的绘画参考，四角组合关键形、完整拆层及新模型绑定仍未完成；先补全转头结构，再精修局部。
 
 [人物素材与 Cubism 交接](live2d/README.md) · [桌宠模型接入程序](desktop/README.md)。已提供 [v0.3.3 可运行绑定测试稿](live2d/RIG_DRAFT.md)，支持眨眼、口型与小幅转头；头发边缘和变形仍在精修。
 

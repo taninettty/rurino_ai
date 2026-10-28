@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "generated_and_downloaded": 3,
+  "selected_new_drawings": 2,
+  "files": [
+    {
+      "file": "pitch-up-source.png",
+      "bytes": 4028861,
+      "sha256": "d02820ecb37af67025d72ceff6aff920ae0226242826d06efb594202f8299e1c",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "task_id": "20261028102703262497456",
+      "resource_id": "res_3d293ec1ab5146b4a3fe3c5abfe737e5",
+      "decode_verified": true
+    },
+    {
+      "file": "pitch-down-source.png",
+      "bytes": 4156821,
+      "sha256": "572c4b82ca64b1829d8271151fdb0aff75d091b25d5dc3a9d341e6da89a0c674",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "task_id": "20261028102703224607456",
+      "resource_id": "res_d2762ea558574424ac6f77ea56fbf6ab",
+      "decode_verified": true
+    },
+    {
+      "file": "pitch-up-v2-source.png",
+      "bytes": 4234371,
+      "sha256": "e890893dbbf7e36e6645588cd07abb6036ee63b63f6a7c14ea787930b802492c",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "task_id": "20261028103103993257456",
+      "resource_id": "res_271324a248ae4fc1bd059324e45adfa7",
+      "decode_verified": true
+    }
+  ]
+}
