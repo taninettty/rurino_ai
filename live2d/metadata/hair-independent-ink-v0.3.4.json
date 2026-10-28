@@ -1,0 +1,186 @@
+{
+  "source_psd": "rebuild_v3_4/turn_redraw/whole_hair_static_completion/Rurino_Whole_Hair_Static_v034.psd",
+  "source_sha256": "fa43637c492dbb42c2efebe45d82459f1394523d5f5e9d0bf119c845e85fa11d",
+  "psd": "Rurino_Hair_Independent_Ink_v034.psd",
+  "sha256": "c65494958a7b3059252d5d530547fb040e2c3d1a58fd69d6a73dc06c1253a65c",
+  "canvas": [
+    3456,
+    2816
+  ],
+  "pixel_layers": 53,
+  "original_layers_preserved": 41,
+  "original_rgba_offsets_properties_exact": true,
+  "ink_layers": [
+    {
+      "part": "Crown",
+      "ink_layer": "Ink_Crown",
+      "native_stroke_px": 2.8,
+      "rgb": [
+        0,
+        0,
+        0
+      ],
+      "max_alpha": 235,
+      "ink_pixels": 16397,
+      "ink_inside_original_alpha": true,
+      "align_to_existing_dark_strokes": true,
+      "shared_root_line_fade": true
+    },
+    {
+      "part": "Cheek_L",
+      "ink_layer": "Ink_Cheek_L",
+      "native_stroke_px": 2.5,
+      "rgb": [
+        0,
+        0,
+        0
+      ],
+      "max_alpha": 235,
+      "ink_pixels": 9796,
+      "ink_inside_original_alpha": true,
+      "align_to_existing_dark_strokes": true,
+      "shared_root_line_fade": true
+    },
+    {
+      "part": "Cheek_R",
+      "ink_layer": "Ink_Cheek_R",
+      "native_stroke_px": 2.5,
+      "rgb": [
+        0,
+        0,
+        0
+      ],
+      "max_alpha": 235,
+      "ink_pixels": 10101,
+      "ink_inside_original_alpha": true,
+      "align_to_existing_dark_strokes": true,
+      "shared_root_line_fade": true
+    },
+    {
+      "part": "Small_L",
+      "ink_layer": "Ink_Small_L",
+      "native_stroke_px": 2.8,
+      "rgb": [
+        0,
+        0,
+        0
+      ],
+      "max_alpha": 235,
+      "ink_pixels": 12436,
+      "ink_inside_original_alpha": true,
+      "align_to_existing_dark_strokes": true,
+      "shared_root_line_fade": false
+    },
+    {
+      "part": "Small_R",
+      "ink_layer": "Ink_Small_R",
+      "native_stroke_px": 2.8,
+      "rgb": [
+        0,
+        0,
+        0
+      ],
+      "max_alpha": 235,
+      "ink_pixels": 13018,
+      "ink_inside_original_alpha": true,
+      "align_to_existing_dark_strokes": true,
+      "shared_root_line_fade": false
+    },
+    {
+      "part": "Temple_R",
+      "ink_layer": "Ink_Temple_R",
+      "native_stroke_px": 2.2,
+      "rgb": [
+        0,
+        0,
+        0
+      ],
+      "max_alpha": 235,
+      "ink_pixels": 5338,
+      "ink_inside_original_alpha": true,
+      "align_to_existing_dark_strokes": true,
+      "shared_root_line_fade": true
+    },
+    {
+      "part": "Large_L",
+      "ink_layer": "Ink_Large_L",
+      "native_stroke_px": 3.4,
+      "rgb": [
+        0,
+        0,
+        0
+      ],
+      "max_alpha": 235,
+      "ink_pixels": 37551,
+      "ink_inside_original_alpha": true,
+      "align_to_existing_dark_strokes": true,
+      "shared_root_line_fade": false
+    },
+    {
+      "part": "Large_R",
+      "ink_layer": "Ink_Large_R",
+      "native_stroke_px": 3.4,
+      "rgb": [
+        0,
+        0,
+        0
+      ],
+      "max_alpha": 235,
+      "ink_pixels": 37544,
+      "ink_inside_original_alpha": true,
+      "align_to_existing_dark_strokes": true,
+      "shared_root_line_fade": false
+    },
+    {
+      "part": "Thin_R",
+      "ink_layer": "Ink_Thin_R",
+      "native_stroke_px": 2.0,
+      "rgb": [
+        0,
+        0,
+        0
+      ],
+      "max_alpha": 235,
+      "ink_pixels": 11343,
+      "ink_inside_original_alpha": true,
+      "align_to_existing_dark_strokes": true,
+      "shared_root_line_fade": true
+    }
+  ],
+  "foreground_ink_carryovers": [
+    {
+      "name": "Ink_Overlap_Left_Cheek_EyeOverlap_SOURCE",
+      "parent_ink": "Ink_Cheek_L",
+      "source_mask": "Left_Cheek_EyeOverlap_SOURCE"
+    },
+    {
+      "name": "Ink_Overlap_Left_Fringe_EyeOverlap_SOURCE",
+      "parent_ink": "Ink_Crown",
+      "source_mask": "Left_Fringe_EyeOverlap_SOURCE"
+    },
+    {
+      "name": "Ink_Overlap_RightFringe_ForegroundTips_SOURCE",
+      "parent_ink": "Ink_Crown",
+      "source_mask": "RightFringe_ForegroundTips_SOURCE"
+    }
+  ],
+  "ink_off_matches_previous_default_exact": true,
+  "saved_default_matches_preview_exact": true,
+  "all_added_ink_layers_roundtrip_exact": true,
+  "states": [
+    {
+      "state": "Open",
+      "sha256": "11739ffd6bcca560d1338c464d78c508a33df43916ffd31fcd6ff8eba7f1ff60"
+    },
+    {
+      "state": "Half",
+      "sha256": "4ac92d7f0871fd37719e60806bf3fcabd4c41326fd1c1cad3f11a54671b19ec7"
+    },
+    {
+      "state": "Closed",
+      "sha256": "4331f6ad7bc8a29d0e63928027f14cf33617353059b0c5406925dbf91d0fa58a"
+    }
+  ],
+  "scope": "independent hair contours only; no Cubism rig added",
+  "black_stroke_mode": "inward 3x antialiased contour with existing-line alignment and shared-root fades; editable black pixels, separate from original colour layers"
+}
