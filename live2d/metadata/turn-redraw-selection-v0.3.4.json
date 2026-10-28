@@ -111,5 +111,10 @@
     "status": "two complete independently redrawn locks; 46-layer TRIAL assembly; seams and remaining locks unfinished",
     "details": "hair_flow_redraw/STATUS.md",
     "verification": "hair_flow_redraw/verification.json"
+  },
+  "hair_join_refinement": {
+    "status": "static join cleanup of two existing redraws; 49-layer PSD; R02 generation rejected COMMERCIAL_BLOCKED; no new full lock or motion rig",
+    "details": "hair_flow_continued/STATUS.md",
+    "verification": "hair_flow_continued/verification.json"
   }
 }

@@ -1,0 +1,113 @@
+{
+  "input_psd_sha256": "90b3127fc6092f74f398b7486c401d77c3290fac741adde64530cecfaee7cf3f",
+  "previous_trial_psd_sha256": "5f73688f610823e14946222c8cfa8795c95f999957e83008b5f2e5146755dcf4",
+  "saved_psd_sha256": "fd09f035c41017f00c0213bcd66be18d6a9a0036b46d19ae16709bc1335098bb",
+  "pixel_layers": 49,
+  "source_44_layers_rgba_offsets_and_render_flags_retained": true,
+  "source_layers_hidden": [
+    "L01_OuterFlick",
+    "L02_OuterDrop",
+    "R01_OuterFlick",
+    "ShortRearHair_ImageLeft_RootBoundary_PENDING",
+    "ShortRearHair_ImageRight_RootBoundary_PENDING"
+  ],
+  "locks": [
+    {
+      "name": "L01",
+      "input_sha256": "99fcc38386802f0707b5e98c5052dda99c003bdd67e64c153952dd370df110b0",
+      "removed_pending_outline_pixels": 3091,
+      "max_upper_row_translation_pixels": 6.883620262145996,
+      "geometry_affected_rows": [
+        360,
+        699
+      ],
+      "paint_transition_rows": [
+        500,
+        659
+      ],
+      "method": "upper lock horizontal bend and original upper hair paint blended into generated lower hair; head never transformed"
+    },
+    {
+      "name": "R01",
+      "input_sha256": "a0f8172da79ebe64a9ec5990ea2272b1bb97f485ad2bcbad24d79185b510877a",
+      "removed_pending_outline_pixels": 881,
+      "max_upper_row_translation_pixels": 11.199666976928711,
+      "geometry_affected_rows": [
+        360,
+        699
+      ],
+      "paint_transition_rows": [
+        500,
+        659
+      ],
+      "method": "upper lock horizontal bend and original upper hair paint blended into generated lower hair; head never transformed"
+    }
+  ],
+  "L02_edge_cleanup_changed_pixels": 33,
+  "root_roi_checks": [
+    {
+      "name": "L01",
+      "roi_xyxy": [
+        350,
+        400,
+        520,
+        620
+      ],
+      "new_transparent_pixels_inside_original_root": 0,
+      "boundary_exclusion_pixels": 3,
+      "alpha_threshold": 200
+    },
+    {
+      "name": "R01",
+      "roi_xyxy": [
+        1550,
+        380,
+        1760,
+        620
+      ],
+      "new_transparent_pixels_inside_original_root": 0,
+      "boundary_exclusion_pixels": 3,
+      "alpha_threshold": 200
+    }
+  ],
+  "saved_psd_state_checks": [
+    {
+      "state": "Open",
+      "central_opaque_face_max_difference": 0,
+      "roi_xyxy": [
+        620,
+        400,
+        1250,
+        1230
+      ]
+    },
+    {
+      "state": "Half",
+      "central_opaque_face_max_difference": 0,
+      "roi_xyxy": [
+        620,
+        400,
+        1250,
+        1230
+      ]
+    },
+    {
+      "state": "Closed",
+      "central_opaque_face_max_difference": 0,
+      "roi_xyxy": [
+        620,
+        400,
+        1250,
+        1230
+      ]
+    }
+  ],
+  "new_generated_locks": 0,
+  "R02_generation": {
+    "status": "rejected",
+    "code": "COMMERCIAL_BLOCKED",
+    "task_id": null,
+    "node_id": "i-UcpjWnGYq3"
+  },
+  "scope": "static joins of two existing redraws; L02 alpha cleanup only; no Cubism physics or body motion validation"
+}
