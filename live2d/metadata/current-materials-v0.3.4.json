@@ -1,8 +1,8 @@
 {
-  "active_psd": "rebuild_v3_4/turn_redraw/hair_independent_ink/Rurino_Hair_Independent_Ink_v034.psd",
-  "sha256": "c65494958a7b3059252d5d530547fb040e2c3d1a58fd69d6a73dc06c1253a65c",
-  "status": "independent editable black contours for nine hair components, with foreground carryovers; left-view static assembly only",
-  "pixel_layers": 53,
+  "active_psd": "rebuild_v3_4/turn_redraw/bangs_contour_repair/Rurino_Bangs_Contour_Repaired_v034.psd",
+  "sha256": "6122418d6a8495c0da38217de40b3ffa98eee6d58624f9a178fe9f1a0ef015c5",
+  "status": "lower fringe contour repair, foreground carryovers and local skin underlap; left-view static material",
+  "pixel_layers": 54,
   "canvas": [
     3456,
     2816
@@ -12,7 +12,7 @@
     0
   ],
   "default_visible": true,
-  "user_work_order": "each independent hair component has its own black contour; maintain continuous middle fringe and separate eyebrows",
-  "previous_psd": "rebuild_v3_4/turn_redraw/whole_hair_static_completion/Rurino_Whole_Hair_Static_v034.psd",
-  "next": "Cubism mesh and deformers; combined head/body motion and hair-occlusion validation"
+  "user_work_order": "repair actual bangs silhouette, keep continuous middle fringe and editable black contours",
+  "previous_psd": "rebuild_v3_4/turn_redraw/hair_independent_ink/Rurino_Hair_Independent_Ink_v034.psd",
+  "next": "refine shared upper-root shape and line/shadow joins, then Cubism meshes and combined motion validation"
 }
