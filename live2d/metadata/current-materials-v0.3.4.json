@@ -1,7 +1,7 @@
 {
-  "active_psd": "rebuild_v3_4/turn_redraw/bangs_contour_repair/Rurino_Bangs_Contour_Repaired_v034.psd",
-  "sha256": "8cc7afed55ebd88bd417d76726ccdf82ed78d38ec81dc468164590ea2134bbe4",
-  "status": "fringe contour repair, two flow-line joins, right concealed root repair and local skin underlap; left-view static material",
+  "active_psd": "rebuild_v3_4/turn_redraw/three_hair_finish/Rurino_Three_Hair_Repairs_v034.psd",
+  "sha256": "193051f38b35f894c2a5b50f6513beb6ecd86ddb665e3760888f627c5a293716",
+  "status": "three static hair repairs: left fringe, right small-tail notch, thin strand repaint; left-view material",
   "pixel_layers": 55,
   "canvas": [
     3456,
@@ -12,7 +12,7 @@
     0
   ],
   "default_visible": true,
-  "user_work_order": "repair actual bangs silhouette, keep continuous middle fringe and editable black contours",
-  "previous_psd": "rebuild_v3_4/turn_redraw/hair_independent_ink/Rurino_Hair_Independent_Ink_v034.psd",
-  "next": "Cubism mesh/deformer setup and hidden-root exposure checks across head/body motion"
+  "user_work_order": "finish the three identified static defects before Cubism trial rigging",
+  "previous_psd": "rebuild_v3_4/turn_redraw/bangs_contour_repair/Rurino_Bangs_Contour_Repaired_v034.psd",
+  "next": "Cubism trial mesh/deformer setup; verify occlusion on head turns, pitch and body sway"
 }

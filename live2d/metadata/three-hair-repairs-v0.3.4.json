@@ -1,0 +1,111 @@
+{
+  "source_psd": "rebuild_v3_4/turn_redraw/bangs_contour_repair/Rurino_Bangs_Contour_Repaired_v034.psd",
+  "source_sha256": "8cc7afed55ebd88bd417d76726ccdf82ed78d38ec81dc468164590ea2134bbe4",
+  "changed_layers": [
+    "Crown",
+    "Ink_Crown",
+    "Left_Fringe_EyeOverlap_SOURCE",
+    "Ink_Overlap_Left_Fringe_EyeOverlap_SOURCE",
+    "Fringe_Edge_Skin_Underlap_LOCAL",
+    "Small_R",
+    "Ink_Small_R",
+    "Thin_R",
+    "Ink_Thin_R"
+  ],
+  "scope": "left fringe tip, right small-tail notch, contaminated thin strand; current left-view raster only",
+  "inferred_paint": [
+    "local fringe contour colours and exposed skin",
+    "thin hair stem pink/gold/blue colour and continuous flow stroke"
+  ],
+  "new_cubism_rig": false,
+  "psd": "Rurino_Three_Hair_Repairs_v034.psd",
+  "sha256": "193051f38b35f894c2a5b50f6513beb6ecd86ddb665e3760888f627c5a293716",
+  "canvas": [
+    3456,
+    2816
+  ],
+  "pixel_layers": 55,
+  "unchanged_layers": [
+    "Large_L",
+    "Ink_Large_L",
+    "Large_R",
+    "Ink_Large_R",
+    "Small_L",
+    "Ink_Small_L",
+    "Body_Visible",
+    "Neck_Visible",
+    "Fringe_R_Context_AfterTipRecovery_SOURCE",
+    "Left_FringeCheek_SkinContext_SOURCE",
+    "Face_Boundary_Underlap_SOURCE",
+    "FacePaint_AfterCheekRecovery_SOURCE",
+    "Ear_Near_ImageRight",
+    "Crown_ConcealedRoot_Underlap_LOCAL",
+    "Temple_R",
+    "Ink_Temple_R",
+    "Cheek_L",
+    "Ink_Cheek_L",
+    "Cheek_R",
+    "Ink_Cheek_R",
+    "Flower_ImageLeft",
+    "Flower_ImageRight",
+    "Open_Far_White",
+    "Open_Far_Iris",
+    "Open_Far_UpperLid",
+    "Open_Far_LowerLid",
+    "Open_Near_White",
+    "Open_Near_Iris",
+    "Open_Near_UpperLid",
+    "Open_Near_LowerLid",
+    "Half_Far_White",
+    "Half_Far_Iris",
+    "Half_Far_UpperLid",
+    "Half_Far_LowerLid",
+    "Half_Near_White",
+    "Half_Near_Iris",
+    "Half_Near_UpperLid",
+    "Half_Near_LowerLid",
+    "Closed_Far_UpperLid",
+    "Closed_Near_UpperLid",
+    "Left_Cheek_EyeOverlap_SOURCE",
+    "RightFringe_ForegroundTips_SOURCE",
+    "Ink_Overlap_Left_Cheek_EyeOverlap_SOURCE",
+    "Ink_Overlap_RightFringe_ForegroundTips_SOURCE",
+    "Eyebrow_L_Full_LOCAL_CLEANUP",
+    "Eyebrow_R_Full_LOCAL_CLEANUP"
+  ],
+  "unchanged_rgba_offsets_properties_exact": true,
+  "edited_layers_roundtrip_exact": true,
+  "saved_default_matches_preview": true,
+  "new_left_fringe_transparent_gaps": 0,
+  "hair_alpha_audit": [
+    {
+      "part": "Crown",
+      "major_connected_components": 1,
+      "enclosed_hole_pixels": 0
+    },
+    {
+      "part": "Small_R",
+      "major_connected_components": 1,
+      "enclosed_hole_pixels": 0
+    },
+    {
+      "part": "Thin_R",
+      "major_connected_components": 1,
+      "enclosed_hole_pixels": 0
+    }
+  ],
+  "states": [
+    {
+      "state": "Open",
+      "sha256": "9d409bc75a8f7d398f1b8f60e88949b1d95d3fd49f32973d1ca84863b52918f8"
+    },
+    {
+      "state": "Half",
+      "sha256": "661d6c1e23af703b0108f22e6c138eb60b65aa923fd7b4da94faa7f60e7886e9"
+    },
+    {
+      "state": "Closed",
+      "sha256": "5ce3f734084c9ac3c517702a17619394d1902483a0d874403b3e043345257c2e"
+    }
+  ]
+}
