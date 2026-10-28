@@ -1,0 +1,130 @@
+{
+  "input_psd_sha256": "dc440c01b7ef506ee57c9cb7cf80583cb433c0704dad35d8c46d55d00de4313e",
+  "saved_psd_sha256": "ba361d17da06a852c50dd55dc7fc83277c7cef7136ef56381fe4441a910ae356",
+  "pixel_layers": 106,
+  "original_101_layer_pixels_and_properties_preserved": true,
+  "original_context_layers_hidden": [
+    "Fringe_L_NonHairContext_PRESERVED",
+    "Fringe_R_NonHairContext_PRESERVED"
+  ],
+  "new_layers_match_saved_pngs": true,
+  "source_hairline_recovery": [
+    {
+      "side": "L",
+      "source_context_layer": "Fringe_L_NonHairContext_PRESERVED",
+      "recovered_original_hairline_pixels": 3962,
+      "context_partition_exact": true,
+      "native_selection_polygon": [
+        [
+          790,
+          270
+        ],
+        [
+          910,
+          270
+        ],
+        [
+          910,
+          370
+        ],
+        [
+          790,
+          370
+        ]
+      ]
+    },
+    {
+      "side": "R",
+      "source_context_layer": "Fringe_R_NonHairContext_PRESERVED",
+      "recovered_original_hairline_pixels": 892,
+      "context_partition_exact": true,
+      "native_selection_polygon": [
+        [
+          870,
+          294
+        ],
+        [
+          900,
+          294
+        ],
+        [
+          905,
+          353
+        ],
+        [
+          900,
+          355
+        ],
+        [
+          896,
+          356
+        ],
+        [
+          894,
+          356
+        ],
+        [
+          894,
+          353
+        ],
+        [
+          886,
+          355
+        ],
+        [
+          881,
+          356
+        ],
+        [
+          873,
+          347
+        ],
+        [
+          868,
+          341
+        ]
+      ]
+    }
+  ],
+  "concealed_review_pads": [
+    {
+      "key": "Flower_L",
+      "painted_pixels": 2564,
+      "path_1024": "M 329 119 Q 350 97 382 82 L 378 88 Q 347 109 327 130 Q 310 148 299 163 L 293 169 Q 307 139 329 119 Z"
+    },
+    {
+      "key": "Flower_R",
+      "painted_pixels": 9382,
+      "path_1024": "M 644 81 Q 658 88 670 105 Q 677 118 670 134 Q 647 151 625 176 L 608 180 Q 614 142 638 116 L 650 105 Z"
+    }
+  ],
+  "states": [
+    {
+      "state": "Open",
+      "default_composite_rgba_exact": true,
+      "changed_pixels": 0
+    },
+    {
+      "state": "Half",
+      "default_composite_rgba_exact": true,
+      "changed_pixels": 0
+    },
+    {
+      "state": "Closed",
+      "default_composite_rgba_exact": true,
+      "changed_pixels": 0
+    }
+  ],
+  "review_group_default_visible": false,
+  "method": "original source-pixel hairline reassignment, same-side smoothed colour continuation for two local occluded crown junctions; continuous crown/fringe review material",
+  "limitations": [
+    "hairline still derived from current left-view artwork, not front-view reconstruction",
+    "small lower hairline cast shadows remain with face context",
+    "new overlap margins hidden and not motion approved",
+    "shared crown/fringe retained together, not a separate fully rigged crown",
+    "lower-left fringe flat ownership cut still pending; rejected a tapered trial because its join was visible",
+    "large tail canvas-cropped tips and shoulder seams still pending",
+    "no new Cubism meshes, physics or runtime export"
+  ],
+  "libtv_generation_used": false
+}

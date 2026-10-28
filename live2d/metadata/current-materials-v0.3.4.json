@@ -1,7 +1,7 @@
 {
-  "active_psd": "rebuild_v3_4/turn_redraw/hair_concealed_completion/Rurino_Hair_Concealed_Backings_v034.psd",
-  "sha256": "dc440c01b7ef506ee57c9cb7cf80583cb433c0704dad35d8c46d55d00de4313e",
-  "status": "8 concealed hair regions painted; limited opaque-coverage backings active, full outline materials hidden for review; not complete or rigged",
+  "active_psd": "rebuild_v3_4/turn_redraw/crown_root_completion/Rurino_Crown_Roots_v034.psd",
+  "sha256": "ba361d17da06a852c50dd55dc7fc83277c7cef7136ef56381fe4441a910ae356",
+  "status": "source hairline recovered from misclassified context; continuous crown/fringe with two concealed junction margins hidden for review; not complete or rigged",
   "user_work_order": "complete hair components while preserving independent brows and continuous middle fringe",
-  "previous_psd": "rebuild_v3_4/turn_redraw/smalltail_inner_refinement/Rurino_SmallTwinTail_Inner_v034.psd"
+  "previous_psd": "rebuild_v3_4/turn_redraw/hair_concealed_completion/Rurino_Hair_Concealed_Backings_v034.psd"
 }
