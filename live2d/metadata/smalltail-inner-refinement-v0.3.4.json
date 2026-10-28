@@ -1,0 +1,60 @@
+{
+  "input_psd_sha256": "07ed089fd9f4bd576b19330068da5d792ae4b98a5910297b23e52350cd2e69ce",
+  "saved_psd_sha256": "ea75cf2726100816c0c20072cc489c54aa19485092fdbc3cda1bba12a1e978e6",
+  "pixel_layers": 85,
+  "original_81_layers_retained": true,
+  "new_layers_match_pngs": true,
+  "brows_fringe_and_root_work_retained": true,
+  "parts": [
+    {
+      "side": "L",
+      "context_pixels_from_main": 3880,
+      "source_inner_hair_recovered_pixels": 0,
+      "concealed_padding_pixels": 5061,
+      "max_padding_native_pixels": 24,
+      "padding_restricted_to_front_coverage": true,
+      "changed_main_pixels_outside_warm_context": 0
+    },
+    {
+      "side": "R",
+      "context_pixels_from_main": 6421,
+      "source_inner_hair_recovered_pixels": 14049,
+      "concealed_padding_pixels": 4905,
+      "max_padding_native_pixels": 24,
+      "padding_restricted_to_front_coverage": true,
+      "changed_main_pixels_outside_warm_context": "right includes recovered boundary"
+    }
+  ],
+  "states": [
+    {
+      "state": "Open",
+      "outside_edit_mask_exact": true,
+      "changed_pixels": 9966,
+      "max_channel_difference": 2,
+      "new_pixels_outside_previous_silhouette": 0
+    },
+    {
+      "state": "Half",
+      "outside_edit_mask_exact": true,
+      "changed_pixels": 9966,
+      "max_channel_difference": 2,
+      "new_pixels_outside_previous_silhouette": 0
+    },
+    {
+      "state": "Closed",
+      "outside_edit_mask_exact": true,
+      "changed_pixels": 9966,
+      "max_channel_difference": 2,
+      "new_pixels_outside_previous_silhouette": 0
+    }
+  ],
+  "method": "source-pixel ownership cleanup, recovery of existing right inner hair, limited concealed padding",
+  "limitations": [
+    "warm context selection may still leave mixed antialiased edges",
+    "small-tail interior and full concealed surfaces not finished",
+    "padding is limited; no motion or physics acceptance",
+    "left historical boundary context remains separately retained",
+    "large tails and old outer dirt still pending"
+  ],
+  "libtv_generation_used": false
+}

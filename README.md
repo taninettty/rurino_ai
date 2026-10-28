@@ -2,7 +2,7 @@
 
 ## 瑠璃乃 Live2D 制作
 
-[当前制作目标与下一步](live2d/CURRENT_WORK.md)：[小双马尾遮挡发根补画](live2d/SMALLTAIL_ROOT_COMPLETION_V034.md)，分别补花饰后的连接，分出混入的花瓣残片。眉毛和刘海修补保留；其他隐藏面与运动继续制作。
+[当前制作目标与下一步](live2d/CURRENT_WORK.md)：[小双马尾内缘修整](live2d/SMALLTAIL_INNER_REFINEMENT_V034.md)，分出混入的前景发束和暖色上下文，接回右侧既有内侧头发，补有限遮挡余量。完整隐藏面与运动继续制作。
 
 [人物素材与 Cubism 交接](live2d/README.md) · [桌宠模型接入程序](desktop/README.md)。已提供 [v0.3.3 可运行绑定测试稿](live2d/RIG_DRAFT.md)，支持眨眼、口型与小幅转头；头发边缘和变形仍在精修。
 
