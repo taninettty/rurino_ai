@@ -1,7 +1,18 @@
 {
-  "active_psd": "rebuild_v3_4/turn_redraw/left_cheek_upper_surface/Rurino_Left_Cheek_Upper_Surface_v034.psd",
-  "sha256": "af90791a4abf86fd286668dffc6727dd1278acc9a6f2324d1b5af0570048b882",
-  "status": "left cheek local upper concealed surface repainted; notch and holes repaired; lower branches retained; not assembled or rigged",
-  "user_work_order": "complete hair components while preserving independent brows and continuous middle fringe",
-  "previous_psd": "rebuild_v3_4/turn_redraw/left_cheek_lower_contour/Rurino_Left_Cheek_Lower_Contour_v034.psd"
+  "active_psd": "rebuild_v3_4/turn_redraw/whole_hair_static_completion/Rurino_Whole_Hair_Static_v034.psd",
+  "sha256": "fa43637c492dbb42c2efebe45d82459f1394523d5f5e9d0bf119c845e85fa11d",
+  "status": "left-view whole-hair static repairs assembled; all four static categories addressed; not Cubism-rigged or motion-validated",
+  "pixel_layers": 41,
+  "canvas": [
+    3456,
+    2816
+  ],
+  "original_coordinate_translation": [
+    704,
+    0
+  ],
+  "default_visible": true,
+  "user_work_order": "complete crown/fringe, small tails, large tails, then assemble and inspect; independent brows; continuous middle fringe",
+  "previous_psd": "rebuild_v3_4/turn_redraw/left_cheek_upper_surface/Rurino_Left_Cheek_Upper_Surface_v034.psd",
+  "next": "Cubism mesh and deformers; combined head/body motion and hair-occlusion validation"
 }

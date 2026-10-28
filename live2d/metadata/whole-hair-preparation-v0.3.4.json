@@ -1,0 +1,90 @@
+{
+  "Small_L": {
+    "added_root_pixels": 23452,
+    "occlusion_seam_repaint_pixels": 15834,
+    "filled_hole_pixels": 0,
+    "alpha_polish": {
+      "isolated_opaque_fleck_pixels_removed": 1,
+      "union_pinhole_pixels_filled": 0
+    },
+    "original_boundary_pixels_recovered": 6
+  },
+  "Small_R": {
+    "added_root_pixels": 18912,
+    "occlusion_seam_repaint_pixels": 10219,
+    "filled_hole_pixels": 2,
+    "alpha_polish": {
+      "isolated_opaque_fleck_pixels_removed": 0,
+      "union_pinhole_pixels_filled": 0
+    }
+  },
+  "Large_L": {
+    "added_root_pixels": 121273,
+    "occlusion_seam_repaint_pixels": 22869,
+    "alpha_polish": {
+      "isolated_opaque_fleck_pixels_removed": 0,
+      "union_pinhole_pixels_filled": 48
+    }
+  },
+  "Large_R": {
+    "added_root_pixels": 69166,
+    "occlusion_seam_repaint_pixels": 18358,
+    "alpha_polish": {
+      "isolated_opaque_fleck_pixels_removed": 1,
+      "union_pinhole_pixels_filled": 0
+    }
+  },
+  "Crown": {
+    "filled_hole_pixels": 250,
+    "source": "CrownFringe_RightTipsRecovered_LOCAL_REVIEW",
+    "alpha_polish": {
+      "isolated_opaque_fleck_pixels_removed": 11,
+      "union_pinhole_pixels_filled": 0
+    },
+    "visible_original_root_recovery_pixels": 78438,
+    "post_recovery_alpha_polish": {
+      "isolated_opaque_fleck_pixels_removed": 0,
+      "union_pinhole_pixels_filled": 0
+    }
+  },
+  "Cheek_L": {
+    "filled_hole_pixels": 0,
+    "source": "Cheek_L_UpperSurface_LOCAL_REVIEW",
+    "alpha_polish": {
+      "isolated_opaque_fleck_pixels_removed": 0,
+      "union_pinhole_pixels_filled": 0
+    }
+  },
+  "Cheek_R": {
+    "filled_hole_pixels": 0,
+    "source": "Cheek_R_ContinuousContour_LOCAL_REVIEW",
+    "alpha_polish": {
+      "isolated_opaque_fleck_pixels_removed": 0,
+      "union_pinhole_pixels_filled": 0
+    }
+  },
+  "Temple_R": {
+    "filled_hole_pixels": 0,
+    "source": "Temple_R_FullMaterial_LOCAL_REVIEW",
+    "alpha_polish": {
+      "isolated_opaque_fleck_pixels_removed": 0,
+      "union_pinhole_pixels_filled": 0
+    }
+  },
+  "Thin_R": {
+    "filled_hole_pixels": 0,
+    "source": "Thin_R_FullMaterial_LOCAL_REVIEW",
+    "alpha_polish": {
+      "isolated_opaque_fleck_pixels_removed": 0,
+      "union_pinhole_pixels_filled": 0
+    }
+  },
+  "Face_Boundary_Underlap_SOURCE": {
+    "original_boundary_pixels_recovered": 333
+  },
+  "source_context_reference": {
+    "png_sha256": "1ca04e5ecd4759f3f1b3169231a8f564be810da6e42477492f2683b3cbe32dd9",
+    "source_layer": "Context_Skin_Reference",
+    "use": "only missing original boundary pixels; not a flattened head replacement"
+  }
+}

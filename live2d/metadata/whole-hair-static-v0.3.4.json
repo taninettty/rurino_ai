@@ -1,0 +1,684 @@
+{
+  "stage": "whole-hair-static-assembly",
+  "input_psd": "/home/vboxuser/Documents/ChatGPT/02/rurino_assets/desktop_live2d/rebuild_v3_4/turn_redraw/left_cheek_upper_surface/Rurino_Left_Cheek_Upper_Surface_v034.psd",
+  "input_psd_sha256": "af90791a4abf86fd286668dffc6727dd1278acc9a6f2324d1b5af0570048b882",
+  "saved_psd": "Rurino_Whole_Hair_Static_v034.psd",
+  "saved_psd_sha256": "fa43637c492dbb42c2efebe45d82459f1394523d5f5e9d0bf119c845e85fa11d",
+  "canvas": [
+    3456,
+    2816
+  ],
+  "original_coordinate_translation": [
+    704,
+    0
+  ],
+  "pixel_layers": 41,
+  "all_png_layers_roundtrip_exact": true,
+  "protected_original_layers": [
+    "Body_Visible",
+    "Neck_Visible",
+    "Fringe_R_Context_AfterTipRecovery_SOURCE",
+    "Left_FringeCheek_SkinContext_SOURCE",
+    "FacePaint_AfterCheekRecovery_SOURCE",
+    "Ear_Near_ImageRight",
+    "Open_Far_White",
+    "Open_Far_Iris",
+    "Open_Far_UpperLid",
+    "Open_Far_LowerLid",
+    "Open_Near_White",
+    "Open_Near_Iris",
+    "Open_Near_UpperLid",
+    "Open_Near_LowerLid",
+    "Half_Far_White",
+    "Half_Far_Iris",
+    "Half_Far_UpperLid",
+    "Half_Far_LowerLid",
+    "Half_Near_White",
+    "Half_Near_Iris",
+    "Half_Near_UpperLid",
+    "Half_Near_LowerLid",
+    "Closed_Far_UpperLid",
+    "Closed_Near_UpperLid",
+    "Left_Cheek_EyeOverlap_SOURCE",
+    "Left_Fringe_EyeOverlap_SOURCE",
+    "RightFringe_ForegroundTips_SOURCE",
+    "Eyebrow_L_Full_LOCAL_CLEANUP",
+    "Eyebrow_R_Full_LOCAL_CLEANUP"
+  ],
+  "protected_rgba_offsets_blend_opacity_clipping_exact": true,
+  "saved_default_composite_exact": true,
+  "default_eye_state": "Open",
+  "states": [
+    {
+      "state": "Open",
+      "file": "qa/assembled-Open.png",
+      "sha256": "4f2eb29427d9f8ae5ef95a3fe092674439fbd86a3dfed5dd85b65802ae1ecbff",
+      "original_iris_clipping_preserved": true
+    },
+    {
+      "state": "Half",
+      "file": "qa/assembled-Half.png",
+      "sha256": "623703c914def847ef90c01b8d19237ba65f53d41137af2c6ba0579570f84fe5",
+      "original_iris_clipping_preserved": true
+    },
+    {
+      "state": "Closed",
+      "file": "qa/assembled-Closed.png",
+      "sha256": "d24323db9f37b6902b74d763818bf45ec9df638fd3f1dc821ee383b4b281ee05",
+      "original_iris_clipping_preserved": true
+    }
+  ],
+  "hair_alpha_audit": [
+    {
+      "name": "Large_L",
+      "bbox": [
+        475,
+        330,
+        1605,
+        2583
+      ],
+      "opaque_components": 1,
+      "enclosed_hole_pixels": 0,
+      "canvas_edge_pixels": 0
+    },
+    {
+      "name": "Large_R",
+      "bbox": [
+        1834,
+        330,
+        2924,
+        2573
+      ],
+      "opaque_components": 1,
+      "enclosed_hole_pixels": 0,
+      "canvas_edge_pixels": 0
+    },
+    {
+      "name": "Small_L",
+      "bbox": [
+        898,
+        210,
+        1315,
+        980
+      ],
+      "opaque_components": 1,
+      "enclosed_hole_pixels": 0,
+      "canvas_edge_pixels": 0
+    },
+    {
+      "name": "Small_R",
+      "bbox": [
+        2114,
+        191,
+        2620,
+        1030
+      ],
+      "opaque_components": 1,
+      "enclosed_hole_pixels": 0,
+      "canvas_edge_pixels": 0
+    },
+    {
+      "name": "Thin_R",
+      "bbox": [
+        2082,
+        760,
+        2385,
+        2123
+      ],
+      "opaque_components": 1,
+      "enclosed_hole_pixels": 0,
+      "canvas_edge_pixels": 0
+    },
+    {
+      "name": "Temple_R",
+      "bbox": [
+        1842,
+        118,
+        2209,
+        1051
+      ],
+      "opaque_components": 1,
+      "enclosed_hole_pixels": 0,
+      "canvas_edge_pixels": 0
+    },
+    {
+      "name": "Cheek_L",
+      "bbox": [
+        1137,
+        150,
+        1503,
+        1284
+      ],
+      "opaque_components": 1,
+      "enclosed_hole_pixels": 0,
+      "canvas_edge_pixels": 0
+    },
+    {
+      "name": "Cheek_R",
+      "bbox": [
+        1744,
+        110,
+        2094,
+        1274
+      ],
+      "opaque_components": 1,
+      "enclosed_hole_pixels": 0,
+      "canvas_edge_pixels": 0
+    },
+    {
+      "name": "Crown",
+      "bbox": [
+        1255,
+        100,
+        2197,
+        896
+      ],
+      "opaque_components": 1,
+      "enclosed_hole_pixels": 0,
+      "canvas_edge_pixels": 0
+    }
+  ],
+  "layer_checks": [
+    {
+      "name": "Large_L",
+      "bbox": [
+        475,
+        330,
+        1605,
+        2583
+      ],
+      "png_sha256": "57260f27aca456a4601b75d474f7768d70479d483de32eef93a20563b38f9043",
+      "roundtrip_exact": true,
+      "clipping": false
+    },
+    {
+      "name": "Large_R",
+      "bbox": [
+        1834,
+        330,
+        2924,
+        2573
+      ],
+      "png_sha256": "6d43d2dcd56d41a1564b65d99f8fa5786a2a3f6cb34ee95219aba3e3979f073c",
+      "roundtrip_exact": true,
+      "clipping": false
+    },
+    {
+      "name": "Small_L",
+      "bbox": [
+        898,
+        210,
+        1315,
+        980
+      ],
+      "png_sha256": "045a7bb25887c5c27472861e3fb868e0b707b595aac872e4c6fbe04e93e26c94",
+      "roundtrip_exact": true,
+      "clipping": false
+    },
+    {
+      "name": "Small_R",
+      "bbox": [
+        2114,
+        191,
+        2620,
+        1030
+      ],
+      "png_sha256": "289db9801d3443892d6bdef0de7d51254b672643b8000b6d84b4e0468dd9892c",
+      "roundtrip_exact": true,
+      "clipping": false
+    },
+    {
+      "name": "Body_Visible",
+      "bbox": [
+        924,
+        1288,
+        2537,
+        2048
+      ],
+      "png_sha256": "957d18ee6369290a5021b24a3343dd348676ecf82d7cfb814255a5f23efd38b2",
+      "roundtrip_exact": true,
+      "clipping": false
+    },
+    {
+      "name": "Neck_Visible",
+      "bbox": [
+        1532,
+        1096,
+        1933,
+        1551
+      ],
+      "png_sha256": "bcc1de4fd62a832d10f33d1512fef169ff27220ddfcacfcf3c96d6aa7f8104bc",
+      "roundtrip_exact": true,
+      "clipping": false
+    },
+    {
+      "name": "Thin_R",
+      "bbox": [
+        2082,
+        760,
+        2385,
+        2123
+      ],
+      "png_sha256": "d5683a930f4a3e0557e356fb9f03d7352a183de9cb6b295b686affef9a5c9ee6",
+      "roundtrip_exact": true,
+      "clipping": false
+    },
+    {
+      "name": "Fringe_R_Context_AfterTipRecovery_SOURCE",
+      "bbox": [
+        1586,
+        354,
+        1947,
+        801
+      ],
+      "png_sha256": "bb0605baaa6fcf4d7a14c8c6e913c2570952ecadc10b0fe5b14de5f217a2a257",
+      "roundtrip_exact": true,
+      "clipping": false
+    },
+    {
+      "name": "Left_FringeCheek_SkinContext_SOURCE",
+      "bbox": [
+        1272,
+        688,
+        1305,
+        790
+      ],
+      "png_sha256": "1635242f08dbc51f2933cc9fecdf4aa61eb0bd513bb6f60f18e98db9d6edccaf",
+      "roundtrip_exact": true,
+      "clipping": false
+    },
+    {
+      "name": "Face_Boundary_Underlap_SOURCE",
+      "bbox": [
+        1583,
+        850,
+        1923,
+        1292
+      ],
+      "png_sha256": "400f9031f22bf35bdc8f3990db7fab219be3bf584fa7e2a87fcf8b13b8cbb40e",
+      "roundtrip_exact": true,
+      "clipping": false
+    },
+    {
+      "name": "FacePaint_AfterCheekRecovery_SOURCE",
+      "bbox": [
+        1295,
+        342,
+        1942,
+        1241
+      ],
+      "png_sha256": "433612cbc2b676146f789ad60cea87af5211632119ee17820ca8d0b52ef25b9d",
+      "roundtrip_exact": true,
+      "clipping": false
+    },
+    {
+      "name": "Ear_Near_ImageRight",
+      "bbox": [
+        2014,
+        798,
+        2152,
+        1039
+      ],
+      "png_sha256": "2224b8840c8b05fc0edb1c1fb4793df33fbb2034f16e960cac0136ee689be489",
+      "roundtrip_exact": true,
+      "clipping": false
+    },
+    {
+      "name": "Temple_R",
+      "bbox": [
+        1842,
+        118,
+        2209,
+        1051
+      ],
+      "png_sha256": "7d827e5c1a6bff752916fee8da4351b9eb2e5d65f96f1f07a1152e13feb245ad",
+      "roundtrip_exact": true,
+      "clipping": false
+    },
+    {
+      "name": "Cheek_L",
+      "bbox": [
+        1137,
+        150,
+        1503,
+        1284
+      ],
+      "png_sha256": "1239dc64a5779f62148582797ce4f3a26575f2241f2b57cbb9b79d04c45dd282",
+      "roundtrip_exact": true,
+      "clipping": false
+    },
+    {
+      "name": "Cheek_R",
+      "bbox": [
+        1744,
+        110,
+        2094,
+        1274
+      ],
+      "png_sha256": "3327d6bc256f7ec7ee82f91ece782d760e56cd1d6b60f4e06766f1edad79c6bd",
+      "roundtrip_exact": true,
+      "clipping": false
+    },
+    {
+      "name": "Crown",
+      "bbox": [
+        1255,
+        100,
+        2197,
+        896
+      ],
+      "png_sha256": "9d87f406013004d16eb9f6596a062496ef9711fb68aee9114c82c292219a0446",
+      "roundtrip_exact": true,
+      "clipping": false
+    },
+    {
+      "name": "Flower_ImageLeft",
+      "bbox": [
+        1136,
+        0,
+        1542,
+        501
+      ],
+      "png_sha256": "de49c51162d9c08581ce5de160fff3481fab39c573722a82701fa5d3f748b247",
+      "roundtrip_exact": true,
+      "clipping": false
+    },
+    {
+      "name": "Flower_ImageRight",
+      "bbox": [
+        1905,
+        0,
+        2396,
+        505
+      ],
+      "png_sha256": "4d24143aefb0689dcb912e974e0799bd0ee151f293862cd6b29a8c243c6de1ca",
+      "roundtrip_exact": true,
+      "clipping": false
+    },
+    {
+      "name": "Open_Far_White",
+      "bbox": [
+        1320,
+        752,
+        1474,
+        887
+      ],
+      "png_sha256": "b686f1d3113f1dc1f3dc34b84534324fdc2418ca679f02ab94893bddeaaccae6",
+      "roundtrip_exact": true,
+      "clipping": false
+    },
+    {
+      "name": "Open_Far_Iris",
+      "bbox": [
+        1336,
+        749,
+        1440,
+        894
+      ],
+      "png_sha256": "bb0e584095b6b74e6ec0ccc3feae0978c7e1dd78158040e190d6d329a29ad350",
+      "roundtrip_exact": true,
+      "clipping": true
+    },
+    {
+      "name": "Open_Far_UpperLid",
+      "bbox": [
+        1288,
+        713,
+        1470,
+        870
+      ],
+      "png_sha256": "17d21a16eb58db5ac8dd7d1a987cb2c1a8ab46985af9332663cfc49bd7f042bd",
+      "roundtrip_exact": true,
+      "clipping": false
+    },
+    {
+      "name": "Open_Far_LowerLid",
+      "bbox": [
+        1312,
+        870,
+        1418,
+        899
+      ],
+      "png_sha256": "2cae55fa13612f87efb13adf73452930284de9788204b39ee2ddb5c0901c1aa9",
+      "roundtrip_exact": true,
+      "clipping": false
+    },
+    {
+      "name": "Open_Near_White",
+      "bbox": [
+        1651,
+        748,
+        1873,
+        887
+      ],
+      "png_sha256": "2c9e5779b9451863895ae22000fb6ed19ca5bf9083a900bd49011c0480d2aceb",
+      "roundtrip_exact": true,
+      "clipping": false
+    },
+    {
+      "name": "Open_Near_Iris",
+      "bbox": [
+        1682,
+        747,
+        1814,
+        894
+      ],
+      "png_sha256": "3d31bbd32efa8e227fa53538431aaa8e11cc94b3bbf99ef58fcef8edceb968eb",
+      "roundtrip_exact": true,
+      "clipping": true
+    },
+    {
+      "name": "Open_Near_UpperLid",
+      "bbox": [
+        1647,
+        712,
+        1915,
+        864
+      ],
+      "png_sha256": "2f067d6b2c0da5c8529ba5c08a09107d4af111f390e5c00a6f0c605ba647082c",
+      "roundtrip_exact": true,
+      "clipping": false
+    },
+    {
+      "name": "Open_Near_LowerLid",
+      "bbox": [
+        1705,
+        884,
+        1792,
+        899
+      ],
+      "png_sha256": "44425546470360acfe116f80899bbcb3f33332132edbe262a1abfe03aab6bb24",
+      "roundtrip_exact": true,
+      "clipping": false
+    },
+    {
+      "name": "Half_Far_White",
+      "bbox": [
+        1323,
+        795,
+        1474,
+        887
+      ],
+      "png_sha256": "821d6c313cc491722861cb1ff1f2fde7df5f04062fc63f3c6a6deec4c385650a",
+      "roundtrip_exact": true,
+      "clipping": false
+    },
+    {
+      "name": "Half_Far_Iris",
+      "bbox": [
+        1336,
+        749,
+        1440,
+        894
+      ],
+      "png_sha256": "bb0e584095b6b74e6ec0ccc3feae0978c7e1dd78158040e190d6d329a29ad350",
+      "roundtrip_exact": true,
+      "clipping": true
+    },
+    {
+      "name": "Half_Far_UpperLid",
+      "bbox": [
+        1294,
+        738,
+        1471,
+        867
+      ],
+      "png_sha256": "bdd436e564e9bac5d603c2335edb14107e844c26daf4b18f31d99d85c7a24641",
+      "roundtrip_exact": true,
+      "clipping": false
+    },
+    {
+      "name": "Half_Far_LowerLid",
+      "bbox": [
+        1312,
+        870,
+        1418,
+        899
+      ],
+      "png_sha256": "2cae55fa13612f87efb13adf73452930284de9788204b39ee2ddb5c0901c1aa9",
+      "roundtrip_exact": true,
+      "clipping": false
+    },
+    {
+      "name": "Half_Near_White",
+      "bbox": [
+        1652,
+        797,
+        1870,
+        887
+      ],
+      "png_sha256": "afe4a9c5c816079da8983730b838bf05e169353f06dbb94cea4c56c2483a2801",
+      "roundtrip_exact": true,
+      "clipping": false
+    },
+    {
+      "name": "Half_Near_Iris",
+      "bbox": [
+        1682,
+        747,
+        1814,
+        894
+      ],
+      "png_sha256": "3d31bbd32efa8e227fa53538431aaa8e11cc94b3bbf99ef58fcef8edceb968eb",
+      "roundtrip_exact": true,
+      "clipping": true
+    },
+    {
+      "name": "Half_Near_UpperLid",
+      "bbox": [
+        1643,
+        733,
+        1914,
+        858
+      ],
+      "png_sha256": "f663812d1d4ff195c6aed1099ed59074111f854580142e3c067d8912974e6cff",
+      "roundtrip_exact": true,
+      "clipping": false
+    },
+    {
+      "name": "Half_Near_LowerLid",
+      "bbox": [
+        1705,
+        884,
+        1792,
+        899
+      ],
+      "png_sha256": "44425546470360acfe116f80899bbcb3f33332132edbe262a1abfe03aab6bb24",
+      "roundtrip_exact": true,
+      "clipping": false
+    },
+    {
+      "name": "Closed_Far_UpperLid",
+      "bbox": [
+        1296,
+        756,
+        1467,
+        877
+      ],
+      "png_sha256": "6931e15142186a4c7296f96500227d7baf45db64813d7b56584fc6c3a9b822c1",
+      "roundtrip_exact": true,
+      "clipping": false
+    },
+    {
+      "name": "Closed_Near_UpperLid",
+      "bbox": [
+        1647,
+        751,
+        1910,
+        853
+      ],
+      "png_sha256": "f5ddf939ba89b08bd309d1f27fbf5d75687d7fd78d8e66959b9ac588caa00157",
+      "roundtrip_exact": true,
+      "clipping": false
+    },
+    {
+      "name": "Left_Cheek_EyeOverlap_SOURCE",
+      "bbox": [
+        1273,
+        726,
+        1330,
+        913
+      ],
+      "png_sha256": "b2e1322b0a125b5b0dad91524b1bb5885b2ef49281fd169c5ce786532015f80a",
+      "roundtrip_exact": true,
+      "clipping": false
+    },
+    {
+      "name": "Left_Fringe_EyeOverlap_SOURCE",
+      "bbox": [
+        1307,
+        697,
+        1350,
+        772
+      ],
+      "png_sha256": "57002fbb4bbcdad15160e7535789b5a512df8caff935a5ec39b620f6c2acbda2",
+      "roundtrip_exact": true,
+      "clipping": false
+    },
+    {
+      "name": "RightFringe_ForegroundTips_SOURCE",
+      "bbox": [
+        1649,
+        697,
+        1930,
+        874
+      ],
+      "png_sha256": "2cc933b556140bfdb8d98fb804de7eafbe960902e9a6c0500288647975eb21fd",
+      "roundtrip_exact": true,
+      "clipping": false
+    },
+    {
+      "name": "Eyebrow_L_Full_LOCAL_CLEANUP",
+      "bbox": [
+        1266,
+        629,
+        1457,
+        693
+      ],
+      "png_sha256": "93f49af488c3afa50dbf14b3d63ed26f1b64623779cb58fd9c8a433fe33bb208",
+      "roundtrip_exact": true,
+      "clipping": false
+    },
+    {
+      "name": "Eyebrow_R_Full_LOCAL_CLEANUP",
+      "bbox": [
+        1614,
+        623,
+        1921,
+        689
+      ],
+      "png_sha256": "7466b494604f576227202d3038bb12f411a0a6bfe7cfc0c5508c1e9b9429e508",
+      "roundtrip_exact": true,
+      "clipping": false
+    }
+  ],
+  "scope": "left-view static material assembly and concealed surface cleanup; inferred extensions",
+  "original_134_layer_psd_preserved_separately": true,
+  "libtv_generation_used": false,
+  "limitations": [
+    "concealed roots and off-canvas tips locally inferred; not recovered unseen original artwork",
+    "body remains original waist-cropped bust",
+    "static eye states only, no continuous motion validation",
+    "no new Cubism meshes, turn/up-down keyforms, body sway, hair physics or runtime model"
+  ]
+}
