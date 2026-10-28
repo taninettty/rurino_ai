@@ -1,7 +1,7 @@
 {
-  "active_psd": "rebuild_v3_4/turn_redraw/right_cheek_ownership/Rurino_Right_Cheek_Ownership_v034.psd",
-  "sha256": "58a2af8a2350b2ef6c50785ff93e83c69526082a160dc693815290e1d3fbbb80",
-  "status": "right cheek inner contour recovered; ear and rear context separated; complete review hidden; not fully complete or rigged",
+  "active_psd": "rebuild_v3_4/turn_redraw/right_cheek_contour_rework/Rurino_Right_Cheek_Contour_Rework_v034.psd",
+  "sha256": "1e06d6af7b88ad319b1bea29399f146a8ee674bae13217af8c585ada8720c117",
+  "status": "right cheek review silhouette rebuilt; root step smoothed, triangular residue removed, lower gaps repaired; not assembled or rigged",
   "user_work_order": "complete hair components while preserving independent brows and continuous middle fringe",
-  "previous_psd": "rebuild_v3_4/turn_redraw/right_fringe_tip_recovery/Rurino_Right_Fringe_Tips_v034.psd"
+  "previous_psd": "rebuild_v3_4/turn_redraw/right_cheek_ownership/Rurino_Right_Cheek_Ownership_v034.psd"
 }
