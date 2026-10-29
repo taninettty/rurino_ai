@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "platform": "Linux with isolated X11 OpenGL display",
+  "model": "runtime-desktop/Rurino_Body_Hair_v034.model3.json",
+  "checks": [
+    "transparent rendering",
+    "load/reload",
+    "drag",
+    "resize",
+    "topmost",
+    "settings",
+    "mute"
+  ],
+  "not_checked": [
+    "Windows hardware",
+    "Ollama service",
+    "voice service",
+    "visible lip synchronization"
+  ]
+}

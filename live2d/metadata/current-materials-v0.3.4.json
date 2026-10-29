@@ -1,8 +1,8 @@
 {
-  "active_psd": "rebuild_v3_4/turn_redraw/cheek_contour_recovery/Rurino_Cheek_Contour_Recovered_v034.psd",
-  "sha256": "3c14bf4c3da3cc39f8bc8ea1afd756baa63c3acd856c57f71762f508ce792b70",
-  "status": "left-view cheek contour and narrow skin edge recovered; original 55 layers preserved; integrated into small-tail Cubism rig",
-  "pixel_layers": 57,
+  "active_psd": "rebuild_v3_4/turn_redraw/skin_clothing_ink/Rurino_Skin_Clothing_Ink_v034.psd",
+  "sha256": "208427a7d9e37d318a23573d090a3c331701b22273b5da34644084f001b017c7",
+  "status": "skin and clothing contours repaired; four tails, waist sway and physics integrated in Cubism",
+  "pixel_layers": 60,
   "canvas": [
     3456,
     2816
@@ -12,7 +12,10 @@
     0
   ],
   "default_visible": true,
-  "user_work_order": "repair missing cheek outline, preserve small-tail motion",
-  "previous_psd": "rebuild_v3_4/turn_redraw/three_hair_finish/Rurino_Three_Hair_Repairs_v034.psd",
-  "next": "stabilize right small-tail root, then large-tail bending and occlusion"
+  "user_work_order": "repair cheek neck clothing ink, then proceed through hair and body motion",
+  "previous_psd": "rebuild_v3_4/turn_redraw/cheek_contour_recovery/Rurino_Cheek_Contour_Recovered_v034.psd",
+  "next": "continuous blinking, mouth, perspective head turns and pitch, body lean and remaining hair physics",
+  "active_cmo3": "rebuild_v3_4/body_hair_rig/Rurino_Body_Hair_v034.cmo3",
+  "cmo3_sha256": "0e94a006011151225c23950fee60a31202bce6f84c0eae0c2a3839a28aab82f0",
+  "runtime_entry": "rebuild_v3_4/body_hair_rig/runtime-desktop/Rurino_Body_Hair_v034.model3.json"
 }

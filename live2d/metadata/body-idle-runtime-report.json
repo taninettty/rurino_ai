@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "model": "Rurino_Body_Hair_v034.model3.json",
+  "seconds": 20,
+  "body_range": [
+    -6.0,
+    6.0
+  ],
+  "tail_peak_abs": [
+    0.30087459087371826,
+    0.3027515411376953,
+    0.40336278080940247,
+    0.4009706676006317
+  ],
+  "playback_starts": 3,
+  "continues_after_16_seconds": true,
+  "policy": "StartRandomMotion Idle when IsMotionFinished, matching desktop/app.py"
+}

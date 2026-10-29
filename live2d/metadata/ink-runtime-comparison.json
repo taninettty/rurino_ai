@@ -1,0 +1,46 @@
+{
+  "before": "Rurino_Cheek_Contour_v034.model3.json",
+  "after": "Rurino_Skin_Clothing_v034.model3.json",
+  "geometry_samples": [
+    {
+      "pose": [
+        0,
+        0
+      ],
+      "preserved_drawables": 47,
+      "max_vertex_error": 0
+    },
+    {
+      "pose": [
+        -1,
+        1
+      ],
+      "preserved_drawables": 47,
+      "max_vertex_error": 0
+    },
+    {
+      "pose": [
+        1,
+        -1
+      ],
+      "preserved_drawables": 47,
+      "max_vertex_error": 0
+    }
+  ],
+  "same_parameters": true,
+  "added_drawables": [
+    "Ink_Clothing_Clean",
+    "Ink_FaceJaw_Clean",
+    "Ink_Neck_Clean"
+  ],
+  "changed_pixel_bbox_over_3_255": [
+    220,
+    41,
+    1353,
+    1195
+  ],
+  "changed_pixels_over_3_255": 68260,
+  "outside_repair_pixels_over_3_255": 38638,
+  "outside_repair_mean_error": 0.3702936685069893,
+  "passed": true
+}

@@ -1,0 +1,10 @@
+{
+  "source_sha256": "8bc42a477e1c01ada7687ffd956009bad617533019036ec05c1963e0f92bca70",
+  "files": {
+    "Rurino_Skin_Clothing_v034.model3.json": true,
+    "Rurino_Skin_Clothing_v034.moc3": true,
+    "Rurino_Skin_Clothing_v034.cdi3.json": true,
+    "Rurino_Skin_Clothing_v034.2048/texture_00.png": true
+  },
+  "reexport_byte_identical": true
+}

@@ -1,0 +1,23 @@
+{
+  "source_sha256": "0e94a006011151225c23950fee60a31202bce6f84c0eae0c2a3839a28aab82f0",
+  "files": {
+    "Rurino_Body_Hair_v034.cdi3.json": {
+      "byte_identical": true
+    },
+    "Rurino_Body_Hair_v034.physics3.json": {
+      "semantic_equal": true,
+      "byte_identical": false
+    },
+    "Rurino_Body_Hair_v034.model3.json": {
+      "byte_identical": true
+    },
+    "Rurino_Body_Hair_v034.moc3": {
+      "byte_identical": true
+    },
+    "Rurino_Body_Hair_v034.2048/texture_00.png": {
+      "byte_identical": true
+    }
+  },
+  "saved_reopened_and_reexported": true,
+  "note": "Physics was compared semantically to authored JSON, then replaced by the editor reexport. Other files are byte identical."
+}
