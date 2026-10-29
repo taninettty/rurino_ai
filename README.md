@@ -2,7 +2,7 @@
 
 ## 瑠璃乃 Live2D 制作
 
-[当前制作目标与下一步](live2d/CURRENT_WORK.md)：[轮廓修复、四马尾与身体侧摆](live2d/BODY_HAIR_V034.md)。新运行包已加入四马尾弯曲、腰部侧摆、头发物理和待机动作，已有桌宠可直接加载。仍是半身工作稿，眨眼、嘴型、真实转头及前后仰尚未绑定。
+[当前制作目标与下一步](live2d/CURRENT_WORK.md)：正在补齐 [正脸中立底模](live2d/FRONT_NEUTRAL_V034.md)，已提供可编辑工程与实际运行模型，目前为静态正脸，眨眼、嘴型及转头尚未绑定。原 [左视图四马尾与身体侧摆](live2d/BODY_HAIR_V034.md) 原型另行保留。
 
 [人物素材与 Cubism 交接](live2d/README.md) · [桌宠模型接入程序](desktop/README.md)。已提供 [v0.3.3 可运行绑定测试稿](live2d/RIG_DRAFT.md)，支持眨眼、口型与小幅转头；头发边缘和变形仍在精修。
 

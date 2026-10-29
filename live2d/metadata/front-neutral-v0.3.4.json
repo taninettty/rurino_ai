@@ -1,0 +1,12 @@
+{
+  "stage": "static frontal foundation; no animation binding",
+  "psd": "rebuild_v3_4/front_neutral/Rurino_Front_Neutral_v034.psd",
+  "psd_sha256": "1b33fb02aea938ddc0f4089e31e951ffbf7e8845cb45b9ba688f3327712362d1",
+  "cmo3": "rebuild_v3_4/front_neutral/Rurino_Front_Neutral_v034.cmo3",
+  "cmo3_sha256": "f41ade6add3486f969a2a40a7040da6c83c50f1d939f4f6244a7fb3fa421dcf2",
+  "runtime_entry": "rebuild_v3_4/front_neutral/runtime/Rurino_Front_Neutral_v034.model3.json",
+  "drawable_count": 29,
+  "bound_animation_parameters": 0,
+  "default_parameter_count": 27,
+  "prior_animated_side_view": "rebuild_v3_4/body_hair_rig/Rurino_Body_Hair_v034.cmo3"
+}

@@ -1,0 +1,14 @@
+{
+  "status": "frontal neutral PSD; not a bound model",
+  "layer_count": 29,
+  "source_psd_sha256": "9ed64745dcd291c3ecc12b6de9f105b24350d50ffe404e5df0ed18cb825b58af",
+  "psd_sha256": "1b33fb02aea938ddc0f4089e31e951ffbf7e8845cb45b9ba688f3327712362d1",
+  "outside_eye_boxes_max_change": 0,
+  "eye_centers_shifted": false,
+  "iris_recoloured": false,
+  "limitations": [
+    "neutral material only; blink states must be rebuilt against this aperture",
+    "frontal hair completion and independent contours still pending",
+    "no yaw/pitch, body binding or runtime export in this material script"
+  ]
+}
