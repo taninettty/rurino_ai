@@ -1,0 +1,47 @@
+{
+  "stage": "frontal fringe artwork repair; no animation",
+  "layers": 33,
+  "unchanged_layers_pixel_exact": [
+    "BackHair_Concealed_Support",
+    "Skin_Concealed_Support",
+    "Ponytail_L",
+    "Ponytail_R",
+    "Body_Reference",
+    "Neck_Reference",
+    "Face_Reference",
+    "Ear_L",
+    "Ear_R",
+    "Eye_L_White",
+    "Eye_L_Iris",
+    "Eye_L_UpperLid",
+    "Eye_L_LowerLid",
+    "Eye_R_White",
+    "Eye_R_Iris",
+    "Eye_R_UpperLid",
+    "Eye_R_LowerLid",
+    "Mouth_Neutral",
+    "SideHair_L",
+    "SideHair_R",
+    "CheekLock_L",
+    "CheekLock_R",
+    "FrontLock_R_Long",
+    "Flower_L",
+    "Flower_R",
+    "Brow_L",
+    "Brow_R",
+    "Ink_SideHair_L",
+    "Ink_SideHair_R"
+  ],
+  "checks": [
+    "saved PSD matches all PNG layers",
+    "right forehead skin wedge removed",
+    "left inner cutout opened"
+  ],
+  "psd_sha256": "d1ebba509a9eaa570e2bc186a2dcf8b633dab1717ef769e1845945f7d2e2a37a",
+  "source_psd_sha256": "ed837151bda966ff47714cbc611be5135da071f114950615405d836921cca7d9",
+  "limitations": [
+    "two frontal fringe groups retained, not every strand independently rigged",
+    "temple locks, large tails and support still need cleanup",
+    "27 default parameters unbound"
+  ]
+}

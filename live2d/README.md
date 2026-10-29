@@ -1,6 +1,6 @@
 # 瑠璃乃 Live2D 桌宠模型
 
-当前阶段：[正脸小双马尾清理版](FRONT_SMALLTAILS_CLEAN_V034.md)，修除残影与碎片，31 层 PSD、cmo3 与实际运行贴图已更新，尚无动作绑定。此前 [小马尾补全](FRONT_SMALLTAILS_V034.md)、[正脸基础](FRONT_NEUTRAL_V034.md) 与 [侧视动作原型](BODY_HAIR_V034.md) 保留；以下旧完整功能测试稿仍指 v0.3.3。
+当前阶段：[正脸刘海清理与网格接入](FRONT_FRINGE_V034.md)，33 层 PSD、cmo3 与运行包，仍无正脸动作绑定。此前 [小马尾清理版](FRONT_SMALLTAILS_CLEAN_V034.md) 与 [侧视动作原型](BODY_HAIR_V034.md) 保留；以下旧完整功能测试稿仍指 v0.3.3。
 
 已完成真正的 Cubism 绑定初稿，能加载、眨眼、张嘴和小幅转头。头发边缘、闭眼过渡和部分变形仍需精修。
 

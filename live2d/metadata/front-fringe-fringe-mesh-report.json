@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "scope": "static mesh coverage of completed hidden material; no motion or physics test",
+  "checks": [
+    {
+      "id": "Bang_L",
+      "vertices": 202,
+      "triangles": 320,
+      "interior_pixels": 145666,
+      "interior_pixels_without_triangles": 0,
+      "fraction_without_triangles": 0.0,
+      "ink_visible_pixels_without_triangles": 0
+    },
+    {
+      "id": "Bang_R",
+      "vertices": 234,
+      "triangles": 367,
+      "interior_pixels": 148838,
+      "interior_pixels_without_triangles": 0,
+      "fraction_without_triangles": 0.0,
+      "ink_visible_pixels_without_triangles": 0
+    }
+  ],
+  "moc3_sha256": "a299045b04e7ddada799c9ece1eb16a48fb553591efe1814bda95f96ad38b717"
+}

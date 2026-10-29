@@ -2,7 +2,7 @@
 
 ## 瑠璃乃 Live2D 制作
 
-[当前制作目标与下一步](live2d/CURRENT_WORK.md)：最新为 [正脸小双马尾清理版](live2d/FRONT_SMALLTAILS_CLEAN_V034.md)，已修除发根残影、发梢粉色碎片和断续轮廓，提供 31 层材料、可编辑工程与运行包。仍是静态正脸，眨眼、嘴型与转头未绑定；其他部位继续检查。原 [左视图四马尾与身体侧摆](live2d/BODY_HAIR_V034.md) 原型另行保留。
+[当前制作目标与下一步](live2d/CURRENT_WORK.md)：最新为 [正脸刘海清理版](live2d/FRONT_FRINGE_V034.md)，修补刘海缺口、夹入肤色和头顶外侧接缝，加入独立线层并完成网格接入。33 层材料、可编辑工程和运行包已验证，仍是静态正脸，动作未绑定。原 [侧视动作原型](live2d/BODY_HAIR_V034.md) 另行保留。
 
 [人物素材与 Cubism 交接](live2d/README.md) · [桌宠模型接入程序](desktop/README.md)。已提供 [v0.3.3 可运行绑定测试稿](live2d/RIG_DRAFT.md)，支持眨眼、口型与小幅转头；头发边缘和变形仍在精修。
 
