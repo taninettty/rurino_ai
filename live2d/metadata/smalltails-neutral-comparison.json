@@ -1,0 +1,7 @@
+{
+  "previous": "qa/hair-neutral.png",
+  "current": "qa-smalltails/neutral.png",
+  "visible_changed_pixels_over_1": 13,
+  "max_channel_difference": 2.2431372549019812,
+  "mean_channel_difference": 3.67328281005653e-05
+}

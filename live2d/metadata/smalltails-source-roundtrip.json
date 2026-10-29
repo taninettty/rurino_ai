@@ -1,0 +1,28 @@
+{
+  "cmo3": "Rurino_SmallTails_Trial_v034.cmo3",
+  "cmo3_sha256": "6242986a07d166b24cddcb77af0a28296416c3061e77d80767e3647e5aa6fd8d",
+  "manual_save_reopened": true,
+  "reexport_byte_identical": true,
+  "files": {
+    "Rurino_SmallTails_Trial_v034.model3.json": {
+      "original_sha256": "a47160c98c72e146a4ee9d98b8e72e006116951fd3c787e5763c01c22212eaf3",
+      "reopened_export_sha256": "a47160c98c72e146a4ee9d98b8e72e006116951fd3c787e5763c01c22212eaf3",
+      "equal": true
+    },
+    "Rurino_SmallTails_Trial_v034.moc3": {
+      "original_sha256": "faf742807858c4f9b09f3f471af75c3ac251f6f10a2649f367c5df41d9f3937e",
+      "reopened_export_sha256": "faf742807858c4f9b09f3f471af75c3ac251f6f10a2649f367c5df41d9f3937e",
+      "equal": true
+    },
+    "Rurino_SmallTails_Trial_v034.cdi3.json": {
+      "original_sha256": "5a662d2c7c4ae59c2162cb8115ded8bbc8e3616ade8fd918556b6d969b88d300",
+      "reopened_export_sha256": "5a662d2c7c4ae59c2162cb8115ded8bbc8e3616ade8fd918556b6d969b88d300",
+      "equal": true
+    },
+    "Rurino_SmallTails_Trial_v034.2048/texture_00.png": {
+      "original_sha256": "dedb57d92d98ae135c4486adab639713f7c398f6380d7906734dc83e8aff954c",
+      "reopened_export_sha256": "dedb57d92d98ae135c4486adab639713f7c398f6380d7906734dc83e8aff954c",
+      "equal": true
+    }
+  }
+}
