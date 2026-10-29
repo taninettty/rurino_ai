@@ -1,0 +1,187 @@
+{
+  "model": "Rurino_Front_SmallTails_v034.model3.json",
+  "moc3_sha256": "e9522fb89eda567eaefbd2277f432dd629225a048c6ef940597f10b7e13210ca",
+  "canvas_pixels": [
+    2048.0,
+    2048.0
+  ],
+  "canvas_units": [
+    1.0,
+    1.0
+  ],
+  "drawable_count": 31,
+  "meshes": [
+    {
+      "id": "Brow_R",
+      "vertices": 85,
+      "triangles": 118
+    },
+    {
+      "id": "Brow_L",
+      "vertices": 79,
+      "triangles": 102
+    },
+    {
+      "id": "Bang_R",
+      "vertices": 179,
+      "triangles": 273
+    },
+    {
+      "id": "Flower_R",
+      "vertices": 301,
+      "triangles": 497
+    },
+    {
+      "id": "Flower_L",
+      "vertices": 290,
+      "triangles": 471
+    },
+    {
+      "id": "FrontLock_R_Long",
+      "vertices": 141,
+      "triangles": 206
+    },
+    {
+      "id": "CheekLock_R",
+      "vertices": 150,
+      "triangles": 221
+    },
+    {
+      "id": "CheekLock_L",
+      "vertices": 182,
+      "triangles": 273
+    },
+    {
+      "id": "Bang_L",
+      "vertices": 161,
+      "triangles": 249
+    },
+    {
+      "id": "SideHair_R",
+      "vertices": 283,
+      "triangles": 453
+    },
+    {
+      "id": "SideHair_L",
+      "vertices": 291,
+      "triangles": 459
+    },
+    {
+      "id": "Mouth_Neutral",
+      "vertices": 52,
+      "triangles": 66
+    },
+    {
+      "id": "Eye_R_LowerLid",
+      "vertices": 43,
+      "triangles": 53
+    },
+    {
+      "id": "Eye_R_UpperLid",
+      "vertices": 137,
+      "triangles": 193
+    },
+    {
+      "id": "Eye_R_Iris",
+      "vertices": 109,
+      "triangles": 170
+    },
+    {
+      "id": "Eye_R_White",
+      "vertices": 131,
+      "triangles": 206
+    },
+    {
+      "id": "Eye_L_LowerLid",
+      "vertices": 46,
+      "triangles": 62
+    },
+    {
+      "id": "Eye_L_UpperLid",
+      "vertices": 124,
+      "triangles": 173
+    },
+    {
+      "id": "Eye_L_Iris",
+      "vertices": 98,
+      "triangles": 153
+    },
+    {
+      "id": "Eye_L_White",
+      "vertices": 109,
+      "triangles": 174
+    },
+    {
+      "id": "Ear_R",
+      "vertices": 46,
+      "triangles": 64
+    },
+    {
+      "id": "Ear_L",
+      "vertices": 44,
+      "triangles": 61
+    },
+    {
+      "id": "Face_Reference",
+      "vertices": 353,
+      "triangles": 559
+    },
+    {
+      "id": "Neck_Reference",
+      "vertices": 316,
+      "triangles": 535
+    },
+    {
+      "id": "Body_Reference",
+      "vertices": 91,
+      "triangles": 125
+    },
+    {
+      "id": "Ponytail_R",
+      "vertices": 76,
+      "triangles": 103
+    },
+    {
+      "id": "Ponytail_L",
+      "vertices": 270,
+      "triangles": 423
+    },
+    {
+      "id": "Skin_Concealed_Support",
+      "vertices": 387,
+      "triangles": 664
+    },
+    {
+      "id": "BackHair_Concealed_Support",
+      "vertices": 445,
+      "triangles": 722
+    },
+    {
+      "id": "Ink_SideHair_R",
+      "vertices": 135,
+      "triangles": 208
+    },
+    {
+      "id": "Ink_SideHair_L",
+      "vertices": 135,
+      "triangles": 208
+    }
+  ],
+  "parameter_count": 27,
+  "opaque_rgb_mean_abs_difference": 2.171938601800249,
+  "alpha_mean_abs_difference": 0.8134450912475586,
+  "reference_alpha_bbox": [
+    0,
+    46,
+    1024,
+    1024
+  ],
+  "runtime_alpha_bbox": [
+    0,
+    48,
+    1024,
+    1024
+  ],
+  "scope": "neutral render and mesh validity only; not an animation or Windows acceptance test",
+  "passed": true
+}

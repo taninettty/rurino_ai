@@ -71,7 +71,8 @@ report={'model':path.name,'moc3_sha256':hashlib.sha256((path.parent/data['FileRe
         'alpha_mean_abs_difference':float(diff[:,:,3].mean()),
         'reference_alpha_bbox':expected.getbbox(),'runtime_alpha_bbox':actual.getbbox(),
         'scope':'neutral render and mesh validity only; not an animation or Windows acceptance test'}
-assert len(ids)==29, len(ids)
+expected_count=int(sys.argv[3]) if len(sys.argv)>3 else 29
+assert len(ids)==expected_count, (len(ids),expected_count)
 assert report['opaque_rgb_mean_abs_difference']<5,report
 assert report['alpha_mean_abs_difference']<2,report
 report['passed']=True

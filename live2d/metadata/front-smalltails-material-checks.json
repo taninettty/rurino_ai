@@ -1,0 +1,58 @@
+{
+  "stage": "frontal small-tail material completion; no new animation binding",
+  "source_psd_sha256": "1b33fb02aea938ddc0f4089e31e951ffbf7e8845cb45b9ba688f3327712362d1",
+  "psd_sha256": "7774315abad8205b580a4477b4f277cd923ec78e14c8e949bba30d584d87e2eb",
+  "layers": 31,
+  "repairs": [
+    {
+      "part": "SideHair_L",
+      "added_alpha_pixels": 116536,
+      "original_opaque_rgb_preserved_outside_24px_join": true
+    },
+    {
+      "part": "SideHair_R",
+      "added_alpha_pixels": 96838,
+      "original_opaque_rgb_preserved_outside_24px_join": true
+    }
+  ],
+  "other_layers_pixel_exact": [
+    "BackHair_Concealed_Support",
+    "Skin_Concealed_Support",
+    "Ponytail_L",
+    "Ponytail_R",
+    "Body_Reference",
+    "Neck_Reference",
+    "Face_Reference",
+    "Ear_L",
+    "Ear_R",
+    "Eye_L_White",
+    "Eye_L_Iris",
+    "Eye_L_UpperLid",
+    "Eye_L_LowerLid",
+    "Eye_R_White",
+    "Eye_R_Iris",
+    "Eye_R_UpperLid",
+    "Eye_R_LowerLid",
+    "Mouth_Neutral",
+    "Bang_L",
+    "CheekLock_L",
+    "CheekLock_R",
+    "FrontLock_R_Long",
+    "Flower_L",
+    "Flower_R",
+    "Bang_R",
+    "Brow_L",
+    "Brow_R"
+  ],
+  "saved_psd_premultiplied_max_difference": 4.419607843137257,
+  "saved_psd_alpha_max_difference": 1,
+  "new_ink_layers": [
+    "Ink_SideHair_L",
+    "Ink_SideHair_R"
+  ],
+  "limitations": [
+    "hidden fill inferred from prior generated registered back-hair plate",
+    "fringe and large tails not completed in this pass",
+    "not an animation or motion-range acceptance test"
+  ]
+}

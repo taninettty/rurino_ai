@@ -1,0 +1,13 @@
+{
+  "stage": "static frontal small-tail material and mesh integration; no animation binding",
+  "psd": "rebuild_v3_4/front_smalltails/Rurino_Front_SmallTails_v034.psd",
+  "psd_sha256": "7774315abad8205b580a4477b4f277cd923ec78e14c8e949bba30d584d87e2eb",
+  "cmo3": "rebuild_v3_4/front_smalltails/Rurino_Front_SmallTails_v034.cmo3",
+  "cmo3_sha256": "d19daedc7d66d4f51c8d5709a513b642195ef4d6eab3b9e9c12917fcd4c01890",
+  "runtime_entry": "rebuild_v3_4/front_smalltails/runtime/Rurino_Front_SmallTails_v034.model3.json",
+  "drawable_count": 31,
+  "bound_animation_parameters": 0,
+  "default_parameter_count": 27,
+  "prior_front_foundation": "front_neutral",
+  "prior_animated_side_view": "body_hair_rig"
+}
