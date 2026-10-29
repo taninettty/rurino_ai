@@ -1,0 +1,1146 @@
+{
+  "model": "Rurino_Cheek_Contour_v034.model3.json",
+  "moc_sha256": "325bec70e39dd74f95622ea51046783b5a0f5ad2352f6d134ca5fd2858fb613d",
+  "canvas_pixels": [
+    3456.0,
+    2816.0
+  ],
+  "drawables": 47,
+  "parameters": [
+    "ParamAngleX",
+    "ParamAngleY",
+    "ParamAngleZ",
+    "ParamEyeLOpen",
+    "ParamEyeLSmile",
+    "ParamEyeROpen",
+    "ParamEyeRSmile",
+    "ParamEyeBallX",
+    "ParamEyeBallY",
+    "ParamBrowLY",
+    "ParamBrowRY",
+    "ParamBrowLX",
+    "ParamBrowRX",
+    "ParamBrowLAngle",
+    "ParamBrowRAngle",
+    "ParamBrowLForm",
+    "ParamBrowRForm",
+    "ParamMouthForm",
+    "ParamMouthOpenY",
+    "ParamCheek",
+    "ParamBodyAngleX",
+    "ParamBodyAngleY",
+    "ParamBodyAngleZ",
+    "ParamBreath",
+    "ParamHairFront",
+    "ParamHairSide",
+    "ParamHairBack",
+    "ParamHairSmallR",
+    "ParamHairSmallL"
+  ],
+  "samples": [
+    {
+      "left": -1.0,
+      "right": -1.0,
+      "moved": [
+        {
+          "id": "Ink_Small_R",
+          "max_displacement_source_px": 47.486893661963634,
+          "top10pct_max_source_px": 3.6505394946602934,
+          "flipped_triangles": 0
+        },
+        {
+          "id": "Small_R",
+          "max_displacement_source_px": 47.486893661963634,
+          "top10pct_max_source_px": 3.4317933370557907,
+          "flipped_triangles": 0
+        },
+        {
+          "id": "Ink_Small_L",
+          "max_displacement_source_px": 31.884631348675594,
+          "top10pct_max_source_px": 0.0002373710508133552,
+          "flipped_triangles": 0
+        },
+        {
+          "id": "Small_L",
+          "max_displacement_source_px": 31.884589773589934,
+          "top10pct_max_source_px": 0.00025177001953125,
+          "flipped_triangles": 0
+        }
+      ],
+      "alignment": {
+        "L": {
+          "shared_vertices": 41,
+          "max_displacement_error_source_px": 0.0
+        },
+        "R": {
+          "shared_vertices": 41,
+          "max_displacement_error_source_px": 0.0
+        }
+      }
+    },
+    {
+      "left": -1.0,
+      "right": -0.5,
+      "moved": [
+        {
+          "id": "Ink_Small_R",
+          "max_displacement_source_px": 23.743446830981817,
+          "top10pct_max_source_px": 1.8252907493870345,
+          "flipped_triangles": 0
+        },
+        {
+          "id": "Small_R",
+          "max_displacement_source_px": 23.743446830981817,
+          "top10pct_max_source_px": 1.7158966803287168,
+          "flipped_triangles": 0
+        },
+        {
+          "id": "Ink_Small_L",
+          "max_displacement_source_px": 31.884631348675594,
+          "top10pct_max_source_px": 0.0002373710508133552,
+          "flipped_triangles": 0
+        },
+        {
+          "id": "Small_L",
+          "max_displacement_source_px": 31.884589773589934,
+          "top10pct_max_source_px": 0.00025177001953125,
+          "flipped_triangles": 0
+        }
+      ],
+      "alignment": {
+        "L": {
+          "shared_vertices": 41,
+          "max_displacement_error_source_px": 0.0
+        },
+        "R": {
+          "shared_vertices": 41,
+          "max_displacement_error_source_px": 0.0
+        }
+      }
+    },
+    {
+      "left": -1.0,
+      "right": 0.0,
+      "moved": [
+        {
+          "id": "Ink_Small_L",
+          "max_displacement_source_px": 31.884631348675594,
+          "top10pct_max_source_px": 0.0002373710508133552,
+          "flipped_triangles": 0
+        },
+        {
+          "id": "Small_L",
+          "max_displacement_source_px": 31.884589773589934,
+          "top10pct_max_source_px": 0.00025177001953125,
+          "flipped_triangles": 0
+        }
+      ],
+      "alignment": {
+        "L": {
+          "shared_vertices": 41,
+          "max_displacement_error_source_px": 0.0
+        },
+        "R": {
+          "shared_vertices": 41,
+          "max_displacement_error_source_px": 0.0
+        }
+      }
+    },
+    {
+      "left": -1.0,
+      "right": 0.5,
+      "moved": [
+        {
+          "id": "Ink_Small_R",
+          "max_displacement_source_px": 24.34271088483205,
+          "top10pct_max_source_px": 2.4624789179927307,
+          "flipped_triangles": 0
+        },
+        {
+          "id": "Small_R",
+          "max_displacement_source_px": 24.34271088483205,
+          "top10pct_max_source_px": 2.3358385726593607,
+          "flipped_triangles": 0
+        },
+        {
+          "id": "Ink_Small_L",
+          "max_displacement_source_px": 31.884631348675594,
+          "top10pct_max_source_px": 0.0002373710508133552,
+          "flipped_triangles": 0
+        },
+        {
+          "id": "Small_L",
+          "max_displacement_source_px": 31.884589773589934,
+          "top10pct_max_source_px": 0.00025177001953125,
+          "flipped_triangles": 0
+        }
+      ],
+      "alignment": {
+        "L": {
+          "shared_vertices": 41,
+          "max_displacement_error_source_px": 0.0
+        },
+        "R": {
+          "shared_vertices": 41,
+          "max_displacement_error_source_px": 0.0
+        }
+      }
+    },
+    {
+      "left": -1.0,
+      "right": 1.0,
+      "moved": [
+        {
+          "id": "Ink_Small_R",
+          "max_displacement_source_px": 48.68550415654015,
+          "top10pct_max_source_px": 4.924999838407789,
+          "flipped_triangles": 0
+        },
+        {
+          "id": "Small_R",
+          "max_displacement_source_px": 48.68550415654015,
+          "top10pct_max_source_px": 4.671677145318721,
+          "flipped_triangles": 0
+        },
+        {
+          "id": "Ink_Small_L",
+          "max_displacement_source_px": 31.884631348675594,
+          "top10pct_max_source_px": 0.0002373710508133552,
+          "flipped_triangles": 0
+        },
+        {
+          "id": "Small_L",
+          "max_displacement_source_px": 31.884589773589934,
+          "top10pct_max_source_px": 0.00025177001953125,
+          "flipped_triangles": 0
+        }
+      ],
+      "alignment": {
+        "L": {
+          "shared_vertices": 41,
+          "max_displacement_error_source_px": 0.0
+        },
+        "R": {
+          "shared_vertices": 41,
+          "max_displacement_error_source_px": 0.0
+        }
+      }
+    },
+    {
+      "left": -0.75,
+      "right": 0.0,
+      "moved": [
+        {
+          "id": "Ink_Small_L",
+          "max_displacement_source_px": 23.913464538432287,
+          "top10pct_max_source_px": 0.000209808349609375,
+          "flipped_triangles": 0
+        },
+        {
+          "id": "Small_L",
+          "max_displacement_source_px": 23.913422963349603,
+          "top10pct_max_source_px": 0.000209808349609375,
+          "flipped_triangles": 0
+        }
+      ],
+      "alignment": {
+        "L": {
+          "shared_vertices": 41,
+          "max_displacement_error_source_px": 0.0
+        },
+        "R": {
+          "shared_vertices": 41,
+          "max_displacement_error_source_px": 0.0
+        }
+      }
+    },
+    {
+      "left": -0.5,
+      "right": -1.0,
+      "moved": [
+        {
+          "id": "Ink_Small_R",
+          "max_displacement_source_px": 47.486893661963634,
+          "top10pct_max_source_px": 3.6505394946602934,
+          "flipped_triangles": 0
+        },
+        {
+          "id": "Small_R",
+          "max_displacement_source_px": 47.486893661963634,
+          "top10pct_max_source_px": 3.4317933370557907,
+          "flipped_triangles": 0
+        },
+        {
+          "id": "Ink_Small_L",
+          "max_displacement_source_px": 15.942292045416384,
+          "top10pct_max_source_px": 0.0001876582927894416,
+          "flipped_triangles": 0
+        },
+        {
+          "id": "Small_L",
+          "max_displacement_source_px": 15.942250470324833,
+          "top10pct_max_source_px": 0.0001876582927894416,
+          "flipped_triangles": 0
+        }
+      ],
+      "alignment": {
+        "L": {
+          "shared_vertices": 41,
+          "max_displacement_error_source_px": 0.0
+        },
+        "R": {
+          "shared_vertices": 41,
+          "max_displacement_error_source_px": 0.0
+        }
+      }
+    },
+    {
+      "left": -0.5,
+      "right": -0.5,
+      "moved": [
+        {
+          "id": "Ink_Small_R",
+          "max_displacement_source_px": 23.743446830981817,
+          "top10pct_max_source_px": 1.8252907493870345,
+          "flipped_triangles": 0
+        },
+        {
+          "id": "Small_R",
+          "max_displacement_source_px": 23.743446830981817,
+          "top10pct_max_source_px": 1.7158966803287168,
+          "flipped_triangles": 0
+        },
+        {
+          "id": "Ink_Small_L",
+          "max_displacement_source_px": 15.942292045416384,
+          "top10pct_max_source_px": 0.0001876582927894416,
+          "flipped_triangles": 0
+        },
+        {
+          "id": "Small_L",
+          "max_displacement_source_px": 15.942250470324833,
+          "top10pct_max_source_px": 0.0001876582927894416,
+          "flipped_triangles": 0
+        }
+      ],
+      "alignment": {
+        "L": {
+          "shared_vertices": 41,
+          "max_displacement_error_source_px": 0.0
+        },
+        "R": {
+          "shared_vertices": 41,
+          "max_displacement_error_source_px": 0.0
+        }
+      }
+    },
+    {
+      "left": -0.5,
+      "right": 0.0,
+      "moved": [
+        {
+          "id": "Ink_Small_L",
+          "max_displacement_source_px": 15.942292045416384,
+          "top10pct_max_source_px": 0.0001876582927894416,
+          "flipped_triangles": 0
+        },
+        {
+          "id": "Small_L",
+          "max_displacement_source_px": 15.942250470324833,
+          "top10pct_max_source_px": 0.0001876582927894416,
+          "flipped_triangles": 0
+        }
+      ],
+      "alignment": {
+        "L": {
+          "shared_vertices": 41,
+          "max_displacement_error_source_px": 0.0
+        },
+        "R": {
+          "shared_vertices": 41,
+          "max_displacement_error_source_px": 0.0
+        }
+      }
+    },
+    {
+      "left": -0.5,
+      "right": 0.5,
+      "moved": [
+        {
+          "id": "Ink_Small_R",
+          "max_displacement_source_px": 24.34271088483205,
+          "top10pct_max_source_px": 2.4624789179927307,
+          "flipped_triangles": 0
+        },
+        {
+          "id": "Small_R",
+          "max_displacement_source_px": 24.34271088483205,
+          "top10pct_max_source_px": 2.3358385726593607,
+          "flipped_triangles": 0
+        },
+        {
+          "id": "Ink_Small_L",
+          "max_displacement_source_px": 15.942292045416384,
+          "top10pct_max_source_px": 0.0001876582927894416,
+          "flipped_triangles": 0
+        },
+        {
+          "id": "Small_L",
+          "max_displacement_source_px": 15.942250470324833,
+          "top10pct_max_source_px": 0.0001876582927894416,
+          "flipped_triangles": 0
+        }
+      ],
+      "alignment": {
+        "L": {
+          "shared_vertices": 41,
+          "max_displacement_error_source_px": 0.0
+        },
+        "R": {
+          "shared_vertices": 41,
+          "max_displacement_error_source_px": 0.0
+        }
+      }
+    },
+    {
+      "left": -0.5,
+      "right": 1.0,
+      "moved": [
+        {
+          "id": "Ink_Small_R",
+          "max_displacement_source_px": 48.68550415654015,
+          "top10pct_max_source_px": 4.924999838407789,
+          "flipped_triangles": 0
+        },
+        {
+          "id": "Small_R",
+          "max_displacement_source_px": 48.68550415654015,
+          "top10pct_max_source_px": 4.671677145318721,
+          "flipped_triangles": 0
+        },
+        {
+          "id": "Ink_Small_L",
+          "max_displacement_source_px": 15.942292045416384,
+          "top10pct_max_source_px": 0.0001876582927894416,
+          "flipped_triangles": 0
+        },
+        {
+          "id": "Small_L",
+          "max_displacement_source_px": 15.942250470324833,
+          "top10pct_max_source_px": 0.0001876582927894416,
+          "flipped_triangles": 0
+        }
+      ],
+      "alignment": {
+        "L": {
+          "shared_vertices": 41,
+          "max_displacement_error_source_px": 0.0
+        },
+        "R": {
+          "shared_vertices": 41,
+          "max_displacement_error_source_px": 0.0
+        }
+      }
+    },
+    {
+      "left": -0.25,
+      "right": 0.0,
+      "moved": [
+        {
+          "id": "Ink_Small_L",
+          "max_displacement_source_px": 7.971166810254981,
+          "top10pct_max_source_px": 8.392333984375e-05,
+          "flipped_triangles": 0
+        },
+        {
+          "id": "Small_L",
+          "max_displacement_source_px": 7.971166810254981,
+          "top10pct_max_source_px": 8.392333984375e-05,
+          "flipped_triangles": 0
+        }
+      ],
+      "alignment": {
+        "L": {
+          "shared_vertices": 41,
+          "max_displacement_error_source_px": 0.0
+        },
+        "R": {
+          "shared_vertices": 41,
+          "max_displacement_error_source_px": 0.0
+        }
+      }
+    },
+    {
+      "left": 0.0,
+      "right": -1.0,
+      "moved": [
+        {
+          "id": "Ink_Small_R",
+          "max_displacement_source_px": 47.486893661963634,
+          "top10pct_max_source_px": 3.6505394946602934,
+          "flipped_triangles": 0
+        },
+        {
+          "id": "Small_R",
+          "max_displacement_source_px": 47.486893661963634,
+          "top10pct_max_source_px": 3.4317933370557907,
+          "flipped_triangles": 0
+        }
+      ],
+      "alignment": {
+        "L": {
+          "shared_vertices": 41,
+          "max_displacement_error_source_px": 0.0
+        },
+        "R": {
+          "shared_vertices": 41,
+          "max_displacement_error_source_px": 0.0
+        }
+      }
+    },
+    {
+      "left": 0.0,
+      "right": -0.75,
+      "moved": [
+        {
+          "id": "Ink_Small_R",
+          "max_displacement_source_px": 35.615215448724925,
+          "top10pct_max_source_px": 2.737957083049295,
+          "flipped_triangles": 0
+        },
+        {
+          "id": "Small_R",
+          "max_displacement_source_px": 35.615215448724925,
+          "top10pct_max_source_px": 2.5738449972334854,
+          "flipped_triangles": 0
+        }
+      ],
+      "alignment": {
+        "L": {
+          "shared_vertices": 41,
+          "max_displacement_error_source_px": 0.0
+        },
+        "R": {
+          "shared_vertices": 41,
+          "max_displacement_error_source_px": 0.0
+        }
+      }
+    },
+    {
+      "left": 0.0,
+      "right": -0.5,
+      "moved": [
+        {
+          "id": "Ink_Small_R",
+          "max_displacement_source_px": 23.743446830981817,
+          "top10pct_max_source_px": 1.8252907493870345,
+          "flipped_triangles": 0
+        },
+        {
+          "id": "Small_R",
+          "max_displacement_source_px": 23.743446830981817,
+          "top10pct_max_source_px": 1.7158966803287168,
+          "flipped_triangles": 0
+        }
+      ],
+      "alignment": {
+        "L": {
+          "shared_vertices": 41,
+          "max_displacement_error_source_px": 0.0
+        },
+        "R": {
+          "shared_vertices": 41,
+          "max_displacement_error_source_px": 0.0
+        }
+      }
+    },
+    {
+      "left": 0.0,
+      "right": -0.25,
+      "moved": [
+        {
+          "id": "Ink_Small_R",
+          "max_displacement_source_px": 11.87167821324757,
+          "top10pct_max_source_px": 0.9126243745657463,
+          "flipped_triangles": 0
+        },
+        {
+          "id": "Small_R",
+          "max_displacement_source_px": 11.87167821324757,
+          "top10pct_max_source_px": 0.8579063784962434,
+          "flipped_triangles": 0
+        }
+      ],
+      "alignment": {
+        "L": {
+          "shared_vertices": 41,
+          "max_displacement_error_source_px": 0.0
+        },
+        "R": {
+          "shared_vertices": 41,
+          "max_displacement_error_source_px": 0.0
+        }
+      }
+    },
+    {
+      "left": 0.0,
+      "right": 0.0,
+      "moved": [],
+      "alignment": {
+        "L": {
+          "shared_vertices": 41,
+          "max_displacement_error_source_px": 0.0
+        },
+        "R": {
+          "shared_vertices": 41,
+          "max_displacement_error_source_px": 0.0
+        }
+      }
+    },
+    {
+      "left": 0.0,
+      "right": 0.25,
+      "moved": [
+        {
+          "id": "Ink_Small_R",
+          "max_displacement_source_px": 12.171334845698329,
+          "top10pct_max_source_px": 1.231281383480469,
+          "flipped_triangles": 0
+        },
+        {
+          "id": "Small_R",
+          "max_displacement_source_px": 12.171334845698329,
+          "top10pct_max_source_px": 1.1679612683472016,
+          "flipped_triangles": 0
+        }
+      ],
+      "alignment": {
+        "L": {
+          "shared_vertices": 41,
+          "max_displacement_error_source_px": 0.0
+        },
+        "R": {
+          "shared_vertices": 41,
+          "max_displacement_error_source_px": 0.0
+        }
+      }
+    },
+    {
+      "left": 0.0,
+      "right": 0.5,
+      "moved": [
+        {
+          "id": "Ink_Small_R",
+          "max_displacement_source_px": 24.34271088483205,
+          "top10pct_max_source_px": 2.4624789179927307,
+          "flipped_triangles": 0
+        },
+        {
+          "id": "Small_R",
+          "max_displacement_source_px": 24.34271088483205,
+          "top10pct_max_source_px": 2.3358385726593607,
+          "flipped_triangles": 0
+        }
+      ],
+      "alignment": {
+        "L": {
+          "shared_vertices": 41,
+          "max_displacement_error_source_px": 0.0
+        },
+        "R": {
+          "shared_vertices": 41,
+          "max_displacement_error_source_px": 0.0
+        }
+      }
+    },
+    {
+      "left": 0.0,
+      "right": 0.75,
+      "moved": [
+        {
+          "id": "Ink_Small_R",
+          "max_displacement_source_px": 36.51408692396665,
+          "top10pct_max_source_px": 3.693718460887637,
+          "flipped_triangles": 0
+        },
+        {
+          "id": "Small_R",
+          "max_displacement_source_px": 36.51408692396665,
+          "top10pct_max_source_px": 3.5037159583831503,
+          "flipped_triangles": 0
+        }
+      ],
+      "alignment": {
+        "L": {
+          "shared_vertices": 41,
+          "max_displacement_error_source_px": 0.0
+        },
+        "R": {
+          "shared_vertices": 41,
+          "max_displacement_error_source_px": 0.0
+        }
+      }
+    },
+    {
+      "left": 0.0,
+      "right": 1.0,
+      "moved": [
+        {
+          "id": "Ink_Small_R",
+          "max_displacement_source_px": 48.68550415654015,
+          "top10pct_max_source_px": 4.924999838407789,
+          "flipped_triangles": 0
+        },
+        {
+          "id": "Small_R",
+          "max_displacement_source_px": 48.68550415654015,
+          "top10pct_max_source_px": 4.671677145318721,
+          "flipped_triangles": 0
+        }
+      ],
+      "alignment": {
+        "L": {
+          "shared_vertices": 41,
+          "max_displacement_error_source_px": 0.0
+        },
+        "R": {
+          "shared_vertices": 41,
+          "max_displacement_error_source_px": 0.0
+        }
+      }
+    },
+    {
+      "left": 0.25,
+      "right": 0.0,
+      "moved": [
+        {
+          "id": "Ink_Small_L",
+          "max_displacement_source_px": 7.971166810254981,
+          "top10pct_max_source_px": 8.392333984375e-05,
+          "flipped_triangles": 0
+        },
+        {
+          "id": "Small_L",
+          "max_displacement_source_px": 7.971208385351597,
+          "top10pct_max_source_px": 8.392333984375e-05,
+          "flipped_triangles": 0
+        }
+      ],
+      "alignment": {
+        "L": {
+          "shared_vertices": 41,
+          "max_displacement_error_source_px": 0.0
+        },
+        "R": {
+          "shared_vertices": 41,
+          "max_displacement_error_source_px": 0.0
+        }
+      }
+    },
+    {
+      "left": 0.5,
+      "right": -1.0,
+      "moved": [
+        {
+          "id": "Ink_Small_R",
+          "max_displacement_source_px": 47.486893661963634,
+          "top10pct_max_source_px": 3.6505394946602934,
+          "flipped_triangles": 0
+        },
+        {
+          "id": "Small_R",
+          "max_displacement_source_px": 47.486893661963634,
+          "top10pct_max_source_px": 3.4317933370557907,
+          "flipped_triangles": 0
+        },
+        {
+          "id": "Ink_Small_L",
+          "max_displacement_source_px": 15.942375195605564,
+          "top10pct_max_source_px": 0.0001876582927894416,
+          "flipped_triangles": 0
+        },
+        {
+          "id": "Small_L",
+          "max_displacement_source_px": 15.942416770703193,
+          "top10pct_max_source_px": 0.0001876582927894416,
+          "flipped_triangles": 0
+        }
+      ],
+      "alignment": {
+        "L": {
+          "shared_vertices": 41,
+          "max_displacement_error_source_px": 0.0
+        },
+        "R": {
+          "shared_vertices": 41,
+          "max_displacement_error_source_px": 0.0
+        }
+      }
+    },
+    {
+      "left": 0.5,
+      "right": -0.5,
+      "moved": [
+        {
+          "id": "Ink_Small_R",
+          "max_displacement_source_px": 23.743446830981817,
+          "top10pct_max_source_px": 1.8252907493870345,
+          "flipped_triangles": 0
+        },
+        {
+          "id": "Small_R",
+          "max_displacement_source_px": 23.743446830981817,
+          "top10pct_max_source_px": 1.7158966803287168,
+          "flipped_triangles": 0
+        },
+        {
+          "id": "Ink_Small_L",
+          "max_displacement_source_px": 15.942375195605564,
+          "top10pct_max_source_px": 0.0001876582927894416,
+          "flipped_triangles": 0
+        },
+        {
+          "id": "Small_L",
+          "max_displacement_source_px": 15.942416770703193,
+          "top10pct_max_source_px": 0.0001876582927894416,
+          "flipped_triangles": 0
+        }
+      ],
+      "alignment": {
+        "L": {
+          "shared_vertices": 41,
+          "max_displacement_error_source_px": 0.0
+        },
+        "R": {
+          "shared_vertices": 41,
+          "max_displacement_error_source_px": 0.0
+        }
+      }
+    },
+    {
+      "left": 0.5,
+      "right": 0.0,
+      "moved": [
+        {
+          "id": "Ink_Small_L",
+          "max_displacement_source_px": 15.942375195605564,
+          "top10pct_max_source_px": 0.0001876582927894416,
+          "flipped_triangles": 0
+        },
+        {
+          "id": "Small_L",
+          "max_displacement_source_px": 15.942416770703193,
+          "top10pct_max_source_px": 0.0001876582927894416,
+          "flipped_triangles": 0
+        }
+      ],
+      "alignment": {
+        "L": {
+          "shared_vertices": 41,
+          "max_displacement_error_source_px": 0.0
+        },
+        "R": {
+          "shared_vertices": 41,
+          "max_displacement_error_source_px": 0.0
+        }
+      }
+    },
+    {
+      "left": 0.5,
+      "right": 0.5,
+      "moved": [
+        {
+          "id": "Ink_Small_R",
+          "max_displacement_source_px": 24.34271088483205,
+          "top10pct_max_source_px": 2.4624789179927307,
+          "flipped_triangles": 0
+        },
+        {
+          "id": "Small_R",
+          "max_displacement_source_px": 24.34271088483205,
+          "top10pct_max_source_px": 2.3358385726593607,
+          "flipped_triangles": 0
+        },
+        {
+          "id": "Ink_Small_L",
+          "max_displacement_source_px": 15.942375195605564,
+          "top10pct_max_source_px": 0.0001876582927894416,
+          "flipped_triangles": 0
+        },
+        {
+          "id": "Small_L",
+          "max_displacement_source_px": 15.942416770703193,
+          "top10pct_max_source_px": 0.0001876582927894416,
+          "flipped_triangles": 0
+        }
+      ],
+      "alignment": {
+        "L": {
+          "shared_vertices": 41,
+          "max_displacement_error_source_px": 0.0
+        },
+        "R": {
+          "shared_vertices": 41,
+          "max_displacement_error_source_px": 0.0
+        }
+      }
+    },
+    {
+      "left": 0.5,
+      "right": 1.0,
+      "moved": [
+        {
+          "id": "Ink_Small_R",
+          "max_displacement_source_px": 48.68550415654015,
+          "top10pct_max_source_px": 4.924999838407789,
+          "flipped_triangles": 0
+        },
+        {
+          "id": "Small_R",
+          "max_displacement_source_px": 48.68550415654015,
+          "top10pct_max_source_px": 4.671677145318721,
+          "flipped_triangles": 0
+        },
+        {
+          "id": "Ink_Small_L",
+          "max_displacement_source_px": 15.942375195605564,
+          "top10pct_max_source_px": 0.0001876582927894416,
+          "flipped_triangles": 0
+        },
+        {
+          "id": "Small_L",
+          "max_displacement_source_px": 15.942416770703193,
+          "top10pct_max_source_px": 0.0001876582927894416,
+          "flipped_triangles": 0
+        }
+      ],
+      "alignment": {
+        "L": {
+          "shared_vertices": 41,
+          "max_displacement_error_source_px": 0.0
+        },
+        "R": {
+          "shared_vertices": 41,
+          "max_displacement_error_source_px": 0.0
+        }
+      }
+    },
+    {
+      "left": 0.75,
+      "right": 0.0,
+      "moved": [
+        {
+          "id": "Ink_Small_L",
+          "max_displacement_source_px": 23.913589263688444,
+          "top10pct_max_source_px": 0.000209808349609375,
+          "flipped_triangles": 0
+        },
+        {
+          "id": "Small_L",
+          "max_displacement_source_px": 23.913589263688444,
+          "top10pct_max_source_px": 0.000209808349609375,
+          "flipped_triangles": 0
+        }
+      ],
+      "alignment": {
+        "L": {
+          "shared_vertices": 41,
+          "max_displacement_error_source_px": 0.0
+        },
+        "R": {
+          "shared_vertices": 41,
+          "max_displacement_error_source_px": 0.0
+        }
+      }
+    },
+    {
+      "left": 1.0,
+      "right": -1.0,
+      "moved": [
+        {
+          "id": "Ink_Small_R",
+          "max_displacement_source_px": 47.486893661963634,
+          "top10pct_max_source_px": 3.6505394946602934,
+          "flipped_triangles": 0
+        },
+        {
+          "id": "Small_R",
+          "max_displacement_source_px": 47.486893661963634,
+          "top10pct_max_source_px": 3.4317933370557907,
+          "flipped_triangles": 0
+        },
+        {
+          "id": "Ink_Small_L",
+          "max_displacement_source_px": 31.884797649028364,
+          "top10pct_max_source_px": 0.0002373710508133552,
+          "flipped_triangles": 0
+        },
+        {
+          "id": "Small_L",
+          "max_displacement_source_px": 31.884839224119087,
+          "top10pct_max_source_px": 0.00025177001953125,
+          "flipped_triangles": 0
+        }
+      ],
+      "alignment": {
+        "L": {
+          "shared_vertices": 41,
+          "max_displacement_error_source_px": 0.0
+        },
+        "R": {
+          "shared_vertices": 41,
+          "max_displacement_error_source_px": 0.0
+        }
+      }
+    },
+    {
+      "left": 1.0,
+      "right": -0.5,
+      "moved": [
+        {
+          "id": "Ink_Small_R",
+          "max_displacement_source_px": 23.743446830981817,
+          "top10pct_max_source_px": 1.8252907493870345,
+          "flipped_triangles": 0
+        },
+        {
+          "id": "Small_R",
+          "max_displacement_source_px": 23.743446830981817,
+          "top10pct_max_source_px": 1.7158966803287168,
+          "flipped_triangles": 0
+        },
+        {
+          "id": "Ink_Small_L",
+          "max_displacement_source_px": 31.884797649028364,
+          "top10pct_max_source_px": 0.0002373710508133552,
+          "flipped_triangles": 0
+        },
+        {
+          "id": "Small_L",
+          "max_displacement_source_px": 31.884839224119087,
+          "top10pct_max_source_px": 0.00025177001953125,
+          "flipped_triangles": 0
+        }
+      ],
+      "alignment": {
+        "L": {
+          "shared_vertices": 41,
+          "max_displacement_error_source_px": 0.0
+        },
+        "R": {
+          "shared_vertices": 41,
+          "max_displacement_error_source_px": 0.0
+        }
+      }
+    },
+    {
+      "left": 1.0,
+      "right": 0.0,
+      "moved": [
+        {
+          "id": "Ink_Small_L",
+          "max_displacement_source_px": 31.884797649028364,
+          "top10pct_max_source_px": 0.0002373710508133552,
+          "flipped_triangles": 0
+        },
+        {
+          "id": "Small_L",
+          "max_displacement_source_px": 31.884839224119087,
+          "top10pct_max_source_px": 0.00025177001953125,
+          "flipped_triangles": 0
+        }
+      ],
+      "alignment": {
+        "L": {
+          "shared_vertices": 41,
+          "max_displacement_error_source_px": 0.0
+        },
+        "R": {
+          "shared_vertices": 41,
+          "max_displacement_error_source_px": 0.0
+        }
+      }
+    },
+    {
+      "left": 1.0,
+      "right": 0.5,
+      "moved": [
+        {
+          "id": "Ink_Small_R",
+          "max_displacement_source_px": 24.34271088483205,
+          "top10pct_max_source_px": 2.4624789179927307,
+          "flipped_triangles": 0
+        },
+        {
+          "id": "Small_R",
+          "max_displacement_source_px": 24.34271088483205,
+          "top10pct_max_source_px": 2.3358385726593607,
+          "flipped_triangles": 0
+        },
+        {
+          "id": "Ink_Small_L",
+          "max_displacement_source_px": 31.884797649028364,
+          "top10pct_max_source_px": 0.0002373710508133552,
+          "flipped_triangles": 0
+        },
+        {
+          "id": "Small_L",
+          "max_displacement_source_px": 31.884839224119087,
+          "top10pct_max_source_px": 0.00025177001953125,
+          "flipped_triangles": 0
+        }
+      ],
+      "alignment": {
+        "L": {
+          "shared_vertices": 41,
+          "max_displacement_error_source_px": 0.0
+        },
+        "R": {
+          "shared_vertices": 41,
+          "max_displacement_error_source_px": 0.0
+        }
+      }
+    },
+    {
+      "left": 1.0,
+      "right": 1.0,
+      "moved": [
+        {
+          "id": "Ink_Small_R",
+          "max_displacement_source_px": 48.68550415654015,
+          "top10pct_max_source_px": 4.924999838407789,
+          "flipped_triangles": 0
+        },
+        {
+          "id": "Small_R",
+          "max_displacement_source_px": 48.68550415654015,
+          "top10pct_max_source_px": 4.671677145318721,
+          "flipped_triangles": 0
+        },
+        {
+          "id": "Ink_Small_L",
+          "max_displacement_source_px": 31.884797649028364,
+          "top10pct_max_source_px": 0.0002373710508133552,
+          "flipped_triangles": 0
+        },
+        {
+          "id": "Small_L",
+          "max_displacement_source_px": 31.884839224119087,
+          "top10pct_max_source_px": 0.00025177001953125,
+          "flipped_triangles": 0
+        }
+      ],
+      "alignment": {
+        "L": {
+          "shared_vertices": 41,
+          "max_displacement_error_source_px": 0.0
+        },
+        "R": {
+          "shared_vertices": 41,
+          "max_displacement_error_source_px": 0.0
+        }
+      }
+    }
+  ],
+  "sample_checks_passed": true
+}

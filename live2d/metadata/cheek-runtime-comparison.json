@@ -1,0 +1,44 @@
+{
+  "before": "Rurino_SmallTails_Trial_v034.model3.json",
+  "after": "Rurino_Cheek_Contour_v034.model3.json",
+  "geometry_samples": [
+    {
+      "pose": [
+        0,
+        0
+      ],
+      "preserved_drawables": 45,
+      "max_vertex_error": 0
+    },
+    {
+      "pose": [
+        -1,
+        1
+      ],
+      "preserved_drawables": 45,
+      "max_vertex_error": 0
+    },
+    {
+      "pose": [
+        1,
+        -1
+      ],
+      "preserved_drawables": 45,
+      "max_vertex_error": 0
+    }
+  ],
+  "same_parameters": true,
+  "added_drawables": [
+    "CheekEdge_Skin_Recovery",
+    "Ink_FaceContour"
+  ],
+  "changed_pixel_bbox_over_3_255": [
+    628,
+    482,
+    746,
+    576
+  ],
+  "changed_pixels_over_3_255": 651,
+  "outside_cheek_pixels_over_3_255": 0,
+  "passed": true
+}

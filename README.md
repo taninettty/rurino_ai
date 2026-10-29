@@ -2,7 +2,7 @@
 
 ## 瑠璃乃 Live2D 制作
 
-[当前制作目标与下一步](live2d/CURRENT_WORK.md)：[左右小马尾 Cubism 试绑定](live2d/SMALLTAILS_TRIAL_V034.md)，两侧独立参数与 33 组运行检查通过，工程重开后再次导出一致。大马尾、刘海、脸部和身体动作仍待制作。
+[当前制作目标与下一步](live2d/CURRENT_WORK.md)：[脸颊轮廓恢复](live2d/CHEEK_CONTOUR_V034.md)，缺失的脸颊细线已恢复并接入 Cubism，保留双侧小马尾动作；33 组运行检查和工程重开再导出检查通过。其余头部与身体动作仍待制作。
 
 [人物素材与 Cubism 交接](live2d/README.md) · [桌宠模型接入程序](desktop/README.md)。已提供 [v0.3.3 可运行绑定测试稿](live2d/RIG_DRAFT.md)，支持眨眼、口型与小幅转头；头发边缘和变形仍在精修。
 

@@ -1,8 +1,8 @@
 {
-  "active_psd": "rebuild_v3_4/turn_redraw/three_hair_finish/Rurino_Three_Hair_Repairs_v034.psd",
-  "sha256": "193051f38b35f894c2a5b50f6513beb6ecd86ddb665e3760888f627c5a293716",
-  "status": "three static hair repairs: left fringe, right small-tail notch, thin strand repaint; left-view material",
-  "pixel_layers": 55,
+  "active_psd": "rebuild_v3_4/turn_redraw/cheek_contour_recovery/Rurino_Cheek_Contour_Recovered_v034.psd",
+  "sha256": "3c14bf4c3da3cc39f8bc8ea1afd756baa63c3acd856c57f71762f508ce792b70",
+  "status": "left-view cheek contour and narrow skin edge recovered; original 55 layers preserved; integrated into small-tail Cubism rig",
+  "pixel_layers": 57,
   "canvas": [
     3456,
     2816
@@ -12,7 +12,7 @@
     0
   ],
   "default_visible": true,
-  "user_work_order": "finish the three identified static defects before Cubism trial rigging",
-  "previous_psd": "rebuild_v3_4/turn_redraw/bangs_contour_repair/Rurino_Bangs_Contour_Repaired_v034.psd",
-  "next": "Cubism trial mesh/deformer setup; verify occlusion on head turns, pitch and body sway"
+  "user_work_order": "repair missing cheek outline, preserve small-tail motion",
+  "previous_psd": "rebuild_v3_4/turn_redraw/three_hair_finish/Rurino_Three_Hair_Repairs_v034.psd",
+  "next": "stabilize right small-tail root, then large-tail bending and occlusion"
 }

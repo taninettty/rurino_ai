@@ -1,0 +1,12 @@
+{
+  "source_psd": "/home/vboxuser/Documents/ChatGPT/02/rurino_assets/desktop_live2d/rebuild_v3_4/turn_redraw/three_hair_finish/Rurino_Three_Hair_Repairs_v034.psd",
+  "reference": "/home/vboxuser/Documents/ChatGPT/02/rurino_assets/desktop_live2d/rebuild_v3_4/turn_redraw/side_blink_refinement/left/layers/Context_Skin_Reference.png",
+  "output_sha256": "3c14bf4c3da3cc39f8bc8ea1afd756baa63c3acd856c57f71762f508ce792b70",
+  "original_pixel_layers_preserved": 55,
+  "pixel_layers": 57,
+  "added_layers": [
+    "CheekEdge_Skin_Recovery",
+    "Ink_FaceContour"
+  ],
+  "note": "Recovered native cheek stroke and skin edge from original source. No face warp or changes to hair."
+}

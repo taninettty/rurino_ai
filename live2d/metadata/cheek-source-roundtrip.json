@@ -1,0 +1,28 @@
+{
+  "source": "/home/vboxuser/Documents/ChatGPT/02/rurino_assets/desktop_live2d/rebuild_v3_4/cheek_contour_rig/Rurino_Cheek_Contour_v034.cmo3",
+  "source_sha256": "d499bed779bd155fc7f20fc6721b1a32667301fc6786004ecb03171b9dac32e3",
+  "manually_saved_closed_reopened": true,
+  "reexport_byte_identical": true,
+  "files": [
+    {
+      "file": "Rurino_Cheek_Contour_v034.model3.json",
+      "sha256": "79f762d81337e8b5ecf98422b5ba5c7385b0a0e80ec0a9783b7fa01164cd4fe2",
+      "byte_identical": true
+    },
+    {
+      "file": "Rurino_Cheek_Contour_v034.moc3",
+      "sha256": "325bec70e39dd74f95622ea51046783b5a0f5ad2352f6d134ca5fd2858fb613d",
+      "byte_identical": true
+    },
+    {
+      "file": "Rurino_Cheek_Contour_v034.cdi3.json",
+      "sha256": "00aeed03a11c33287a82adafdc8f040e0be9e93981204b53df5377bf748ff3e5",
+      "byte_identical": true
+    },
+    {
+      "file": "Rurino_Cheek_Contour_v034.2048/texture_00.png",
+      "sha256": "87cdf740cd5855dc87c8438c704e2cf8d676b7e1eb074476e7cd7bb4c350de4b",
+      "byte_identical": true
+    }
+  ]
+}
