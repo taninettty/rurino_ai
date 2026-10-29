@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "scope": "static mesh coverage of completed hidden material; no motion or physics test",
+  "checks": [
+    {
+      "id": "SideHair_L",
+      "vertices": 291,
+      "triangles": 459,
+      "interior_pixels": 202413,
+      "interior_pixels_without_triangles": 0,
+      "fraction_without_triangles": 0.0,
+      "ink_visible_pixels_without_triangles": 0
+    },
+    {
+      "id": "SideHair_R",
+      "vertices": 283,
+      "triangles": 453,
+      "interior_pixels": 203528,
+      "interior_pixels_without_triangles": 0,
+      "fraction_without_triangles": 0.0,
+      "ink_visible_pixels_without_triangles": 0
+    }
+  ],
+  "moc3_sha256": "e9522fb89eda567eaefbd2277f432dd629225a048c6ef940597f10b7e13210ca"
+}

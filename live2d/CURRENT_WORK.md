@@ -4,13 +4,13 @@
 
 ## 当前进度
 
-当前阶段为 [正脸小双马尾补全](FRONT_SMALLTAILS_V034.md)：在原正脸底模上补全两侧小马尾发根与内侧，新增独立黑线，31 层 PSD、可编辑 cmo3 与运行模型已接好。实际 SDK 渲染、隐藏区网格覆盖、保存重开导出一致性与 Linux 桌宠检查通过。目前仍是静态底模，27 个默认参数没有绑定动作。
+当前阶段为 [正脸小双马尾清理版](FRONT_SMALLTAILS_CLEAN_V034.md)：修除上一版发根残影、粉色夹片、游离碎片和断续轮廓，已接入 31 层 PSD、cmo3 与实际运行贴图。实际渲染、静态网格覆盖、工程重开导出一致性与 Linux 桌宠检查通过。仍是静态正脸，27 个默认参数没有绑定动作；其他部位尚未完成统一检查。
 
 [轮廓修复、四马尾与身体侧摆](BODY_HAIR_V034.md) 是此前的左视图动作原型，保留其 60 层材料、四马尾、腰部侧摆和物理作为参考与回退。此前将该侧视图当作主要交付，没有同时补齐正脸基础；现在优先补正面。侧视图功能尚未迁入正脸模型。
 
 ## 当前可用材料
 
-最新文件及 SHA256 见 [小马尾补全清单](metadata/front-smalltails-v0.3.4.json)；上一版 [正脸基础清单](metadata/front-neutral-v0.3.4.json) 保留；原侧视图材料清单 [current-materials-v0.3.4.json](metadata/current-materials-v0.3.4.json) 保留，不代表正脸已完成同样的分层、黑线或动作。
+最新文件及 SHA256 见 [小马尾清理清单](metadata/front-smalltails-clean-v0.3.4.json)；[上一版补全清单](metadata/front-smalltails-v0.3.4.json) 保留；上一版 [正脸基础清单](metadata/front-neutral-v0.3.4.json) 保留；原侧视图材料清单 [current-materials-v0.3.4.json](metadata/current-materials-v0.3.4.json) 保留，不代表正脸已完成同样的分层、黑线或动作。
 
 正脸已修复眼白盖住上睫毛和虹膜的问题，没有移动虹膜中心或改变原色。两侧小马尾已补全隐藏区并加独立轮廓；刘海、头顶、贴脸发束和大马尾还需检查，脸型比例本轮未重设计。身体仍为腰部裁切半身。
 

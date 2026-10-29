@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "platform": "Linux isolated X11 OpenGL",
+  "model": "runtime/Rurino_Front_SmallTails_v034.model3.json",
+  "checks": [
+    "load/reload",
+    "transparent rendering",
+    "drag",
+    "resize",
+    "topmost",
+    "settings",
+    "mute"
+  ],
+  "not_checked": [
+    "Windows hardware",
+    "Ollama service",
+    "voice service",
+    "visible lip synchronization"
+  ]
+}

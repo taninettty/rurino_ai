@@ -1,0 +1,56 @@
+{
+  "stage": "small-tail artwork cleanup; static model",
+  "source_psd_sha256": "7774315abad8205b580a4477b4f277cd923ec78e14c8e949bba30d584d87e2eb",
+  "psd_sha256": "ed837151bda966ff47714cbc611be5135da071f114950615405d836921cca7d9",
+  "layers": 31,
+  "repairs": [
+    {
+      "side": "L",
+      "pink_pixels_targeted": 1302,
+      "removed_opaque_pixels": 1836
+    },
+    {
+      "side": "R",
+      "pink_pixels_targeted": 1732,
+      "removed_opaque_pixels": 3170
+    }
+  ],
+  "other_layers_pixel_exact": [
+    "BackHair_Concealed_Support",
+    "Skin_Concealed_Support",
+    "Ponytail_L",
+    "Ponytail_R",
+    "Body_Reference",
+    "Neck_Reference",
+    "Face_Reference",
+    "Ear_L",
+    "Ear_R",
+    "Eye_L_White",
+    "Eye_L_Iris",
+    "Eye_L_UpperLid",
+    "Eye_L_LowerLid",
+    "Eye_R_White",
+    "Eye_R_Iris",
+    "Eye_R_UpperLid",
+    "Eye_R_LowerLid",
+    "Mouth_Neutral",
+    "Bang_L",
+    "CheekLock_L",
+    "CheekLock_R",
+    "FrontLock_R_Long",
+    "Flower_L",
+    "Flower_R",
+    "Bang_R",
+    "Brow_L",
+    "Brow_R"
+  ],
+  "checks": [
+    "saved PSD layers exactly match PNGs",
+    "one main connected component per tail at alpha>30; no islands larger than8px"
+  ],
+  "limitations": [
+    "does not certify all hair finished",
+    "inferred hidden artwork retained",
+    "no animation binding"
+  ]
+}

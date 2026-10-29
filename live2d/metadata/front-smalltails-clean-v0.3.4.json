@@ -1,0 +1,16 @@
+{
+  "stage": "static frontal small-tail cleanup; no animation binding",
+  "directory": "rebuild_v3_4/front_smalltails_clean",
+  "psd_sha256": "ed837151bda966ff47714cbc611be5135da071f114950615405d836921cca7d9",
+  "cmo3_sha256": "44f8ebdc0da52716637c08cca29b04f23b245c8a74644cf6b49ce2cb12080410",
+  "runtime_files_sha256": {
+    "Rurino_Front_SmallTails_v034.model3.json": "c6a788669fad75b1b206162f6cb03b1632a4fd02eb33cd0f76dccbc5d3f61e19",
+    "Rurino_Front_SmallTails_v034.cdi3.json": "152c8174eb3e55d905af35c80932139379d20770fe22ee4e41bbdfa3c07731bf",
+    "Rurino_Front_SmallTails_v034.moc3": "e9522fb89eda567eaefbd2277f432dd629225a048c6ef940597f10b7e13210ca",
+    "Rurino_Front_SmallTails_v034.2048/texture_00.png": "1fc8349a8d00b3cf29acb67df85b9b6c01704cdb34f31a9c5f25561a94a9aeb7"
+  },
+  "drawable_count": 31,
+  "default_parameter_count": 27,
+  "bound_animation_parameters": 0,
+  "previous_stage": "front_smalltails"
+}
