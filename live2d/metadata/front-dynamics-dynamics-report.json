@@ -1,0 +1,229 @@
+{
+  "model": "Rurino_Front_Dynamics_v034.model3.json",
+  "drawables": 38,
+  "poses": {
+    "neutral": {
+      "changed_meshes_max_pixels": {},
+      "new_triangle_flips": 0
+    },
+    "blink": {
+      "changed_meshes_max_pixels": {
+        "Eye_R_UpperLid": 182.48059,
+        "Eye_R_White": 141.27231,
+        "Eye_L_UpperLid": 182.83831,
+        "Eye_L_White": 139.68031
+      },
+      "new_triangle_flips": 0
+    },
+    "half_blink": {
+      "changed_meshes_max_pixels": {
+        "Eye_R_UpperLid": 91.24031,
+        "Eye_R_White": 70.63617,
+        "Eye_L_UpperLid": 91.41917,
+        "Eye_L_White": 69.84016
+      },
+      "new_triangle_flips": 0
+    },
+    "left_blink": {
+      "changed_meshes_max_pixels": {
+        "Eye_L_UpperLid": 182.83831,
+        "Eye_L_White": 139.68031
+      },
+      "new_triangle_flips": 0
+    },
+    "right_blink": {
+      "changed_meshes_max_pixels": {
+        "Eye_R_UpperLid": 182.48059,
+        "Eye_R_White": 141.27231
+      },
+      "new_triangle_flips": 0
+    },
+    "mouth_open": {
+      "changed_meshes_max_pixels": {
+        "Mouth_LowerLip": 34.36137,
+        "Mouth_UpperLip": 23.54926,
+        "Mouth_Cavity": 30.22007
+      },
+      "new_triangle_flips": 0
+    },
+    "sway_left": {
+      "changed_meshes_max_pixels": {
+        "Brow_R": 48.70983,
+        "Brow_L": 48.67428,
+        "Bang_R": 66.7154,
+        "Flower_R": 67.78953,
+        "Flower_L": 67.95345,
+        "FrontLock_R_Long": 41.58221,
+        "CheekLock_R": 64.79819,
+        "CheekLock_L": 64.51794,
+        "Bang_L": 66.73138,
+        "SideHair_R": 65.77323,
+        "SideHair_L": 66.01014,
+        "Mouth_Neutral": 32.47057,
+        "Eye_R_LowerLid": 40.20038,
+        "Eye_R_UpperLid": 46.18016,
+        "Eye_R_Iris": 44.16952,
+        "Eye_R_White": 44.25978,
+        "Eye_L_LowerLid": 40.22883,
+        "Eye_L_UpperLid": 46.36238,
+        "Eye_L_Iris": 44.24911,
+        "Eye_L_White": 44.30639,
+        "Ear_R": 39.24776,
+        "Ear_L": 39.52035,
+        "Face_Reference": 60.75358,
+        "Neck_Reference": 28.58431,
+        "Body_Reference": 29.71557,
+        "Ponytail_R": 47.03998,
+        "Ponytail_L": 41.94032,
+        "Skin_Concealed_Support": 64.40748,
+        "BackHair_Concealed_Support": 66.90336,
+        "Ink_SideHair_R": 67.5058,
+        "Ink_SideHair_L": 67.77889,
+        "Ink_Bang_R": 57.28155,
+        "Ink_Bang_L": 57.42892,
+        "Mouth_LowerLip": 32.0918,
+        "Mouth_UpperLip": 32.09986,
+        "Mouth_Tongue": 31.93724,
+        "Mouth_Teeth": 32.71653,
+        "Mouth_Cavity": 32.09132
+      },
+      "new_triangle_flips": 0,
+      "max_edge_length_error_pixels": 0.0002019570573654761
+    },
+    "sway_right": {
+      "changed_meshes_max_pixels": {
+        "Brow_R": 48.70981,
+        "Brow_L": 48.67427,
+        "Bang_R": 66.71539,
+        "Flower_R": 67.78955,
+        "Flower_L": 67.95347,
+        "FrontLock_R_Long": 41.5822,
+        "CheekLock_R": 64.7982,
+        "CheekLock_L": 64.51794,
+        "Bang_L": 66.73138,
+        "SideHair_R": 65.77325,
+        "SideHair_L": 66.01011,
+        "Mouth_Neutral": 32.47058,
+        "Eye_R_LowerLid": 40.20038,
+        "Eye_R_UpperLid": 46.18015,
+        "Eye_R_Iris": 44.16951,
+        "Eye_R_White": 44.25977,
+        "Eye_L_LowerLid": 40.22885,
+        "Eye_L_UpperLid": 46.36239,
+        "Eye_L_Iris": 44.24912,
+        "Eye_L_White": 44.30636,
+        "Ear_R": 39.24771,
+        "Ear_L": 39.52035,
+        "Face_Reference": 60.75358,
+        "Neck_Reference": 28.58431,
+        "Body_Reference": 29.71557,
+        "Ponytail_R": 47.03998,
+        "Ponytail_L": 41.94022,
+        "Skin_Concealed_Support": 64.40748,
+        "BackHair_Concealed_Support": 66.90335,
+        "Ink_SideHair_R": 67.50587,
+        "Ink_SideHair_L": 67.7788,
+        "Ink_Bang_R": 57.28159,
+        "Ink_Bang_L": 57.42887,
+        "Mouth_LowerLip": 32.0918,
+        "Mouth_UpperLip": 32.09986,
+        "Mouth_Tongue": 31.93724,
+        "Mouth_Teeth": 32.71652,
+        "Mouth_Cavity": 32.09132
+      },
+      "new_triangle_flips": 0,
+      "max_edge_length_error_pixels": 0.00019586596728515815
+    },
+    "breath": {
+      "changed_meshes_max_pixels": {
+        "Body_Reference": 16.92359
+      },
+      "new_triangle_flips": 0
+    },
+    "tail_left_min": {
+      "changed_meshes_max_pixels": {
+        "Ponytail_L": 37.35193
+      },
+      "new_triangle_flips": 0,
+      "highest_vertices_max_shift": 1.7786865573120494
+    },
+    "tail_left_max": {
+      "changed_meshes_max_pixels": {
+        "Ponytail_L": 37.35175
+      },
+      "new_triangle_flips": 0,
+      "highest_vertices_max_shift": 1.7786865573120494
+    },
+    "tail_right_min": {
+      "changed_meshes_max_pixels": {
+        "Ponytail_R": 33.20154
+      },
+      "new_triangle_flips": 0,
+      "highest_vertices_max_shift": 1.5805969264796242
+    },
+    "tail_right_max": {
+      "changed_meshes_max_pixels": {
+        "Ponytail_R": 33.2016
+      },
+      "new_triangle_flips": 0,
+      "highest_vertices_max_shift": 1.5814209010876177
+    },
+    "combined": {
+      "changed_meshes_max_pixels": {
+        "Brow_R": 29.22686,
+        "Brow_L": 29.20552,
+        "Bang_R": 40.03055,
+        "Flower_R": 40.67504,
+        "Flower_L": 40.77338,
+        "FrontLock_R_Long": 24.95017,
+        "CheekLock_R": 38.88018,
+        "CheekLock_L": 38.71203,
+        "Bang_L": 40.04013,
+        "SideHair_R": 39.46524,
+        "SideHair_L": 39.60739,
+        "Mouth_Neutral": 19.48298,
+        "Eye_R_LowerLid": 24.121,
+        "Eye_R_UpperLid": 83.07166,
+        "Eye_R_Iris": 26.50258,
+        "Eye_R_White": 66.35017,
+        "Eye_L_LowerLid": 24.1381,
+        "Eye_L_UpperLid": 71.83061,
+        "Eye_L_Iris": 26.55034,
+        "Eye_L_White": 57.53731,
+        "Ear_R": 23.54942,
+        "Ear_L": 23.71295,
+        "Face_Reference": 36.45334,
+        "Neck_Reference": 17.15115,
+        "Body_Reference": 29.61331,
+        "Ponytail_R": 27.98224,
+        "Ponytail_L": 28.77989,
+        "Skin_Concealed_Support": 38.64575,
+        "BackHair_Concealed_Support": 40.14331,
+        "Ink_SideHair_R": 40.50482,
+        "Ink_SideHair_L": 40.66865,
+        "Ink_Bang_R": 34.37005,
+        "Ink_Bang_L": 34.45845,
+        "Mouth_LowerLip": 25.33573,
+        "Mouth_UpperLip": 23.06997,
+        "Mouth_Tongue": 19.16297,
+        "Mouth_Teeth": 19.63055,
+        "Mouth_Cavity": 24.09095
+      },
+      "new_triangle_flips": 0
+    }
+  },
+  "limits": [
+    "No yaw, pitch, forward/back lean or small-tail binding",
+    "This controlled preview uses explicit parameters, not live audio or Windows"
+  ],
+  "mouth_cavity_height_pixels": [
+    10.647819519042969,
+    13.215461730957031,
+    15.783004760742188,
+    23.48590087890625,
+    36.32391357421875,
+    49.16196060180664,
+    62.0
+  ],
+  "passed": true
+}

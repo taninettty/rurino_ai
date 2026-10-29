@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "seconds_tested": 20,
+  "preview_seconds": 12,
+  "restart_policy": "StartRandomMotion Idle when IsMotionFinished",
+  "playback_starts": 3,
+  "parameter_ranges": {
+    "ParamBodyAngleZ": [
+      -5.0,
+      5.0
+    ],
+    "ParamHairSide": [
+      -0.22441425919532776,
+      0.22341279685497284
+    ],
+    "ParamHairBack": [
+      -0.223070427775383,
+      0.2221204787492752
+    ],
+    "ParamBreath": [
+      1.341104507446289e-06,
+      0.4999648928642273
+    ],
+    "ParamEyeLOpen": [
+      0.0,
+      1.0
+    ],
+    "ParamEyeROpen": [
+      0.0,
+      1.0
+    ]
+  },
+  "preview_source": "actual Cubism SDK playing packaged idle, physics, authored idle blink and automatic breath; synthetic mouth envelope at 5-7 seconds, no audio",
+  "not_tested": [
+    "Windows hardware",
+    "voice service",
+    "Ollama service"
+  ]
+}

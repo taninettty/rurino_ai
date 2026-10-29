@@ -1,0 +1,24 @@
+{
+  "stage": "frontal basic dynamics",
+  "previous_stage": "front_fringe_clean",
+  "drawable_count": 38,
+  "bound_parameter_count": 7,
+  "source_sha256": "5401d0ddb87ae1bd4944e9cde7a1e2bb330d7ce2fda869ca681a198352baeeea",
+  "psd_sha256": "b706271fd443077d1a9d381b68b8c064cce45cf98bb759de1950fb1743560dc4",
+  "runtime_sha256": {
+    "Rurino_Front_Dynamics_v034.model3.json": "74c14e1a08d666328a427b8967c5b3946cc44118e718965ae774eb700c15dfcf",
+    "Rurino_Front_Dynamics_v034.physics3.json": "b008afba88d079a346fe62b99b5fe0b379f0668004a1f6d34eb17da6f94267ba",
+    "Rurino_Front_Dynamics_v034.moc3": "362ecd320dfd8a5f2901aaa74c4758489b84debae8f4ba95a16658775e690a79",
+    "Rurino_Front_Dynamics_v034.cdi3.json": "5fe7347da196b54bfb77a087a5ad049d5a9bc6807e96786301f776790bdabae2",
+    "Rurino_Front_Dynamics_v034.2048/texture_00.png": "ea547bb3af4c29b96a7a70ec4b92b0da6308edd4207bec7e6b79a7d62118ae62",
+    "motions/idle.motion3.json": "1a229c9925aa0012fb3dc37850e6ec1687e09c32cc1e759d32fb8576b6e1e4ef"
+  },
+  "limitations": [
+    "yaw/pitch",
+    "head tilt/gaze",
+    "body forward/back lean",
+    "small-tail/fringe physics",
+    "extreme-tail seams",
+    "Windows/voice/Ollama acceptance"
+  ]
+}

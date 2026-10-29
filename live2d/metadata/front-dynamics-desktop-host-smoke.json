@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "platform": "Linux isolated X11 OpenGL",
+  "checks": [
+    "load/reload",
+    "transparent rendering",
+    "audio envelope and mute",
+    "drag",
+    "resize",
+    "topmost",
+    "settings"
+  ],
+  "not_checked": [
+    "Windows hardware",
+    "Ollama service",
+    "voice service",
+    "audible lip synchronization"
+  ]
+}
