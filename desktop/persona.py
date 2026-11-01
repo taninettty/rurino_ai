@@ -33,8 +33,13 @@ def style_prompt():
             '必须保留原句全部数字与专有名词，不增删事实，不要写成敬语或客服腔。')
 
 
-def check(text):
-    """返回 (是否贴合, 原因)。规则可判定，不靠感觉。"""
+def check(text, quoted=False):
+    """返回 (是否贴合, 原因)。
+
+    quoted=True 用于游戏原句：原句的出处就是证据，不再要求它带自称或口癖
+    （真实台词里有大量「行こうよ！みんなで！」这类不含标记的句子）。
+    生成的新句仍走 quoted=False，必须带标记，避免跑偏成通用助手腔。
+    """
     if not text or not text.strip():
         return False, '空文本'
     lowered = text.lower()
@@ -44,6 +49,8 @@ def check(text):
     sentences = [s for s in re.split(r'[。！？!?\n]', text) if s.strip()]
     if len(sentences) > MAX_SENTENCES:
         return False, f'句子过多（{len(sentences)} > {MAX_SENTENCES}）'
+    if quoted:
+        return True, 'ok'
     marked = SELF in text or any(tic in text for tic in TICS) or any(word in text for word in EXCLAMATIONS)
     if not marked:
         return False, '缺少自称「ルリ」或口癖'

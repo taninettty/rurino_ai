@@ -3,6 +3,9 @@ import sys
 import unittest
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+import json
+from pathlib import Path as _Path
+
 import persona
 from say import pick_template, render
 
@@ -51,6 +54,23 @@ class PersonaRuleTests(unittest.TestCase):
         prompt = persona.style_prompt()
         self.assertIn('ルリ', prompt)
         self.assertIn('っしょ', prompt)
+
+
+class QuotedLineTests(unittest.TestCase):
+    def test_library_lines_are_accepted_as_quotes(self):
+        data = json.loads((_Path(__file__).resolve().parents[1] / 'data' / 'rurino-lines.json')
+                          .read_text(encoding='utf-8-sig'))
+        self.assertGreaterEqual(len(data['lines']), 8)
+        for item in data['lines']:
+            with self.subTest(line=item['id']):
+                ok, reason = persona.check(item['ja'], quoted=True)
+                self.assertTrue(ok, f'{item["id"]} 不合格：{reason}')
+                self.assertTrue(item.get('source'), '原句必须带出处')
+
+    def test_quoted_mode_still_blocks_assistant_tone(self):
+        ok, reason = persona.check('作为一个AI，我建议您休息。', quoted=True)
+        self.assertFalse(ok)
+        self.assertIn('助手腔', reason)
 
 
 class TemplateConformanceTests(unittest.TestCase):

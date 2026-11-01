@@ -1,0 +1,86 @@
+{
+  "_note": "台词取自游戏语音转写（hasu-assets 导出语音，卡 ID 前缀 1033 = 大沢瑠璃乃）。保留原句，仅修正 ASR 明显的同音错误并在 corrected 里标注。zh 为中文示意，供字幕参考。",
+  "lines": [
+    {
+      "id": "battery_full",
+      "scene": "morning",
+      "ja": "ルリちゃんバッテリー充電完了！",
+      "zh": "瑠璃乃电池充电完成！",
+      "source": "vo_card_1033302_gacha",
+      "original": "ルリちゃんバッテリー充電完了!",
+      "corrected": false
+    },
+    {
+      "id": "go_together",
+      "scene": "morning",
+      "ja": "行こうよ！みんなで！",
+      "zh": "走吧，大家一起！",
+      "source": "vo_card_1033509_gacha",
+      "original": "行こうよ!みんなで!",
+      "corrected": false
+    },
+    {
+      "id": "cogito",
+      "scene": "day",
+      "ja": "まあなんとかなるっしょ、とルリ思う。ゆえにルリあり。",
+      "zh": "总会有办法的——瑠璃乃这么想，故瑠璃乃在。",
+      "source": "vo_card_1033501_gacha",
+      "original": "まあなんとかなるしよ、とるり思う、家にるりあり",
+      "corrected": true
+    },
+    {
+      "id": "wherever",
+      "scene": "day",
+      "ja": "どこまでもいっておいで？",
+      "zh": "要走到多远都可以哦？",
+      "source": "vo_card_1033520_gacha",
+      "original": "どこまでもいっておいで?",
+      "corrected": false
+    },
+    {
+      "id": "go_sleep",
+      "scene": "evening",
+      "ja": "そろそろ寝ろー！",
+      "zh": "差不多该睡啦！",
+      "source": "vo_card_1033507_gacha",
+      "original": "そろそろ寝ろー!",
+      "corrected": false
+    },
+    {
+      "id": "happy_for_you",
+      "scene": "evening",
+      "ja": "みんなに言ってもらえて幸せだよ！",
+      "zh": "能让大家这样对我说，好幸福！",
+      "source": "vo_card_1033902_gacha",
+      "original": "みんなに言わってもらえて幸せだよ!",
+      "corrected": true
+    },
+    {
+      "id": "snatch",
+      "scene": "play",
+      "ja": "ひったくりだー！",
+      "zh": "抢东西啦——！",
+      "source": "vo_card_1033505_gacha",
+      "original": "ひったくりだー!",
+      "corrected": false
+    },
+    {
+      "id": "shaan",
+      "scene": "play",
+      "ja": "シャーン！まだまだ！",
+      "zh": "锵——！还早着呢！",
+      "source": "vo_chara_m1033_clear1_0001",
+      "original": "シャーン!まだまだ!",
+      "corrected": false
+    },
+    {
+      "id": "signature",
+      "scene": "signature",
+      "ja": "ルリ思う、ゆえにルリあり。",
+      "zh": "瑠璃乃思，故瑠璃乃在。",
+      "source": "vo_card_1033501_gacha",
+      "original": "るり思う、ゆえにるりあり",
+      "corrected": true
+    }
+  ]
+}

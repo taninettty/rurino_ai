@@ -7,22 +7,28 @@
 - 分句交给 chat_client.Sentences，与 TTS 链路保持一致。
 """
 import re
+import json
+from pathlib import Path
 
 from chat_client import Sentences
 import persona
 
+LINES = json.loads((Path(__file__).resolve().parent / 'data' / 'rurino-lines.json')
+                   .read_text(encoding='utf-8-sig'))['lines']
+BY_ID = {item['id']: item for item in LINES}
+
+# 播报 = 她的一句原话 + 一句事实（时间）。原话不改写，事实由程序填。
 TEMPLATES = [
     {'id': 'morning',
-     'ja': 'おはよ！今は{hour}時だよ、ルリはもう充電完了！',
-     'zh': '早上好，现在是 {hour} 点。今天也一起加油吧。'},
+     'ja': BY_ID['battery_full']['ja'] + '今は{hour}時だよ。',
+     'zh': BY_ID['battery_full']['zh'] + '现在是 {hour} 点。'},
     {'id': 'day',
-     'ja': 'こんにちは！{hour}時だね、ちょっと休もっか。',
-     'zh': '你好，现在是 {hour} 点。要不要聊两句？'},
+     'ja': BY_ID['wherever']['ja'] + '今は{hour}時だよ。',
+     'zh': BY_ID['wherever']['zh'] + '现在是 {hour} 点。'},
     {'id': 'evening',
-     'ja': 'こんばんは、{hour}時だよ。今日もおつかれさま！',
-     'zh': '晚上好，已经 {hour} 点了。今天过得怎么样？'},
+     'ja': BY_ID['go_sleep']['ja'] + '今は{hour}時だよ。',
+     'zh': BY_ID['go_sleep']['zh'] + '现在是 {hour} 点。'},
 ]
-
 POLISH_PROMPT = persona.style_prompt()
 
 NUMBER = re.compile(r'[0-9０-９]+')
