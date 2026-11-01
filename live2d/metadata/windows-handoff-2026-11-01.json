@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-01",
+  "source_sha256": "b22b0d644438cb313291a88e3245ce314ea938838b26e437332f8f5839e82e6f",
+  "verified_native_stage": "front_right_hair_v4",
+  "next_material_stage": "front_tails_v5",
+  "v5_native_saved": false,
+  "overall_visual_acceptance": false,
+  "assets": [
+    {
+      "name": "Rurino_Windows_AI_Handoff_2026-11-01.zip",
+      "size": 131984154,
+      "sha256": "bdbea11debeda79f39f705175ddd9cc42fd9e84fc4e2593ea1c24aa878a1b729"
+    },
+    {
+      "name": "Rurino_Verified_Runtime_v4_2026-11-01.zip",
+      "size": 2959368,
+      "sha256": "d453a8e3ead1a301e80f41fa278768f8f0c30f78564efd79b4952fe846dc2c9a"
+    },
+    {
+      "name": "START_HERE_WINDOWS_AI.md",
+      "size": 8622,
+      "sha256": "b7737087868e44688b3ac4081cd8fe4ff711f1c4d6a5e313dd6ad92ecf7bbd4f"
+    },
+    {
+      "name": "v4-actual-sdk-preview.mp4",
+      "size": 914386,
+      "sha256": "f4d133bcd3bc3407569553622bf58a06c3a25bff0d77f4ecf537e18fc1b763ac"
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "size": 398,
+      "sha256": "91469d1db13cadc2ca1abeb6571070ea5840a3ebeb85f58e6eb5aed7bbc3df6f"
+    }
+  ]
+}

@@ -1,12 +1,8 @@
 # 瑠璃乃 Live2D 桌宠模型
 
-当前阶段：[正脸基础动态 Live2D](FRONT_DYNAMICS_V034.md)，38 个部件、7 个有效参数，支持眨眼、口型、呼吸、腰部轻摆和两条大马尾物理，附运行预览。正脸转头与前后仰未完成；以下旧完整功能测试稿仍指 v0.3.3。
+当前入口：[Windows AI 交接说明](WINDOWS_HANDOFF_2026-11-01.md) · [2026-11-01交接下载](https://github.com/taninettty/rurino_ai/releases/tag/windows-handoff-2026-11-01)。最新已验证源工程是右发修复 v4，另有待绑定的完整四马尾 v5 PSD。请以交接说明为准。
 
-已完成真正的 Cubism 绑定初稿，能加载、眨眼、张嘴和小幅转头。头发边缘、闭眼过渡和部分变形仍需精修。
-
-[下载 v0.3.3 模型与工程](https://github.com/taninettty/rurino_ai/releases/tag/live2d-rig-v0.3.3) · [使用方法、验证结果与剩余问题](RIG_DRAFT.md) · [桌宠与本地对话程序](../desktop/README.md)
-
-**新的素材重建进度：** [v0.3.4 独立眉毛与口眼素材工作稿（尚未绑定）](HEAD_MATERIALS_V034.md)。
+以下为历史 v0.3.3 资料，不代表最新正面模型的能力；不要以此覆盖 v4 工程。
 
 ![实际模型参数检查](preview/face-grid-v0.3.3.jpg)
 

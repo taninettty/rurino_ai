@@ -32,6 +32,8 @@
 
 ## 给负责 Cubism 的 AI
 
+**最新入口：[2026-11-01 Windows AI 交接](../live2d/WINDOWS_HANDOFF_2026-11-01.md)。请从已验证的右发 v4 工程接着绑定四马尾 v5；以下 v0.3.3、v0.2 链接仅作历史资料。**
+
 继续编辑请先读 [v0.3.3 工程与剩余问题](../live2d/RIG_DRAFT.md)。以下链接保留为历史资料：
 
 先读 [制作交接说明](https://github.com/taninettty/rurino_ai/blob/live2d-handoff/live2d/HANDOFF.md)，从 [素材 Release](https://github.com/taninettty/rurino_ai/releases/tag/live2d-prep-v0.2) 下载 PSD 并完成绑定。

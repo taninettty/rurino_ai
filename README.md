@@ -2,9 +2,11 @@
 
 ## 瑠璃乃 Live2D 制作
 
-[当前制作目标与下一步](live2d/CURRENT_WORK.md)：最新为 [正脸基础动态 Live2D](live2d/FRONT_DYNAMICS_V034.md)，沿用修好的正脸素材，新增眨眼、口型、呼吸、腰部轻摆与两条大马尾物理。38 个部件、7 个有效参数，附实际运行预览和可直接加载的运行包。转头、抬低头、前后仰等仍未完成，Windows 与实时语音尚未验收。原 [侧视动作原型](live2d/BODY_HAIR_V034.md) 另行保留。
+[Windows AI 最新交接（2026-11-01）](live2d/WINDOWS_HANDOFF_2026-11-01.md) · [下载源工程、素材与预览](https://github.com/taninettty/rurino_ai/releases/tag/windows-handoff-2026-11-01)
 
-[人物素材与 Cubism 交接](live2d/README.md) · [桌宠模型接入程序](desktop/README.md)。已提供 [v0.3.3 可运行绑定测试稿](live2d/RIG_DRAFT.md)，支持眨眼、口型与小幅转头；头发边缘和变形仍在精修。
+最新已验证原生工程为右发修复 v4；完整四马尾 v5 素材已准备，但绑定尚未保存完成。接手请从 v4 CMO3 继续，不使用早期工程覆盖。整体头部动态与美术仍需修，Windows/Ollama/语音整链路尚未验收。
+
+[当前制作目标与下一步](live2d/CURRENT_WORK.md) · [桌宠与本地对话程序](desktop/README.md)
 
 ## 使用方法
 
