@@ -1,25 +1,38 @@
-# 瑠璃乃桌宠：当前目标与制作顺序
-
-最终目标：Windows Live2D 桌宠，本地 Ollama 对话，使用已有 Style-Bert-VITS2 日文语音模型并驱动嘴型。当前工作集中在美术材料与动作质量。
-
-## 当前进度（2026-11-01）
-
-请先读 [Windows AI 最新交接](WINDOWS_HANDOFF_2026-11-01.md)，下载 [完整源文件与预览](https://github.com/taninettty/rurino_ai/releases/tag/windows-handoff-2026-11-01)。最新可编辑且完成保存重开验证的是 **front_right_hair_v4/Rurino_RightHair_v034.cmo3**。最新四马尾 v5 是已检查的 PSD/PNG 材料，未保存成功的原生绑定需要从 v4 继续。
-
-v4 已修右贴脸发、完整细长发与衣服补底，保留此前正面眨眼、口型、视线、俯仰等工作。185组合几何检查和重开导出通过；整体视觉仍未验收，左右转头 AngleX 尚未绑定。不要从旧侧面模型或早期 front_dynamics PSD 覆盖当前工程。
-
-## 接下来的制作顺序
-
-1. 按交接文档将完整四马尾材料替换导入 v4 副本，完成配对网格、父级、纹理图集和原生导出检查。
-2. 清后发旧刘海纹路与逐层审计中的耳朵、眼口、脖子衣服残留；检查移开遮挡后的隐藏底。
-3. 修真实头部透视、抬低头体积、身体前后仰和分层头发动态。
-4. Windows 实机与 Ollama、用户音色、语音口型整链路验收。目前未证明完成。
-
-## 必须保留的用户要求
-
-- 造型参照 [原视频](https://www.youtube.com/watch?v=ltAEA_Lq5Js)。结构为头顶、刘海、一对小双马尾、一对大双马尾；组内按发流逐缕处理，不做方块裁切。
-- 保持中间刘海连续与眉毛独立，保护眼睛和皮肤颜色。
-- 正面不能使用侧脸嘴；脸型与五官运动幅度匹配，检查转头眼距。
-- 真实的独立透明发片与静态检查不能冒充已完成的 Cubism 网格、关键形或物理。
-
-历史步骤与早期失败候选见 [装配前记录](WORK_HISTORY_BEFORE_WHOLE_HAIR_V034.md)，其中“最新/下一步”只代表当时状态。
+状态：原生MOC3已导出，7参数均有绑定；以下三命令退出码均为0（Linux/Xvfb，非Windows实测）。smoke开头异常是故意拒绝PNG的恢复测试；Level=Error是SDK日志级别。
+```text
+$ python -c "import sys;sys.path.insert(0,'desktop');from model_support import validate_model;print(validate_model(r'live2d/model/Rurino_Desktop.model3.json')[0])"
+/home/vboxuser/Documents/ChatGPT/02/rurino_github_delivery/live2d/model/Rurino_Desktop.model3.json
+$ python desktop/tests/smoke_live2d.py live2d/model/Rurino_Desktop.model3.json
+ERROR:root:Model selection failed
+Traceback (most recent call last):
+  File "/home/vboxuser/Documents/ChatGPT/02/rurino_github_delivery/desktop/app.py", line 373, in load_model
+    path, data = validate_model(filename)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vboxuser/Documents/ChatGPT/02/rurino_github_delivery/desktop/model_support.py", line 9, in validate_model
+    raise ValueError('请选择 Cubism 导出的 .model3.json，PSD 和 .cmo3 不能直接运行。')
+ValueError: 请选择 Cubism 导出的 .model3.json，PSD 和 .cmo3 不能直接运行。
+[95m────────────────────────────────────────────────[0m
+  [93m★[0m [1m[96mlive2d-py[0m  [2m·[0m  [1mNon-official live2d library[0m
+      [2mversion[0m  [92m[1m1.0.0[0m
+      [2m CsmSDK[0m  [92m[1m5-r.5[0m
+     [2mOfficial[0m  [92m[1mhttps://www.live2d.com/en/sdk/about/[0m
+[95m────────────────────────────────────────────────[0m
+PASS: setup, invalid-model recovery, real transparent rendering, audio envelope, mute, topmost, sizing, dragging, settings, reload, cleanup
+[v3][I] [Pal] Init Shader Dir: /home/vboxuser/Documents/ChatGPT/02/rurino_desktop_pet/.venv/lib/python3.12/site-packages/live2d/
+Live2D Cubism SDK Core Version 6.0.1
+[v3][I] Load model: /home/vboxuser/Documents/ChatGPT/02/rurino_github_delivery/live2d/model/Rurino_Desktop.moc3
+Live2D Cubism SDK Core Version 6.0.1
+[v3][I] Load model: /home/vboxuser/Documents/ChatGPT/02/rurino_github_delivery/live2d/model/Rurino_Desktop.moc3
+$ python desktop/tests/check_binding.py live2d/model/Rurino_Desktop.model3.json
+ParamEyeLOpen: 已绑定（画面随参数变化） changed_pixels=5276
+ParamEyeROpen: 已绑定（画面随参数变化） changed_pixels=5281
+ParamMouthOpenY: 已绑定（画面随参数变化） changed_pixels=1169
+ParamAngleX: 已绑定（画面随参数变化） changed_pixels=190236
+ParamAngleY: 已绑定（画面随参数变化） changed_pixels=195150
+ParamAngleZ: 已绑定（画面随参数变化） changed_pixels=281262
+ParamBreath: 已绑定（画面随参数变化） changed_pixels=53633
+PASS: all 7 required parameters change native rendered pixels
+[pyi][E] [Log] Level=Error
+Live2D Cubism SDK Core Version 6.0.1
+```
+下一步：Windows加载 live2d/model/Rurino_Desktop.model3.json；继续改善转头透视、后发与完整马尾美术。
