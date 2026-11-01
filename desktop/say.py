@@ -9,21 +9,21 @@
 import re
 
 from chat_client import Sentences
+import persona
 
 TEMPLATES = [
     {'id': 'morning',
-     'ja': 'おはよう。今は{hour}時だよ。今日も一緒に頑張ろうね。',
+     'ja': 'おはよう！今は{hour}時だよ、ルリと一緒にがんばろっしょ。',
      'zh': '早上好，现在是 {hour} 点。今天也一起加油吧。'},
     {'id': 'day',
-     'ja': 'こんにちは。今は{hour}時。少し話さない？',
+     'ja': 'こんにちは！今は{hour}時、ちょっと休憩しよーっす。',
      'zh': '你好，现在是 {hour} 点。要不要聊两句？'},
     {'id': 'evening',
-     'ja': 'こんばんは。{hour}時になったね。今日はどうだった？',
+     'ja': 'こんばんは、{hour}時だね。今日もおつかれーっしょ。',
      'zh': '晚上好，已经 {hour} 点了。今天过得怎么样？'},
 ]
 
-POLISH_PROMPT = ('你是日语改写助手。把用户给的句子换个说法，意思不变。'
-                 '必须保留原句中的全部数字与专有名词，不得增删事实，不要解释。')
+POLISH_PROMPT = persona.style_prompt()
 
 NUMBER = re.compile(r'[0-9０-９]+')
 
