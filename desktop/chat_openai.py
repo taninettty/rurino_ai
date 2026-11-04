@@ -84,6 +84,28 @@ def stream_chat(backend, messages, on_delta=None, timeout=60, cancel=None):
     return ''.join(parts)
 
 
-def complete(backend, messages, **kwargs):
-    """非流式：用于中文字幕翻译这类"只要结果"的调用。"""
-    return stream_chat(backend, messages, **kwargs)
+def complete(backend, messages, timeout=60):
+    """非流式一次性取回全文：用于中文字幕翻译这类"只要结果"的调用。
+
+    与 stream_chat 分开是因为服务端对 stream=false 返回单个 JSON，
+    再按 SSE 解析会读不到内容（曾因此把日语原文当译文）。
+    """
+    request = urllib.request.Request(
+        backend.chat_url,
+        data=_payload(backend, messages, stream=False),
+        headers=_headers(backend),
+        method='POST',
+    )
+    with urllib.request.urlopen(request, timeout=timeout) as response:
+        body = response.read(2_000_001)
+    if len(body) > 2_000_000:
+        raise ValueError('回复过大。')
+    data = json.loads(body.decode('utf-8', errors='replace'))
+    if data.get('error'):
+        raise RuntimeError(str(data['error'])[:200])
+    if backend.provider == 'ollama':
+        return (data.get('message') or {}).get('content', '') or ''
+    choices = data.get('choices') or []
+    if not choices:
+        return ''
+    return (choices[0].get('message') or {}).get('content', '') or ''

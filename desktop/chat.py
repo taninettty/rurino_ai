@@ -16,7 +16,7 @@ from PyQt5.QtWidgets import (QWidget, QVBoxLayout, QHBoxLayout, QFormLayout,
     QLineEdit, QComboBox, QPushButton, QPlainTextEdit, QLabel, QCheckBox, QDialog)
 
 from chat_client import (SYSTEM_PROMPT, Sentences, get_json, local_url, speech,
-                         stream_reply, transcribe, translate_reply)
+                         stream_reply, transcribe, translate_reply, backend_for)
 from memory import MAX_NAME, MAX_NOTE, MAX_NOTES, Memory
 from microphone import Microphone
 from vad import EndOfSpeech
@@ -58,7 +58,7 @@ class ChatWindow(QWidget):
         self.microphone = Microphone(self)
         self.memory = Memory()
         self.recording = False
-        self.setWindowTitle('和瑠璃乃聊天 · 本地 Ollama')
+        self.setWindowTitle('和瑠璃乃聊天 · ' + ('本地 Ollama' if backend_for().provider == 'ollama' else '远程 ' + backend_for().provider))
         self.resize(560, 660)
         layout = QVBoxLayout(self)
         form = QFormLayout()
@@ -174,12 +174,17 @@ class ChatWindow(QWidget):
         ollama, backend = self.ollama.text(), self.backend.text()
         self.refresh_button.setEnabled(False)
         self.services.setText('正在检查本地服务…')
+        provider = backend_for(ollama).provider
         def run():
             result = {}
-            try:
-                result['models'] = [item['name'] for item in get_json(ollama, '/api/tags')['models']]
-            except Exception as error:
-                result['ollama_error'] = error_text(error)
+            if provider == 'ollama':
+                try:
+                    result['models'] = [item['name'] for item in get_json(ollama, '/api/tags')['models']]
+                except Exception as error:
+                    result['ollama_error'] = error_text(error)
+            else:
+                result['models'] = []
+                result['remote'] = provider
             try:
                 result['speech'] = get_json(backend, '/health')
             except Exception as error:
@@ -271,7 +276,7 @@ class ChatWindow(QWidget):
             base = local_url(self.ollama.text())
             backend = local_url(self.backend.text()) if speak_enabled else ''
             model = self.model.currentText().strip()
-            if not model:
+            if not model and backend_for(base).provider == 'ollama':
                 raise ValueError('请先检查连接并选择已安装的 Ollama 模型。')
         except Exception as error:
             self.status.setText(str(error))
@@ -287,7 +292,7 @@ class ChatWindow(QWidget):
         self.save()
         self.input.clear()
         self.append('\n你：' + text + '\n瑠璃乃：')
-        self.status.setText('Ollama 正在回复…')
+        self.status.setText(('Ollama' if backend_for(base, model).provider == 'ollama' else backend_for(base, model).provider) + ' 正在回复…')
         messages = [{'role': 'system', 'content': SYSTEM_PROMPT + self.memory.prompt_suffix()},
                     *self.history[-12:], {'role': 'user', 'content': text}]
         def run():
@@ -514,7 +519,7 @@ class ChatWindow(QWidget):
         if self.waiting:
             self.status.setText('正在合成你的音色…首次加载和 CPU 推理可能较慢。')
         elif self.generating:
-            self.status.setText('Ollama 正在回复…')
+            self.status.setText(('Ollama' if backend_for(base, model).provider == 'ollama' else backend_for(base, model).provider) + ' 正在回复…')
         else:
             self.status.setText('就绪 · 可以继续输入或录音。')
 

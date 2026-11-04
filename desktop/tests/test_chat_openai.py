@@ -136,5 +136,80 @@ class ConfigBackendTests(unittest.TestCase):
                 os.environ['RURINO_DEEPSEEK_KEY'] = old
 
 
+class ChatClientRoutingTests(unittest.TestCase):
+    """chat_client 在 deepseek 模式下应当绕开本地地址校验，走远程协议。"""
+
+    PIECES = ['ルリだよ', '。今日も', '元気？']
+
+    @classmethod
+    def setUpClass(cls):
+        pieces = cls.PIECES
+
+        class Handler(BaseHTTPRequestHandler):
+            def do_POST(self):  # noqa: N802
+                size = int(self.headers.get('Content-Length', 0))
+                body = json.loads(self.rfile.read(size))
+                self.send_response(200)
+                if body.get('stream'):
+                    self.send_header('Content-Type', 'text/event-stream')
+                    self.end_headers()
+                    for piece in pieces:
+                        payload = {'choices': [{'delta': {'content': piece}}]}
+                        self.wfile.write(f'data: {json.dumps(payload, ensure_ascii=False)}\n\n'.encode())
+                    self.wfile.write(b'data: [DONE]\n\n')
+                else:
+                    self.send_header('Content-Type', 'application/json')
+                    self.end_headers()
+                    payload = {'choices': [{'message': {'content': '今天也一起加油吧。'}}]}
+                    self.wfile.write(json.dumps(payload, ensure_ascii=False).encode())
+                self.wfile.flush()
+
+            def log_message(self, *args):
+                pass
+
+        cls.server = HTTPServer(('127.0.0.1', 0), Handler)
+        threading.Thread(target=cls.server.serve_forever, daemon=True).start()
+        cls.env = {
+            'RURINO_CHAT_PROVIDER': 'deepseek',
+            'RURINO_CHAT_BASE': f'http://127.0.0.1:{cls.server.server_address[1]}',
+            'RURINO_CHAT_MODEL': 'deepseek-chat',
+            'RURINO_DEEPSEEK_KEY': 'sk-fake',
+        }
+        cls.saved = {key: os.environ.get(key) for key in cls.env}
+        os.environ.update(cls.env)
+
+    @classmethod
+    def tearDownClass(cls):
+        cls.server.shutdown()
+        for key, value in cls.saved.items():
+            if value is None:
+                os.environ.pop(key, None)
+            else:
+                os.environ[key] = value
+
+    def test_backend_for_returns_remote(self):
+        import chat_client
+        backend = chat_client.backend_for('', '')
+        self.assertEqual(backend.provider, 'deepseek')
+        self.assertTrue(backend.chat_url.endswith('/v1/chat/completions'))
+
+    def test_stream_reply_uses_remote_protocol(self):
+        import chat_client
+        cancelled = threading.Event()
+        text = ''.join(chat_client.stream_reply('', '', [{'role': 'user', 'content': 'hi'}], cancelled))
+        self.assertEqual(text, ''.join(self.PIECES))
+
+    def test_translate_reply_returns_chinese(self):
+        import chat_client
+        cancelled = threading.Event()
+        subtitle = chat_client.translate_reply('', '', 'ルリだよ。', cancelled)
+        self.assertIn('加油', subtitle)
+
+    def test_local_mode_still_rejects_cloud_base(self):
+        import chat_client
+        with self.assertRaises(ValueError):
+            chat_client.local_url('https://api.deepseek.com')
+
+
 if __name__ == '__main__':
     unittest.main()
