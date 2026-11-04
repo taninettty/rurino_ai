@@ -1,5 +1,5 @@
 {
-  "_note": "台词取自游戏语音转写（hasu-assets 导出语音，卡 ID 前缀 1033 = 大沢瑠璃乃）。保留原句，仅修正 ASR 明显的同音错误并在 corrected 里标注。zh 为中文示意，供字幕参考。",
+  "_note": "台词来源分两类：verified=true 来自游戏语音转写（出处见 source）；authored=true 为按人设新写、经 persona.check 校验。原句只保留短句。",
   "lines": [
     {
       "id": "battery_full",
@@ -8,7 +8,8 @@
       "zh": "瑠璃乃电池充电完成！",
       "source": "vo_card_1033302_gacha",
       "original": "ルリちゃんバッテリー充電完了!",
-      "corrected": false
+      "corrected": false,
+      "verified": true
     },
     {
       "id": "go_together",
@@ -17,7 +18,8 @@
       "zh": "走吧，大家一起！",
       "source": "vo_card_1033509_gacha",
       "original": "行こうよ!みんなで!",
-      "corrected": false
+      "corrected": false,
+      "verified": true
     },
     {
       "id": "cogito",
@@ -26,7 +28,8 @@
       "zh": "总会有办法的——瑠璃乃这么想，故瑠璃乃在。",
       "source": "vo_card_1033501_gacha",
       "original": "まあなんとかなるしよ、とるり思う、家にるりあり",
-      "corrected": true
+      "corrected": true,
+      "verified": true
     },
     {
       "id": "wherever",
@@ -35,16 +38,18 @@
       "zh": "要走到多远都可以哦？",
       "source": "vo_card_1033520_gacha",
       "original": "どこまでもいっておいで?",
-      "corrected": false
+      "corrected": false,
+      "verified": true
     },
     {
       "id": "go_sleep",
-      "scene": "evening",
+      "scene": "late_night",
       "ja": "そろそろ寝ろー！",
       "zh": "差不多该睡啦！",
       "source": "vo_card_1033507_gacha",
       "original": "そろそろ寝ろー!",
-      "corrected": false
+      "corrected": false,
+      "verified": true
     },
     {
       "id": "happy_for_you",
@@ -53,7 +58,8 @@
       "zh": "能让大家这样对我说，好幸福！",
       "source": "vo_card_1033902_gacha",
       "original": "みんなに言わってもらえて幸せだよ!",
-      "corrected": true
+      "corrected": true,
+      "verified": true
     },
     {
       "id": "snatch",
@@ -62,7 +68,8 @@
       "zh": "抢东西啦——！",
       "source": "vo_card_1033505_gacha",
       "original": "ひったくりだー!",
-      "corrected": false
+      "corrected": false,
+      "verified": true
     },
     {
       "id": "shaan",
@@ -71,7 +78,8 @@
       "zh": "锵——！还早着呢！",
       "source": "vo_chara_m1033_clear1_0001",
       "original": "シャーン!まだまだ!",
-      "corrected": false
+      "corrected": false,
+      "verified": true
     },
     {
       "id": "signature",
@@ -80,7 +88,40 @@
       "zh": "瑠璃乃思，故瑠璃乃在。",
       "source": "vo_card_1033501_gacha",
       "original": "るり思う、ゆえにるりあり",
-      "corrected": true
+      "corrected": true,
+      "verified": true
+    },
+    {
+      "id": "welcome_back",
+      "scene": "welcome",
+      "ja": "おかえり！ルリ、待ってたよ。",
+      "zh": "你回来啦！瑠璃乃一直在等你哦。",
+      "source": "authored",
+      "original": "おかえり！ルリ、待ってたよ。",
+      "corrected": false,
+      "verified": false,
+      "authored": true
+    },
+    {
+      "id": "rest_a_little",
+      "scene": "rest",
+      "ja": "ねえ、ちょっと休も？ルリも充電したい。",
+      "zh": "喂，稍微歇一下嘛？瑠璃乃也想充个电。",
+      "source": "authored",
+      "original": "ねえ、ちょっと休も？ルリも充電したい。",
+      "corrected": false,
+      "verified": false,
+      "authored": true
+    },
+    {
+      "id": "battery_low",
+      "scene": "rest",
+      "ja": "ルリちゃん、バッテリーピンチ…！",
+      "zh": "瑠璃乃的电池，快没电了……！",
+      "source": "vo_card_1033301_gacha",
+      "original": "ルリちゃんキリキリ…パッテリピンチ…",
+      "corrected": true,
+      "verified": true
     }
   ]
 }
